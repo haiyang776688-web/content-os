@@ -1,0 +1,146 @@
+{
+  "artifact_id": "ART-e38c93a4f45b40de",
+  "project_id": "PRJ-b417f4c7957a",
+  "artifact_type": "PROJECT_FONT_SNAPSHOT",
+  "revision": 1,
+  "created_by_role": "FONT_REGISTRY",
+  "worker": null,
+  "provider": null,
+  "model": null,
+  "prompt_version": null,
+  "dependencies": [
+    {
+      "artifact_id": "ART-134e0c6b80584f96",
+      "output_hash": "4356c82b31a346b1ed77b764b81e748ae7329077e0981dbfc631fe2c5611b591"
+    }
+  ],
+  "input_hash": "eeab60c3b3c172cd813cee6a8a35cc9666f807b99c10778a9959cdd14107046f",
+  "output_hash": "b081a5b1d420d381fea96379f652ca2a562dee802f0694a39e8ab021f989bf0d",
+  "status": "READY",
+  "created_at": "2026-09-26T10:38:40.442760+00:00",
+  "payload": {
+    "typography_profile_id": "ART-134e0c6b80584f96",
+    "typography_profile_hash": "4356c82b31a346b1ed77b764b81e748ae7329077e0981dbfc631fe2c5611b591",
+    "fonts": [
+      {
+        "font_id": "FONT-1244788736e2af92f0d3",
+        "family": "Heiti SC",
+        "subfamily": "Light",
+        "full_name": "Heiti SC Light",
+        "postscript_name": "STHeitiSC-Light",
+        "source": "SYSTEM",
+        "file_path": "/System/Library/Fonts/STHeiti Light.ttc",
+        "file_name": "STHeiti Light.ttc",
+        "file_type": "TTC",
+        "file_hash": "a57b0316cc0544f682b8fb9855e14ade79ae77340ef6a01ba9210e25b4c5a5b7",
+        "face_index": 1,
+        "version": "17.0d1e2",
+        "weight": 300,
+        "style": "normal",
+        "stretch": 5,
+        "variable": false,
+        "axes": [],
+        "languages": [
+          "CJK",
+          "ENGLISH"
+        ],
+        "classification": [
+          "CJK",
+          "ENGLISH",
+          "BOTH",
+          "UNKNOWN"
+        ],
+        "status": "AVAILABLE",
+        "preview_path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/phase2_preview_data/font_cache/a57b0316cc0544f682b8fb9855e14ade79ae77340ef6a01ba9210e25b4c5a5b7/face-1.otf",
+        "preview_hash": "4c666afe2e4965ef63c590e856a75a37d19fc3364f8a40ce13ba780e5306826e"
+      },
+      {
+        "font_id": "FONT-3c05e70eac2f6b9de773",
+        "family": "Arial",
+        "subfamily": "Italic",
+        "full_name": "Arial Italic",
+        "postscript_name": "Arial-ItalicMT",
+        "source": "SYSTEM",
+        "file_path": "/System/Library/Fonts/Supplemental/Arial Italic.ttf",
+        "file_name": "Arial Italic.ttf",
+        "file_type": "TTF",
+        "file_hash": "ce1d2f1ab89db45f9796100eee960f5702a40e84c225c2b48c3ec3e81d153f98",
+        "face_index": 0,
+        "version": "Version 5.00.2x",
+        "weight": 400,
+        "style": "italic",
+        "stretch": 5,
+        "variable": false,
+        "axes": [],
+        "languages": [
+          "ENGLISH"
+        ],
+        "classification": [
+          "ENGLISH",
+          "SANS"
+        ],
+        "status": "AVAILABLE",
+        "preview_path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/phase2_preview_data/font_cache/ce1d2f1ab89db45f9796100eee960f5702a40e84c225c2b48c3ec3e81d153f98/face-0.otf",
+        "preview_hash": "ce1d2f1ab89db45f9796100eee960f5702a40e84c225c2b48c3ec3e81d153f98"
+      },
+      {
+        "font_id": "FONT-e12cedc98f27df837aa8",
+        "family": ".SF NS",
+        "subfamily": "Regular",
+        "full_name": "System Font",
+        "postscript_name": ".SFNS-Regular",
+        "source": "SYSTEM",
+        "file_path": "/System/Library/Fonts/SFNS.ttf",
+        "file_name": "SFNS.ttf",
+        "file_type": "TTF",
+        "file_hash": "1c81ead87ca36eee7d51dbe816c3202ba8052fc88228a46de930339c4ec1df22",
+        "face_index": 0,
+        "version": "20.0d5e1",
+        "weight": 400,
+        "style": "normal",
+        "stretch": 5,
+        "variable": true,
+        "axes": [
+          {
+            "tag": "wdth",
+            "min": 30.0,
+            "default": 100.0,
+            "max": 150.0
+          },
+          {
+            "tag": "opsz",
+            "min": 17.0,
+            "default": 28.0,
+            "max": 96.0
+          },
+          {
+            "tag": "GRAD",
+            "min": 400.0,
+            "default": 400.0,
+            "max": 1000.0
+          },
+          {
+            "tag": "wght",
+            "min": 1.0,
+            "default": 400.0,
+            "max": 1000.0
+          }
+        ],
+        "languages": [
+          "ENGLISH"
+        ],
+        "classification": [
+          "ENGLISH",
+          "UNKNOWN",
+          "VARIABLE"
+        ],
+        "status": "AVAILABLE",
+        "preview_path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/phase2_preview_data/font_cache/1c81ead87ca36eee7d51dbe816c3202ba8052fc88228a46de930339c4ec1df22/face-0.otf",
+        "preview_hash": "1c81ead87ca36eee7d51dbe816c3202ba8052fc88228a46de930339c4ec1df22"
+      }
+    ],
+    "policy": "STRICT_FONT",
+    "local_only": true
+  },
+  "current_status": "READY"
+}

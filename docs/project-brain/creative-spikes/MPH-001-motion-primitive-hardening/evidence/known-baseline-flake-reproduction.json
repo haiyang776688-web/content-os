@@ -1,0 +1,57 @@
+{
+  "integration_baseline": {
+    "runs": [
+      {
+        "passed": false,
+        "returncode": 1
+      },
+      {
+        "passed": true,
+        "returncode": 0
+      },
+      {
+        "passed": false,
+        "returncode": 1
+      },
+      {
+        "passed": false,
+        "returncode": 1
+      },
+      {
+        "passed": true,
+        "returncode": 0
+      }
+    ],
+    "pass_count": 2,
+    "fail_count": 3
+  },
+  "mph_branch": {
+    "runs": [
+      {
+        "passed": true,
+        "returncode": 0
+      },
+      {
+        "passed": true,
+        "returncode": 0
+      },
+      {
+        "passed": false,
+        "returncode": 1
+      },
+      {
+        "passed": true,
+        "returncode": 0
+      },
+      {
+        "passed": true,
+        "returncode": 0
+      }
+    ],
+    "pass_count": 4,
+    "fail_count": 1
+  },
+  "classification": "KNOWN_BASELINE_FAILURE_NONDETERMINISTIC",
+  "motion_code_path_related": false,
+  "test": "vnext/tests/test_phase2.py::test_visual_binding_change_stales_edt_but_interface_language_does_not"
+}

@@ -1,0 +1,403 @@
+{
+  "schema_version": 1,
+  "artifact_type": "TCU_FROZEN_SHOTPLAN_SEMANTICS",
+  "source_type": "DIRECTOR_IR_EFFECTIVE_SHOTPLAN_SNAPSHOT",
+  "source_artifact_id": "ART-b4d37b320dd5416e",
+  "source_output_hash": "633455882206fc2ec728c4962dbb38c09e5e02198374ca541c11ad5b8151e515",
+  "notes": "One effective shot per existing Director beat; TCU does not generate or change semantics.",
+  "beats": [
+    {
+      "beat_id": "B-01-01",
+      "shot_id": "SHOT-B-01-01",
+      "script_segment_id": "SEG-01",
+      "purpose": "State the first step: separate responsibilities",
+      "visual_focus": "Responsibility split concept",
+      "visual_form": "Keyword highlight with character",
+      "pattern_id": "CHARACTER_EXPLAIN_KEYWORD",
+      "template_id": "CHARACTER_CENTER",
+      "character_intent": "EXPLAIN",
+      "character_action_id": "XACT-017",
+      "motion_intent": "HOLD",
+      "slots": {
+        "keyword": "分清职责"
+      },
+      "reveal_order": [
+        "PRIMARY",
+        "SECONDARY"
+      ]
+    },
+    {
+      "beat_id": "B-01-02",
+      "shot_id": "SHOT-B-01-02",
+      "script_segment_id": "SEG-01",
+      "purpose": "Detail what script, visual beats, and audio each control",
+      "visual_focus": "Three responsibility lanes",
+      "visual_form": "Three-row summary",
+      "pattern_id": "THREE_POINT_SUMMARY",
+      "template_id": "THREE_POINT_SUMMARY",
+      "character_intent": "EXPLAIN",
+      "character_action_id": "XACT-002",
+      "motion_intent": "SLIDE_UP",
+      "slots": {
+        "points": [
+          "脚本：说什么",
+          "视觉：看什么",
+          "声音：何时出现"
+        ]
+      },
+      "reveal_order": [
+        "PRIMARY",
+        "SECONDARY",
+        "SUPPORTING"
+      ]
+    },
+    {
+      "beat_id": "B-02-01",
+      "shot_id": "SHOT-B-02-01",
+      "script_segment_id": "SEG-02",
+      "purpose": "Bind visual intent to each script segment",
+      "visual_focus": "Intent binding step",
+      "visual_form": "Keyword highlight with character",
+      "pattern_id": "CHARACTER_EXPLAIN_KEYWORD",
+      "template_id": "INFO_LEFT_CHARACTER_RIGHT",
+      "character_intent": "KEY_POINT",
+      "character_action_id": "XACT-025",
+      "motion_intent": "HOLD",
+      "slots": {
+        "keyword": "视觉意图"
+      },
+      "reveal_order": [
+        "PRIMARY",
+        "SECONDARY"
+      ]
+    },
+    {
+      "beat_id": "B-02-02",
+      "shot_id": "SHOT-B-02-02",
+      "script_segment_id": "SEG-02",
+      "purpose": "Explain that judging segment type enables template and action choice",
+      "visual_focus": "Judgment-driven selection",
+      "visual_form": "Action sequence",
+      "pattern_id": "CHARACTER_ACTION_SEQUENCE",
+      "template_id": "CHARACTER_LEFT_TEXT_RIGHT",
+      "character_intent": "EXPLAIN",
+      "character_action_id": "XACT-014",
+      "motion_intent": "SLIDE_UP",
+      "slots": {
+        "actions": [
+          "判断段落类型",
+          "选择画面模板",
+          "选择人物动作"
+        ]
+      },
+      "reveal_order": [
+        "PRIMARY",
+        "SECONDARY",
+        "SUPPORTING"
+      ]
+    },
+    {
+      "beat_id": "B-03-01",
+      "shot_id": "SHOT-B-03-01",
+      "script_segment_id": "SEG-03",
+      "purpose": "Introduce beat splitting",
+      "visual_focus": "Split concept",
+      "visual_form": "Keyword highlight with character",
+      "pattern_id": "CHARACTER_EXPLAIN_KEYWORD",
+      "template_id": "EXTREME_CLOSEUP",
+      "character_intent": "EXPLAIN",
+      "character_action_id": "XACT-020",
+      "motion_intent": "HOLD",
+      "slots": {
+        "keyword": "节拍拆分"
+      },
+      "reveal_order": [
+        "PRIMARY",
+        "SECONDARY"
+      ]
+    },
+    {
+      "beat_id": "B-03-02",
+      "shot_id": "SHOT-B-03-02",
+      "script_segment_id": "SEG-03",
+      "purpose": "Explain that a turning point within a sentence justifies two beats",
+      "visual_focus": "One sentence to two beats",
+      "visual_form": "Comparison of before and after split",
+      "pattern_id": "A_B_COMPARE",
+      "template_id": "COMPARE_SPLIT",
+      "character_intent": "EXPLAIN",
+      "character_action_id": "XACT-019",
+      "motion_intent": "FADE",
+      "slots": {
+        "a": "整句一直挂在屏幕",
+        "b": "转折处拆成两个节拍"
+      },
+      "reveal_order": [
+        "PRIMARY",
+        "SECONDARY"
+      ]
+    },
+    {
+      "beat_id": "B-04-01",
+      "shot_id": "SHOT-B-04-01",
+      "script_segment_id": "SEG-04",
+      "purpose": "Clarify that timeline only governs when visuals appear",
+      "visual_focus": "Timeline role limitation",
+      "visual_form": "Keyword highlight with character",
+      "pattern_id": "CHARACTER_EXPLAIN_KEYWORD",
+      "template_id": "CHARACTER_LEFT_TEXT_RIGHT",
+      "character_intent": "KEY_POINT",
+      "character_action_id": "XACT-010",
+      "motion_intent": "SLIDE_UP",
+      "slots": {
+        "keyword": "何时出现"
+      },
+      "reveal_order": [
+        "PRIMARY",
+        "SECONDARY"
+      ]
+    },
+    {
+      "beat_id": "B-04-02",
+      "shot_id": "SHOT-B-04-02",
+      "script_segment_id": "SEG-04",
+      "purpose": "Describe voice-length-driven entry order for keywords, character, and elements",
+      "visual_focus": "Entry scheduling process",
+      "visual_form": "Horizontal process steps",
+      "pattern_id": "TIMELINE_PROCESS",
+      "template_id": "KEYWORD_FULL_FRAME",
+      "character_intent": "EXPLAIN",
+      "character_action_id": null,
+      "motion_intent": "SLIDE_UP",
+      "slots": {
+        "steps": [
+          "以实测声音为主",
+          "关键词入场",
+          "人物入场",
+          "信息元素入场"
+        ]
+      },
+      "reveal_order": [
+        "PRIMARY",
+        "SECONDARY",
+        "SUPPORTING"
+      ]
+    },
+    {
+      "beat_id": "B-05-01",
+      "shot_id": "SHOT-B-05-01",
+      "script_segment_id": "SEG-05",
+      "purpose": "Introduce read-time check for shots",
+      "visual_focus": "Read-time concept",
+      "visual_form": "Keyword highlight with character",
+      "pattern_id": "CHARACTER_EXPLAIN_KEYWORD",
+      "template_id": "EXTREME_CLOSEUP",
+      "character_intent": "EXPLAIN",
+      "character_action_id": "XACT-028",
+      "motion_intent": "HOLD",
+      "slots": {
+        "keyword": "读完时间"
+      },
+      "reveal_order": [
+        "PRIMARY",
+        "SECONDARY"
+      ]
+    },
+    {
+      "beat_id": "B-05-02",
+      "shot_id": "SHOT-B-05-02",
+      "script_segment_id": "SEG-05",
+      "purpose": "Compare too-short and too-long shots",
+      "visual_focus": "Two failure modes",
+      "visual_form": "Two-column comparison",
+      "pattern_id": "A_B_COMPARE",
+      "template_id": "COMPARE_SPLIT",
+      "character_intent": "SERIOUS",
+      "character_action_id": "XACT-015",
+      "motion_intent": "FADE",
+      "slots": {
+        "a": "过短\n来不及读完",
+        "b": "过长无变化\n画面停住"
+      },
+      "reveal_order": [
+        "PRIMARY",
+        "SECONDARY"
+      ]
+    },
+    {
+      "beat_id": "B-06-01",
+      "shot_id": "SHOT-B-06-01",
+      "script_segment_id": "SEG-06",
+      "purpose": "Place differences side by side for comparison content",
+      "visual_focus": "Side-by-side layout",
+      "visual_form": "Keyword highlight with character",
+      "pattern_id": "CHARACTER_EXPLAIN_KEYWORD",
+      "template_id": "INFO_LEFT_CHARACTER_RIGHT",
+      "character_intent": "EXPLAIN",
+      "character_action_id": "XACT-012",
+      "motion_intent": "SLIDE_UP",
+      "slots": {
+        "keyword": "并排放好"
+      },
+      "reveal_order": [
+        "PRIMARY",
+        "SECONDARY"
+      ]
+    },
+    {
+      "beat_id": "B-06-02",
+      "shot_id": "SHOT-B-06-02",
+      "script_segment_id": "SEG-06",
+      "purpose": "Advise showing change first, then character explanation; prefer stable structure over effects",
+      "visual_focus": "Structure over effects",
+      "visual_form": "Three-row summary",
+      "pattern_id": "THREE_POINT_SUMMARY",
+      "template_id": "THREE_POINT_SUMMARY",
+      "character_intent": "POSITIVE",
+      "character_action_id": "XACT-014",
+      "motion_intent": "SLIDE_UP",
+      "slots": {
+        "points": [
+          "先看清变化",
+          "角色补充解释",
+          "稳定结构易复查"
+        ]
+      },
+      "reveal_order": [
+        "PRIMARY",
+        "SECONDARY",
+        "SUPPORTING"
+      ]
+    },
+    {
+      "beat_id": "B-07-01",
+      "shot_id": "SHOT-B-07-01",
+      "script_segment_id": "SEG-07",
+      "purpose": "State that info elements can appear later independently",
+      "visual_focus": "Delayed entry concept",
+      "visual_form": "Keyword highlight with character",
+      "pattern_id": "CHARACTER_EXPLAIN_KEYWORD",
+      "template_id": "CHARACTER_LEFT_TEXT_RIGHT",
+      "character_intent": "EXPLAIN",
+      "character_action_id": "XACT-009",
+      "motion_intent": "HOLD",
+      "slots": {
+        "keyword": "晚一点出现"
+      },
+      "reveal_order": [
+        "PRIMARY",
+        "SECONDARY"
+      ]
+    },
+    {
+      "beat_id": "B-07-02",
+      "shot_id": "SHOT-B-07-02",
+      "script_segment_id": "SEG-07",
+      "purpose": "Explain that syncing elements to related voiceover concentrates information",
+      "visual_focus": "Voice-triggered element entry",
+      "visual_form": "Action sequence",
+      "pattern_id": "CHARACTER_ACTION_SEQUENCE",
+      "template_id": "INFO_LEFT_CHARACTER_RIGHT",
+      "character_intent": "EXPLAIN",
+      "character_action_id": "XACT-007",
+      "motion_intent": "SLIDE_UP",
+      "slots": {
+        "actions": [
+          "口播先到",
+          "对应信息出现",
+          "信息更集中"
+        ]
+      },
+      "reveal_order": [
+        "PRIMARY",
+        "SECONDARY",
+        "SUPPORTING"
+      ]
+    },
+    {
+      "beat_id": "B-08-01",
+      "shot_id": "SHOT-B-08-01",
+      "script_segment_id": "SEG-08",
+      "purpose": "Avoid duplicating icons when a prop already conveys the action",
+      "visual_focus": "Non-duplication rule",
+      "visual_form": "Keyword highlight with character",
+      "pattern_id": "CHARACTER_EXPLAIN_KEYWORD",
+      "template_id": "EXTREME_CLOSEUP",
+      "character_intent": "KEY_POINT",
+      "character_action_id": "XACT-020",
+      "motion_intent": "HOLD",
+      "slots": {
+        "keyword": "不重复叠加"
+      },
+      "reveal_order": [
+        "PRIMARY",
+        "SECONDARY"
+      ]
+    },
+    {
+      "beat_id": "B-08-02",
+      "shot_id": "SHOT-B-08-02",
+      "script_segment_id": "SEG-08",
+      "purpose": "Separate character body language layer from information symbol layer",
+      "visual_focus": "Layer separation",
+      "visual_form": "Two-column comparison",
+      "pattern_id": "A_B_COMPARE",
+      "template_id": "COMPARE_SPLIT",
+      "character_intent": "SERIOUS",
+      "character_action_id": "XACT-017",
+      "motion_intent": "FADE",
+      "slots": {
+        "a": "人物\n身体语言",
+        "b": "信息符号\n内容提示"
+      },
+      "reveal_order": [
+        "PRIMARY",
+        "SECONDARY"
+      ]
+    },
+    {
+      "beat_id": "B-09-01",
+      "shot_id": "SHOT-B-09-01",
+      "script_segment_id": "SEG-09",
+      "purpose": "Generate in script order then re-check by time",
+      "visual_focus": "Generation and verification sequence",
+      "visual_form": "Horizontal process steps",
+      "pattern_id": "TIMELINE_PROCESS",
+      "template_id": "KEYWORD_FULL_FRAME",
+      "character_intent": "EXPLAIN",
+      "character_action_id": null,
+      "motion_intent": "SLIDE_UP",
+      "slots": {
+        "steps": [
+          "按脚本顺序生成",
+          "按时间复查"
+        ]
+      },
+      "reveal_order": [
+        "PRIMARY",
+        "SECONDARY"
+      ]
+    },
+    {
+      "beat_id": "B-09-02",
+      "shot_id": "SHOT-B-09-02",
+      "script_segment_id": "SEG-09",
+      "purpose": "Emphasize that visuals must enter when voice reaches new information",
+      "visual_focus": "Sync enforcement",
+      "visual_form": "Keyword highlight with character",
+      "pattern_id": "CHARACTER_EXPLAIN_KEYWORD",
+      "template_id": "CTA_END_CARD",
+      "character_intent": "KEY_POINT",
+      "character_action_id": "XACT-045",
+      "motion_intent": "SLIDE_UP",
+      "slots": {
+        "keyword": "声音到哪\n画面到哪"
+      },
+      "reveal_order": [
+        "PRIMARY",
+        "SECONDARY"
+      ]
+    }
+  ],
+  "artifact_hash": "a5136a23bca90222ceedbb173c52faa719d024d279102bf45569231e55050fc0"
+}

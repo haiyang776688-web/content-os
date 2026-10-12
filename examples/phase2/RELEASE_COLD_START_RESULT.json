@@ -1,0 +1,10 @@
+{
+  "source_tree": "isolated release directory",
+  "data_root": "/tmp/content-os-phase2-release-smoke",
+  "ui_http_status": 200,
+  "new_project_created": true,
+  "phase2_initialized": true,
+  "api_keys_required": false,
+  "dependencies_reused_for_local_verification": "existing Python venv and temporary Node node_modules symlink, excluded from archive",
+  "new_machine_install_required": true
+}

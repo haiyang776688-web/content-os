@@ -1,0 +1,120 @@
+[
+  {
+    "role": "RESEARCH",
+    "owned_artifact_types": [
+      "RESEARCH"
+    ],
+    "required_capabilities": [
+      "TEXT",
+      "STRUCTURED_OUTPUT"
+    ],
+    "default_worker": "DEEPSEEK",
+    "prompt_id": "RESEARCH_V1"
+  },
+  {
+    "role": "SCRIPT_PRIMARY",
+    "owned_artifact_types": [
+      "SCRIPT"
+    ],
+    "required_capabilities": [
+      "TEXT",
+      "STRUCTURED_OUTPUT"
+    ],
+    "default_worker": "DEEPSEEK",
+    "prompt_id": "SCRIPT_PRIMARY_V1"
+  },
+  {
+    "role": "SCRIPT_EDITOR",
+    "owned_artifact_types": [
+      "SCRIPT"
+    ],
+    "required_capabilities": [
+      "TEXT",
+      "STRUCTURED_OUTPUT"
+    ],
+    "default_worker": "DOUBAO",
+    "prompt_id": "SCRIPT_EDITOR_V1"
+  },
+  {
+    "role": "AUDIT",
+    "owned_artifact_types": [
+      "AUDIT"
+    ],
+    "required_capabilities": [
+      "TEXT",
+      "STRUCTURED_OUTPUT"
+    ],
+    "default_worker": "OPENAI",
+    "prompt_id": "AUDIT_V1"
+  },
+  {
+    "role": "DIRECTOR",
+    "owned_artifact_types": [
+      "DIRECTOR_PLAN"
+    ],
+    "required_capabilities": [
+      "TEXT",
+      "STRUCTURED_OUTPUT"
+    ],
+    "default_worker": "GLM",
+    "prompt_id": "DIRECTOR_V1"
+  },
+  {
+    "role": "MEDIA_RESOLVER",
+    "owned_artifact_types": [
+      "MEDIA_SELECTION"
+    ],
+    "required_capabilities": [
+      "TEXT"
+    ],
+    "default_worker": "MOCK",
+    "prompt_id": "MEDIA_RESOLVER_V1"
+  },
+  {
+    "role": "VOICE",
+    "owned_artifact_types": [
+      "VOICE"
+    ],
+    "required_capabilities": [
+      "TEXT"
+    ],
+    "default_worker": "MOCK",
+    "prompt_id": "VOICE_V1"
+  },
+  {
+    "role": "VIDEO_QA",
+    "owned_artifact_types": [
+      "VIDEO_QA"
+    ],
+    "required_capabilities": [
+      "TEXT",
+      "STRUCTURED_OUTPUT",
+      "VIDEO_INPUT"
+    ],
+    "default_worker": "MINIMAX",
+    "prompt_id": "VIDEO_QA_V1"
+  },
+  {
+    "role": "ANALYTICS",
+    "owned_artifact_types": [
+      "OBSERVATION"
+    ],
+    "required_capabilities": [
+      "TEXT"
+    ],
+    "default_worker": "MOCK",
+    "prompt_id": "ANALYTICS_V1"
+  },
+  {
+    "role": "EVOLUTION",
+    "owned_artifact_types": [
+      "RULE"
+    ],
+    "required_capabilities": [
+      "TEXT",
+      "STRUCTURED_OUTPUT"
+    ],
+    "default_worker": "OPENAI",
+    "prompt_id": "EVOLUTION_V1"
+  }
+]

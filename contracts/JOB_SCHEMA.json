@@ -1,0 +1,102 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "job_id": {
+      "title": "Job Id",
+      "type": "string"
+    },
+    "request_id": {
+      "title": "Request Id",
+      "type": "string"
+    },
+    "project_id": {
+      "title": "Project Id",
+      "type": "string"
+    },
+    "kind": {
+      "title": "Kind",
+      "type": "string"
+    },
+    "state": {
+      "enum": [
+        "QUEUED",
+        "RUNNING",
+        "WAITING",
+        "RETRYING",
+        "BLOCKED",
+        "FAILED",
+        "COMPLETED",
+        "CANCELLED"
+      ],
+      "title": "State",
+      "type": "string"
+    },
+    "artifact_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Artifact Id"
+    },
+    "idempotency_key": {
+      "title": "Idempotency Key",
+      "type": "string"
+    },
+    "retries": {
+      "default": 0,
+      "title": "Retries",
+      "type": "integer"
+    },
+    "started_at": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Started At"
+    },
+    "finished_at": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Finished At"
+    },
+    "error": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Error"
+    }
+  },
+  "required": [
+    "job_id",
+    "request_id",
+    "project_id",
+    "kind",
+    "state",
+    "idempotency_key"
+  ],
+  "title": "Job",
+  "type": "object"
+}

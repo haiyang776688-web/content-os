@@ -1,0 +1,104 @@
+{
+  "render": {
+    "path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/outputs/vla-001/test-b/VLA-001-B-Final.mp4",
+    "duration": 44.6,
+    "frames": 1338,
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": "30/1",
+    "has_audio": false,
+    "audio_hash": null,
+    "sha256": "85249d36b95bf3a6ba4053b8f9e3bfcfd433b32d25b99dd3dd15be253c0e55d8",
+    "bytes": 2201662
+  },
+  "storyboard_gate": {
+    "status": "APPROVED",
+    "reviewer": "VLA_SPIKE_REVIEW_OPERATOR",
+    "edit_count": 2,
+    "render_was_gated": true
+  },
+  "distributions": {
+    "visual_jobs": {
+      "TRANSITION": 2,
+      "PROVE": 2,
+      "EXPLAIN": 1,
+      "DEMONSTRATE": 2,
+      "WARN": 1,
+      "SUMMARIZE": 1
+    },
+    "visual_modes": {
+      "BRAND_BALANCED": 5,
+      "EVIDENCE_HEAVY": 4
+    },
+    "shot_types": {
+      "CHARACTER_INTRO": 2,
+      "EVIDENCE_HIGHLIGHT": 2,
+      "RELATION_EXPLAIN": 1,
+      "EVIDENCE_FOCUS": 2,
+      "CHARACTER_RESPONSIBILITY": 1,
+      "SUMMARY": 1
+    },
+    "evidence_treatments": {
+      "HIGHLIGHT_REGION": 2,
+      "RELATION": 1,
+      "FOCUS_REGION": 2,
+      "DETAIL_CROP": 1
+    },
+    "character_roles": {
+      "GUIDE": 1,
+      "RESPONSIBILITY": 1,
+      "TRANSITION": 1,
+      "SUMMARY": 1
+    }
+  },
+  "contracts": {
+    "one_primary": true,
+    "geometry_owner": "VISUAL_COMPILER_V1",
+    "renderer_policy_free": true,
+    "all_generated_fields_consumed": true
+  },
+  "ppt_regression": {
+    "status": "PASS_VISUAL_INSPECTION",
+    "max_consecutive_identical_shot_type": 1,
+    "evidence_primary_shots": 4,
+    "shot_type_count": 6,
+    "reviewer": "CODEX_VISUAL_INSPECTION_AGENT",
+    "notes": [
+      "Evidence or diagram leads every PROVE, DEMONSTRATE and EXPLAIN evidence beat.",
+      "XIAO-Y appears only for transition, warning/responsibility and summary.",
+      "Six shot types alternate with no consecutive repeated shot type; the result does not regress to page-template slideshow.",
+      "This visual-slice MP4 intentionally has no new voice track."
+    ]
+  },
+  "unseen_generalization": {
+    "duration_in_requested_range": true,
+    "new_script_id": "VLA-001-UNSEEN-SCRIPT",
+    "visual_job_count": 6,
+    "registered_evidence_used": true,
+    "mode_responsibility_change": true,
+    "shot_plan_hand_authored": false,
+    "human_pre_render_edits": [
+      {
+        "beat_id": "B-B04",
+        "shot_id": null,
+        "changes": {
+          "visual_job": "PROVE"
+        },
+        "reason": "The narration states a review requirement; the screenshot is proof, not a procedure demo."
+      },
+      {
+        "beat_id": "B-B04",
+        "shot_id": "VLA-001-B-S04",
+        "changes": {
+          "shot_type": "EVIDENCE_HIGHLIGHT",
+          "evidence_treatment": "HIGHLIGHT_REGION",
+          "motion_semantic": "FOCUS"
+        },
+        "reason": "Keep the Director inspector visible and highlight the registered semantic-field region."
+      }
+    ],
+    "visual_review": "PASS_NO_PPT_REGRESSION"
+  }
+}

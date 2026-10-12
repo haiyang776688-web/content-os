@@ -1,0 +1,44 @@
+{
+  "artifact_id": "ART-e27ef4cbcdce4c51",
+  "project_id": "PRJ-df2146b8a6b1",
+  "artifact_type": "EVIDENCE_E1",
+  "revision": 1,
+  "created_by_role": "RESEARCH",
+  "worker": null,
+  "provider": null,
+  "model": null,
+  "prompt_version": null,
+  "dependencies": [
+    {
+      "artifact_id": "ART-a525e25de37148a5",
+      "output_hash": "651a22cd947256ebfe11dbe4668e403c7f585bc7c4540e5425e6dd8ea1cbd767"
+    }
+  ],
+  "input_hash": "c854cebc355e784b9454423033a6e4926c427e73734f8d4eff9fec819a58173d",
+  "output_hash": "e8a55bc9923d869e67772358be74662baf5634628944d190f1230ca4e16d4eed",
+  "status": "READY",
+  "created_at": "2026-09-26T15:59:44.281167+00:00",
+  "payload": {
+    "evidence_id": "E1",
+    "source_id": "S1",
+    "locator": {
+      "media_type": "TEXT",
+      "character_span": {
+        "start": 0,
+        "end": 17
+      },
+      "paragraph": null,
+      "page": null,
+      "snapshot": null,
+      "dom_path": null,
+      "start_time": null,
+      "end_time": null
+    },
+    "excerpt": "Alpha has 3 items",
+    "excerpt_hash": "ed428ecc17875f5cff68dc7d10c220b5d1c54dfe7d6dcc04d941828e24e51e65",
+    "source_content_hash": "9d3a74d614b34fc3280bb98dbaf787b64a36d2b84e58ea158a43c4f6da07ee66",
+    "source_artifact_id": "ART-a525e25de37148a5",
+    "trust": "UNTRUSTED_SOURCE_DATA"
+  },
+  "current_status": "READY"
+}

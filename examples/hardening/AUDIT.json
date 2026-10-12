@@ -1,0 +1,63 @@
+{
+  "artifact_id": "ART-af3bf2c68c7b4b9a",
+  "project_id": "PRJ-df2146b8a6b1",
+  "artifact_type": "AUDIT",
+  "revision": 1,
+  "created_by_role": "AUDIT",
+  "worker": "MOCK",
+  "provider": "mock",
+  "model": "deterministic-v1",
+  "prompt_version": "AUDIT_V1",
+  "dependencies": [
+    {
+      "artifact_id": "ART-9b6c9b779c19418f",
+      "output_hash": "da12676ee8250df6605f85735e2299d894aca738db6bf6d3b11b52b9e4fe8a81"
+    },
+    {
+      "artifact_id": "ART-2e8c67027b884159",
+      "output_hash": "9532bef2b50c759ff9be8ed53b14e3a5053954fbdb2f77db9188c4fda9cd186e"
+    },
+    {
+      "artifact_id": "ART-c75de78952304a97",
+      "output_hash": "ccb8f36878815d1d097370cd00a90dbe6a553da0f9bc0da0e54200947e1666b1"
+    },
+    {
+      "artifact_id": "ART-e27ef4cbcdce4c51",
+      "output_hash": "e8a55bc9923d869e67772358be74662baf5634628944d190f1230ca4e16d4eed"
+    },
+    {
+      "artifact_id": "ART-a525e25de37148a5",
+      "output_hash": "651a22cd947256ebfe11dbe4668e403c7f585bc7c4540e5425e6dd8ea1cbd767"
+    },
+    {
+      "artifact_id": "ART-96acfc037fd24800",
+      "output_hash": "cfe34f7a4ff905ba970881e084d9e03ef7445afbbb5c3d395ad9b979b2fecf44"
+    },
+    {
+      "artifact_id": "ART-af91ed33690e4493",
+      "output_hash": "e414ec033117aa04d6c9135d180efec19f9e5c7f4f5916b06bbba975b23a9534"
+    }
+  ],
+  "input_hash": "2a4044bfcb05d5adb2a76be6f7548c544553a283ff587a346a9e9cd89b3d778b",
+  "output_hash": "696803ce117e45ca29e53c53b349cbc0bd9ebd5cc87a1ed45e06dacaafe5d7d7",
+  "status": "READY",
+  "created_at": "2026-09-26T15:59:44.379931+00:00",
+  "payload": {
+    "verdict": "PASS",
+    "findings": [],
+    "rationale": "Mock review for contract testing; not a factual audit.",
+    "claim_reviews": [
+      {
+        "claim_id": "C1",
+        "decision": "SUPPORTED",
+        "reason": "Mock contract response, not semantic verification"
+      },
+      {
+        "claim_id": "C2",
+        "decision": "SUPPORTED",
+        "reason": "Mock contract response, not semantic verification"
+      }
+    ]
+  },
+  "current_status": "READY"
+}

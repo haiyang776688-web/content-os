@@ -1,0 +1,161 @@
+{
+  "artifact_id": "ART-400bbde1b8614a87",
+  "project_id": "PRJ-b417f4c7957a",
+  "artifact_type": "RULE_CATALOG",
+  "revision": 5,
+  "created_by_role": "EVOLUTION",
+  "worker": null,
+  "provider": null,
+  "model": null,
+  "prompt_version": null,
+  "dependencies": [
+    {
+      "artifact_id": "ART-a90a85e704034bad",
+      "output_hash": "66ed039caebb7adbe1f9fc163e1ac10e0ed745328c95d8b1ace9e0a19471c99f"
+    },
+    {
+      "artifact_id": "ART-91f41a33c3a04414",
+      "output_hash": "b8e2397d15adc286d9142dfe05b41086d5bb66fb05a89c91f9eecaa26c66a6e6"
+    },
+    {
+      "artifact_id": "ART-8b37ed528ebb462c",
+      "output_hash": "14c059b82be2d432e194facb065d6c0feeaaa67c617f36b01a837809a49c5645"
+    },
+    {
+      "artifact_id": "ART-893dccca0e024fe1",
+      "output_hash": "7ae1a839511d7d6795c83ae7b254a9f0538963c82cf71b6c0afc2f00a1fde026"
+    }
+  ],
+  "input_hash": "4c9086e752a1de16b57375de33a0e3b779ad3884f3894c544f6d3fc9a90d2090",
+  "output_hash": "6e4ac653cd7da3cf3b44ce102477f4f022ea04b5b76ac5213f8dee002e2f9d5a",
+  "status": "READY",
+  "created_at": "2026-09-26T10:38:40.295788+00:00",
+  "payload": {
+    "active_rules": [
+      {
+        "rule_id": "DIAGNOSTIC_REAUDIT",
+        "lifecycle": "ACTIVE",
+        "text": "Every repaired script revision requires a fresh independent audit.",
+        "scope": "SCRIPT",
+        "priority": "HIGH",
+        "owner": "AUDIT",
+        "reason": "Mock diagnostic failure path",
+        "related_error": "ERR-30e5818b36",
+        "exceptions": []
+      }
+    ],
+    "historical_rule_references": [
+      {
+        "artifact_id": "ART-6020df644f0d4461",
+        "hash": "a52a08b00c57e7ee878808945596e7237f4d9047de97ee747997078929a13b08"
+      }
+    ],
+    "rule_sets": {
+      "WRITING_RULE_SET": {
+        "set_id": "WRITING_V1",
+        "version": "1",
+        "rules": [
+          {
+            "rule_id": "NO_FABRICATION",
+            "name": "Claim discipline",
+            "scope": "SCRIPT",
+            "priority": 50,
+            "severity": "BLOCKER",
+            "hard_or_soft": "HARD",
+            "applies_to": [
+              "SCRIPT_PRIMARY",
+              "SCRIPT_EDITOR",
+              "AUDIT"
+            ],
+            "text": "Never fabricate facts, sources or numbers. Preserve source-bound claims.",
+            "examples": [],
+            "exceptions": [],
+            "version": "1",
+            "source": "SYSTEM"
+          },
+          {
+            "rule_id": "OWNER_ONLY",
+            "name": "Single writer",
+            "scope": "ALL",
+            "priority": 50,
+            "severity": "BLOCKER",
+            "hard_or_soft": "HARD",
+            "applies_to": [],
+            "text": "Downstream submits a change request; never edits upstream.",
+            "examples": [],
+            "exceptions": [],
+            "version": "1",
+            "source": "SYSTEM"
+          },
+          {
+            "rule_id": "CREATIVE_POLICY",
+            "name": "Creative policy",
+            "scope": "ALL",
+            "priority": 50,
+            "severity": "BLOCKER",
+            "hard_or_soft": "HARD",
+            "applies_to": [],
+            "text": "Human creative policy outranks optimization metrics.",
+            "examples": [],
+            "exceptions": [],
+            "version": "1",
+            "source": "SYSTEM"
+          },
+          {
+            "rule_id": "ORAL_CLARITY",
+            "name": "Spoken clarity",
+            "scope": "SCRIPT",
+            "priority": 50,
+            "severity": "WARNING",
+            "hard_or_soft": "SOFT",
+            "applies_to": [],
+            "text": "Use concise spoken clauses; explain jargon; remove empty repetition.",
+            "examples": [],
+            "exceptions": [],
+            "version": "1",
+            "source": "SYSTEM"
+          }
+        ]
+      },
+      "HOOK_RULE_SET": {
+        "hook_type": "DIRECT_VALUE",
+        "max_duration": 8.0,
+        "max_sentence_count": 2,
+        "information_gap": "",
+        "specificity": "Specific and source-bound",
+        "promise": "Deliver in this script",
+        "forbidden_patterns": [
+          "FABRICATED_NUMBER",
+          "UNSUPPORTED_PROMISE"
+        ]
+      },
+      "RETENTION_RULE_SET": {
+        "version": "1",
+        "information_change": "Change when meaning changes",
+        "open_loop": "Only when there is a payoff",
+        "payoff": "Close the promise",
+        "visual_refresh": "Follow semantic beats",
+        "density_change": "Primary before supporting details",
+        "question_answer": "Bind questions to answers",
+        "pattern_interrupt": "Purposeful only",
+        "section_transition": "Narrative function"
+      },
+      "EDITORIAL_VOICE": {
+        "profile_id": "COMPANION_V1",
+        "version": "1",
+        "tone": "Clear, rational, approachable",
+        "formality": "Conversational",
+        "sentence_length": "Short spoken clauses",
+        "humor": "Restrained",
+        "technical_density": "Explain necessary jargon",
+        "directness": "Direct",
+        "slang": "Limited",
+        "emoji_policy": "None in spoken script",
+        "rhetorical_question_frequency": "Low",
+        "first_person_style": "Companion",
+        "forbidden_expressions": []
+      }
+    }
+  },
+  "current_status": "READY"
+}

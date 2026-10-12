@@ -1,0 +1,371 @@
+{
+  "review": {
+    "review_id": "REVIEW-MDC-001-FOUR-SHOT",
+    "plan_id": "MDC-001-FOUR-SHOT",
+    "plan_sha256": "0e241f599ce0299cc48fc9b820c4664c302336c635821d051dcc1593ffb7be11",
+    "status": "APPROVED",
+    "reviewer": "MDC-001-HUMAN-REVIEW",
+    "rejection_reason": null,
+    "frames": [
+      {
+        "shot_id": "MDC-S01",
+        "path": "motion-designed-frames/MDC-S01-action.png",
+        "time": 0.23333333333333334
+      },
+      {
+        "shot_id": "MDC-S02",
+        "path": "motion-designed-frames/MDC-S02-action.png",
+        "time": 4.733333333333333
+      },
+      {
+        "shot_id": "MDC-S03",
+        "path": "motion-designed-frames/MDC-S03-action.png",
+        "time": 9.233333333333333
+      },
+      {
+        "shot_id": "MDC-S04",
+        "path": "motion-designed-frames/MDC-S04-action.png",
+        "time": 13.733333333333333
+      }
+    ],
+    "edits": [],
+    "asset_checks": [
+      {
+        "shot_id": "MDC-S01",
+        "asset_id": "EV-RESEARCH",
+        "asset_kind": "EVIDENCE",
+        "intrinsic_width": 1600,
+        "intrinsic_height": 1000,
+        "intrinsic_aspect_ratio": 1.6,
+        "fit_mode": "FOCUS_CROP",
+        "crop_region": {
+          "x": 0.153125,
+          "y": 0.493,
+          "width": 0.26875,
+          "height": 0.205,
+          "label": "",
+          "keywords": []
+        },
+        "aspect_ratio_policy": "PRESERVE"
+      },
+      {
+        "shot_id": "MDC-S02",
+        "asset_id": "XACT-007",
+        "asset_kind": "CHARACTER",
+        "intrinsic_width": 781,
+        "intrinsic_height": 821,
+        "intrinsic_aspect_ratio": 0.951278928136419,
+        "fit_mode": "CONTAIN",
+        "crop_region": null,
+        "aspect_ratio_policy": "PRESERVE"
+      },
+      {
+        "shot_id": "MDC-S03",
+        "asset_id": "EV-RESEARCH",
+        "asset_kind": "EVIDENCE",
+        "intrinsic_width": 1600,
+        "intrinsic_height": 1000,
+        "intrinsic_aspect_ratio": 1.6,
+        "fit_mode": "FOCUS_CROP",
+        "crop_region": {
+          "x": 0.1525,
+          "y": 0.68,
+          "width": 0.38,
+          "height": 0.18,
+          "label": "",
+          "keywords": []
+        },
+        "aspect_ratio_policy": "PRESERVE"
+      },
+      {
+        "shot_id": "MDC-S03",
+        "asset_id": "XACT-030",
+        "asset_kind": "CHARACTER",
+        "intrinsic_width": 675,
+        "intrinsic_height": 896,
+        "intrinsic_aspect_ratio": 0.7533482142857143,
+        "fit_mode": "CONTAIN",
+        "crop_region": null,
+        "aspect_ratio_policy": "PRESERVE"
+      },
+      {
+        "shot_id": "MDC-S04",
+        "asset_id": "EV-RESEARCH",
+        "asset_kind": "EVIDENCE",
+        "intrinsic_width": 1600,
+        "intrinsic_height": 1000,
+        "intrinsic_aspect_ratio": 1.6,
+        "fit_mode": "FOCUS_CROP",
+        "crop_region": {
+          "x": 0.1525,
+          "y": 0.804,
+          "width": 0.24375,
+          "height": 0.034,
+          "label": "",
+          "keywords": []
+        },
+        "aspect_ratio_policy": "PRESERVE"
+      }
+    ],
+    "mechanical_qa": {
+      "verdict": "PASS",
+      "check": "STORYBOARD_MECHANICAL_GATE",
+      "checks": {
+        "asset_aspect_ratio": {
+          "verdict": "PASS",
+          "check": "ASSET_ASPECT_RATIO_INVARIANT",
+          "tolerance_percent": 0.5,
+          "checked_registered_assets": 5,
+          "issues": []
+        },
+        "motion_primitive": {
+          "verdict": "PASS",
+          "check": "MOTION_PRIMITIVE_CAPABILITY_CONTRACT",
+          "contract_id": "XIAOY_MOTION_PRIMITIVE_V1",
+          "declared_primitive_count": 11,
+          "implemented_primitive_count": 11,
+          "checked_visual_clips": 25,
+          "emitted_primitives": {
+            "NONE": 15,
+            "PUSH_IN": 1,
+            "LABEL_REVEAL": 4,
+            "FADE_IN": 2,
+            "POP_CUT": 2,
+            "DRAW_CONNECTION": 1
+          },
+          "issues": []
+        },
+        "motion_design": {
+          "verdict": "PASS",
+          "check": "MOTION_DESIGN_CONTRACT",
+          "phrase_count": 4,
+          "compiled_shot_count": 4,
+          "issues": []
+        }
+      },
+      "issues": []
+    }
+  },
+  "rows": [
+    {
+      "beat_id": "MDC-B01",
+      "shot_id": "MDC-S01",
+      "narration": "研究页允许从本地文件导入资料，模型提取的原文候选需要操作者确认。",
+      "visual_job": "DEMONSTRATE",
+      "visual_mode": "EVIDENCE_HEAVY",
+      "shot_type": "EVIDENCE_FOCUS",
+      "primary": "EVIDENCE",
+      "evidence_asset": "EV-RESEARCH",
+      "evidence_region": "import_control",
+      "evidence_treatment": "FOCUS_REGION",
+      "character_role": "NONE",
+      "motion_semantic": "FOCUS",
+      "representative_frame": "motion-designed-frames/MDC-S01-action.png",
+      "asset": "EV-RESEARCH",
+      "intrinsic_ratio": "1.600000",
+      "fit_mode": "FOCUS_CROP",
+      "crop_region": [
+        {
+          "x": 0.153125,
+          "y": 0.493,
+          "width": 0.26875,
+          "height": 0.205,
+          "label": "",
+          "keywords": []
+        }
+      ],
+      "aspect_policy": "PRESERVE",
+      "asset_render_checks": [
+        {
+          "shot_id": "MDC-S01",
+          "asset_id": "EV-RESEARCH",
+          "asset_kind": "EVIDENCE",
+          "intrinsic_width": 1600,
+          "intrinsic_height": 1000,
+          "intrinsic_aspect_ratio": 1.6,
+          "fit_mode": "FOCUS_CROP",
+          "crop_region": {
+            "x": 0.153125,
+            "y": 0.493,
+            "width": 0.26875,
+            "height": 0.205,
+            "label": "",
+            "keywords": []
+          },
+          "aspect_ratio_policy": "PRESERVE"
+        }
+      ]
+    },
+    {
+      "beat_id": "MDC-B02",
+      "shot_id": "MDC-S02",
+      "narration": "研究页允许从本地文件导入资料，模型提取的原文候选需要操作者确认。",
+      "visual_job": "EXPLAIN",
+      "visual_mode": "BRAND_BALANCED",
+      "shot_type": "CHARACTER_EXPLAIN",
+      "primary": "XIAOY",
+      "evidence_asset": null,
+      "evidence_region": null,
+      "evidence_treatment": null,
+      "character_role": "EXPLAINER",
+      "motion_semantic": "REVEAL",
+      "representative_frame": "motion-designed-frames/MDC-S02-action.png",
+      "asset": "XACT-007",
+      "intrinsic_ratio": "0.951279",
+      "fit_mode": "CONTAIN",
+      "crop_region": [
+        null
+      ],
+      "aspect_policy": "PRESERVE",
+      "asset_render_checks": [
+        {
+          "shot_id": "MDC-S02",
+          "asset_id": "XACT-007",
+          "asset_kind": "CHARACTER",
+          "intrinsic_width": 781,
+          "intrinsic_height": 821,
+          "intrinsic_aspect_ratio": 0.951278928136419,
+          "fit_mode": "CONTAIN",
+          "crop_region": null,
+          "aspect_ratio_policy": "PRESERVE"
+        }
+      ]
+    },
+    {
+      "beat_id": "MDC-B03",
+      "shot_id": "MDC-S03",
+      "narration": "候选引文不会自动成为已核实 Fact，这一步必须由人来把关。",
+      "visual_job": "REACT",
+      "visual_mode": "BRAND_BALANCED",
+      "shot_type": "CHARACTER_REACTION",
+      "primary": "XIAOY",
+      "evidence_asset": "EV-RESEARCH",
+      "evidence_region": "candidate_rule",
+      "evidence_treatment": "DETAIL_CROP",
+      "character_role": "REACTION",
+      "motion_semantic": "INTERRUPT",
+      "representative_frame": "motion-designed-frames/MDC-S03-action.png",
+      "asset": "EV-RESEARCH, XACT-030",
+      "intrinsic_ratio": "1.600000, 0.753348",
+      "fit_mode": "FOCUS_CROP, CONTAIN",
+      "crop_region": [
+        {
+          "x": 0.1525,
+          "y": 0.68,
+          "width": 0.38,
+          "height": 0.18,
+          "label": "",
+          "keywords": []
+        },
+        null
+      ],
+      "aspect_policy": "PRESERVE, PRESERVE",
+      "asset_render_checks": [
+        {
+          "shot_id": "MDC-S03",
+          "asset_id": "EV-RESEARCH",
+          "asset_kind": "EVIDENCE",
+          "intrinsic_width": 1600,
+          "intrinsic_height": 1000,
+          "intrinsic_aspect_ratio": 1.6,
+          "fit_mode": "FOCUS_CROP",
+          "crop_region": {
+            "x": 0.1525,
+            "y": 0.68,
+            "width": 0.38,
+            "height": 0.18,
+            "label": "",
+            "keywords": []
+          },
+          "aspect_ratio_policy": "PRESERVE"
+        },
+        {
+          "shot_id": "MDC-S03",
+          "asset_id": "XACT-030",
+          "asset_kind": "CHARACTER",
+          "intrinsic_width": 675,
+          "intrinsic_height": 896,
+          "intrinsic_aspect_ratio": 0.7533482142857143,
+          "fit_mode": "CONTAIN",
+          "crop_region": null,
+          "aspect_ratio_policy": "PRESERVE"
+        }
+      ]
+    },
+    {
+      "beat_id": "MDC-B04",
+      "shot_id": "MDC-S04",
+      "narration": "Fact Pack 把选中的事实与来源绑定，脚本里的事实性主张要引用已有 Fact ID。",
+      "visual_job": "EXPLAIN",
+      "visual_mode": "BRAND_BALANCED",
+      "shot_type": "RELATION_EXPLAIN",
+      "primary": "DIAGRAM",
+      "evidence_asset": "EV-RESEARCH",
+      "evidence_region": "source_rule",
+      "evidence_treatment": "RELATION",
+      "character_role": "NONE",
+      "motion_semantic": "CONNECT",
+      "representative_frame": "motion-designed-frames/MDC-S04-action.png",
+      "asset": "EV-RESEARCH",
+      "intrinsic_ratio": "1.600000",
+      "fit_mode": "FOCUS_CROP",
+      "crop_region": [
+        {
+          "x": 0.1525,
+          "y": 0.804,
+          "width": 0.24375,
+          "height": 0.034,
+          "label": "",
+          "keywords": []
+        }
+      ],
+      "aspect_policy": "PRESERVE",
+      "asset_render_checks": [
+        {
+          "shot_id": "MDC-S04",
+          "asset_id": "EV-RESEARCH",
+          "asset_kind": "EVIDENCE",
+          "intrinsic_width": 1600,
+          "intrinsic_height": 1000,
+          "intrinsic_aspect_ratio": 1.6,
+          "fit_mode": "FOCUS_CROP",
+          "crop_region": {
+            "x": 0.1525,
+            "y": 0.804,
+            "width": 0.24375,
+            "height": 0.034,
+            "label": "",
+            "keywords": []
+          },
+          "aspect_ratio_policy": "PRESERVE"
+        }
+      ]
+    }
+  ],
+  "distributions": {
+    "visual_jobs": {
+      "DEMONSTRATE": 1,
+      "EXPLAIN": 2,
+      "REACT": 1
+    },
+    "visual_modes": {
+      "EVIDENCE_HEAVY": 1,
+      "BRAND_BALANCED": 3
+    },
+    "shot_types": {
+      "EVIDENCE_FOCUS": 1,
+      "CHARACTER_EXPLAIN": 1,
+      "CHARACTER_REACTION": 1,
+      "RELATION_EXPLAIN": 1
+    },
+    "evidence_treatments": {
+      "FOCUS_REGION": 1,
+      "DETAIL_CROP": 1,
+      "RELATION": 1
+    },
+    "character_roles": {
+      "EXPLAINER": 1,
+      "REACTION": 1
+    }
+  }
+}

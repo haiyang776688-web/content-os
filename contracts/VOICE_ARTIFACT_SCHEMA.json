@@ -1,0 +1,138 @@
+{
+  "$defs": {
+    "Timestamp": {
+      "additionalProperties": false,
+      "properties": {
+        "text": {
+          "title": "Text",
+          "type": "string"
+        },
+        "start": {
+          "minimum": 0,
+          "title": "Start",
+          "type": "number"
+        },
+        "end": {
+          "minimum": 0,
+          "title": "End",
+          "type": "number"
+        }
+      },
+      "required": [
+        "text",
+        "start",
+        "end"
+      ],
+      "title": "Timestamp",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "provenance": {
+      "additionalProperties": true,
+      "title": "Provenance",
+      "type": "object"
+    },
+    "voice_artifact_id": {
+      "title": "Voice Artifact Id",
+      "type": "string"
+    },
+    "provider": {
+      "title": "Provider",
+      "type": "string"
+    },
+    "model": {
+      "title": "Model",
+      "type": "string"
+    },
+    "voice_profile": {
+      "title": "Voice Profile",
+      "type": "string"
+    },
+    "audio_path": {
+      "title": "Audio Path",
+      "type": "string"
+    },
+    "duration": {
+      "minimum": 0,
+      "title": "Duration",
+      "type": "number"
+    },
+    "sample_rate": {
+      "title": "Sample Rate",
+      "type": "integer"
+    },
+    "channels": {
+      "title": "Channels",
+      "type": "integer"
+    },
+    "word_timestamps": {
+      "anyOf": [
+        {
+          "items": {
+            "$ref": "#/$defs/Timestamp"
+          },
+          "type": "array"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Word Timestamps"
+    },
+    "phrase_timestamps": {
+      "anyOf": [
+        {
+          "items": {
+            "$ref": "#/$defs/Timestamp"
+          },
+          "type": "array"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Phrase Timestamps"
+    },
+    "phoneme_timestamps": {
+      "anyOf": [
+        {
+          "items": {
+            "$ref": "#/$defs/Timestamp"
+          },
+          "type": "array"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Phoneme Timestamps"
+    },
+    "status": {
+      "enum": [
+        "READY",
+        "FAILED",
+        "MOCK"
+      ],
+      "title": "Status",
+      "type": "string"
+    }
+  },
+  "required": [
+    "voice_artifact_id",
+    "provider",
+    "model",
+    "voice_profile",
+    "audio_path",
+    "duration",
+    "sample_rate",
+    "channels",
+    "status"
+  ],
+  "title": "VoiceArtifact",
+  "type": "object"
+}

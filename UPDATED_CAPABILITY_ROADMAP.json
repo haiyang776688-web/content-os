@@ -1,0 +1,971 @@
+{
+  "schema_version": 1,
+  "release": "Phase 2.1 Provider Activation — pending real workflow gates",
+  "phase2_complete": false,
+  "status_definition": "READY means the explicitly bounded behavior below is implemented and tested, not full production acceptance.",
+  "capabilities": [
+    {
+      "capability_id": "CAP-001",
+      "name": "Writing Rules",
+      "status": "READY",
+      "owner_module": "knowledge",
+      "contracts": [
+        "contracts/WRITINGRULE_SCHEMA.json",
+        "contracts/RULESET_SCHEMA.json"
+      ],
+      "ui_surface": "08 正式规则 JSON 编辑器；其他页面只读",
+      "artifacts": "WRITING_RULE_SET / RULE_CATALOG",
+      "tests": [
+        "test_hard_override_and_soft_resolution",
+        "test_rule_set_revision_is_append_only_and_next_snapshot_reads_it"
+      ],
+      "implemented": "08 版本化规则、下一轮快照读取、HARD 防覆盖已实现",
+      "known_limitations": "没有自动规则推荐；规则为项目级，跨项目继承待实现",
+      "deferred": false,
+      "provider_live_verified": null,
+      "prerequisites": [
+        "PRIM-STORAGE"
+      ],
+      "integrates_with": [],
+      "optional_integrations": [],
+      "consumers": [
+        "CAP-002",
+        "CAP-003",
+        "CAP-004",
+        "CAP-006"
+      ]
+    },
+    {
+      "capability_id": "CAP-002",
+      "name": "Hook Rules",
+      "status": "READY",
+      "owner_module": "knowledge",
+      "contracts": [
+        "contracts/HOOKRULESET_SCHEMA.json"
+      ],
+      "ui_surface": "08 Hook 配置；生产读取快照",
+      "artifacts": "HOOK_RULE_SET",
+      "tests": [
+        "test_rule_set_revision_is_append_only_and_next_snapshot_reads_it"
+      ],
+      "implemented": "七种 Hook 类型和约束进入生产上下文",
+      "known_limitations": "模型是否写出高质量 Hook 仍需真实审计与人工判断",
+      "deferred": false,
+      "provider_live_verified": null,
+      "prerequisites": [
+        "CAP-001"
+      ],
+      "integrates_with": [],
+      "optional_integrations": [],
+      "consumers": []
+    },
+    {
+      "capability_id": "CAP-003",
+      "name": "Retention Rules",
+      "status": "IMPLEMENTING",
+      "owner_module": "knowledge / production",
+      "contracts": [
+        "contracts/RETENTIONRULESET_SCHEMA.json",
+        "contracts/BEAT_SCHEMA.json"
+      ],
+      "ui_surface": "08 配置；Director 表显示 reveal / retention",
+      "artifacts": "RETENTION_RULE_SET / DIRECTOR_IR",
+      "tests": [
+        "test_hard_override_and_soft_resolution",
+        "test_director_ir_missing_slot_no_pixels_and_owner"
+      ],
+      "implemented": "规则快照、Beat retention_function 和分层 reveal 已接通",
+      "known_limitations": "尚未完整实现规则驱动的节奏优化与全部复杂转场；不能保证留存效果",
+      "deferred": true,
+      "provider_live_verified": null,
+      "prerequisites": [
+        "CAP-001"
+      ],
+      "integrates_with": [
+        "CAP-009",
+        "CAP-011"
+      ],
+      "optional_integrations": [],
+      "consumers": []
+    },
+    {
+      "capability_id": "CAP-004",
+      "name": "Editorial Voice",
+      "status": "READY",
+      "owner_module": "knowledge",
+      "contracts": [
+        "contracts/EDITORIALVOICEPROFILE_SCHEMA.json"
+      ],
+      "ui_surface": "08 文风配置；Script 快照只读",
+      "artifacts": "EDITORIAL_VOICE",
+      "tests": [
+        "test_rule_set_revision_is_append_only_and_next_snapshot_reads_it"
+      ],
+      "implemented": "文风与声音配置分离并版本化",
+      "known_limitations": "此能力不合成音频；真实本地配音执行器未迁入",
+      "deferred": false,
+      "provider_live_verified": null,
+      "prerequisites": [
+        "CAP-001"
+      ],
+      "integrates_with": [],
+      "optional_integrations": [],
+      "consumers": []
+    },
+    {
+      "capability_id": "CAP-005",
+      "name": "Humanize Integrity",
+      "status": "IMPLEMENTING",
+      "owner_module": "knowledge / runtime",
+      "contracts": [
+        "contracts/BOUNDSCRIPT_SCHEMA.json"
+      ],
+      "ui_surface": "事实 / 脚本页 Humanize；BLOCKED / 审计状态",
+      "artifacts": "SCRIPT / AUDIT / SCRIPT_GATE",
+      "tests": [
+        "test_humanize_numeric_change_blocks_h2",
+        "test_blind_review_rejects_other_opinions_and_h2_mock_risk"
+      ],
+      "implemented": "保守数字、实体、极性、Fact 绑定变化检测；新版本必须重审",
+      "known_limitations": "代码不能证明自然语言语义等价；规则覆盖有限；Doubao 真实调用未验收",
+      "deferred": true,
+      "provider_live_verified": false,
+      "prerequisites": [
+        "CAP-007"
+      ],
+      "integrates_with": [
+        "CAP-006"
+      ],
+      "optional_integrations": [],
+      "consumers": []
+    },
+    {
+      "capability_id": "CAP-006",
+      "name": "Layered Skills",
+      "status": "IMPLEMENTING",
+      "owner_module": "knowledge",
+      "contracts": [
+        "contracts/SKILLLAYER_SCHEMA.json",
+        "contracts/EFFECTIVESKILLSNAPSHOT_SCHEMA.json"
+      ],
+      "ui_surface": "阶段 / 历史显示版本、层次和覆盖",
+      "artifacts": "EFFECTIVE_SKILL_SNAPSHOT_<ROLE>",
+      "tests": [
+        "test_hard_override_and_soft_resolution",
+        "test_role_run_keeps_run_layer_snapshot_and_does_not_resolve_over_it"
+      ],
+      "implemented": "六层解析顺序、HARD 禁覆盖、SOFT 覆盖记录、生产快照依赖",
+      "known_limitations": "ROLE / PROJECT / CHARACTER_STYLE 层可通过请求传入，尚无完整图形化管理与自动目录装载",
+      "deferred": true,
+      "provider_live_verified": null,
+      "prerequisites": [
+        "CAP-001"
+      ],
+      "integrates_with": [
+        "CAP-007",
+        "CAP-012",
+        "CAP-016"
+      ],
+      "optional_integrations": [],
+      "consumers": []
+    },
+    {
+      "capability_id": "CAP-007",
+      "name": "Fact Pack / Source Ledger",
+      "status": "READY",
+      "owner_module": "knowledge",
+      "contracts": [
+        "contracts/FACTPACK_SCHEMA.json",
+        "contracts/SOURCE_SCHEMA.json",
+        "contracts/BOUNDSCRIPT_SCHEMA.json"
+      ],
+      "ui_surface": "事实 / 脚本页；JSON 新版本",
+      "artifacts": "FACT_PACK / SOURCE_<ID> / source_ledger.jsonl",
+      "tests": [
+        "test_source_ledger_append_and_selective_source_revision",
+        "test_bound_script_negative"
+      ],
+      "implemented": "SOURCE → exact EVIDENCE_REF → FACT → CLAIM_UNIT v2 → SCRIPT；来源变更传播，coverage疑似声明和独立审计/H2否决已接通",
+      "known_limitations": "旧版本可读但不自动转换成strict证据；detector为启发式，事实语义和来源可信度仍需独立审计/人工",
+      "deferred": false,
+      "provider_live_verified": null,
+      "prerequisites": [
+        "PRIM-STORAGE"
+      ],
+      "integrates_with": [],
+      "optional_integrations": [],
+      "consumers": [
+        "CAP-005",
+        "CAP-012",
+        "CAP-015",
+        "CAP-026"
+      ]
+    },
+    {
+      "capability_id": "CAP-008",
+      "name": "Scene",
+      "status": "READY",
+      "owner_module": "production",
+      "contracts": [
+        "contracts/SCENE_SCHEMA.json",
+        "contracts/DIRECTORIR_SCHEMA.json"
+      ],
+      "ui_surface": "导演表 Scene / Beat 分组",
+      "artifacts": "DIRECTOR_IR.scenes",
+      "tests": [
+        "test_director_ir_missing_slot_no_pixels_and_owner"
+      ],
+      "implemented": "场景职责、脚本范围、时长和 Beat 成员校验",
+      "known_limitations": "Scene 为 IR 内正式对象，不是独立数据库实体；分组质量需审查",
+      "deferred": false,
+      "provider_live_verified": null,
+      "prerequisites": [
+        "PRIM-STORAGE"
+      ],
+      "integrates_with": [],
+      "optional_integrations": [],
+      "consumers": [
+        "CAP-009",
+        "CAP-012"
+      ]
+    },
+    {
+      "capability_id": "CAP-009",
+      "name": "Beat",
+      "status": "READY",
+      "owner_module": "production",
+      "contracts": [
+        "contracts/BEAT_SCHEMA.json",
+        "contracts/DIRECTORIR_SCHEMA.json"
+      ],
+      "ui_surface": "导演表逐 Beat 修改",
+      "artifacts": "DIRECTOR_IR.beats",
+      "tests": [
+        "test_director_ir_missing_slot_no_pixels_and_owner",
+        "test_media_lock_and_source_range_survive_ir_generation"
+      ],
+      "implemented": "Beat时长保持导演意图；正式时序由hash绑定的AudioTimingMap重定时",
+      "known_limitations": "无timestamp时必须显式对齐；没有自动强制对齐/ASR；phrase内字幕拆分记录比例估算，不伪称词级对齐",
+      "deferred": false,
+      "provider_live_verified": null,
+      "prerequisites": [
+        "CAP-008"
+      ],
+      "integrates_with": [
+        "CAP-012"
+      ],
+      "optional_integrations": [],
+      "consumers": [
+        "CAP-012"
+      ]
+    },
+    {
+      "capability_id": "CAP-010",
+      "name": "Director + Design Table",
+      "status": "READY",
+      "owner_module": "production",
+      "contracts": [
+        "contracts/DIRECTORIR_SCHEMA.json"
+      ],
+      "ui_surface": "导演 / 分镜表；Pattern / Keyword / Motion / Slots 编辑",
+      "artifacts": "DIRECTOR_IR + derived design_table",
+      "tests": [
+        "test_edit_owner_revision_conflict_and_font_undo_redo",
+        "test_director_ir_missing_slot_no_pixels_and_owner"
+      ],
+      "implemented": "IR 是语义真源；设计表为投影；改表形成新 IR 和命令",
+      "known_limitations": "高级卡片编辑仍是 JSON Slots；部分导演意图仅供审查",
+      "deferred": false,
+      "provider_live_verified": null,
+      "prerequisites": [
+        "CAP-012"
+      ],
+      "integrates_with": [
+        "CAP-013",
+        "CAP-014"
+      ],
+      "optional_integrations": [],
+      "consumers": []
+    },
+    {
+      "capability_id": "CAP-011",
+      "name": "Visual Pattern Library",
+      "status": "IMPLEMENTING",
+      "owner_module": "production",
+      "contracts": [
+        "contracts/VISUALPATTERN_SCHEMA.json"
+      ],
+      "ui_surface": "八种 Pattern 下拉选择；真实分镜",
+      "artifacts": "DIRECTOR_IR / EDT / registry",
+      "tests": [
+        "test_director_ir_missing_slot_no_pixels_and_owner",
+        "test_media_lock_and_source_range_survive_ir_generation"
+      ],
+      "implemented": "八种语义Pattern经VisualResolver接入现有12 XVT/48 XACT/33 ELM、字体/媒体/Style，产出RVC后生成EDT",
+      "known_limitations": "各模板具备确定性基础版式；复杂动作序列、对象跟踪和高级布局仍未完成；本轮只有一个组合实际短渲染",
+      "deferred": true,
+      "provider_live_verified": null,
+      "prerequisites": [
+        "PRIM-REGISTRY"
+      ],
+      "integrates_with": [
+        "CAP-022"
+      ],
+      "optional_integrations": [],
+      "consumers": [
+        "CAP-012"
+      ]
+    },
+    {
+      "capability_id": "CAP-012",
+      "name": "Director IR",
+      "status": "READY",
+      "owner_module": "production",
+      "contracts": [
+        "contracts/DIRECTORIR_SCHEMA.json"
+      ],
+      "ui_surface": "导演 JSON / 表格；只读版本历史",
+      "artifacts": "DIRECTOR_IR",
+      "tests": [
+        "test_plain_import_cannot_bypass_bound_script_and_director_has_no_font_ids",
+        "test_director_ir_missing_slot_no_pixels_and_owner"
+      ],
+      "implemented": "ID/成员/脚本/时长/Pattern 约束，禁止像素和字体绑定",
+      "known_limitations": "转场与 Slots 部分为开放字典；复杂语义需人工审查",
+      "deferred": false,
+      "provider_live_verified": null,
+      "prerequisites": [
+        "CAP-007",
+        "CAP-008",
+        "CAP-009",
+        "CAP-011"
+      ],
+      "integrates_with": [],
+      "optional_integrations": [],
+      "consumers": [
+        "CAP-010",
+        "CAP-013"
+      ]
+    },
+    {
+      "capability_id": "CAP-013",
+      "name": "Timeline Canonical Model V2",
+      "status": "READY",
+      "owner_module": "production / migration",
+      "contracts": [
+        "contracts/EDT_SCHEMA.json",
+        "contracts/EDTCLIP_SCHEMA.json"
+      ],
+      "ui_surface": "多轨时间轴；来源和版本信息",
+      "artifacts": "EDT / VISUAL_EDT",
+      "tests": [
+        "test_edt_v1_upgrade_preserves_ranges_and_does_not_infer_bindings",
+        "test_media_lock_and_source_range_survive_ir_generation"
+      ],
+      "implemented": "Scene/Beat/IR/Origin/EditSource/Pattern provenance；V1 保守升级；原素材范围保留",
+      "known_limitations": "V1 无法自动补出语义绑定；迁移由离线工具显式执行；高级 NLE 不在本轮",
+      "deferred": false,
+      "provider_live_verified": null,
+      "prerequisites": [
+        "CAP-012"
+      ],
+      "integrates_with": [
+        "CAP-014",
+        "CAP-022"
+      ],
+      "optional_integrations": [],
+      "consumers": [
+        "CAP-017",
+        "CAP-018",
+        "CAP-021",
+        "CAP-023",
+        "CAP-027"
+      ]
+    },
+    {
+      "capability_id": "CAP-014",
+      "name": "Unified Edit Commands",
+      "status": "IMPLEMENTING",
+      "owner_module": "production / editing",
+      "contracts": [
+        "contracts/EDITCOMMAND_SCHEMA.json"
+      ],
+      "ui_surface": "时间轴、Director 和 Typography 编辑；Undo / Redo",
+      "artifacts": "EDIT_COMMAND / edit_cursors / append events",
+      "tests": [
+        "test_multi_step_undo_redo_and_new_edit_clears_redo",
+        "test_edit_owner_revision_conflict_and_font_undo_redo"
+      ],
+      "implemented": "Script/IR/EDT/MediaSelection/Typography 共用命令、乐观版本检查、多步 Undo / Redo",
+      "known_limitations": "Sources、Facts、正式规则与 Config 仍走各自拥有者版本 API；模型生成已记命令，但所有生成动作尚未接入撤销栈",
+      "deferred": true,
+      "provider_live_verified": null,
+      "prerequisites": [
+        "PRIM-STORAGE",
+        "PRIM-OWNERSHIP"
+      ],
+      "integrates_with": [
+        "CAP-012",
+        "CAP-013",
+        "CAP-022"
+      ],
+      "optional_integrations": [],
+      "consumers": [
+        "CAP-022"
+      ]
+    },
+    {
+      "capability_id": "CAP-015",
+      "name": "Asset Intelligence",
+      "status": "IMPLEMENTING",
+      "owner_module": "phase2.intelligence / embeddings",
+      "contracts": [
+        "contracts/MEDIAASSET_SCHEMA.json",
+        "contracts/VIRTUALCLIP_SCHEMA.json"
+      ],
+      "ui_surface": "素材页本地切分、标注、隐私与检索",
+      "artifacts": "ASSET_INTELLIGENCE_<ID> / keyframes / virtual_clips",
+      "tests": [
+        "test_asset_privacy_scene_caption_transcript_and_optional_semantic_search",
+        "test_media_caption_retains_model_provenance_and_changed_original_blocks"
+      ],
+      "implemented": "真实 ffmpeg 场景/关键帧；标注及人工 Transcript 检索；可选本地向量适配器；显式 M3 图像描述接口",
+      "known_limitations": "自动 ASR 未实现；本地向量模型未安装，真实模型未验收；自动描述无 UI 按钮；关键帧最多20，云描述最多3",
+      "deferred": true,
+      "provider_live_verified": false,
+      "prerequisites": [
+        "CAP-007"
+      ],
+      "integrates_with": [
+        "CAP-013"
+      ],
+      "optional_integrations": [
+        "CAP-019"
+      ],
+      "consumers": []
+    },
+    {
+      "capability_id": "CAP-016",
+      "name": "Stage Cache",
+      "status": "IMPLEMENTING",
+      "owner_module": "stages",
+      "contracts": [
+        "contracts/STAGESTATE_SCHEMA.json"
+      ],
+      "ui_surface": "阶段 / 历史十四阶段",
+      "artifacts": "STAGE_<NAME> / rebuildable SQLite projection",
+      "tests": [
+        "test_stage_cache_late_resume_rebuild_and_input_change",
+        "test_stage_resume_reuses_primary_after_editor_supersedes_canonical_script",
+        "test_stage_running_is_live_and_replacing_input_does_not_stale_own_stage"
+      ],
+      "implemented": "输入、配置、Worker、Prompt、Skill Hash；缓存、DIRTY、失败续跑；历史主稿仅供 Editor 回放",
+      "known_limitations": "没有全自动调度器、后台队列、取消；部分检查为 fresh record；各阶段由用户/API 发起",
+      "deferred": true,
+      "provider_live_verified": null,
+      "prerequisites": [
+        "PRIM-STORAGE"
+      ],
+      "integrates_with": [
+        "CAP-006",
+        "CAP-013"
+      ],
+      "optional_integrations": [],
+      "consumers": []
+    },
+    {
+      "capability_id": "CAP-017",
+      "name": "Storyboard Gate",
+      "status": "READY",
+      "owner_module": "production",
+      "contracts": [
+        "contracts/DIRECTORIR_SCHEMA.json",
+        "contracts/ARTIFACT_SCHEMA.json"
+      ],
+      "ui_surface": "每 Beat 真实起止帧；批准/退回；部分批准 API",
+      "artifacts": "STORYBOARD / STORYBOARD_GATE / CHANGE_REQUEST",
+      "tests": [
+        "test_storyboard_gate_is_visual_specific_and_new_ir_invalidates",
+        "test_storyboard_rejection_routes_to_director",
+        "test_storyboard_partial_approval_accumulates_only_for_same_board"
+      ],
+      "implemented": "同版本所有 Beat 获批才能配音/渲染；音频加入不误失效；视觉变更必须重审",
+      "known_limitations": "当前自动诊断的审核人均为模拟；UI 以全量批准为主；局部批准使用 API",
+      "deferred": false,
+      "provider_live_verified": null,
+      "prerequisites": [
+        "CAP-013",
+        "PRIM-RENDER"
+      ],
+      "integrates_with": [
+        "CAP-022",
+        "CAP-023"
+      ],
+      "optional_integrations": [],
+      "consumers": [
+        "CAP-020"
+      ]
+    },
+    {
+      "capability_id": "CAP-018",
+      "name": "Mechanical QA",
+      "status": "IMPLEMENTING",
+      "owner_module": "production",
+      "contracts": [
+        "contracts/QAREPORT_SCHEMA.json"
+      ],
+      "ui_surface": "QA 页机械检查与 Owner Finding",
+      "artifacts": "MECHANICAL_QA / CHANGE_REQUEST",
+      "tests": [
+        "test_mechanical_qa_subtitle_and_voice_veto",
+        "test_font_snapshot_glyph_strict_fallback_missing",
+        "test_visual_binding_change_stales_edt_but_interface_language_does_not"
+      ],
+      "implemented": "基础生产校验及11项geometry检查已接入：安全区、裁切/溢出、碰撞、字幕、字号、密度和静帧；模板可声明合法重叠",
+      "known_limitations": "字体advances/alpha bbox为确定性几何近似，非浏览器字形像素认证；密度/静帧阈值不替代语义或审美判断，复杂motion检查仍有限",
+      "deferred": true,
+      "provider_live_verified": null,
+      "prerequisites": [
+        "CAP-013",
+        "CAP-022"
+      ],
+      "integrates_with": [
+        "CAP-017",
+        "CAP-023"
+      ],
+      "optional_integrations": [],
+      "consumers": [
+        "CAP-019",
+        "CAP-020"
+      ]
+    },
+    {
+      "capability_id": "CAP-019",
+      "name": "MiniMax Visual QA",
+      "status": "IMPLEMENTING",
+      "owner_module": "intelligence / model gateway",
+      "contracts": [
+        "contracts/MODELREQUEST_SCHEMA.json",
+        "contracts/CONTENTBLOCK_SCHEMA.json",
+        "contracts/QAREPORT_SCHEMA.json"
+      ],
+      "ui_surface": "QA 页 Mock / MiniMax Worker、健康状态及上传确认",
+      "artifacts": "VIDEO_QA / CHANGE_REQUEST",
+      "tests": [
+        "test_minimax_gateway_maps_video_and_never_uploads_local",
+        "test_videoqa_veto_timestamp_privacy_and_review_freshness"
+      ],
+      "implemented": "M3 视频输入映射；先机械 QA；时间戳/Owner 输出校验；FAIL 只退回不改稿；本地隐私策略阻断上传",
+      "known_limitations": "真实请求未运行，无 API key；本轮全部视频审查结果为 Mock；视频内联大小受限",
+      "deferred": true,
+      "provider_live_verified": false,
+      "prerequisites": [
+        "CAP-018"
+      ],
+      "integrates_with": [
+        "CAP-020"
+      ],
+      "optional_integrations": [],
+      "consumers": []
+    },
+    {
+      "capability_id": "CAP-020",
+      "name": "Review Pack",
+      "status": "READY",
+      "owner_module": "production",
+      "contracts": [
+        "contracts/ARTIFACT_SCHEMA.json",
+        "contracts/QAREPORT_SCHEMA.json"
+      ],
+      "ui_surface": "QA / 终稿页；引用列表与风险确认",
+      "artifacts": "REVIEW_PACK / REVIEW_GATE",
+      "tests": [
+        "test_videoqa_veto_timestamp_privacy_and_review_freshness"
+      ],
+      "implemented": "引用原产物 ID/hash、Script diff、QA/字体/导出损失、过期阻断；H3 与发布权限分离",
+      "known_limitations": "H3 自动诊断只是模拟；vNext 的 H1/H4 正式界面与平台发布 API 尚未实现",
+      "deferred": false,
+      "provider_live_verified": null,
+      "prerequisites": [
+        "CAP-017",
+        "CAP-018"
+      ],
+      "integrates_with": [
+        "CAP-019",
+        "CAP-021",
+        "CAP-022"
+      ],
+      "optional_integrations": [
+        "CAP-019",
+        "CAP-021"
+      ],
+      "consumers": []
+    },
+    {
+      "capability_id": "CAP-021",
+      "name": "Jianying Exporter",
+      "status": "IMPLEMENTING",
+      "owner_module": "exporters.jianying",
+      "contracts": [
+        "contracts/EDT_SCHEMA.json",
+        "contracts/VIRTUALCLIP_SCHEMA.json"
+      ],
+      "ui_surface": "Render 原生导出按钮；损失报告",
+      "artifacts": "EXPORT / native draft / transfer sidecars",
+      "tests": [
+        "test_native_canvas_preserves_foreground_gaps_and_reports_font_losses",
+        "test_native_export_original_ranges_audio_text_and_degradation"
+      ],
+      "implemented": "原素材/范围、独立文字、音轨、静态变换；白底主轨避免磁吸吞空档；EXACT/APPROXIMATED/UNSUPPORTED",
+      "known_limitations": "本机11.5-beta5可打开/编辑/保存/重开/导出；字体和阴影未映射；裁切/运动/Reveal/锁定不完整；其他版本及反向导入未实现",
+      "deferred": true,
+      "provider_live_verified": null,
+      "prerequisites": [
+        "CAP-013"
+      ],
+      "integrates_with": [
+        "CAP-022"
+      ],
+      "optional_integrations": [],
+      "consumers": []
+    },
+    {
+      "capability_id": "CAP-022",
+      "name": "Font Intelligence / Typography System",
+      "status": "IMPLEMENTING",
+      "owner_module": "phase2.fonts / renderer",
+      "contracts": [
+        "contracts/FONTRECORD_SCHEMA.json",
+        "contracts/FONTROLE_SCHEMA.json",
+        "contracts/TYPOGRAPHYPROFILE_SCHEMA.json"
+      ],
+      "ui_surface": "字体页扫描/导入/搜索/分类/来源筛选/排序/五角色实时预览/Undo/Redo；Apply 后正式写入",
+      "artifacts": "FONT_REGISTRY cache / TYPOGRAPHY_PROFILE / PROJECT_FONT_SNAPSHOT",
+      "tests": [
+        "test_fonts_scan_cache_ttc_duplicate_faces_and_hash_changes",
+        "test_font_snapshot_glyph_strict_fallback_missing",
+        "test_edit_owner_revision_conflict_and_font_undo_redo",
+        "test_phase2_http_permissions_and_font_preview_is_read_only"
+      ],
+      "implemented": "原字体扫描/快照/字重/fallback/预览保留，Geometry与DependencyManifest消费同字体字节；可按hash显式Relink",
+      "known_limitations": "无完整字体迁移包/许可管理/预设体验；不分发系统字体；剪映字体损失仍保留",
+      "deferred": true,
+      "provider_live_verified": null,
+      "prerequisites": [
+        "PRIM-STORAGE",
+        "CAP-014"
+      ],
+      "integrates_with": [
+        "CAP-011",
+        "CAP-018",
+        "CAP-020",
+        "CAP-021",
+        "CAP-023"
+      ],
+      "optional_integrations": [],
+      "consumers": [
+        "CAP-018"
+      ]
+    },
+    {
+      "capability_id": "CAP-023",
+      "name": "Timeline Preview / Program Monitor",
+      "status": "READY",
+      "owner_module": "renderers.remotion / apps.workbench",
+      "contracts": [
+        "contracts/EDT_SCHEMA.json",
+        "derived PREVIEW_FRAME (non-canonical)"
+      ],
+      "ui_surface": "Timeline 上部播放器、Transport、播放头、片段选择和 Inspector",
+      "artifacts": "不创建 Preview Artifact；EDT + dependencies 的可重建投影",
+      "tests": [
+        "test_playhead_change_updates_preview",
+        "test_preview_does_not_mutate_edt",
+        "test_timeline_edit_updates_preview",
+        "test_typography_edit_updates_preview",
+        "test_media_rebind_updates_preview",
+        "test_preview_and_render_share_composition_resolver",
+        "test_preview_scrub_does_not_dirty_project",
+        "test_selected_clip_syncs_inspector",
+        "test_safe_area_is_projection_only",
+        "test_preview_time_matches_edt_timebase",
+        "test_refresh_pins_cannot_accept_obsolete_script",
+        "test_visual_pattern_rebuild_retains_audio_clock"
+      ],
+      "consumers": [],
+      "implemented": "同一 CompositionResolver 和同一 Remotion scene 供 Player / 正式 Render；30fps 时间码、Scrub、逐帧、Space、Fit/50%/100%、安全框；字体/素材/EDT/Pattern 通过正式命令刷新；已有诊断工程实际修改与10秒正式渲染对比通过",
+      "known_limitations": "预览实时性取决于浏览器、源素材和机器性能；视频素材与复杂布局未做大规模性能验收；新字体可预览，但正式渲染前需显式同步依赖并重新审核；导演应用明确重建视觉、保留音轨，会替换手动视觉调整；安全框是显示辅助，不是完整几何QA；本轮音频为测试音。",
+      "deferred": false,
+      "prerequisites": [
+        "CAP-013",
+        "PRIM-RENDER"
+      ],
+      "integrates_with": [
+        "CAP-022",
+        "CAP-017",
+        "CAP-020"
+      ],
+      "optional_integrations": [
+        "CAP-019"
+      ]
+    },
+    {
+      "capability_id": "CAP-024",
+      "name": "Workbench Internationalization",
+      "status": "READY",
+      "owner_module": "i18n / apps.workbench presentation",
+      "contracts": [
+        "vnext/i18n/registry.json"
+      ],
+      "ui_surface": "526 个集中翻译键；187 canonical enum presentation mappings；Workbench 主页面与 Phase2 编辑面板",
+      "artifacts": "Locale 是 localStorage UI preference，不属于生产依赖",
+      "tests": [
+        "test_zh_cn_has_no_untranslated_known_ui_tokens",
+        "test_en_us_has_no_chinese_ui_literals",
+        "test_locale_switch_does_not_mutate_project",
+        "test_locale_switch_does_not_dirty_stage",
+        "test_enum_values_remain_canonical",
+        "test_dynamic_status_is_localized",
+        "test_inspector_is_fully_localized",
+        "test_error_and_warning_are_localized",
+        "test_timeline_preview_controls_are_localized",
+        "test_model_brand_names_are_not_translated"
+      ],
+      "integrates_with": [
+        "CAP-001",
+        "CAP-002",
+        "CAP-003",
+        "CAP-004",
+        "CAP-005",
+        "CAP-006",
+        "CAP-007",
+        "CAP-008",
+        "CAP-009",
+        "CAP-010",
+        "CAP-011",
+        "CAP-012",
+        "CAP-013",
+        "CAP-014",
+        "CAP-015",
+        "CAP-016",
+        "CAP-017",
+        "CAP-018",
+        "CAP-019",
+        "CAP-020",
+        "CAP-021",
+        "CAP-022",
+        "CAP-023"
+      ],
+      "implemented": "中文/English 静态和动态显示映射；品牌、ID、Prompt ID、文件名和用户内容保留；技术数据显式折叠；语言切换保留页面/选中片段/节拍/编辑草稿；两种语言各10主页面、6编辑面板实际检查及生产状态相同证明",
+      "known_limitations": "历史原始日志和用户内容保留原文；未知后端错误默认给本地化说明并提供原文；今后新增能力必须登记新的翻译键与枚举映射；字体家族和文件格式保留原始名称。",
+      "deferred": false,
+      "prerequisites": [
+        "PRIM-UI"
+      ],
+      "optional_integrations": [],
+      "consumers": []
+    },
+    {
+      "capability_id": "CAP-025",
+      "name": "Provider Settings & Secret Management",
+      "status": "READY",
+      "owner_module": "providers / secrets",
+      "contracts": [],
+      "ui_surface": "Workbench → 设置 / 正式生产流程",
+      "artifacts": "配置基础设施及现有生产产物；不新增生产核心架构",
+      "tests": [
+        "vnext/tests/test_provider_activation.py"
+      ],
+      "implemented": "五页设置中心、稳定身份、macOS Keychain、安全与连接测试",
+      "known_limitations": "Windows / Linux 凭据存储尚未实现；自定义敏感 Headers 延后",
+      "deferred": false,
+      "provider_live_verified": true,
+      "prerequisites": [
+        "PRIM-STORAGE",
+        "PRIM-UI"
+      ],
+      "integrates_with": [],
+      "optional_integrations": [],
+      "consumers": [
+        "CAP-026",
+        "CAP-027",
+        "CAP-028"
+      ]
+    },
+    {
+      "capability_id": "CAP-026",
+      "name": "Real Provider Workflow UX",
+      "status": "IMPLEMENTING",
+      "owner_module": "providers / workbench",
+      "contracts": [],
+      "ui_surface": "Workbench → 设置 / 正式生产流程",
+      "artifacts": "配置基础设施及现有生产产物；不新增生产核心架构",
+      "tests": [
+        "vnext/tests/test_provider_activation.py"
+      ],
+      "implemented": "真实研究、主稿、润色、独立审计、人工 Gate 和正常表单入口",
+      "known_limitations": "真实模型、预配音分镜批准、84.76秒正式本地配音及时间线预览完成；当前待配音后分镜确认、正式MP4/VideoQA与H3。",
+      "deferred": false,
+      "provider_live_verified": true,
+      "prerequisites": [
+        "CAP-025",
+        "CAP-028",
+        "CAP-007"
+      ],
+      "integrates_with": [],
+      "optional_integrations": [],
+      "consumers": []
+    },
+    {
+      "capability_id": "CAP-027",
+      "name": "Native TTS Provider Integration",
+      "status": "IMPLEMENTING",
+      "owner_module": "providers.tts / audio",
+      "contracts": [],
+      "ui_surface": "Workbench → 设置 / 正式生产流程",
+      "artifacts": "配置基础设施及现有生产产物；不新增生产核心架构",
+      "tests": [
+        "vnext/tests/test_provider_activation.py"
+      ],
+      "implemented": "独立Voice Registry；MiniMax原生短试听；本地CosyVoice3正式九段84.76秒配音和物理时钟核验。",
+      "known_limitations": "豆包声音API仍401、权限未验证；该条正式视频与H3尚未完成；字幕仅实测段落边界和比例拆分，不是逐词对齐。",
+      "deferred": false,
+      "provider_live_verified": true,
+      "prerequisites": [
+        "CAP-025",
+        "CAP-013"
+      ],
+      "integrates_with": [],
+      "optional_integrations": [],
+      "consumers": []
+    },
+    {
+      "capability_id": "CAP-028",
+      "name": "Custom Provider / OpenAI-Compatible Gateway",
+      "status": "READY",
+      "owner_module": "providers / model gateway",
+      "contracts": [],
+      "ui_surface": "Workbench → 设置 / 正式生产流程",
+      "artifacts": "配置基础设施及现有生产产物；不新增生产核心架构",
+      "tests": [
+        "vnext/tests/test_provider_activation.py"
+      ],
+      "implemented": "多个自定义服务、自由地址和模型、真实连接验证与研究 Stage 来源记录",
+      "known_limitations": "仅 OpenAI Compatible 已实现；其他原生协议需要专用适配器",
+      "deferred": false,
+      "provider_live_verified": true,
+      "prerequisites": [
+        "CAP-025"
+      ],
+      "integrates_with": [],
+      "optional_integrations": [],
+      "consumers": [
+        "CAP-026"
+      ]
+    }
+  ],
+  "relation_semantics": "Only prerequisites block construction; consumers and integrations are descriptive.",
+  "architecture_hardening": {
+    "completed": true,
+    "date": "2026-09-27",
+    "bounded_checks": [
+      {
+        "area": "DAG",
+        "status": "READY",
+        "bounded_behavior": "Only prerequisites block construction; 24 capabilities + 5 primitives"
+      },
+      {
+        "area": "CLAIM_EVIDENCE",
+        "status": "READY",
+        "bounded_behavior": "Exact locators and hashes, per-claim binding, stale cascade, coverage decisions and H2 audit veto"
+      },
+      {
+        "area": "VISUAL_RESOLVER",
+        "status": "READY",
+        "bounded_behavior": "Existing 12 templates / 48 actions / 33 elements resolve into derived RVC and canonical EDT"
+      },
+      {
+        "area": "PROVIDER_TRUTH",
+        "status": "READY",
+        "bounded_behavior": "Actual adapter mapping governs assignment; unsupported protocols disabled; successful calls verify only exercised capabilities"
+      },
+      {
+        "area": "COST_BUDGET_FALLBACK",
+        "status": "READY",
+        "bounded_behavior": "Append attempt ledger, transactional USD estimates, project/daily/attempt veto, capability and privacy safe fallback"
+      },
+      {
+        "area": "AUDIO_CLOCK",
+        "status": "READY",
+        "bounded_behavior": "Physical audio hash/duration and approved script validation; exact provider timestamps or explicit alignment; beat/subtitle retiming"
+      },
+      {
+        "area": "VOICE_ADAPTERS",
+        "status": "READY",
+        "bounded_behavior": "Local argv bridge and explicit custom cloud JSON contract; local clone never cloud fallback"
+      },
+      {
+        "area": "GEOMETRY_QA",
+        "status": "READY",
+        "bounded_behavior": "Eleven deterministic checks with font metrics, image alpha bounds and declared overlap exceptions"
+      },
+      {
+        "area": "DEPENDENCY_MANIFEST",
+        "status": "READY",
+        "bounded_behavior": "Pinned file identity, missing/hash mismatch detection, explicit same-hash relink and model/prompt/skill tracking"
+      },
+      {
+        "area": "ARTIFACT_STATE",
+        "status": "READY",
+        "bounded_behavior": "Separate latest / dependencies valid / usable; invalid latest revisions veto production"
+      },
+      {
+        "area": "SOURCE_TOOL_BOUNDARY",
+        "status": "READY",
+        "bounded_behavior": "Untrusted source boundary and formal research operations; local document execution produces Source, no automatic Fact"
+      },
+      {
+        "area": "PREVIEW_I18N_COMPATIBILITY",
+        "status": "READY",
+        "bounded_behavior": "Same resolver/scene for Preview and Remotion; locale stays presentation only"
+      }
+    ],
+    "regression_tests_passed": 126,
+    "original_capability_status_counts": {
+      "READY": 13,
+      "IMPLEMENTING": 11
+    },
+    "live_verified_real_providers": 0,
+    "live_verified_real_voices": 0,
+    "mock_only": [
+      "model quality review evidence",
+      "video QA evidence",
+      "diagnostic voice and manual gate fixtures"
+    ],
+    "formal_production_pressure_test_completed": false,
+    "stop_condition": "Architecture hardening complete; no Phase 3 or new capability expansion. Real 60–90s pressure test remains future work."
+  },
+  "provider_activation_summary": {
+    "regression_tests_passed": 179,
+    "original_tests_unmodified": 126,
+    "new_tests": 53,
+    "live_verified_real_llm_providers": 5,
+    "live_verified_real_voice_previews": 2,
+    "formal_production_pressure_test_completed": false,
+    "pending_gate": "RETIMED_STORYBOARD_GATE",
+    "frozen_phase1_tests_passed": 12,
+    "frozen_files_unchanged": 186,
+    "protected_pack_files_unchanged": 85,
+    "report": "CONTENT_OS_PHASE2_1_PROVIDER_ACTIVATION_REPORT.md",
+    "current_director_live_verified": true,
+    "current_storyboard_real_images": 36,
+    "current_storyboard_human_approved": false,
+    "approved_prevoice_storyboard_gate": "ART-afca11ffce3a407e",
+    "formal_voice_duration": 84.76,
+    "formal_voice_artifact": "ART-ce387c3fce5546ee",
+    "current_storyboard_artifact": "ART-909b326b8e484416",
+    "current_edt_artifact": "ART-08e3f9d2408649d8",
+    "current_mechanical_qa_verdict": "PASS_WITH_RISK",
+    "timeline_preview_live_verified": true
+  }
+}

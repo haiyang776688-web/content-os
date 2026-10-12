@@ -1,0 +1,333 @@
+{
+  "artifact_id": "ART-e932a6d61fc342d0",
+  "project_id": "PRJ-df2146b8a6b1",
+  "artifact_type": "EDT",
+  "revision": 2,
+  "created_by_role": "TIMELINE",
+  "worker": null,
+  "provider": null,
+  "model": null,
+  "prompt_version": null,
+  "dependencies": [
+    {
+      "artifact_id": "ART-9b6c9b779c19418f",
+      "output_hash": "da12676ee8250df6605f85735e2299d894aca738db6bf6d3b11b52b9e4fe8a81"
+    },
+    {
+      "artifact_id": "ART-ff4b3070be6e4015",
+      "output_hash": "d15d4169536aa785735fe2a8752a932e8adf5804b11f56e87827df7346937aa6"
+    },
+    {
+      "artifact_id": "ART-c2da62eb3ca64775",
+      "output_hash": "89c202a9df5a21ae273e506ecaed24284bb0fe07dd2cddfc725b6c4b786ec09a"
+    },
+    {
+      "artifact_id": "ART-c54a40514d184879",
+      "output_hash": "2430b84c36a60077ccad4da9359630e91dd744f790ca9a0122d4084c61197181"
+    },
+    {
+      "artifact_id": "ART-573faed3b5f84057",
+      "output_hash": "7b57fedc5e19314d445eb99012976d432bc105304f260afc7b7a3fc805876115"
+    },
+    {
+      "artifact_id": "ART-39c9329dcb984e08",
+      "output_hash": "7bd6ab5c55ede59762cc0d9adfb91a066f7266bc78dd753c36d05063ff80409d"
+    },
+    {
+      "artifact_id": "ART-7b5e50c986bf4e2c",
+      "output_hash": "130426776f85458fd1aaa0a075d0ff81663752f7149a622e58041fb354a54d3e"
+    }
+  ],
+  "input_hash": "6afea6641f8d6a603296f3ad88cddcb6eea3c37eef1ae83655ddd7bb0bce1cfe",
+  "output_hash": "7ce9a9daf431489a9058f93f517635632697b41c8d058f359195605596537aa3",
+  "status": "READY",
+  "created_at": "2026-09-26T15:59:45.680035+00:00",
+  "payload": {
+    "edt_id": "EDT-d5f95706510f",
+    "schema_version": 2,
+    "canvas_color": "#FFFFFF",
+    "foreground_color": "#111111",
+    "typography_profile_id": "ART-c2da62eb3ca64775",
+    "typography_profile_hash": "89c202a9df5a21ae273e506ecaed24284bb0fe07dd2cddfc725b6c4b786ec09a",
+    "project_id": "PRJ-df2146b8a6b1",
+    "revision": 2,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tracks": [
+      "MEDIA",
+      "CHARACTER",
+      "TEXT",
+      "SUBTITLE",
+      "VOICE"
+    ],
+    "clips": [
+      {
+        "clip_id": "CLP-73d765aa0a473d8d",
+        "scene_id": "SC1",
+        "beat_id": "B1",
+        "ir_node_id": "B1",
+        "origin": "DIRECTOR_IR",
+        "edit_source": "VISUAL_RESOLVER",
+        "pattern_id": "CHARACTER_EXPLAIN_KEYWORD",
+        "track": "CHARACTER",
+        "asset_id": "MED-6862b2ac6cb7",
+        "source_in": 0.0,
+        "source_out": 2.96,
+        "timeline_in": 0.0,
+        "timeline_out": 2.96,
+        "position": {
+          "x": 0.2,
+          "y": 0.5
+        },
+        "scale": 0.88,
+        "crop": {},
+        "opacity": 1.0,
+        "motion": {},
+        "reveal": {},
+        "locked": false,
+        "hidden": false,
+        "muted": false,
+        "metadata": {
+          "template_id": "CHARACTER_LEFT_TEXT_RIGHT",
+          "resolved_composition_id": "ART-39c9329dcb984e08",
+          "overlap_allowed": [],
+          "action_id": "XACT-002",
+          "character_pack": "XIAO-Y_V1",
+          "calibration": {
+            "calibration_status": "CALIBRATED",
+            "content_bbox": {
+              "x": 0.06,
+              "y": 0.08085106382978724,
+              "w": 0.798,
+              "h": 0.9191489361702128
+            },
+            "character_bbox": {
+              "x": 0.06,
+              "y": 0.08085106382978724,
+              "w": 0.798,
+              "h": 0.9191489361702128
+            },
+            "anchor": {
+              "x": 0.459,
+              "y": 1.0
+            },
+            "recommended_scale": 0.7986111111111112,
+            "composition_class": "STANDARD",
+            "anchor_kind": "FOOT_BASELINE",
+            "preferred_placement": "LEFT",
+            "allowed_placements": [
+              "LEFT",
+              "CENTER",
+              "RIGHT"
+            ],
+            "calibration_source": "FRESH_AR0004_ALPHA_AND_VISUAL_REVIEW",
+            "safe_area_check": "PASS"
+          }
+        }
+      },
+      {
+        "clip_id": "CLP-0a1cdf7248ea6969",
+        "scene_id": "SC1",
+        "beat_id": "B1",
+        "ir_node_id": "B1",
+        "origin": "DIRECTOR_IR",
+        "edit_source": "VISUAL_RESOLVER",
+        "pattern_id": "CHARACTER_EXPLAIN_KEYWORD",
+        "track": "ELEMENT",
+        "asset_id": "MED-9a6ef08f049b",
+        "source_in": 0.0,
+        "source_out": 2.96,
+        "timeline_in": 0.0,
+        "timeline_out": 2.96,
+        "position": {
+          "x": 0.5,
+          "y": 0.73
+        },
+        "scale": 1.0,
+        "crop": {},
+        "opacity": 1.0,
+        "motion": {},
+        "reveal": {},
+        "locked": false,
+        "hidden": false,
+        "muted": false,
+        "metadata": {
+          "template_id": "CHARACTER_LEFT_TEXT_RIGHT",
+          "resolved_composition_id": "ART-39c9329dcb984e08",
+          "overlap_allowed": [],
+          "element_id": "ELM-CHECK",
+          "box": {
+            "width": 0.12,
+            "height": 0.16
+          }
+        }
+      },
+      {
+        "clip_id": "CLP-0f3d34ece3544c9e",
+        "scene_id": "SC1",
+        "beat_id": "B1",
+        "ir_node_id": "B1",
+        "origin": "DIRECTOR_IR",
+        "edit_source": "VISUAL_RESOLVER",
+        "pattern_id": "CHARACTER_EXPLAIN_KEYWORD",
+        "track": "TEXT",
+        "asset_id": null,
+        "source_in": 0.0,
+        "source_out": 2.96,
+        "timeline_in": 0.0,
+        "timeline_out": 2.96,
+        "position": {
+          "x": 0.67,
+          "y": 0.32
+        },
+        "scale": 1.0,
+        "crop": {},
+        "opacity": 1.0,
+        "motion": {
+          "kind": "FADE",
+          "reveal_order": [
+            "PRIMARY"
+          ]
+        },
+        "reveal": {
+          "delay": 0.0,
+          "order": 0
+        },
+        "locked": false,
+        "hidden": false,
+        "muted": false,
+        "metadata": {
+          "template_id": "CHARACTER_LEFT_TEXT_RIGHT",
+          "resolved_composition_id": "ART-39c9329dcb984e08",
+          "overlap_allowed": [],
+          "text": "Alpha / 3 items",
+          "typography_role": "KEYWORD",
+          "box": {
+            "width": 0.49
+          },
+          "semantic_level": "PRIMARY"
+        }
+      },
+      {
+        "clip_id": "CLP-366c4abbec25b81d",
+        "scene_id": null,
+        "beat_id": null,
+        "ir_node_id": null,
+        "origin": "AUDIO_TIMING_MAP",
+        "edit_source": "AUDIO_TIMING_MAP",
+        "pattern_id": null,
+        "track": "SUBTITLE",
+        "asset_id": null,
+        "source_in": 0.0,
+        "source_out": 1.48,
+        "timeline_in": 0.0,
+        "timeline_out": 1.48,
+        "position": {
+          "x": 0.5,
+          "y": 0.91
+        },
+        "scale": 1.0,
+        "crop": {},
+        "opacity": 1.0,
+        "motion": {},
+        "reveal": {},
+        "locked": false,
+        "hidden": false,
+        "muted": false,
+        "metadata": {
+          "text": "Alpha has 3 items",
+          "typography_role": "SUBTITLE",
+          "timing_source": "AUDIO_TIMING_MAP",
+          "audio_timing_hash": "130426776f85458fd1aaa0a075d0ff81663752f7149a622e58041fb354a54d3e",
+          "split_provenance": "ALIGNED_PHRASE",
+          "single_line": true,
+          "color": "#ffffff",
+          "background": null,
+          "box": {
+            "width": 0.9
+          }
+        }
+      },
+      {
+        "clip_id": "CLP-9222c2aae8bbc187",
+        "scene_id": null,
+        "beat_id": null,
+        "ir_node_id": null,
+        "origin": "AUDIO_TIMING_MAP",
+        "edit_source": "AUDIO_TIMING_MAP",
+        "pattern_id": null,
+        "track": "SUBTITLE",
+        "asset_id": null,
+        "source_in": 0.0,
+        "source_out": 1.48,
+        "timeline_in": 1.48,
+        "timeline_out": 2.96,
+        "position": {
+          "x": 0.5,
+          "y": 0.91
+        },
+        "scale": 1.0,
+        "crop": {},
+        "opacity": 1.0,
+        "motion": {},
+        "reveal": {},
+        "locked": false,
+        "hidden": false,
+        "muted": false,
+        "metadata": {
+          "text": "Alpha has 3 items",
+          "typography_role": "SUBTITLE",
+          "timing_source": "AUDIO_TIMING_MAP",
+          "audio_timing_hash": "130426776f85458fd1aaa0a075d0ff81663752f7149a622e58041fb354a54d3e",
+          "split_provenance": "ALIGNED_PHRASE",
+          "single_line": true,
+          "color": "#ffffff",
+          "background": null,
+          "box": {
+            "width": 0.9
+          }
+        }
+      },
+      {
+        "clip_id": "CLP-7e5c21be00037117",
+        "scene_id": null,
+        "beat_id": null,
+        "ir_node_id": null,
+        "origin": "AUDIO_TIMING_MAP",
+        "edit_source": "AUDIO_TIMING_MAP",
+        "pattern_id": null,
+        "track": "VOICE",
+        "asset_id": "MED-f32849acab8b",
+        "source_in": 0,
+        "source_out": 2.96,
+        "timeline_in": 0,
+        "timeline_out": 2.96,
+        "position": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "scale": 1,
+        "crop": {},
+        "opacity": 1,
+        "motion": {},
+        "reveal": {},
+        "locked": false,
+        "hidden": false,
+        "muted": false,
+        "metadata": {}
+      }
+    ],
+    "markers": [],
+    "source_artifacts": [
+      "ART-9b6c9b779c19418f",
+      "ART-ff4b3070be6e4015",
+      "ART-c2da62eb3ca64775",
+      "ART-c54a40514d184879",
+      "ART-573faed3b5f84057",
+      "ART-39c9329dcb984e08",
+      "ART-7b5e50c986bf4e2c"
+    ]
+  },
+  "current_status": "READY"
+}

@@ -1,0 +1,108 @@
+Bundling 6%
+Bundling 24%
+Bundling 36%
+Bundling 65%
+Bundling 71%
+Bundling 76%
+Bundling 81%
+Bundling 87%
+Bundling 92%
+Bundling 98%
+Bundling 100%
+Getting composition
+Composition          ContentOSPreview
+Codec                h264
+Output               ${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/examples/hardening/DIAGNOSTIC_AUDIO_CLOCK_FIXTURE.mp4
+Concurrency          2x
+Rendered 0/89
+Rendered 1/89, time remaining: 15s
+Rendered 2/89, time remaining: 10s
+Rendered 3/89, time remaining: 7s
+Rendered 4/89, time remaining: 6s
+Rendered 5/89, time remaining: 6s
+Rendered 6/89, time remaining: 5s
+Rendered 7/89, time remaining: 5s
+Rendered 8/89, time remaining: 5s
+Rendered 9/89, time remaining: 5s
+Rendered 10/89, time remaining: 5s
+Rendered 11/89, time remaining: 4s
+Rendered 12/89, time remaining: 4s
+Rendered 13/89, time remaining: 4s
+Rendered 14/89, time remaining: 4s
+Rendered 15/89, time remaining: 4s
+Rendered 16/89, time remaining: 4s
+Rendered 17/89, time remaining: 4s
+Rendered 18/89, time remaining: 4s
+Rendered 19/89, time remaining: 3s
+Rendered 20/89, time remaining: 3s
+Rendered 21/89, time remaining: 3s
+Rendered 22/89, time remaining: 3s
+Rendered 23/89, time remaining: 3s
+Rendered 24/89, time remaining: 3s
+Rendered 25/89, time remaining: 3s
+Rendered 26/89, time remaining: 3s
+Rendered 27/89, time remaining: 3s
+Rendered 28/89, time remaining: 3s
+Rendered 29/89, time remaining: 3s
+Rendered 30/89, time remaining: 3s
+Rendered 31/89, time remaining: 3s
+Rendered 32/89, time remaining: 3s
+Rendered 33/89, time remaining: 3s
+Rendered 34/89, time remaining: 3s
+Rendered 35/89, time remaining: 2s
+Rendered 36/89, time remaining: 2s
+Rendered 37/89, time remaining: 2s
+Rendered 38/89, time remaining: 2s
+Rendered 39/89, time remaining: 2s
+Rendered 40/89, time remaining: 2s
+Rendered 41/89, time remaining: 2s
+Rendered 42/89, time remaining: 2s
+Rendered 43/89, time remaining: 2s
+Rendered 44/89, time remaining: 2s
+Rendered 45/89, time remaining: 2s
+Rendered 46/89, time remaining: 2s
+Rendered 47/89, time remaining: 2s
+Rendered 48/89, time remaining: 2s
+Rendered 49/89, time remaining: 2s
+Rendered 50/89, time remaining: 2s
+Rendered 51/89, time remaining: 2s
+Rendered 52/89, time remaining: 1s
+Rendered 53/89, time remaining: 1s
+Rendered 54/89, time remaining: 1s
+Rendered 55/89, time remaining: 1s
+Rendered 56/89, time remaining: 1s
+Rendered 57/89, time remaining: 1s
+Rendered 58/89, time remaining: 1s
+Rendered 59/89, time remaining: 1s
+Rendered 60/89, time remaining: 1s
+Rendered 61/89, time remaining: 1s
+Rendered 62/89, time remaining: 1s
+Rendered 63/89, time remaining: 1s
+Rendered 64/89, time remaining: 1s
+Rendered 65/89, time remaining: 1s
+Rendered 66/89, time remaining: 1s
+Rendered 67/89, time remaining: 1s
+Rendered 68/89, time remaining: 1s
+Rendered 69/89, time remaining: 1s
+Rendered 70/89, time remaining: 1s
+Rendered 71/89, time remaining: 0s
+Rendered 72/89, time remaining: 0s
+Rendered 73/89, time remaining: 0s
+Rendered 74/89, time remaining: 0s
+Rendered 75/89, time remaining: 0s
+Rendered 76/89, time remaining: 0s
+Rendered 77/89, time remaining: 0s
+Rendered 78/89, time remaining: 0s
+Rendered 79/89, time remaining: 0s
+Rendered 80/89, time remaining: 0s
+Rendered 81/89, time remaining: 0s
+Rendered 82/89, time remaining: 0s
+Rendered 83/89, time remaining: 0s
+Rendered 84/89, time remaining: 0s
+Rendered 85/89, time remaining: 0s
+Rendered 86/89, time remaining: 0s
+Rendered 87/89, time remaining: 0s
+Rendered 88/89, time remaining: 0s
+Rendered 89/89
+Encoded 89/89
+○                    ${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/examples/hardening/DIAGNOSTIC_AUDIO_CLOCK_FIXTURE.mp4 229 kB

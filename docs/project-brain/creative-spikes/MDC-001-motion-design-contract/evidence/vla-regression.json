@@ -1,0 +1,241 @@
+{
+  "status": "PASS",
+  "production_default": "CURRENT",
+  "motion_design_default": "DISABLED",
+  "visual_regression": "NONE; A/B reviewed contact sheets are byte-identical to MPH baseline",
+  "tests": {
+    "A": {
+      "status": "PASS",
+      "render": {
+        "duration": 19.178667,
+        "frames": 574,
+        "resolution": [
+          1920,
+          1080
+        ],
+        "fps": "30/1",
+        "has_audio": true,
+        "audio_hash": "SHA256=a4b438037280fe1abeaf0f78ef11737cbf1ce54e759e32bbd038098373c4995b",
+        "sha256": "a8eff102f63729d928744a7563e6b6335a1545785ab69e4c6f660662b294be20",
+        "bytes": 2822785
+      },
+      "storyboard_gate": {
+        "status": "APPROVED",
+        "reviewer": "VLA_SPIKE_REVIEW_OPERATOR",
+        "edit_count": 0,
+        "render_was_gated": true
+      },
+      "distributions": {
+        "visual_jobs": {
+          "TRANSITION": 2,
+          "DEMONSTRATE": 1,
+          "PROVE": 2,
+          "REACT": 1,
+          "WARN": 2,
+          "EXPLAIN": 1,
+          "SUMMARIZE": 1
+        },
+        "visual_modes": {
+          "BRAND_BALANCED": 7,
+          "EVIDENCE_HEAVY": 3
+        },
+        "shot_types": {
+          "CHARACTER_INTRO": 2,
+          "EVIDENCE_FOCUS": 1,
+          "EVIDENCE_HIGHLIGHT": 4,
+          "CHARACTER_REACTION": 1,
+          "CHARACTER_RESPONSIBILITY": 1,
+          "RELATION_EXPLAIN": 1
+        },
+        "evidence_treatments": {
+          "DETAIL_CROP": 4,
+          "FOCUS_REGION": 1,
+          "HIGHLIGHT_REGION": 4,
+          "RELATION": 1
+        },
+        "character_roles": {
+          "GUIDE": 1,
+          "REACTION": 1,
+          "RESPONSIBILITY": 1,
+          "TRANSITION": 1,
+          "SUMMARY": 1
+        }
+      },
+      "contracts": {
+        "one_primary": true,
+        "geometry_owner": "VISUAL_COMPILER_V1",
+        "renderer_policy_free": true,
+        "all_generated_fields_consumed": true
+      },
+      "specific": {
+        "visual_job_sequence_equal": true,
+        "shot_count_equal": true,
+        "script_hash_equal": true,
+        "frozen_audio_present": true
+      },
+      "motion_design_enabled": false,
+      "motion_design_qa": {
+        "verdict": "NOT_RUN",
+        "check": "MOTION_DESIGN_CONTRACT",
+        "issues": []
+      },
+      "motion_primitive_qa": {
+        "verdict": "PASS",
+        "check": "MOTION_PRIMITIVE_CAPABILITY_CONTRACT",
+        "contract_id": "XIAOY_MOTION_PRIMITIVE_V1",
+        "declared_primitive_count": 11,
+        "implemented_primitive_count": 11,
+        "checked_visual_clips": 57,
+        "emitted_primitives": {
+          "NONE": 27,
+          "FADE_IN": 5,
+          "LABEL_REVEAL": 10,
+          "FOLLOW_PATH": 1,
+          "PUSH_IN": 2,
+          "DRAW_UNDERLINE": 4,
+          "POP_CUT": 4,
+          "RETURN_TO_ANCHOR": 1,
+          "DRAW_CONNECTION": 1,
+          "SETTLE_HOLD": 2
+        },
+        "issues": []
+      },
+      "asset_aspect_ratio_qa": {
+        "verdict": "PASS",
+        "check": "ASSET_ASPECT_RATIO_INVARIANT",
+        "tolerance_percent": 0.5,
+        "checked_registered_assets": 15,
+        "issues": []
+      },
+      "contact_sheet_sha256": "6e58ec76859564d48356d4c2582c78bf7b1ffaa86874b690a6062ad4e9162f8e",
+      "mph_contact_sheet_sha256": "6e58ec76859564d48356d4c2582c78bf7b1ffaa86874b690a6062ad4e9162f8e",
+      "contact_sheet_pixel_output_identical_to_mph": true
+    },
+    "B": {
+      "status": "PASS",
+      "render": {
+        "duration": 44.6,
+        "frames": 1338,
+        "resolution": [
+          1920,
+          1080
+        ],
+        "fps": "30/1",
+        "has_audio": false,
+        "audio_hash": null,
+        "sha256": "a338238d77b6958d0af77e4fc4725eff3d345e9f62a00ee8d8d83b72c21d3708",
+        "bytes": 2569779
+      },
+      "storyboard_gate": {
+        "status": "APPROVED",
+        "reviewer": "VLA_SPIKE_REVIEW_OPERATOR",
+        "edit_count": 2,
+        "render_was_gated": true
+      },
+      "distributions": {
+        "visual_jobs": {
+          "TRANSITION": 2,
+          "PROVE": 2,
+          "EXPLAIN": 1,
+          "DEMONSTRATE": 2,
+          "WARN": 1,
+          "SUMMARIZE": 1
+        },
+        "visual_modes": {
+          "BRAND_BALANCED": 5,
+          "EVIDENCE_HEAVY": 4
+        },
+        "shot_types": {
+          "CHARACTER_INTRO": 2,
+          "EVIDENCE_HIGHLIGHT": 2,
+          "RELATION_EXPLAIN": 1,
+          "EVIDENCE_FOCUS": 2,
+          "CHARACTER_RESPONSIBILITY": 1,
+          "SUMMARY": 1
+        },
+        "evidence_treatments": {
+          "HIGHLIGHT_REGION": 2,
+          "RELATION": 1,
+          "FOCUS_REGION": 2,
+          "DETAIL_CROP": 1
+        },
+        "character_roles": {
+          "GUIDE": 1,
+          "RESPONSIBILITY": 1,
+          "TRANSITION": 1,
+          "SUMMARY": 1
+        }
+      },
+      "contracts": {
+        "one_primary": true,
+        "geometry_owner": "VISUAL_COMPILER_V1",
+        "renderer_policy_free": true,
+        "all_generated_fields_consumed": true
+      },
+      "specific": {
+        "duration_in_requested_range": true,
+        "new_script_id": "VLA-001-UNSEEN-SCRIPT",
+        "visual_job_count": 6,
+        "registered_evidence_used": true,
+        "mode_responsibility_change": true,
+        "shot_plan_hand_authored": false,
+        "human_pre_render_edits": [
+          {
+            "beat_id": "B-B04",
+            "shot_id": null,
+            "changes": {
+              "visual_job": "PROVE"
+            },
+            "reason": "The narration states a review requirement; the screenshot is proof, not a procedure demo."
+          },
+          {
+            "beat_id": "B-B04",
+            "shot_id": "VLA-001-B-S04",
+            "changes": {
+              "shot_type": "EVIDENCE_HIGHLIGHT",
+              "evidence_treatment": "HIGHLIGHT_REGION",
+              "motion_semantic": "FOCUS"
+            },
+            "reason": "Keep the Director inspector visible and highlight the registered semantic-field region."
+          }
+        ]
+      },
+      "motion_design_enabled": false,
+      "motion_design_qa": {
+        "verdict": "NOT_RUN",
+        "check": "MOTION_DESIGN_CONTRACT",
+        "issues": []
+      },
+      "motion_primitive_qa": {
+        "verdict": "PASS",
+        "check": "MOTION_PRIMITIVE_CAPABILITY_CONTRACT",
+        "contract_id": "XIAOY_MOTION_PRIMITIVE_V1",
+        "declared_primitive_count": 11,
+        "implemented_primitive_count": 11,
+        "checked_visual_clips": 50,
+        "emitted_primitives": {
+          "NONE": 28,
+          "FADE_IN": 3,
+          "LABEL_REVEAL": 9,
+          "PUSH_IN": 2,
+          "DRAW_UNDERLINE": 2,
+          "DRAW_CONNECTION": 1,
+          "FOLLOW_PATH": 2,
+          "POP_CUT": 2,
+          "SETTLE_HOLD": 1
+        },
+        "issues": []
+      },
+      "asset_aspect_ratio_qa": {
+        "verdict": "PASS",
+        "check": "ASSET_ASPECT_RATIO_INVARIANT",
+        "tolerance_percent": 0.5,
+        "checked_registered_assets": 10,
+        "issues": []
+      },
+      "contact_sheet_sha256": "4af6d7f9c29ee6265f111aa9d26cdbb7cc54999d94d726c3dbecea73cf29acbc",
+      "mph_contact_sheet_sha256": "4af6d7f9c29ee6265f111aa9d26cdbb7cc54999d94d726c3dbecea73cf29acbc",
+      "contact_sheet_pixel_output_identical_to_mph": true
+    }
+  }
+}

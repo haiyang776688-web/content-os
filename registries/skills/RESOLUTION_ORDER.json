@@ -1,0 +1,15 @@
+{
+  "layers": [
+    "CONSTITUTION",
+    "SYSTEM",
+    "ROLE",
+    "PROJECT",
+    "CHARACTER_STYLE",
+    "RUN"
+  ],
+  "reserved": [
+    "CONSTITUTION",
+    "SYSTEM"
+  ],
+  "hard_rules_override": false
+}

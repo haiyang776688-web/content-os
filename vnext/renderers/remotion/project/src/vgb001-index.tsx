@@ -1,0 +1,11 @@
+import React from 'react';
+import {Composition, registerRoot} from 'remotion';
+import {Film,FRAMES,FPS} from './vgb001/shared';
+import {DirectionA} from './vgb001/DirectionA';
+import {DirectionB} from './vgb001/DirectionB';
+import {DirectionC} from './vgb001/DirectionC';
+const A=()=> <Film><DirectionA/></Film>;
+const B=()=> <Film><DirectionB/></Film>;
+const C=()=> <Film><DirectionC/></Film>;
+const Root=()=> <>{[['VGB001A',A],['VGB001B',B],['VGB001C',C]].map(([id,component])=><Composition key={id as string} id={id as string} component={component as React.FC} durationInFrames={FRAMES} fps={FPS} width={1920} height={1080}/>)}</>;
+registerRoot(Root);

@@ -1,0 +1,188 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "project_id": {
+      "title": "Project Id",
+      "type": "string"
+    },
+    "project_name": {
+      "title": "Project Name",
+      "type": "string"
+    },
+    "interface_language": {
+      "default": "zh-CN",
+      "enum": [
+        "zh-CN",
+        "en-US"
+      ],
+      "title": "Interface Language",
+      "type": "string"
+    },
+    "content_language": {
+      "default": "zh-CN",
+      "title": "Content Language",
+      "type": "string"
+    },
+    "subtitle_language": {
+      "default": "zh-CN",
+      "title": "Subtitle Language",
+      "type": "string"
+    },
+    "character_pack": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Character Pack"
+    },
+    "style_pack": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Style Pack"
+    },
+    "element_pack": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Element Pack"
+    },
+    "voice_profile": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Voice Profile"
+    },
+    "render_profile": {
+      "default": "preview-1080p",
+      "title": "Render Profile",
+      "type": "string"
+    },
+    "privacy_mode": {
+      "default": "LOCAL_ONLY",
+      "enum": [
+        "LOCAL_ONLY",
+        "CLOUD_ALLOWED",
+        "ASK_BEFORE_UPLOAD"
+      ],
+      "title": "Privacy Mode",
+      "type": "string"
+    },
+    "fallback_policy": {
+      "default": "ASK",
+      "enum": [
+        "DISABLED",
+        "ASK",
+        "AUTO_SAFE"
+      ],
+      "title": "Fallback Policy",
+      "type": "string"
+    },
+    "worker_assignments": {
+      "additionalProperties": {
+        "type": "string"
+      },
+      "title": "Worker Assignments",
+      "type": "object"
+    },
+    "fallback_workers": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Fallback Workers",
+      "type": "array"
+    },
+    "model_pricing": {
+      "additionalProperties": {
+        "additionalProperties": {
+          "type": "number"
+        },
+        "type": "object"
+      },
+      "title": "Model Pricing",
+      "type": "object"
+    },
+    "budget": {
+      "additionalProperties": {
+        "anyOf": [
+          {
+            "type": "number"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "title": "Budget",
+      "type": "object"
+    },
+    "state": {
+      "default": "CREATED",
+      "title": "State",
+      "type": "string"
+    },
+    "phase2_enabled": {
+      "default": false,
+      "title": "Phase2 Enabled",
+      "type": "boolean"
+    },
+    "h2_script_artifact_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "H2 Script Artifact Id"
+    },
+    "timeline_artifact_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Timeline Artifact Id"
+    },
+    "created_at": {
+      "title": "Created At",
+      "type": "string"
+    }
+  },
+  "required": [
+    "project_id",
+    "project_name",
+    "created_at"
+  ],
+  "title": "ProjectConfig",
+  "type": "object"
+}

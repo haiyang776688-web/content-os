@@ -1,0 +1,88 @@
+{
+  "artifact_id": "ART-5b9591d9c30b40fe",
+  "project_id": "PRJ-b417f4c7957a",
+  "artifact_type": "SCRIPT",
+  "revision": 3,
+  "created_by_role": "SCRIPT_EDITOR",
+  "worker": null,
+  "provider": null,
+  "model": null,
+  "prompt_version": null,
+  "dependencies": [
+    {
+      "artifact_id": "ART-5cca4f2824cb4de8",
+      "output_hash": "8a81040875137953c151ff389aaf89b30825ce0c4eb566004d40386f02dc8fb6"
+    },
+    {
+      "artifact_id": "ART-a7a8cd6da3c449e6",
+      "output_hash": "219b432b165dd1cb2f86d693bc3673971a66a2f67267ad9af47321c8496bb6d7"
+    }
+  ],
+  "input_hash": "8ddefc6c111142ebef37ce7526c6357de16d11829809c62a6c58b94f758bb80c",
+  "output_hash": "be230459da33425e902c137d72eede3a4ffb3295dc6d60d69b9a9c931bf4da48",
+  "status": "READY",
+  "created_at": "2026-09-26T10:38:40.310946+00:00",
+  "payload": {
+    "text": "生产先读取规则，再使用已绑定来源的事实。\n脚本修改经过独立审计，确认方向后才进入导演设计。\n画面按主信息、次信息和辅助信息这3个层次依次展开。\n分镜退回责任部门，修复完成后再生成新的分镜版本。\n字幕保持单行白字，没有底板，沿固定基线显示。\n终稿确认和发布授权分别记录，完成终稿并不自动发布。",
+    "segments": [
+      {
+        "segment_id": "SEG1",
+        "text": "生产先读取规则，再使用已绑定来源的事实。",
+        "claim": true,
+        "fact_ids": [
+          "F1"
+        ]
+      },
+      {
+        "segment_id": "SEG2",
+        "text": "脚本修改经过独立审计，确认方向后才进入导演设计。",
+        "claim": true,
+        "fact_ids": [
+          "F2"
+        ]
+      },
+      {
+        "segment_id": "SEG3",
+        "text": "画面按主信息、次信息和辅助信息这3个层次依次展开。",
+        "claim": true,
+        "fact_ids": [
+          "F3"
+        ]
+      },
+      {
+        "segment_id": "SEG4",
+        "text": "分镜退回责任部门，修复完成后再生成新的分镜版本。",
+        "claim": true,
+        "fact_ids": [
+          "F4"
+        ]
+      },
+      {
+        "segment_id": "SEG5",
+        "text": "字幕保持单行白字，没有底板，沿固定基线显示。",
+        "claim": true,
+        "fact_ids": [
+          "F5"
+        ]
+      },
+      {
+        "segment_id": "SEG6",
+        "text": "终稿确认和发布授权分别记录，完成终稿并不自动发布。",
+        "claim": true,
+        "fact_ids": [
+          "F6"
+        ]
+      }
+    ],
+    "semantic_status": "AUDIT_REQUIRED",
+    "semantic_diff": {
+      "numbers": false,
+      "entities": false,
+      "polarity": false,
+      "fact_bindings": false,
+      "claim_text": false
+    },
+    "parent_script_artifact_id": "ART-657a924955aa4d52"
+  },
+  "current_status": "READY"
+}

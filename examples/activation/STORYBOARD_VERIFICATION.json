@@ -1,0 +1,236 @@
+{
+  "project_id": "PRJ-bba515713057",
+  "storyboard_artifact_id": "ART-21f9a5f47d5e42bd",
+  "revision": 5,
+  "director_ir_id": "ART-b4d37b320dd5416e",
+  "edt_artifact_id": "ART-a539dfcdeacc4c0f",
+  "entries": 18,
+  "images": 36,
+  "files": [
+    {
+      "beat_id": "B-01-01",
+      "path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/phase2_preview_data/projects/PRJ-bba515713057/storyboards/RUN-1976a96979/B-01-01-0.png",
+      "sha256": "1d7f5cb79d35df697ddffe0191b43923ab92ab1a1a2ecff6f8a0d16e9531c6a4",
+      "resolution": "1920x1080"
+    },
+    {
+      "beat_id": "B-01-01",
+      "path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/phase2_preview_data/projects/PRJ-bba515713057/storyboards/RUN-1976a96979/B-01-01-1.png",
+      "sha256": "59f0acd99f74c0c4a5760a18a35e7329d2cd87b9b6d08fe9d656e7d2a0d40607",
+      "resolution": "1920x1080"
+    },
+    {
+      "beat_id": "B-01-02",
+      "path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/phase2_preview_data/projects/PRJ-bba515713057/storyboards/RUN-1976a96979/B-01-02-0.png",
+      "sha256": "1e875370cbab2d8386d2b4e021b34bc39367a7616279139627534e44845bbad7",
+      "resolution": "1920x1080"
+    },
+    {
+      "beat_id": "B-01-02",
+      "path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/phase2_preview_data/projects/PRJ-bba515713057/storyboards/RUN-1976a96979/B-01-02-1.png",
+      "sha256": "361c54b7fd6e363a9f299cb6821bd36e2ede20fc1a10082998f6972ac3b40c71",
+      "resolution": "1920x1080"
+    },
+    {
+      "beat_id": "B-02-01",
+      "path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/phase2_preview_data/projects/PRJ-bba515713057/storyboards/RUN-1976a96979/B-02-01-0.png",
+      "sha256": "2b2f63e8d5b3dac09d851ba669d61d51904fe37551e77af63ad82f58438d7b4f",
+      "resolution": "1920x1080"
+    },
+    {
+      "beat_id": "B-02-01",
+      "path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/phase2_preview_data/projects/PRJ-bba515713057/storyboards/RUN-1976a96979/B-02-01-1.png",
+      "sha256": "8af3e9413f2481a8d18c2f7e578b48145810375a37d77feed7601fb32c9324e8",
+      "resolution": "1920x1080"
+    },
+    {
+      "beat_id": "B-02-02",
+      "path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/phase2_preview_data/projects/PRJ-bba515713057/storyboards/RUN-1976a96979/B-02-02-0.png",
+      "sha256": "5b7ed3355f5f451a53e5a5c0d57c5ca6c8563482b4ff9c2d409ed8e0f91d8752",
+      "resolution": "1920x1080"
+    },
+    {
+      "beat_id": "B-02-02",
+      "path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/phase2_preview_data/projects/PRJ-bba515713057/storyboards/RUN-1976a96979/B-02-02-1.png",
+      "sha256": "a3e02f8adfe4c4a4e3d47cd150cfc488335380ef6b1996b7ca5c624628bc9e11",
+      "resolution": "1920x1080"
+    },
+    {
+      "beat_id": "B-03-01",
+      "path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/phase2_preview_data/projects/PRJ-bba515713057/storyboards/RUN-1976a96979/B-03-01-0.png",
+      "sha256": "f8da1173bf0b44ea33a38145eb3b65c423d35d8b82fce7ae4a2057931a2c6280",
+      "resolution": "1920x1080"
+    },
+    {
+      "beat_id": "B-03-01",
+      "path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/phase2_preview_data/projects/PRJ-bba515713057/storyboards/RUN-1976a96979/B-03-01-1.png",
+      "sha256": "58078a97b0280b5caca0b8b53b09d2d933156aba4530590b46c324e20efd4299",
+      "resolution": "1920x1080"
+    },
+    {
+      "beat_id": "B-03-02",
+      "path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/phase2_preview_data/projects/PRJ-bba515713057/storyboards/RUN-1976a96979/B-03-02-0.png",
+      "sha256": "0dc84c059cc934037485e038940f8a7e984f5d7f9b9736afda2dafd5413edf45",
+      "resolution": "1920x1080"
+    },
+    {
+      "beat_id": "B-03-02",
+      "path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/phase2_preview_data/projects/PRJ-bba515713057/storyboards/RUN-1976a96979/B-03-02-1.png",
+      "sha256": "c603a93481eb3f624c5664b6e97b5be473d87055e6550c8ef7e8100383603ec5",
+      "resolution": "1920x1080"
+    },
+    {
+      "beat_id": "B-04-01",
+      "path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/phase2_preview_data/projects/PRJ-bba515713057/storyboards/RUN-1976a96979/B-04-01-0.png",
+      "sha256": "dd5ed4bf6a5b76eaca4bc3772833c80aabedec62a221de0f306901e64757d982",
+      "resolution": "1920x1080"
+    },
+    {
+      "beat_id": "B-04-01",
+      "path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/phase2_preview_data/projects/PRJ-bba515713057/storyboards/RUN-1976a96979/B-04-01-1.png",
+      "sha256": "534f802bd3feba1c5910d0f90b1ef5fc3738227dd70809cbc8167cc299f60506",
+      "resolution": "1920x1080"
+    },
+    {
+      "beat_id": "B-04-02",
+      "path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/phase2_preview_data/projects/PRJ-bba515713057/storyboards/RUN-1976a96979/B-04-02-0.png",
+      "sha256": "253fe658c01a819c636e38efc610a008f6074e31d317991c3c45d947e34d1269",
+      "resolution": "1920x1080"
+    },
+    {
+      "beat_id": "B-04-02",
+      "path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/phase2_preview_data/projects/PRJ-bba515713057/storyboards/RUN-1976a96979/B-04-02-1.png",
+      "sha256": "1b61076781fa4118749d8f5ae18317115fadb82334306f0e2f7fb1ebc9b0be08",
+      "resolution": "1920x1080"
+    },
+    {
+      "beat_id": "B-05-01",
+      "path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/phase2_preview_data/projects/PRJ-bba515713057/storyboards/RUN-1976a96979/B-05-01-0.png",
+      "sha256": "517527f6da39f8cb221e3f4f45d1a842a4308bdb4ad89a062ee4d91fbd5865a8",
+      "resolution": "1920x1080"
+    },
+    {
+      "beat_id": "B-05-01",
+      "path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/phase2_preview_data/projects/PRJ-bba515713057/storyboards/RUN-1976a96979/B-05-01-1.png",
+      "sha256": "a67880f42e171696eef545eb27a11e4490995f29a7fd8a1b4a22032fe8090ce3",
+      "resolution": "1920x1080"
+    },
+    {
+      "beat_id": "B-05-02",
+      "path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/phase2_preview_data/projects/PRJ-bba515713057/storyboards/RUN-1976a96979/B-05-02-0.png",
+      "sha256": "490eb21920e7ca1f24e2fe83716d50f74a6da100e8828036f1516d43b3cc04c7",
+      "resolution": "1920x1080"
+    },
+    {
+      "beat_id": "B-05-02",
+      "path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/phase2_preview_data/projects/PRJ-bba515713057/storyboards/RUN-1976a96979/B-05-02-1.png",
+      "sha256": "45600b3276078fd2c89445f126b290150be6dc0bee95f886426bf4bc7409a2c8",
+      "resolution": "1920x1080"
+    },
+    {
+      "beat_id": "B-06-01",
+      "path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/phase2_preview_data/projects/PRJ-bba515713057/storyboards/RUN-1976a96979/B-06-01-0.png",
+      "sha256": "4618ac4d2258d65f67f7520dba4ed008ad270f223cbf710791cc5415939cb6fa",
+      "resolution": "1920x1080"
+    },
+    {
+      "beat_id": "B-06-01",
+      "path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/phase2_preview_data/projects/PRJ-bba515713057/storyboards/RUN-1976a96979/B-06-01-1.png",
+      "sha256": "b81c832a123eca3865c8d745c8e0eef7ed47483b4086e6754014b909ea16df7a",
+      "resolution": "1920x1080"
+    },
+    {
+      "beat_id": "B-06-02",
+      "path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/phase2_preview_data/projects/PRJ-bba515713057/storyboards/RUN-1976a96979/B-06-02-0.png",
+      "sha256": "dd00dbca2b4c01a60f98b403346a0f7b2400c3e25a98d4c4eb1433f9536831b4",
+      "resolution": "1920x1080"
+    },
+    {
+      "beat_id": "B-06-02",
+      "path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/phase2_preview_data/projects/PRJ-bba515713057/storyboards/RUN-1976a96979/B-06-02-1.png",
+      "sha256": "b02804e842b0201811bda5a2e64826922b703b78cc259779d57ad3c0338a7c5d",
+      "resolution": "1920x1080"
+    },
+    {
+      "beat_id": "B-07-01",
+      "path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/phase2_preview_data/projects/PRJ-bba515713057/storyboards/RUN-1976a96979/B-07-01-0.png",
+      "sha256": "07f17ab720d9f492103528ee9526064e8a4984c2ba0aee4969f2c2e6c39c75f7",
+      "resolution": "1920x1080"
+    },
+    {
+      "beat_id": "B-07-01",
+      "path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/phase2_preview_data/projects/PRJ-bba515713057/storyboards/RUN-1976a96979/B-07-01-1.png",
+      "sha256": "be7f3618811fa19f3aaba4ba51c32e82f1a9c0d11c1204c4ee1601b03a77f8f3",
+      "resolution": "1920x1080"
+    },
+    {
+      "beat_id": "B-07-02",
+      "path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/phase2_preview_data/projects/PRJ-bba515713057/storyboards/RUN-1976a96979/B-07-02-0.png",
+      "sha256": "09ae5322283ef7ce2fbc1a5976270866a3737416ec6978fb885c1cc43fb9b121",
+      "resolution": "1920x1080"
+    },
+    {
+      "beat_id": "B-07-02",
+      "path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/phase2_preview_data/projects/PRJ-bba515713057/storyboards/RUN-1976a96979/B-07-02-1.png",
+      "sha256": "6073ecb40e01090d8841d5a001f96bd28db2f9000abe0ae14fc66c701767c370",
+      "resolution": "1920x1080"
+    },
+    {
+      "beat_id": "B-08-01",
+      "path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/phase2_preview_data/projects/PRJ-bba515713057/storyboards/RUN-1976a96979/B-08-01-0.png",
+      "sha256": "816fa88ba78ca989a7866856229e17e4c59b5bfb1bc61c8a2975a163f91678e0",
+      "resolution": "1920x1080"
+    },
+    {
+      "beat_id": "B-08-01",
+      "path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/phase2_preview_data/projects/PRJ-bba515713057/storyboards/RUN-1976a96979/B-08-01-1.png",
+      "sha256": "4993ea4f0c1f591efd5be942ef1e2c6c67fb2cb9f85cfe02abc29c842c3965f0",
+      "resolution": "1920x1080"
+    },
+    {
+      "beat_id": "B-08-02",
+      "path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/phase2_preview_data/projects/PRJ-bba515713057/storyboards/RUN-1976a96979/B-08-02-0.png",
+      "sha256": "38a22abd6857b87c21008ec484d83b625388a348ff14060e03958e1550c42cf9",
+      "resolution": "1920x1080"
+    },
+    {
+      "beat_id": "B-08-02",
+      "path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/phase2_preview_data/projects/PRJ-bba515713057/storyboards/RUN-1976a96979/B-08-02-1.png",
+      "sha256": "ae7d2feb3fe9e6bb191847aed95feca2fafc78395a4604f34e854a43870a71fc",
+      "resolution": "1920x1080"
+    },
+    {
+      "beat_id": "B-09-01",
+      "path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/phase2_preview_data/projects/PRJ-bba515713057/storyboards/RUN-1976a96979/B-09-01-0.png",
+      "sha256": "bcc0d7096d9763f8649200efc1a3cd6eb538ad25c39fc6a39cca7b7f068a5a33",
+      "resolution": "1920x1080"
+    },
+    {
+      "beat_id": "B-09-01",
+      "path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/phase2_preview_data/projects/PRJ-bba515713057/storyboards/RUN-1976a96979/B-09-01-1.png",
+      "sha256": "6afa9dc97a400222eb36522f2c31dcd923566a53c756a52630c320ae6a96f5db",
+      "resolution": "1920x1080"
+    },
+    {
+      "beat_id": "B-09-02",
+      "path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/phase2_preview_data/projects/PRJ-bba515713057/storyboards/RUN-1976a96979/B-09-02-0.png",
+      "sha256": "13f872dd9f77a3e661b6705798eb76e29559c6b3c89c6d3084bcba54d33e0208",
+      "resolution": "1920x1080"
+    },
+    {
+      "beat_id": "B-09-02",
+      "path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/phase2_preview_data/projects/PRJ-bba515713057/storyboards/RUN-1976a96979/B-09-02-1.png",
+      "sha256": "8c7bdce3eca2ed113a3d684303458b0dbe5d7c35e79b861d43f6cae04de79bd2",
+      "resolution": "1920x1080"
+    }
+  ],
+  "preflight": {
+    "ok": true,
+    "issues": [],
+    "edt_revision": 6
+  },
+  "human_approved": false,
+  "timing_source": "AUDIO_TIMING_MAP",
+  "duration": 84.76,
+  "formal_voice_generated": true
+}

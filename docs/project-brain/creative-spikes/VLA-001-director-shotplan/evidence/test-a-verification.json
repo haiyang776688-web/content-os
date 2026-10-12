@@ -1,0 +1,99 @@
+{
+  "render": {
+    "path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/outputs/vla-001/test-a/VLA-001-A-Final.mp4",
+    "duration": 19.178667,
+    "frames": 574,
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": "30/1",
+    "has_audio": true,
+    "audio_hash": "SHA256=a4b438037280fe1abeaf0f78ef11737cbf1ce54e759e32bbd038098373c4995b",
+    "sha256": "323b8bbb7c768463080c55007ec6a3d974e756c10cc0eeed968efc51463c574c",
+    "bytes": 2603555
+  },
+  "storyboard_gate": {
+    "status": "APPROVED",
+    "reviewer": "VLA_SPIKE_REVIEW_OPERATOR",
+    "edit_count": 0,
+    "render_was_gated": true
+  },
+  "distributions": {
+    "visual_jobs": {
+      "TRANSITION": 2,
+      "DEMONSTRATE": 1,
+      "PROVE": 2,
+      "REACT": 1,
+      "WARN": 2,
+      "EXPLAIN": 1,
+      "SUMMARIZE": 1
+    },
+    "visual_modes": {
+      "BRAND_BALANCED": 7,
+      "EVIDENCE_HEAVY": 3
+    },
+    "shot_types": {
+      "CHARACTER_INTRO": 2,
+      "EVIDENCE_FOCUS": 1,
+      "EVIDENCE_HIGHLIGHT": 4,
+      "CHARACTER_REACTION": 1,
+      "CHARACTER_RESPONSIBILITY": 1,
+      "RELATION_EXPLAIN": 1
+    },
+    "evidence_treatments": {
+      "DETAIL_CROP": 4,
+      "FOCUS_REGION": 1,
+      "HIGHLIGHT_REGION": 4,
+      "RELATION": 1
+    },
+    "character_roles": {
+      "GUIDE": 1,
+      "REACTION": 1,
+      "RESPONSIBILITY": 1,
+      "TRANSITION": 1,
+      "SUMMARY": 1
+    }
+  },
+  "contracts": {
+    "one_primary": true,
+    "geometry_owner": "VISUAL_COMPILER_V1",
+    "renderer_policy_free": true,
+    "all_generated_fields_consumed": true
+  },
+  "ppt_regression": {
+    "status": "PASS_VISUAL_INSPECTION",
+    "max_consecutive_identical_shot_type": 2,
+    "evidence_primary_shots": 5,
+    "shot_type_count": 6,
+    "reviewer": "CODEX_VISUAL_INSPECTION_AGENT",
+    "notes": [
+      "F2 visual-job sequence and shot count are preserved.",
+      "Frozen script, duration and decoded audio match the F2 Gold Master.",
+      "Representative frames preserve evidence/character handoffs and show no page-template rotation."
+    ]
+  },
+  "known_f2_regression": {
+    "visual_job_sequence_equal": true,
+    "shot_count_equal": true,
+    "script_hash_equal": true,
+    "frozen_audio_present": true,
+    "baseline": {
+      "path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/outputs/vgb-002/VGB-002-F2-BrandBalanced.mp4",
+      "duration": 19.178667,
+      "frames": 574,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "fps": "30/1",
+      "has_audio": true,
+      "audio_hash": "SHA256=a4b438037280fe1abeaf0f78ef11737cbf1ce54e759e32bbd038098373c4995b",
+      "sha256": "97bda94eab6fda8be603270405f211894be2bacb06ad1385cd241c2882bd0f1c",
+      "bytes": 4058165
+    },
+    "duration_delta_seconds": 0.0,
+    "decoded_audio_equal": true,
+    "visual_review": "PASS_NO_OBVIOUS_REGRESSION"
+  }
+}

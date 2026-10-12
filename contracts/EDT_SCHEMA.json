@@ -1,0 +1,299 @@
+{
+  "$defs": {
+    "EDTClip": {
+      "additionalProperties": false,
+      "properties": {
+        "clip_id": {
+          "title": "Clip Id",
+          "type": "string"
+        },
+        "scene_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Scene Id"
+        },
+        "beat_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Beat Id"
+        },
+        "ir_node_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Ir Node Id"
+        },
+        "origin": {
+          "default": "MANUAL",
+          "title": "Origin",
+          "type": "string"
+        },
+        "edit_source": {
+          "default": "HUMAN",
+          "title": "Edit Source",
+          "type": "string"
+        },
+        "pattern_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Pattern Id"
+        },
+        "track": {
+          "enum": [
+            "VIDEO",
+            "MEDIA",
+            "CHARACTER",
+            "ELEMENT",
+            "TEXT",
+            "SUBTITLE",
+            "VOICE",
+            "BGM",
+            "SFX"
+          ],
+          "title": "Track",
+          "type": "string"
+        },
+        "asset_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Asset Id"
+        },
+        "source_in": {
+          "default": 0,
+          "minimum": 0,
+          "title": "Source In",
+          "type": "number"
+        },
+        "source_out": {
+          "default": 1,
+          "exclusiveMinimum": 0,
+          "title": "Source Out",
+          "type": "number"
+        },
+        "timeline_in": {
+          "default": 0,
+          "minimum": 0,
+          "title": "Timeline In",
+          "type": "number"
+        },
+        "timeline_out": {
+          "default": 1,
+          "exclusiveMinimum": 0,
+          "title": "Timeline Out",
+          "type": "number"
+        },
+        "position": {
+          "additionalProperties": {
+            "type": "number"
+          },
+          "title": "Position",
+          "type": "object"
+        },
+        "scale": {
+          "default": 1,
+          "exclusiveMinimum": 0,
+          "title": "Scale",
+          "type": "number"
+        },
+        "crop": {
+          "additionalProperties": {
+            "type": "number"
+          },
+          "title": "Crop",
+          "type": "object"
+        },
+        "opacity": {
+          "default": 1,
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Opacity",
+          "type": "number"
+        },
+        "motion": {
+          "additionalProperties": true,
+          "title": "Motion",
+          "type": "object"
+        },
+        "reveal": {
+          "additionalProperties": true,
+          "title": "Reveal",
+          "type": "object"
+        },
+        "locked": {
+          "default": false,
+          "title": "Locked",
+          "type": "boolean"
+        },
+        "hidden": {
+          "default": false,
+          "title": "Hidden",
+          "type": "boolean"
+        },
+        "muted": {
+          "default": false,
+          "title": "Muted",
+          "type": "boolean"
+        },
+        "metadata": {
+          "additionalProperties": true,
+          "title": "Metadata",
+          "type": "object"
+        }
+      },
+      "required": [
+        "clip_id",
+        "track"
+      ],
+      "title": "EDTClip",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "edt_id": {
+      "title": "Edt Id",
+      "type": "string"
+    },
+    "schema_version": {
+      "default": 1,
+      "maximum": 2,
+      "minimum": 1,
+      "title": "Schema Version",
+      "type": "integer"
+    },
+    "canvas_color": {
+      "default": "#ffffff",
+      "pattern": "^#[0-9a-fA-F]{6}$",
+      "title": "Canvas Color",
+      "type": "string"
+    },
+    "foreground_color": {
+      "default": "#111111",
+      "pattern": "^#[0-9a-fA-F]{6}$",
+      "title": "Foreground Color",
+      "type": "string"
+    },
+    "typography_profile_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Typography Profile Id"
+    },
+    "typography_profile_hash": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Typography Profile Hash"
+    },
+    "project_id": {
+      "title": "Project Id",
+      "type": "string"
+    },
+    "revision": {
+      "minimum": 1,
+      "title": "Revision",
+      "type": "integer"
+    },
+    "fps": {
+      "default": 30,
+      "maximum": 120,
+      "minimum": 1,
+      "title": "Fps",
+      "type": "integer"
+    },
+    "width": {
+      "default": 1920,
+      "exclusiveMinimum": 0,
+      "title": "Width",
+      "type": "integer"
+    },
+    "height": {
+      "default": 1080,
+      "exclusiveMinimum": 0,
+      "title": "Height",
+      "type": "integer"
+    },
+    "tracks": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Tracks",
+      "type": "array"
+    },
+    "clips": {
+      "items": {
+        "$ref": "#/$defs/EDTClip"
+      },
+      "title": "Clips",
+      "type": "array"
+    },
+    "markers": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Markers",
+      "type": "array"
+    },
+    "source_artifacts": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Source Artifacts",
+      "type": "array"
+    }
+  },
+  "required": [
+    "edt_id",
+    "project_id",
+    "revision"
+  ],
+  "title": "EDT",
+  "type": "object"
+}

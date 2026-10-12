@@ -1,0 +1,88 @@
+{
+  "$defs": {
+    "ProsodyProfile": {
+      "additionalProperties": false,
+      "properties": {
+        "rate": {
+          "default": 1.0,
+          "exclusiveMaximum": 4,
+          "exclusiveMinimum": 0.25,
+          "title": "Rate",
+          "type": "number"
+        },
+        "pitch": {
+          "default": 1.0,
+          "exclusiveMaximum": 4,
+          "exclusiveMinimum": 0.25,
+          "title": "Pitch",
+          "type": "number"
+        },
+        "energy": {
+          "default": 1.0,
+          "exclusiveMinimum": 0.0,
+          "maximum": 2,
+          "title": "Energy",
+          "type": "number"
+        },
+        "pauses_ms": {
+          "default": 0,
+          "maximum": 3000,
+          "minimum": 0,
+          "title": "Pauses Ms",
+          "type": "integer"
+        }
+      },
+      "title": "ProsodyProfile",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "text": {
+      "minLength": 1,
+      "title": "Text",
+      "type": "string"
+    },
+    "language": {
+      "title": "Language",
+      "type": "string"
+    },
+    "voice_profile": {
+      "title": "Voice Profile",
+      "type": "string"
+    },
+    "prosody": {
+      "$ref": "#/$defs/ProsodyProfile"
+    },
+    "output_format": {
+      "default": "wav",
+      "enum": [
+        "wav",
+        "mp3"
+      ],
+      "title": "Output Format",
+      "type": "string"
+    },
+    "sample_rate": {
+      "default": 24000,
+      "maximum": 96000,
+      "minimum": 8000,
+      "title": "Sample Rate",
+      "type": "integer"
+    },
+    "channels": {
+      "default": 1,
+      "maximum": 2,
+      "minimum": 1,
+      "title": "Channels",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "text",
+    "language",
+    "voice_profile"
+  ],
+  "title": "VoiceRequest",
+  "type": "object"
+}

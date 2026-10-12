@@ -1,0 +1,74 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "registered": {
+      "default": true,
+      "title": "Registered",
+      "type": "boolean"
+    },
+    "configured": {
+      "default": false,
+      "title": "Configured",
+      "type": "boolean"
+    },
+    "adapter_implemented": {
+      "default": false,
+      "title": "Adapter Implemented",
+      "type": "boolean"
+    },
+    "credentials_available": {
+      "default": false,
+      "title": "Credentials Available",
+      "type": "boolean"
+    },
+    "model_discovered": {
+      "default": false,
+      "title": "Model Discovered",
+      "type": "boolean"
+    },
+    "capability_verified": {
+      "default": false,
+      "title": "Capability Verified",
+      "type": "boolean"
+    },
+    "verified_capabilities": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Verified Capabilities",
+      "type": "array"
+    },
+    "live_verified": {
+      "default": false,
+      "title": "Live Verified",
+      "type": "boolean"
+    },
+    "last_probe_at": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Last Probe At"
+    },
+    "last_probe_result": {
+      "anyOf": [
+        {
+          "additionalProperties": true,
+          "type": "object"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Last Probe Result"
+    }
+  },
+  "title": "ProviderTruth",
+  "type": "object"
+}

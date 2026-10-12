@@ -1,0 +1,35 @@
+{
+  "status": "TECHNICAL_PASS_NOT_CREATIVE_ACCEPTANCE",
+  "baseline": "VGB-001 A/B",
+  "source_interval": [5.56, 24.68],
+  "source_content_duration": 19.12,
+  "renders": [
+    {
+      "direction": "F1",
+      "duration": "19.178667",
+      "frames": 574,
+      "resolution": [1920, 1080],
+      "fps": "30/1",
+      "audio_hash": "SHA256=a4b438037280fe1abeaf0f78ef11737cbf1ce54e759e32bbd038098373c4995b",
+      "file_sha256": "79c1349b83722bfb880b1835058c1bca80ebdd3c1e019c35a9b89fa1aaa32e47",
+      "bytes": 4114335
+    },
+    {
+      "direction": "F2",
+      "duration": "19.178667",
+      "frames": 574,
+      "resolution": [1920, 1080],
+      "fps": "30/1",
+      "audio_hash": "SHA256=a4b438037280fe1abeaf0f78ef11737cbf1ce54e759e32bbd038098373c4995b",
+      "file_sha256": "97bda94eab6fda8be603270405f211894be2bacb06ad1385cd241c2882bd0f1c",
+      "bytes": 4058165
+    }
+  ],
+  "captions": {
+    "cue_count": 6,
+    "wording_preserved": true,
+    "no_gaps_or_overlaps": true,
+    "fact_id_intact": true
+  },
+  "human_visual_choice": "PENDING"
+}

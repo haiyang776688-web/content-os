@@ -1,0 +1,53 @@
+{
+  "artifact_id": "ART-e66cee64938b457b",
+  "project_id": "PRJ-b417f4c7957a",
+  "artifact_type": "VIDEO_QA",
+  "revision": 1,
+  "created_by_role": "VIDEO_QA",
+  "worker": "MOCK",
+  "provider": null,
+  "model": null,
+  "prompt_version": null,
+  "dependencies": [
+    {
+      "artifact_id": "ART-839b72f339724535",
+      "output_hash": "42e407da3400f6bec502aa1f7177b6cac5285eab70807d238271721d240c09b3"
+    },
+    {
+      "artifact_id": "ART-0cfc2a5d7fb54fca",
+      "output_hash": "ea3b41c9549fe1b2f100c7480f40426c58a1d21140a6c1908b021903bb8f2543"
+    },
+    {
+      "artifact_id": "ART-5b9591d9c30b40fe",
+      "output_hash": "be230459da33425e902c137d72eede3a4ffb3295dc6d60d69b9a9c931bf4da48"
+    },
+    {
+      "artifact_id": "ART-5493e921ba9f43c8",
+      "output_hash": "0614d17d535339f04538927ecf5df6b865f73a5b409080d4104430f50efe4826"
+    },
+    {
+      "artifact_id": "ART-5906602264d044b9",
+      "output_hash": "316c02b9a9f5b590e558bc1659a2e931d36cb0dc69271f81b113abbbaba8fee3"
+    }
+  ],
+  "input_hash": "92780ed97faf12e2d06a658481bee0543d78123177a03a05d5850e27367b9c29",
+  "output_hash": "82a85c5aeb5e35687c2e7bef2a71f931718a1ca9d86f773416630cad358d8a6f",
+  "status": "READY",
+  "created_at": "2026-09-26T10:40:45.073245+00:00",
+  "payload": {
+    "verdict": "PASS_WITH_RISK",
+    "issues": [
+      {
+        "code": "MOCK_VISUAL_QA",
+        "severity": "WARNING",
+        "owner": "HUMAN",
+        "description": "Mock contract validation; visual quality was not reviewed by MiniMax",
+        "start": 0,
+        "end": 60.0
+      }
+    ],
+    "mock": true,
+    "checked_artifact_id": "ART-839b72f339724535"
+  },
+  "current_status": "READY"
+}

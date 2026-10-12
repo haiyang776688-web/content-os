@@ -1,0 +1,99 @@
+{
+  "$defs": {
+    "TextSpan": {
+      "additionalProperties": false,
+      "properties": {
+        "start": {
+          "minimum": 0,
+          "title": "Start",
+          "type": "integer"
+        },
+        "end": {
+          "exclusiveMinimum": 0,
+          "title": "End",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "start",
+        "end"
+      ],
+      "title": "TextSpan",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "claim_id": {
+      "pattern": "^[A-Za-z0-9_-]+$",
+      "title": "Claim Id",
+      "type": "string"
+    },
+    "segment_id": {
+      "title": "Segment Id",
+      "type": "string"
+    },
+    "text_span": {
+      "$ref": "#/$defs/TextSpan"
+    },
+    "claim_text": {
+      "minLength": 1,
+      "title": "Claim Text",
+      "type": "string"
+    },
+    "claim_type": {
+      "enum": [
+        "FACTUAL",
+        "NUMERIC",
+        "ATTRIBUTION",
+        "PREDICTION",
+        "OPINION",
+        "NON_CLAIM"
+      ],
+      "title": "Claim Type",
+      "type": "string"
+    },
+    "fact_ids": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Fact Ids",
+      "type": "array"
+    },
+    "support_status": {
+      "default": "UNSUPPORTED",
+      "enum": [
+        "SUPPORTED",
+        "PARTIAL",
+        "UNSUPPORTED",
+        "NOT_REQUIRED"
+      ],
+      "title": "Support Status",
+      "type": "string"
+    },
+    "review_status": {
+      "default": "PENDING",
+      "enum": [
+        "PENDING",
+        "APPROVED",
+        "REJECTED"
+      ],
+      "title": "Review Status",
+      "type": "string"
+    },
+    "review_reason": {
+      "default": "",
+      "title": "Review Reason",
+      "type": "string"
+    }
+  },
+  "required": [
+    "claim_id",
+    "segment_id",
+    "text_span",
+    "claim_text",
+    "claim_type"
+  ],
+  "title": "ClaimUnit",
+  "type": "object"
+}

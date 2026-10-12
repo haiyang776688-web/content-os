@@ -1,0 +1,79 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "rule_id": {
+      "title": "Rule Id",
+      "type": "string"
+    },
+    "lifecycle": {
+      "enum": [
+        "CREATED",
+        "ACTIVE",
+        "AMENDED",
+        "DEPRECATED"
+      ],
+      "title": "Lifecycle",
+      "type": "string"
+    },
+    "text": {
+      "minLength": 1,
+      "title": "Text",
+      "type": "string"
+    },
+    "scope": {
+      "minLength": 1,
+      "title": "Scope",
+      "type": "string"
+    },
+    "priority": {
+      "enum": [
+        "LOW",
+        "MEDIUM",
+        "HIGH",
+        "CRITICAL"
+      ],
+      "title": "Priority",
+      "type": "string"
+    },
+    "owner": {
+      "minLength": 1,
+      "title": "Owner",
+      "type": "string"
+    },
+    "reason": {
+      "minLength": 1,
+      "title": "Reason",
+      "type": "string"
+    },
+    "related_error": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Related Error"
+    },
+    "exceptions": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Exceptions",
+      "type": "array"
+    }
+  },
+  "required": [
+    "rule_id",
+    "lifecycle",
+    "text",
+    "scope",
+    "priority",
+    "owner",
+    "reason"
+  ],
+  "title": "RuleRecord",
+  "type": "object"
+}

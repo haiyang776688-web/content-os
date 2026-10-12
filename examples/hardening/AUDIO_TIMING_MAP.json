@@ -1,0 +1,60 @@
+{
+  "artifact_id": "ART-7b5e50c986bf4e2c",
+  "project_id": "PRJ-df2146b8a6b1",
+  "artifact_type": "AUDIO_TIMING_MAP",
+  "revision": 1,
+  "created_by_role": "ALIGNMENT",
+  "worker": null,
+  "provider": null,
+  "model": null,
+  "prompt_version": null,
+  "dependencies": [
+    {
+      "artifact_id": "ART-990afd0e1ec64122",
+      "output_hash": "79e9589fa36db795ed8bafa9f0233e5b0dd7865ae44f0a90570bbad22cfc3cb3"
+    },
+    {
+      "artifact_id": "ART-9b6c9b779c19418f",
+      "output_hash": "da12676ee8250df6605f85735e2299d894aca738db6bf6d3b11b52b9e4fe8a81"
+    }
+  ],
+  "input_hash": "79477de845987e227cb3e66a4ec267574583f94c37bee44e6ce623d02fce9028",
+  "output_hash": "130426776f85458fd1aaa0a075d0ff81663752f7149a622e58041fb354a54d3e",
+  "status": "READY",
+  "created_at": "2026-09-26T15:59:45.484238+00:00",
+  "payload": {
+    "audio_artifact_id": "ART-990afd0e1ec64122",
+    "script_artifact_id": "ART-9b6c9b779c19418f",
+    "audio_hash": "62e106e12498d8956ba566a99fb56c4ba51d4c4228a04b612ff6504b967d689d",
+    "duration": 2.96,
+    "provenance": {
+      "method": "TEST_ALIGNMENT",
+      "worker": "CONTRACT_FIXTURE",
+      "version": "1"
+    },
+    "entries": [
+      {
+        "audio_id": "MED-f32849acab8b",
+        "segment_id": "SEG1",
+        "start": 0.0,
+        "end": 2.96,
+        "duration": 2.96,
+        "phrase_ranges": [
+          {
+            "text": "Alpha has 3 items",
+            "start": 0,
+            "end": 1.48
+          },
+          {
+            "text": "Alpha has 3 items",
+            "start": 1.48,
+            "end": 2.96
+          }
+        ],
+        "word_ranges": []
+      }
+    ],
+    "production_accepted": false
+  },
+  "current_status": "READY"
+}

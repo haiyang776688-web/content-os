@@ -1,0 +1,91 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "voice_profile_id": {
+      "title": "Voice Profile Id",
+      "type": "string"
+    },
+    "display_name": {
+      "title": "Display Name",
+      "type": "string"
+    },
+    "provider": {
+      "title": "Provider",
+      "type": "string"
+    },
+    "execution_mode": {
+      "enum": [
+        "LOCAL",
+        "CLOUD",
+        "MOCK"
+      ],
+      "title": "Execution Mode",
+      "type": "string"
+    },
+    "provider_voice_id": {
+      "title": "Provider Voice Id",
+      "type": "string"
+    },
+    "voice_type": {
+      "enum": [
+        "BUILT_IN",
+        "CLONED",
+        "LOCAL_CLONED",
+        "REFERENCE_BASED"
+      ],
+      "title": "Voice Type",
+      "type": "string"
+    },
+    "language": {
+      "title": "Language",
+      "type": "string"
+    },
+    "owner": {
+      "title": "Owner",
+      "type": "string"
+    },
+    "consent_status": {
+      "enum": [
+        "NOT_REQUIRED",
+        "VERIFIED",
+        "PENDING"
+      ],
+      "title": "Consent Status",
+      "type": "string"
+    },
+    "usage_scope": {
+      "title": "Usage Scope",
+      "type": "string"
+    },
+    "version": {
+      "minimum": 1,
+      "title": "Version",
+      "type": "integer"
+    },
+    "status": {
+      "enum": [
+        "ACTIVE",
+        "INACTIVE",
+        "UNAVAILABLE"
+      ],
+      "title": "Status",
+      "type": "string"
+    }
+  },
+  "required": [
+    "voice_profile_id",
+    "display_name",
+    "provider",
+    "execution_mode",
+    "provider_voice_id",
+    "voice_type",
+    "language",
+    "owner",
+    "consent_status",
+    "usage_scope",
+    "version",
+    "status"
+  ],
+  "title": "VoiceProfile",
+  "type": "object"
+}

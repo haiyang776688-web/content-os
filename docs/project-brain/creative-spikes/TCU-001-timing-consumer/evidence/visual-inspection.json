@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "spike": "TCU-001",
+  "sample": "A",
+  "reviewer": "CODEX_VISUAL_REVIEW",
+  "review_method": "ORIGINAL_RESOLUTION_SIDE_BY_SIDE_FRAME_INSPECTION",
+  "result": "PASS",
+  "cases": [
+    {
+      "case_id": "TG-004",
+      "timestamp_seconds": 72.4,
+      "result": "PASS",
+      "observation": "CURRENT has already entered the A/B body-language comparison; ALIGNED still shows the preceding non-duplication Beat, consistent with delaying the existing cut toward 72.780 seconds."
+    },
+    {
+      "case_id": "TG-006",
+      "timestamp_seconds": 81.0,
+      "result": "PASS",
+      "observation": "CURRENT is already transitioning into the final character Beat inside the forbidden range; ALIGNED remains on the existing two-step review Beat and creates no new cut."
+    },
+    {
+      "case_id": "TG-007",
+      "timestamp_seconds": 82.0,
+      "result": "PASS",
+      "observation": "CURRENT is already in the final character Beat; ALIGNED retains the preceding review sequence until close to the approved 82.572-second boundary."
+    },
+    {
+      "case_id": "NC-004",
+      "timestamp_seconds": 31.5,
+      "result": "PASS",
+      "observation": "CURRENT and ALIGNED show the same visual state at the normal-control spot check."
+    }
+  ],
+  "observable_benefit": true,
+  "ppt_or_semantic_regression_observed": false,
+  "notes": "This review assesses timing differences only. It is not a new approval of the frozen sample's creative style."
+}

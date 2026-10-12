@@ -1,0 +1,28 @@
+{
+  "profile_id": "XIAO-Y_TYPOGRAPHY_PROFILE_V1",
+  "font_assignment": "USER_LOCAL_SELECTION_REQUIRED",
+  "roles": [
+    "TITLE",
+    "BODY",
+    "SUBTITLE",
+    "KEYWORD",
+    "NUMBER",
+    "LABEL",
+    "CTA",
+    "UI"
+  ],
+  "subtitle": {
+    "single_line": true,
+    "color": "#ffffff",
+    "background": null,
+    "baseline": 0.91,
+    "shadow": "0 2px 4px #0008"
+  },
+  "palette": {
+    "background": "#ffffff",
+    "ink": "#111111",
+    "highlight": "#ffcc00",
+    "emphasis": "#ff3333"
+  },
+  "no_bundled_font_bytes": true
+}

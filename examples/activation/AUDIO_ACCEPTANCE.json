@@ -1,0 +1,149 @@
+{
+  "voice_artifact_id": "ART-ce387c3fce5546ee",
+  "audio_timing_artifact_id": "ART-de11de6cee654e77",
+  "edt_artifact_id": "ART-08e3f9d2408649d8",
+  "voice_profile": "YU_LOCAL_V1",
+  "actual_model": "Fun-CosyVoice3-0.5B",
+  "execution_mode": "LOCAL",
+  "master_path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/phase2_preview_data/projects/PRJ-bba515713057/voice/VOICE-MASTER-8aed49c511.wav",
+  "master_sha256": "2d0278e8a2bfcc2c483b2958d60ba9d6f902990bb7b2a2edf7879ddbec2cf813",
+  "duration": 84.76,
+  "sample_rate": 48000,
+  "channels": 1,
+  "within_60_90_seconds": true,
+  "segments": [
+    {
+      "segment_id": "SEG-01",
+      "path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/phase2_preview_data/projects/PRJ-bba515713057/voice/VOICE-3f4e70e7e1fd.wav",
+      "duration": 11.04,
+      "sha256": "a5aad36dab7e27d7da39fcca244ec86b71b9d793d1c8b8c277fd4b1b17bc7321",
+      "hash_matches": true,
+      "duration_matches": true,
+      "provider": "YU_LOCAL_V1",
+      "model": "Fun-CosyVoice3-0.5B",
+      "run_id": "RUN-d83d9c6851de4172"
+    },
+    {
+      "segment_id": "SEG-02",
+      "path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/phase2_preview_data/projects/PRJ-bba515713057/voice/VOICE-dc882af2ee5c.wav",
+      "duration": 9.52,
+      "sha256": "8a481b639484182c63a98102501cbb75b0e64ac3af773417f23d891b2fcdd816",
+      "hash_matches": true,
+      "duration_matches": true,
+      "provider": "YU_LOCAL_V1",
+      "model": "Fun-CosyVoice3-0.5B",
+      "run_id": "RUN-4a1a73142f2c42b2"
+    },
+    {
+      "segment_id": "SEG-03",
+      "path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/phase2_preview_data/projects/PRJ-bba515713057/voice/VOICE-8b71c26b7935.wav",
+      "duration": 7.64,
+      "sha256": "41af24ce25f9711aa51ecdd4aeb2e4977d16891d71fc964aae8c6d4391687e9d",
+      "hash_matches": true,
+      "duration_matches": true,
+      "provider": "YU_LOCAL_V1",
+      "model": "Fun-CosyVoice3-0.5B",
+      "run_id": "RUN-e19a177c9d084678"
+    },
+    {
+      "segment_id": "SEG-04",
+      "path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/phase2_preview_data/projects/PRJ-bba515713057/voice/VOICE-171d501a481b.wav",
+      "duration": 10.28,
+      "sha256": "07ea7e1d462c4d33222e717915bdb813ac6fdc8446aa6513964699ec77e05c50",
+      "hash_matches": true,
+      "duration_matches": true,
+      "provider": "YU_LOCAL_V1",
+      "model": "Fun-CosyVoice3-0.5B",
+      "run_id": "RUN-826c70e08d1447a1"
+    },
+    {
+      "segment_id": "SEG-05",
+      "path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/phase2_preview_data/projects/PRJ-bba515713057/voice/VOICE-7aa55318e485.wav",
+      "duration": 10.08,
+      "sha256": "73cd0d89b01a10b086497a1c97777aec3982f47d7917f9036ee187358e43eca5",
+      "hash_matches": true,
+      "duration_matches": true,
+      "provider": "YU_LOCAL_V1",
+      "model": "Fun-CosyVoice3-0.5B",
+      "run_id": "RUN-9c83dd754fc84295"
+    },
+    {
+      "segment_id": "SEG-06",
+      "path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/phase2_preview_data/projects/PRJ-bba515713057/voice/VOICE-f6925b7f4bd3.wav",
+      "duration": 9.8,
+      "sha256": "69e3f005823a27ae9d4c625f01fc9b50fe1fe2e9604575808bea62c740d68b07",
+      "hash_matches": true,
+      "duration_matches": true,
+      "provider": "YU_LOCAL_V1",
+      "model": "Fun-CosyVoice3-0.5B",
+      "run_id": "RUN-5e1271f74e0245a1"
+    },
+    {
+      "segment_id": "SEG-07",
+      "path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/phase2_preview_data/projects/PRJ-bba515713057/voice/VOICE-73e6ed9df910.wav",
+      "duration": 9.4,
+      "sha256": "4350ae8c674792aec315f3dfc5250079e5379cb68985cf11f6e499c7a29c60f9",
+      "hash_matches": true,
+      "duration_matches": true,
+      "provider": "YU_LOCAL_V1",
+      "model": "Fun-CosyVoice3-0.5B",
+      "run_id": "RUN-a5e07459c8524e29"
+    },
+    {
+      "segment_id": "SEG-08",
+      "path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/phase2_preview_data/projects/PRJ-bba515713057/voice/VOICE-ac4dad1cea39.wav",
+      "duration": 8.12,
+      "sha256": "3f702d4eda93c7776f43814763fd192ed45eef37932e0ae250fb0d9ad38fa200",
+      "hash_matches": true,
+      "duration_matches": true,
+      "provider": "YU_LOCAL_V1",
+      "model": "Fun-CosyVoice3-0.5B",
+      "run_id": "RUN-a58409576b4848a0"
+    },
+    {
+      "segment_id": "SEG-09",
+      "path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/phase2_preview_data/projects/PRJ-bba515713057/voice/VOICE-c50fe4f94ec9.wav",
+      "duration": 8.88,
+      "sha256": "881542dd218948c4a3147f80fe1e8b52e625e1093e37ddf469094e2a2bd2b0ed",
+      "hash_matches": true,
+      "duration_matches": true,
+      "provider": "YU_LOCAL_V1",
+      "model": "Fun-CosyVoice3-0.5B",
+      "run_id": "RUN-173ceee920be4576"
+    }
+  ],
+  "segment_duration_sum": 84.76,
+  "all_segment_hashes_valid": true,
+  "all_segment_durations_valid": true,
+  "audio_timing_production_accepted": true,
+  "timing_method": "MEASURED_SEGMENT_BOUNDARIES",
+  "beat_timing_sources": [
+    "AUDIO_TIMING_MAP"
+  ],
+  "subtitle_count": 14,
+  "subtitle_timing_limitation": "Measured segment boundaries; split wide lines proportionally within a segment. Not word alignment.",
+  "mechanical_qa_artifact_id": "ART-861b7b0feb3645db",
+  "mechanical_qa": {
+    "verdict": "PASS_WITH_RISK",
+    "issues": [
+      {
+        "code": "MOTION_REPETITION",
+        "severity": "WARNING",
+        "owner": "DIRECTOR",
+        "description": "MOTION_REPETITION",
+        "start": 0,
+        "end": 0
+      }
+    ],
+    "mock": false,
+    "checked_artifact_id": "ART-08e3f9d2408649d8"
+  },
+  "voice_reference_transmitted": false,
+  "full_video_rendered": false,
+  "h3_approved": false,
+  "physical_audio_qa": {
+    "decode_ok": true,
+    "peak": -1.5,
+    "long_silence": false
+  }
+}

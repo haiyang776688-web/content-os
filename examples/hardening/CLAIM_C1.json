@@ -1,0 +1,38 @@
+{
+  "artifact_id": "ART-5203ea138b4e41f0",
+  "project_id": "PRJ-df2146b8a6b1",
+  "artifact_type": "CLAIM_C1",
+  "revision": 1,
+  "created_by_role": "SCRIPT_PRIMARY",
+  "worker": null,
+  "provider": null,
+  "model": null,
+  "prompt_version": null,
+  "dependencies": [
+    {
+      "artifact_id": "ART-c75de78952304a97",
+      "output_hash": "ccb8f36878815d1d097370cd00a90dbe6a553da0f9bc0da0e54200947e1666b1"
+    }
+  ],
+  "input_hash": "2c076191c899cd98b6333fc84299f0b8ba8c8455ea8f734ee1d6b032d8d2e384",
+  "output_hash": "67d5e21192990a005c0ed966c0efdf02ede88a8c0681cad393ba0aa7a6ac5d92",
+  "status": "READY",
+  "created_at": "2026-09-26T15:59:44.301581+00:00",
+  "payload": {
+    "claim_id": "C1",
+    "segment_id": "SEG1",
+    "text_span": {
+      "start": 0,
+      "end": 17
+    },
+    "claim_text": "Alpha has 3 items",
+    "claim_type": "NUMERIC",
+    "fact_ids": [
+      "F1"
+    ],
+    "support_status": "SUPPORTED",
+    "review_status": "PENDING",
+    "review_reason": ""
+  },
+  "current_status": "READY"
+}

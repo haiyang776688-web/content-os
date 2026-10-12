@@ -1,0 +1,416 @@
+{
+  "source": {
+    "script_id": "VLA-001-UNSEEN-SCRIPT",
+    "script_sha256": "f1bf64bc72222c2aa93878bdc71c635b5897db471108f07925fe1c82ea57139f",
+    "segments": [
+      {
+        "segment_id": "B-SEG01",
+        "text": "做视频最贵的返工，往往不是渲染慢，而是到成片才发现镜头职责错了。",
+        "fact_ids": []
+      },
+      {
+        "segment_id": "B-SEG02",
+        "text": "比如这张分镜接触表，画面能看，但你只能看到结果。",
+        "fact_ids": [
+          "B-F01"
+        ]
+      },
+      {
+        "segment_id": "B-SEG03",
+        "text": "它没有直接告诉你：这一镜为什么用证据，下一镜为什么让 XIAO-Y 出现。",
+        "fact_ids": [
+          "B-F01"
+        ]
+      },
+      {
+        "segment_id": "B-SEG04",
+        "text": "真正可审查的分镜，要把视觉任务、主角和证据处理一起摆出来。",
+        "fact_ids": [
+          "B-F02"
+        ]
+      },
+      {
+        "segment_id": "B-SEG05",
+        "text": "当口播在证明或演示，界面截图和关键区域应该占据画面主位。",
+        "fact_ids": [
+          "B-F02"
+        ]
+      },
+      {
+        "segment_id": "B-SEG06",
+        "text": "角色这时只负责指引，不能挡住真正需要看的证据。",
+        "fact_ids": [
+          "B-F02"
+        ]
+      },
+      {
+        "segment_id": "B-SEG07",
+        "text": "到了警告、转场和总结，XIAO-Y 才回来，负责提醒、承接和收束。",
+        "fact_ids": []
+      },
+      {
+        "segment_id": "B-SEG08",
+        "text": "更关键的是，人工必须能在渲染前修改或拒绝这份镜头计划。",
+        "fact_ids": [
+          "B-F02"
+        ]
+      },
+      {
+        "segment_id": "B-SEG09",
+        "text": "先看懂，再批准，最后才渲染，才能把昂贵的错误挡在前面。",
+        "fact_ids": []
+      }
+    ],
+    "captions": [
+      {
+        "text": "做视频最贵的返工，往往不是渲染慢，而是到成片才发现镜头职责错了。",
+        "start": 0,
+        "end": 4.4
+      },
+      {
+        "text": "比如这张分镜接触表，画面能看，但你只能看到结果。",
+        "start": 4.4,
+        "end": 9.0
+      },
+      {
+        "text": "它没有直接告诉你：这一镜为什么用证据，下一镜为什么让 XIAO-Y 出现。",
+        "start": 9.0,
+        "end": 14.4
+      },
+      {
+        "text": "真正可审查的分镜，要把视觉任务、主角和证据处理一起摆出来。",
+        "start": 14.4,
+        "end": 19.9
+      },
+      {
+        "text": "当口播在证明或演示，界面截图和关键区域应该占据画面主位。",
+        "start": 19.9,
+        "end": 25.1
+      },
+      {
+        "text": "角色这时只负责指引，不能挡住真正需要看的证据。",
+        "start": 25.1,
+        "end": 29.8
+      },
+      {
+        "text": "到了警告、转场和总结，XIAO-Y 才回来，负责提醒、承接和收束。",
+        "start": 29.8,
+        "end": 34.6
+      },
+      {
+        "text": "更关键的是，人工必须能在渲染前修改或拒绝这份镜头计划。",
+        "start": 34.6,
+        "end": 39.8
+      },
+      {
+        "text": "先看懂，再批准，最后才渲染，才能把昂贵的错误挡在前面。",
+        "start": 39.8,
+        "end": 44.6
+      }
+    ],
+    "assets": [
+      {
+        "asset_id": "EV-CONTACT",
+        "kind": "EVIDENCE",
+        "source_path": "examples/activation/STORYBOARD_CONTACT_1.jpg",
+        "sha256": "d5c9adfa91c26121727ac390993dba26a2d2fdcbfef9a10f16d20704206aec26",
+        "regions": {
+          "role_cards": {
+            "x": 0,
+            "y": 0,
+            "width": 1,
+            "height": 0.66,
+            "label": "分镜卡与镜头职责",
+            "keywords": [
+              "分镜",
+              "镜头",
+              "职责",
+              "角色"
+            ]
+          },
+          "result_grid": {
+            "x": 0,
+            "y": 0,
+            "width": 1,
+            "height": 1,
+            "label": "完整分镜结果网格",
+            "keywords": [
+              "接触表",
+              "结果",
+              "画面"
+            ]
+          }
+        }
+      },
+      {
+        "asset_id": "EV-WORKBENCH",
+        "kind": "EVIDENCE",
+        "source_path": "examples/activation/style_review/WORKBENCH_PREVIEW.png",
+        "sha256": "788cb5d52f75b1b750f9c0e887a6951da8a9a7752eddf9987b0f559d5024bf7f",
+        "regions": {
+          "preview_stage": {
+            "x": 0.17,
+            "y": 0.14,
+            "width": 0.62,
+            "height": 0.62,
+            "label": "分镜画面预览",
+            "keywords": [
+              "画面",
+              "预览",
+              "证据",
+              "主位"
+            ]
+          },
+          "director_inspector": {
+            "x": 0.79,
+            "y": 0.06,
+            "width": 0.21,
+            "height": 0.78,
+            "label": "导演模型与职责检查器",
+            "keywords": [
+              "视觉任务",
+              "主角",
+              "角色",
+              "职责",
+              "字段"
+            ]
+          },
+          "artifact_history": {
+            "x": 0,
+            "y": 0.83,
+            "width": 1,
+            "height": 0.17,
+            "label": "产物和历史记录",
+            "keywords": [
+              "历史",
+              "版本",
+              "修改",
+              "拒绝",
+              "批准"
+            ]
+          }
+        }
+      },
+      {
+        "asset_id": "CH-POINT",
+        "kind": "CHARACTER",
+        "source_path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-007_point_right.png",
+        "sha256": "2a04f4166c04bc76a74be76459d89344b7d39fcd7950abeaf8d6e949072eea3d",
+        "regions": {}
+      },
+      {
+        "asset_id": "CH-SERIOUS",
+        "kind": "CHARACTER",
+        "source_path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-044_arms_crossed_serious.png",
+        "sha256": "98224de435934967460f803da3fc7da29ad531f22f86ee151aa6ba36c0ab3530",
+        "regions": {}
+      },
+      {
+        "asset_id": "CH-SURPRISE",
+        "kind": "CHARACTER",
+        "source_path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-030_surprised_stand.png",
+        "sha256": "f325b90961da60204e250864a2ef57c6a7e7b28cc37ac774dc7d2879a01cfcb6",
+        "regions": {}
+      },
+      {
+        "asset_id": "FONT-VLA001",
+        "kind": "FONT",
+        "source_path": "vnext/renderers/remotion/project/public/PREVIEW-VGB001/font.otf",
+        "sha256": "b4616b25a4b235d02eb44363e36122fe828f6baaa9b94c3a90b37c33e10fab65",
+        "regions": {}
+      }
+    ],
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "duration": 44.6
+  },
+  "director_ir": {
+    "schema_version": 2,
+    "script_artifact_id": "VLA-001-UNSEEN-SCRIPT",
+    "scenes": [
+      {
+        "scene_id": "B-SC1",
+        "purpose": "Explain semantic storyboard review",
+        "script_range": [
+          "B-SEG01",
+          "B-SEG02",
+          "B-SEG03",
+          "B-SEG04",
+          "B-SEG05",
+          "B-SEG06",
+          "B-SEG07",
+          "B-SEG08",
+          "B-SEG09"
+        ],
+        "narrative_function": "EXPLAIN",
+        "retention_goal": "VALUE",
+        "estimated_duration": 44.6,
+        "beat_ids": [
+          "B-B01",
+          "B-B02",
+          "B-B03",
+          "B-B04",
+          "B-B05",
+          "B-B06",
+          "B-B07",
+          "B-B08",
+          "B-B09"
+        ]
+      }
+    ],
+    "beats": [
+      {
+        "beat_id": "B-B01",
+        "scene_id": "B-SC1",
+        "script_segment_id": "B-SEG01",
+        "purpose": "Transition into the costly late-rework problem",
+        "visual_focus": "昂贵返工",
+        "visual_form": "KEYWORD",
+        "pattern_id": "CHARACTER_EXPLAIN_KEYWORD",
+        "keyword": "别等成片",
+        "timing_intent": 4.4,
+        "slots": {
+          "keyword": "别等成片"
+        }
+      },
+      {
+        "beat_id": "B-B02",
+        "scene_id": "B-SC1",
+        "script_segment_id": "B-SEG02",
+        "purpose": "Prove what the contact sheet visibly shows",
+        "visual_focus": "完整分镜结果网格",
+        "visual_form": "SCREEN",
+        "pattern_id": "SCREEN_DETAIL",
+        "keyword": "只能看结果",
+        "timing_intent": 4.6,
+        "slots": {
+          "media_asset_id": "EV-CONTACT"
+        }
+      },
+      {
+        "beat_id": "B-B03",
+        "scene_id": "B-SC1",
+        "script_segment_id": "B-SEG03",
+        "purpose": "Explain relation between evidence and character responsibility",
+        "visual_focus": "分镜卡与镜头职责",
+        "visual_form": "RELATION",
+        "pattern_id": "TIMELINE_PROCESS",
+        "keyword": "职责理由",
+        "timing_intent": 5.4,
+        "slots": {
+          "steps": [
+            "EVIDENCE",
+            "XIAO-Y"
+          ],
+          "media_asset_id": "EV-CONTACT"
+        }
+      },
+      {
+        "beat_id": "B-B04",
+        "scene_id": "B-SC1",
+        "script_segment_id": "B-SEG04",
+        "purpose": "Demonstrate the required storyboard fields",
+        "visual_focus": "导演模型与职责检查器",
+        "visual_form": "SCREEN",
+        "pattern_id": "SCREEN_DETAIL",
+        "keyword": "字段同屏",
+        "timing_intent": 5.5,
+        "slots": {
+          "media_asset_id": "EV-WORKBENCH"
+        }
+      },
+      {
+        "beat_id": "B-B05",
+        "scene_id": "B-SC1",
+        "script_segment_id": "B-SEG05",
+        "purpose": "Demonstrate evidence-primary framing",
+        "visual_focus": "分镜画面预览中的证据主位",
+        "visual_form": "SCREEN",
+        "pattern_id": "SCREEN_DETAIL",
+        "keyword": "证据主位",
+        "timing_intent": 5.2,
+        "slots": {
+          "media_asset_id": "EV-WORKBENCH"
+        }
+      },
+      {
+        "beat_id": "B-B06",
+        "scene_id": "B-SC1",
+        "script_segment_id": "B-SEG06",
+        "purpose": "Warn that the guide must not block evidence",
+        "visual_focus": "角色不能挡住证据",
+        "visual_form": "REACTION",
+        "pattern_id": "CHARACTER_REACTION_MEDIA",
+        "keyword": "别挡证据",
+        "timing_intent": 4.7,
+        "slots": {
+          "media_asset_id": "EV-WORKBENCH"
+        }
+      },
+      {
+        "beat_id": "B-B07",
+        "scene_id": "B-SC1",
+        "script_segment_id": "B-SEG07",
+        "purpose": "Transition back to XIAO-Y for warning and summary",
+        "visual_focus": "角色提醒承接收束",
+        "visual_form": "KEYWORD",
+        "pattern_id": "CHARACTER_EXPLAIN_KEYWORD",
+        "keyword": "角色有理由",
+        "timing_intent": 4.8,
+        "slots": {
+          "keyword": "角色有理由"
+        }
+      },
+      {
+        "beat_id": "B-B08",
+        "scene_id": "B-SC1",
+        "script_segment_id": "B-SEG08",
+        "purpose": "Demonstrate pre-render modify and reject controls",
+        "visual_focus": "产物和历史记录",
+        "visual_form": "SCREEN",
+        "pattern_id": "SCREEN_DETAIL",
+        "keyword": "渲染前把关",
+        "timing_intent": 5.2,
+        "slots": {
+          "media_asset_id": "EV-WORKBENCH"
+        }
+      },
+      {
+        "beat_id": "B-B09",
+        "scene_id": "B-SC1",
+        "script_segment_id": "B-SEG09",
+        "purpose": "Summary of the review-before-render rule",
+        "visual_focus": "先看懂再批准",
+        "visual_form": "SUMMARY",
+        "pattern_id": "THREE_POINT_SUMMARY",
+        "keyword": "先审后渲",
+        "timing_intent": 4.8,
+        "slots": {
+          "points": [
+            "看懂",
+            "修改",
+            "批准"
+          ]
+        }
+      }
+    ],
+    "transitions": []
+  },
+  "facts": [
+    {
+      "fact_id": "B-F01",
+      "statement": "The existing contact sheet shows rendered frames and labels.",
+      "evidence_asset_ids": [
+        "EV-CONTACT"
+      ]
+    },
+    {
+      "fact_id": "B-F02",
+      "statement": "The existing workbench screenshot shows a preview, Director inspector and artifact history.",
+      "evidence_asset_ids": [
+        "EV-WORKBENCH"
+      ]
+    }
+  ]
+}

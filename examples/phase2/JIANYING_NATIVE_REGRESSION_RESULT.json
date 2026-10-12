@@ -1,0 +1,42 @@
+{
+  "project_id": "PRJ-b417f4c7957a",
+  "export_artifact_id": "ART-23143a3307f04a8d",
+  "native_draft_path": "${EXTERNAL_VOLUME}/剪映草稿/JianyingPro Drafts/ContentOS-EXP-3e9232ba31",
+  "target_app_version": "11.5.0-beta5",
+  "verified_at": "2026-09-26",
+  "native_project_open_verified": true,
+  "independent_text_edit_verified": true,
+  "save_reopen_verified": true,
+  "local_video_export_verified": true,
+  "edited_text": "来源先行 · Native 测试",
+  "edit_location": "Only the exported diagnostic draft. No reverse import into Content OS.",
+  "native_video": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/examples/phase2/native/CONTENT_OS_PHASE2_NATIVE_TEST.mp4",
+  "video_sha256": "736d7d0eb458d4f69153b8d680687a9ae28af737580f040fe53511beb500d099",
+  "duration_seconds": 60.046803,
+  "resolution": [
+    [
+      1920,
+      1080
+    ]
+  ],
+  "audio_stream": true,
+  "canvas_color": "WHITE",
+  "foreground_ranges_seconds": [
+    [
+      0,
+      10
+    ],
+    [
+      50,
+      60
+    ]
+  ],
+  "typography_exact_verified": false,
+  "font_status": "FONT_NOT_SUPPORTED: native inspector shows 系统",
+  "shadow_status": "SUBTITLE_SHADOW_NOT_MAPPED",
+  "motion_crop_reveal_lock": "UNSUPPORTED_OR_APPROXIMATED",
+  "other_versions_verified": false,
+  "full_visual_fidelity": false,
+  "publish_authorized": false,
+  "evidence": "Native UI displayed matching draft title and editable text; edited timeline text persisted after close/reopen; export success panel and ffprobe verified local MP4."
+}

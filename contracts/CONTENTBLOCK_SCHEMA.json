@@ -1,0 +1,68 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "type": {
+      "enum": [
+        "TEXT",
+        "IMAGE",
+        "AUDIO",
+        "VIDEO",
+        "FILE",
+        "JSON"
+      ],
+      "title": "Type",
+      "type": "string"
+    },
+    "text": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Text"
+    },
+    "uri": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Uri"
+    },
+    "mime_type": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Mime Type"
+    },
+    "json_value": {
+      "anyOf": [
+        {},
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Json Value"
+    }
+  },
+  "required": [
+    "type"
+  ],
+  "title": "ContentBlock",
+  "type": "object"
+}

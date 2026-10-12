@@ -1,0 +1,884 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-09-28T02:46:24.369081+00:00",
+  "snapshot_scope": "Actual manual smoke results and current registry; read-only snapshot. Capability success does not certify an end-to-end workflow.",
+  "structured_output_note": "Client-side validated JSON, not verified native JSON Schema support.",
+  "capabilities": [
+    "TEXT",
+    "STRUCTURED_OUTPUT",
+    "VISION",
+    "IMAGE_INPUT",
+    "VIDEO_INPUT",
+    "AUDIO_INPUT",
+    "TOOL_CALLING",
+    "STREAMING",
+    "REASONING",
+    "JSON_SCHEMA"
+  ],
+  "providers": {
+    "DEEPSEEK": {
+      "provider_id": "DEEPSEEK",
+      "provider_type": "BUILTIN",
+      "display_name": "DeepSeek",
+      "protocol": "OPENAI_COMPATIBLE",
+      "default_model": "deepseek-flash",
+      "registered": true,
+      "configured": true,
+      "adapter_implemented": true,
+      "connection_verified": true,
+      "model_verified": true,
+      "capability_verified": true,
+      "live_verified": true,
+      "last_probe_at": "2026-09-27T05:27:22.320275+00:00",
+      "last_probe_result": {
+        "status": "SUCCESS",
+        "latency_ms": 522,
+        "checks": [
+          "NETWORK",
+          "AUTHENTICATION",
+          "MODEL_CALLABLE",
+          "OPENAI_PROTOCOL",
+          "TEXT_RESPONSE"
+        ],
+        "tested_capability": "STRUCTURED_OUTPUT"
+      },
+      "capabilities": {
+        "TEXT": {
+          "state": "VERIFIED",
+          "adapter_supported": true
+        },
+        "STRUCTURED_OUTPUT": {
+          "state": "VERIFIED",
+          "adapter_supported": true
+        },
+        "VISION": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "IMAGE_INPUT": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "VIDEO_INPUT": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "AUDIO_INPUT": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "TOOL_CALLING": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "STREAMING": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "REASONING": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "JSON_SCHEMA": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        }
+      }
+    },
+    "DOUBAO": {
+      "provider_id": "DOUBAO",
+      "provider_type": "BUILTIN",
+      "display_name": "豆包",
+      "protocol": "OPENAI_COMPATIBLE",
+      "default_model": "doubao-seed-evolving",
+      "registered": true,
+      "configured": true,
+      "adapter_implemented": true,
+      "connection_verified": true,
+      "model_verified": true,
+      "capability_verified": true,
+      "live_verified": true,
+      "last_probe_at": "2026-09-27T05:28:54.331260+00:00",
+      "last_probe_result": {
+        "status": "SUCCESS",
+        "latency_ms": 1594,
+        "checks": [
+          "NETWORK",
+          "AUTHENTICATION",
+          "MODEL_CALLABLE",
+          "OPENAI_PROTOCOL",
+          "TEXT_RESPONSE"
+        ],
+        "tested_capability": "STRUCTURED_OUTPUT"
+      },
+      "capabilities": {
+        "TEXT": {
+          "state": "VERIFIED",
+          "adapter_supported": true
+        },
+        "STRUCTURED_OUTPUT": {
+          "state": "VERIFIED",
+          "adapter_supported": true
+        },
+        "VISION": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "IMAGE_INPUT": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "VIDEO_INPUT": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "AUDIO_INPUT": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "TOOL_CALLING": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "STREAMING": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "REASONING": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "JSON_SCHEMA": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        }
+      }
+    },
+    "GLM": {
+      "provider_id": "GLM",
+      "provider_type": "BUILTIN",
+      "display_name": "GLM",
+      "protocol": "OPENAI_COMPATIBLE",
+      "default_model": "glm-4.7",
+      "registered": true,
+      "configured": true,
+      "adapter_implemented": true,
+      "connection_verified": true,
+      "model_verified": true,
+      "capability_verified": true,
+      "live_verified": true,
+      "last_probe_at": "2026-09-27T05:29:15.792972+00:00",
+      "last_probe_result": {
+        "status": "SUCCESS",
+        "latency_ms": 3153,
+        "checks": [
+          "NETWORK",
+          "AUTHENTICATION",
+          "MODEL_CALLABLE",
+          "OPENAI_PROTOCOL",
+          "TEXT_RESPONSE"
+        ],
+        "tested_capability": "STRUCTURED_OUTPUT"
+      },
+      "capabilities": {
+        "TEXT": {
+          "state": "VERIFIED",
+          "adapter_supported": true
+        },
+        "STRUCTURED_OUTPUT": {
+          "state": "VERIFIED",
+          "adapter_supported": true
+        },
+        "VISION": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "IMAGE_INPUT": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "VIDEO_INPUT": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "AUDIO_INPUT": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "TOOL_CALLING": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "STREAMING": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "REASONING": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "JSON_SCHEMA": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        }
+      }
+    },
+    "MINIMAX": {
+      "provider_id": "MINIMAX",
+      "provider_type": "BUILTIN",
+      "display_name": "MiniMax",
+      "protocol": "OPENAI_COMPATIBLE",
+      "default_model": "MiniMax-M3",
+      "registered": true,
+      "configured": true,
+      "adapter_implemented": true,
+      "connection_verified": true,
+      "model_verified": true,
+      "capability_verified": true,
+      "live_verified": true,
+      "last_probe_at": "2026-09-27T05:32:18.473403+00:00",
+      "last_probe_result": {
+        "status": "SUCCESS",
+        "latency_ms": 5204,
+        "checks": [
+          "NETWORK",
+          "AUTHENTICATION",
+          "MODEL_CALLABLE",
+          "OPENAI_PROTOCOL",
+          "TEXT_RESPONSE"
+        ],
+        "tested_capability": "VIDEO_INPUT"
+      },
+      "capabilities": {
+        "TEXT": {
+          "state": "VERIFIED",
+          "adapter_supported": true
+        },
+        "STRUCTURED_OUTPUT": {
+          "state": "VERIFIED",
+          "adapter_supported": true
+        },
+        "VISION": {
+          "state": "VERIFIED",
+          "adapter_supported": true
+        },
+        "IMAGE_INPUT": {
+          "state": "UNKNOWN",
+          "adapter_supported": true
+        },
+        "VIDEO_INPUT": {
+          "state": "VERIFIED",
+          "adapter_supported": true
+        },
+        "AUDIO_INPUT": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "TOOL_CALLING": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "STREAMING": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "REASONING": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "JSON_SCHEMA": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        }
+      }
+    },
+    "OPENAI": {
+      "provider_id": "OPENAI",
+      "provider_type": "BUILTIN",
+      "display_name": "OpenAI",
+      "protocol": "OPENAI_COMPATIBLE",
+      "default_model": "",
+      "registered": true,
+      "configured": false,
+      "adapter_implemented": true,
+      "connection_verified": false,
+      "model_verified": false,
+      "capability_verified": false,
+      "live_verified": false,
+      "last_probe_at": null,
+      "last_probe_result": null,
+      "capabilities": {
+        "TEXT": {
+          "state": "UNKNOWN",
+          "adapter_supported": true
+        },
+        "STRUCTURED_OUTPUT": {
+          "state": "UNKNOWN",
+          "adapter_supported": true
+        },
+        "VISION": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "IMAGE_INPUT": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "VIDEO_INPUT": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "AUDIO_INPUT": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "TOOL_CALLING": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "STREAMING": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "REASONING": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "JSON_SCHEMA": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        }
+      }
+    },
+    "ANTHROPIC": {
+      "provider_id": "ANTHROPIC",
+      "provider_type": "BUILTIN",
+      "display_name": "Anthropic",
+      "protocol": "ANTHROPIC",
+      "default_model": "",
+      "registered": true,
+      "configured": false,
+      "adapter_implemented": false,
+      "connection_verified": false,
+      "model_verified": false,
+      "capability_verified": false,
+      "live_verified": false,
+      "last_probe_at": null,
+      "last_probe_result": null,
+      "capabilities": {
+        "TEXT": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "STRUCTURED_OUTPUT": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "VISION": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "IMAGE_INPUT": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "VIDEO_INPUT": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "AUDIO_INPUT": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "TOOL_CALLING": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "STREAMING": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "REASONING": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "JSON_SCHEMA": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        }
+      }
+    },
+    "GEMINI": {
+      "provider_id": "GEMINI",
+      "provider_type": "BUILTIN",
+      "display_name": "Gemini",
+      "protocol": "GEMINI",
+      "default_model": "",
+      "registered": true,
+      "configured": false,
+      "adapter_implemented": false,
+      "connection_verified": false,
+      "model_verified": false,
+      "capability_verified": false,
+      "live_verified": false,
+      "last_probe_at": null,
+      "last_probe_result": null,
+      "capabilities": {
+        "TEXT": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "STRUCTURED_OUTPUT": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "VISION": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "IMAGE_INPUT": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "VIDEO_INPUT": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "AUDIO_INPUT": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "TOOL_CALLING": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "STREAMING": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "REASONING": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "JSON_SCHEMA": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        }
+      }
+    },
+    "QWEN": {
+      "provider_id": "QWEN",
+      "provider_type": "BUILTIN",
+      "display_name": "Qwen",
+      "protocol": "OPENAI_COMPATIBLE",
+      "default_model": "",
+      "registered": true,
+      "configured": false,
+      "adapter_implemented": true,
+      "connection_verified": false,
+      "model_verified": false,
+      "capability_verified": false,
+      "live_verified": false,
+      "last_probe_at": null,
+      "last_probe_result": null,
+      "capabilities": {
+        "TEXT": {
+          "state": "UNKNOWN",
+          "adapter_supported": true
+        },
+        "STRUCTURED_OUTPUT": {
+          "state": "UNKNOWN",
+          "adapter_supported": true
+        },
+        "VISION": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "IMAGE_INPUT": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "VIDEO_INPUT": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "AUDIO_INPUT": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "TOOL_CALLING": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "STREAMING": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "REASONING": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "JSON_SCHEMA": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        }
+      }
+    },
+    "KIMI": {
+      "provider_id": "KIMI",
+      "provider_type": "BUILTIN",
+      "display_name": "Kimi",
+      "protocol": "OPENAI_COMPATIBLE",
+      "default_model": "",
+      "registered": true,
+      "configured": false,
+      "adapter_implemented": true,
+      "connection_verified": false,
+      "model_verified": false,
+      "capability_verified": false,
+      "live_verified": false,
+      "last_probe_at": null,
+      "last_probe_result": null,
+      "capabilities": {
+        "TEXT": {
+          "state": "UNKNOWN",
+          "adapter_supported": true
+        },
+        "STRUCTURED_OUTPUT": {
+          "state": "UNKNOWN",
+          "adapter_supported": true
+        },
+        "VISION": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "IMAGE_INPUT": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "VIDEO_INPUT": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "AUDIO_INPUT": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "TOOL_CALLING": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "STREAMING": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "REASONING": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "JSON_SCHEMA": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        }
+      }
+    },
+    "GROK": {
+      "provider_id": "GROK",
+      "provider_type": "BUILTIN",
+      "display_name": "Grok",
+      "protocol": "OPENAI_COMPATIBLE",
+      "default_model": "",
+      "registered": true,
+      "configured": false,
+      "adapter_implemented": true,
+      "connection_verified": false,
+      "model_verified": false,
+      "capability_verified": false,
+      "live_verified": false,
+      "last_probe_at": null,
+      "last_probe_result": null,
+      "capabilities": {
+        "TEXT": {
+          "state": "UNKNOWN",
+          "adapter_supported": true
+        },
+        "STRUCTURED_OUTPUT": {
+          "state": "UNKNOWN",
+          "adapter_supported": true
+        },
+        "VISION": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "IMAGE_INPUT": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "VIDEO_INPUT": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "AUDIO_INPUT": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "TOOL_CALLING": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "STREAMING": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "REASONING": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "JSON_SCHEMA": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        }
+      }
+    },
+    "LOCAL_OPENAI": {
+      "provider_id": "LOCAL_OPENAI",
+      "provider_type": "BUILTIN",
+      "display_name": "本地模型",
+      "protocol": "OPENAI_COMPATIBLE",
+      "default_model": "",
+      "registered": true,
+      "configured": false,
+      "adapter_implemented": true,
+      "connection_verified": false,
+      "model_verified": false,
+      "capability_verified": false,
+      "live_verified": false,
+      "last_probe_at": null,
+      "last_probe_result": null,
+      "capabilities": {
+        "TEXT": {
+          "state": "UNKNOWN",
+          "adapter_supported": true
+        },
+        "STRUCTURED_OUTPUT": {
+          "state": "UNKNOWN",
+          "adapter_supported": true
+        },
+        "VISION": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "IMAGE_INPUT": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "VIDEO_INPUT": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "AUDIO_INPUT": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "TOOL_CALLING": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "STREAMING": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "REASONING": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "JSON_SCHEMA": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        }
+      }
+    },
+    "CUSTOM_OPENAI": {
+      "provider_id": "CUSTOM_OPENAI",
+      "provider_type": "BUILTIN",
+      "display_name": "兼容 API",
+      "protocol": "OPENAI_COMPATIBLE",
+      "default_model": "",
+      "registered": true,
+      "configured": false,
+      "adapter_implemented": true,
+      "connection_verified": false,
+      "model_verified": false,
+      "capability_verified": false,
+      "live_verified": false,
+      "last_probe_at": null,
+      "last_probe_result": null,
+      "capabilities": {
+        "TEXT": {
+          "state": "UNKNOWN",
+          "adapter_supported": true
+        },
+        "STRUCTURED_OUTPUT": {
+          "state": "UNKNOWN",
+          "adapter_supported": true
+        },
+        "VISION": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "IMAGE_INPUT": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "VIDEO_INPUT": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "AUDIO_INPUT": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "TOOL_CALLING": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "STREAMING": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "REASONING": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "JSON_SCHEMA": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        }
+      }
+    },
+    "custom_b617a5973aae": {
+      "provider_id": "custom_b617a5973aae",
+      "provider_type": "CUSTOM",
+      "display_name": "小Y 研究备用 · DeepSeek",
+      "protocol": "OPENAI_COMPATIBLE",
+      "default_model": "deepseek-flash",
+      "registered": true,
+      "configured": true,
+      "adapter_implemented": true,
+      "connection_verified": true,
+      "model_verified": true,
+      "capability_verified": true,
+      "live_verified": true,
+      "last_probe_at": "2026-09-27T05:30:52.799370+00:00",
+      "last_probe_result": {
+        "status": "SUCCESS",
+        "latency_ms": 618,
+        "checks": [
+          "NETWORK",
+          "AUTHENTICATION",
+          "MODEL_CALLABLE",
+          "OPENAI_PROTOCOL",
+          "TEXT_RESPONSE"
+        ],
+        "tested_capability": "STRUCTURED_OUTPUT"
+      },
+      "capabilities": {
+        "TEXT": {
+          "state": "VERIFIED",
+          "adapter_supported": true
+        },
+        "STRUCTURED_OUTPUT": {
+          "state": "VERIFIED",
+          "adapter_supported": true
+        },
+        "VISION": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "IMAGE_INPUT": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "VIDEO_INPUT": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "AUDIO_INPUT": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "TOOL_CALLING": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "STREAMING": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "REASONING": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        },
+        "JSON_SCHEMA": {
+          "state": "UNKNOWN",
+          "adapter_supported": false
+        }
+      }
+    }
+  },
+  "voices": [
+    {
+      "profile": "MINIMAX_TTS",
+      "provider": "MINIMAX",
+      "model": "speech-2.8-hd",
+      "voice_id": "Chinese (Mandarin)_Reliable_Executive",
+      "execution_mode": "CLOUD",
+      "configured": true,
+      "secret_configured": true,
+      "secret_source": "MACOS_KEYCHAIN",
+      "adapter_implemented": true,
+      "live_verified": true,
+      "last_probe_result": {
+        "executed_at": "2026-09-27T06:12:24.894670+00:00",
+        "duration": 4.388583,
+        "audio_hash": "b29d13f2d8548f1c3955b16de4d1044bd694dbbbe554170392ee86d06ab88164",
+        "adapter": "NATIVE_V1"
+      },
+      "production_accepted": false
+    },
+    {
+      "profile": "DOUBAO_TTS",
+      "provider": "DOUBAO",
+      "model": "seed-tts-2.0",
+      "voice_id": "zh_female_vv_uranus_bigtts",
+      "execution_mode": "CLOUD",
+      "configured": true,
+      "secret_configured": true,
+      "secret_source": "MACOS_KEYCHAIN",
+      "adapter_implemented": true,
+      "live_verified": false,
+      "last_probe_result": null,
+      "last_failed_probe": {
+        "executed_at": "2026-09-27T06:19:37.985061+00:00",
+        "error_code": "AUTH_INVALID"
+      },
+      "production_accepted": false
+    },
+    {
+      "profile": "YU_LOCAL_V1",
+      "provider": "LOCAL",
+      "execution_mode": "LOCAL",
+      "configured": true,
+      "adapter_implemented": true,
+      "live_verified": true,
+      "last_probe_result": {
+        "executed_at": "2026-09-27T11:17:44.130750+00:00",
+        "duration": 8.88,
+        "audio_hash": "881542dd218948c4a3147f80fe1e8b52e625e1093e37ddf469094e2a2bd2b0ed",
+        "adapter": "NATIVE_V1"
+      },
+      "production_accepted": false
+    }
+  ],
+  "mock_note": "Mock remains an explicit diagnostic choice, never live verification."
+}

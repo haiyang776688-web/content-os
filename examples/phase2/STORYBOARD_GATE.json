@@ -1,0 +1,47 @@
+{
+  "artifact_id": "ART-b055022dab5e4980",
+  "project_id": "PRJ-b417f4c7957a",
+  "artifact_type": "STORYBOARD_GATE",
+  "revision": 2,
+  "created_by_role": "HUMAN",
+  "worker": null,
+  "provider": null,
+  "model": null,
+  "prompt_version": null,
+  "dependencies": [
+    {
+      "artifact_id": "ART-87bf9630e8184173",
+      "output_hash": "85d0937fb4d5f98484e8b69fab211b531c1f0e166dc6e3f7692098215fb479e5"
+    }
+  ],
+  "input_hash": "c2601d7ca61e8d59875dc0bfb965c9f57f8a0a396f88dad2ea272061bca17de0",
+  "output_hash": "97946fd1f9c201b6081a67629df5a5df6cb904e3c5fd547ac0d8ea90fc835a6e",
+  "status": "READY",
+  "created_at": "2026-09-26T10:39:00.949618+00:00",
+  "payload": {
+    "decision": "APPROVE",
+    "reviewer": "SIMULATED TESTER",
+    "comments": "Mock acceptance fixture only",
+    "beat_ids": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "approved_beats": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "rejected_beats": [],
+    "all_beats_approved": true,
+    "ir_hash": "0614d17d535339f04538927ecf5df6b865f73a5b409080d4104430f50efe4826",
+    "at": "2026-09-26T10:39:00.948670+00:00"
+  },
+  "current_status": "READY"
+}

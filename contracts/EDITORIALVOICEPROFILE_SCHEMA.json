@@ -1,0 +1,76 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "profile_id": {
+      "title": "Profile Id",
+      "type": "string"
+    },
+    "version": {
+      "default": "1",
+      "title": "Version",
+      "type": "string"
+    },
+    "tone": {
+      "default": "Clear, rational, approachable",
+      "title": "Tone",
+      "type": "string"
+    },
+    "formality": {
+      "default": "Conversational",
+      "title": "Formality",
+      "type": "string"
+    },
+    "sentence_length": {
+      "default": "Short spoken clauses",
+      "title": "Sentence Length",
+      "type": "string"
+    },
+    "humor": {
+      "default": "Restrained",
+      "title": "Humor",
+      "type": "string"
+    },
+    "technical_density": {
+      "default": "Explain necessary jargon",
+      "title": "Technical Density",
+      "type": "string"
+    },
+    "directness": {
+      "default": "Direct",
+      "title": "Directness",
+      "type": "string"
+    },
+    "slang": {
+      "default": "Limited",
+      "title": "Slang",
+      "type": "string"
+    },
+    "emoji_policy": {
+      "default": "None in spoken script",
+      "title": "Emoji Policy",
+      "type": "string"
+    },
+    "rhetorical_question_frequency": {
+      "default": "Low",
+      "title": "Rhetorical Question Frequency",
+      "type": "string"
+    },
+    "first_person_style": {
+      "default": "Companion",
+      "title": "First Person Style",
+      "type": "string"
+    },
+    "forbidden_expressions": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Forbidden Expressions",
+      "type": "array"
+    }
+  },
+  "required": [
+    "profile_id"
+  ],
+  "title": "EditorialVoiceProfile",
+  "type": "object"
+}

@@ -1,0 +1,96 @@
+{
+  "$defs": {
+    "DirectorBeat": {
+      "additionalProperties": false,
+      "properties": {
+        "beat_id": {
+          "title": "Beat Id",
+          "type": "string"
+        },
+        "purpose": {
+          "title": "Purpose",
+          "type": "string"
+        },
+        "visual_focus": {
+          "title": "Visual Focus",
+          "type": "string"
+        },
+        "visual_form": {
+          "title": "Visual Form",
+          "type": "string"
+        },
+        "character_presence": {
+          "title": "Character Presence",
+          "type": "string"
+        },
+        "character_intent": {
+          "title": "Character Intent",
+          "type": "string"
+        },
+        "media_need": {
+          "title": "Media Need",
+          "type": "string"
+        },
+        "density": {
+          "title": "Density",
+          "type": "string"
+        },
+        "tempo": {
+          "title": "Tempo",
+          "type": "string"
+        },
+        "motion_intent": {
+          "title": "Motion Intent",
+          "type": "string"
+        },
+        "reveal_order": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Reveal Order",
+          "type": "array"
+        },
+        "keyword": {
+          "title": "Keyword",
+          "type": "string"
+        }
+      },
+      "required": [
+        "beat_id",
+        "purpose",
+        "visual_focus",
+        "visual_form",
+        "character_presence",
+        "character_intent",
+        "media_need",
+        "density",
+        "tempo",
+        "motion_intent",
+        "reveal_order",
+        "keyword"
+      ],
+      "title": "DirectorBeat",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "script_artifact_id": {
+      "title": "Script Artifact Id",
+      "type": "string"
+    },
+    "beats": {
+      "items": {
+        "$ref": "#/$defs/DirectorBeat"
+      },
+      "title": "Beats",
+      "type": "array"
+    }
+  },
+  "required": [
+    "script_artifact_id",
+    "beats"
+  ],
+  "title": "DirectorPlan",
+  "type": "object"
+}

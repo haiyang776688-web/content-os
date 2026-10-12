@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "sample_id": "ATS001-SAMPLE-A-ART-ce387c3fce5546ee",
+  "sample_status": "VALIDATED_APPROVED_AUDIO_SCRIPT_PAIR",
+  "voice_artifact_id": "ART-ce387c3fce5546ee",
+  "script_artifact_id": "ART-bef1d4cecaf94b5d",
+  "script_gate_artifact_id": "ART-978ad35b64574f8d",
+  "script_gate_decision": "PASS",
+  "audio_duration_seconds": 84.76,
+  "audio_sha256": "2d0278e8a2bfcc2c483b2958d60ba9d6f902990bb7b2a2edf7879ddbec2cf813",
+  "script_sha256": "ca462d45d2e1329c9ec6766afe01db8e54ab2bc2c6294e8ab1bcd66ce4b2f173",
+  "script_file_sha256": "ca462d45d2e1329c9ec6766afe01db8e54ab2bc2c6294e8ab1bcd66ce4b2f173",
+  "script_payload_hash": "cb975af6dd6b80f4a01ff1092fa202d2d72aadc3df107278d40596f25f8a4263",
+  "phrases": [
+    {
+      "phrase_id": "SEG-01-P01",
+      "segment_id": "SEG-01",
+      "start_seconds": 0,
+      "end_seconds": 11.04,
+      "text": "想让视觉时间线跟着声音走，第一步是分清职责。脚本负责说什么，视觉节拍负责此刻看什么，声音决定它们什么时候出现。"
+    },
+    {
+      "phrase_id": "SEG-02-P01",
+      "segment_id": "SEG-02",
+      "start_seconds": 11.04,
+      "end_seconds": 20.56,
+      "text": "接着，给每个脚本段落绑定明确的视觉意图。先判断这段是在讲解、提问还是强调，模板和人物动作才有选择依据。"
+    },
+    {
+      "phrase_id": "SEG-03-P01",
+      "segment_id": "SEG-03",
+      "start_seconds": 20.56,
+      "end_seconds": 28.2,
+      "text": "然后做节拍拆分。一句话里有转折，就可以拆成两个节拍，不必让整句一直挂在屏幕上。"
+    },
+    {
+      "phrase_id": "SEG-04-P01",
+      "segment_id": "SEG-04",
+      "start_seconds": 28.2,
+      "end_seconds": 38.48,
+      "text": "时间线只决定画面何时出现。接入声音之后，以实际语音长度为主，再安排关键词、人物和信息元素的入场。"
+    },
+    {
+      "phrase_id": "SEG-05-P01",
+      "segment_id": "SEG-05",
+      "start_seconds": 38.48,
+      "end_seconds": 48.559999999999995,
+      "text": "还要检查镜头的读完时间。镜头过短，观众来不及读完信息；镜头太长却没有变化，画面也会停住，两边都要看。"
+    },
+    {
+      "phrase_id": "SEG-06-P01",
+      "segment_id": "SEG-06",
+      "start_seconds": 48.559999999999995,
+      "end_seconds": 58.36,
+      "text": "遇到对比内容，就把差异并排放好。先让观众看清变化，再让角色补一句解释，稳定结构比堆叠特效更容易复查。"
+    },
+    {
+      "phrase_id": "SEG-07-P01",
+      "segment_id": "SEG-07",
+      "start_seconds": 58.36,
+      "end_seconds": 67.76,
+      "text": "信息元素可以晚一点独立出现。等口播说到相关内容，再让图标、箭头或卡片出现，信息会更集中。"
+    },
+    {
+      "phrase_id": "SEG-08-P01",
+      "segment_id": "SEG-08",
+      "start_seconds": 67.76,
+      "end_seconds": 75.88000000000001,
+      "text": "已有道具的动作，就不重复叠加图标。人物负责身体语言，信息符号负责提示，两层不要互相抢位置。"
+    },
+    {
+      "phrase_id": "SEG-09-P01",
+      "segment_id": "SEG-09",
+      "start_seconds": 75.88000000000001,
+      "end_seconds": 84.76,
+      "text": "最后按脚本顺序生成，再按时间复查。声音讲到新信息时，对应画面就该进入，不要还停留在上一句。"
+    }
+  ],
+  "boundaries": []
+}

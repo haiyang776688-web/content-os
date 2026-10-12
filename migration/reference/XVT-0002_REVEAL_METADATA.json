@@ -1,0 +1,104 @@
+{
+  "revision": "XVT-0002",
+  "source_template_revision": "XVT-0001",
+  "core_template_identities_unchanged": true,
+  "default_reveal_sequence": {
+    "CHARACTER_CENTER": [
+      "character",
+      "keyword",
+      "underline"
+    ],
+    "CHARACTER_LEFT_TEXT_RIGHT": [
+      "character",
+      "keyword",
+      "underline"
+    ],
+    "INFO_LEFT_CHARACTER_RIGHT": [
+      "character",
+      "keyword",
+      "points",
+      "underline"
+    ],
+    "CHARACTER_LOGO": [
+      "character",
+      "keyword",
+      "media",
+      "underline"
+    ],
+    "CHARACTER_SCREEN": [
+      "character",
+      "keyword",
+      "media"
+    ],
+    "EXTREME_CLOSEUP": [
+      "character",
+      "keyword",
+      "underline",
+      "element"
+    ],
+    "KEYWORD_FULL_FRAME": [
+      "keyword",
+      "underline"
+    ],
+    "SCREEN_FULL_FRAME": [
+      "media",
+      "keyword"
+    ],
+    "SCREEN_DETAIL_ZOOM": [
+      "media",
+      "keyword",
+      "detail",
+      "element"
+    ],
+    "COMPARE_SPLIT": [
+      "keyword",
+      "compare_left",
+      "compare_right",
+      "compare_link"
+    ],
+    "THREE_POINT_SUMMARY": [
+      "character",
+      "keyword",
+      "points"
+    ],
+    "CTA_END_CARD": [
+      "character",
+      "keyword",
+      "underline"
+    ]
+  },
+  "semantic_variant_overrides": {
+    "SHOT-001-C": {
+      "variant": "VOICE_TIMELINE",
+      "visualization_kind": "PROCESS"
+    },
+    "SHOT-003-B": {
+      "variant": "TWO_BEATS",
+      "visualization_kind": "PROCESS"
+    },
+    "SHOT-004-B": {
+      "variant": "TIMING",
+      "visualization_kind": "PROCESS"
+    },
+    "SHOT-004-C": {
+      "variant": "DURATION",
+      "visualization_kind": "PROCESS"
+    },
+    "SHOT-008-B": {
+      "variant": "ROLE_SPLIT",
+      "visualization_kind": "RELATION"
+    }
+  },
+  "motion_vocabulary": [
+    "CUT",
+    "DRAW",
+    "FADE",
+    "NONE",
+    "POP",
+    "REVEAL",
+    "SCALE_IN",
+    "SLIDE_LEFT",
+    "SLIDE_RIGHT",
+    "SLIDE_UP"
+  ]
+}

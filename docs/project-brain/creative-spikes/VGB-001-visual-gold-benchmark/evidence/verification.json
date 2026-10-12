@@ -1,0 +1,52 @@
+{
+  "status": "TECHNICAL_PASS_NOT_CREATIVE_ACCEPTANCE",
+  "renders": [
+    {
+      "direction": "A",
+      "duration": "19.178667",
+      "frames": 574,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "fps": "30/1",
+      "audio_hash": "SHA256=a4b438037280fe1abeaf0f78ef11737cbf1ce54e759e32bbd038098373c4995b",
+      "file_sha256": "6921c108d66f2bb49f6169920605055dd8d502156da8945a3004cf99034e0a63",
+      "bytes": 3997757
+    },
+    {
+      "direction": "B",
+      "duration": "19.178667",
+      "frames": 574,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "fps": "30/1",
+      "audio_hash": "SHA256=a4b438037280fe1abeaf0f78ef11737cbf1ce54e759e32bbd038098373c4995b",
+      "file_sha256": "f90a6ffb91fd9bc3e1cb03485f111bb6a3102e29dcef76015786ef0eb7349f74",
+      "bytes": 1662936
+    },
+    {
+      "direction": "C",
+      "duration": "19.178667",
+      "frames": 574,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "fps": "30/1",
+      "audio_hash": "SHA256=a4b438037280fe1abeaf0f78ef11737cbf1ce54e759e32bbd038098373c4995b",
+      "file_sha256": "8a09aeaa480656f226549440ca30d99b10c0a5d933f8d88b0bb718fa1bfb5fdf",
+      "bytes": 2127180
+    }
+  ],
+  "captions": {
+    "cue_count": 6,
+    "wording_preserved": true,
+    "no_gaps_or_overlaps": true,
+    "fact_id_intact": true
+  },
+  "human_visual_choice": "PENDING",
+  "playback_review": "dense sampling + full-resolution keyframes, not uninterrupted real-time audiovisual viewing"
+}

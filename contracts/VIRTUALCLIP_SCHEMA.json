@@ -1,0 +1,26 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "source_asset_id": {
+      "title": "Source Asset Id",
+      "type": "string"
+    },
+    "source_in": {
+      "minimum": 0,
+      "title": "Source In",
+      "type": "number"
+    },
+    "source_out": {
+      "exclusiveMinimum": 0,
+      "title": "Source Out",
+      "type": "number"
+    }
+  },
+  "required": [
+    "source_asset_id",
+    "source_in",
+    "source_out"
+  ],
+  "title": "VirtualClip",
+  "type": "object"
+}

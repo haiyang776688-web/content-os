@@ -1,0 +1,6625 @@
+{
+  "artifact_id": "ART-69c6777e8adb4aa3",
+  "artifact_type": "ALIGNED_TIMING_MAP",
+  "output_hash": "d87fd127370ee3a1dabbb84eb80943b51e0e7278457a78345700a996016a7dd1",
+  "current_status": "READY",
+  "payload": {
+    "schema_version": 1,
+    "audio_artifact_id": "ART-f55a5e42a3ff4bd3",
+    "audio_sha256": "2d0278e8a2bfcc2c483b2958d60ba9d6f902990bb7b2a2edf7879ddbec2cf813",
+    "script_artifact_id": "ART-5c6ed25a3dd24177",
+    "script_sha256": "476672d70ca5021587d765552c013af05c265aabc579c8624b9784699f799906",
+    "alignment_method": "POST-TTS ASR TIMING + TRANSCRIPT ALIGNMENT",
+    "engine": "whisper.cpp",
+    "engine_version": "1.9.1",
+    "engine_binary_sha256": "7dc20e3106d70746d61c419646d9bf87f726a5df7da562e26e8529067119f7b8",
+    "model_name": "ggml-medium.bin",
+    "model_sha256": "6c14d5adee5f86394037b4e4e8b59f1673b6cee10e3cf0b11bbdbee79c156208",
+    "language": "zh",
+    "created_at": "2026-10-01T10:01:34.218710+00:00",
+    "coverage": 0.9869109947643979,
+    "alignment_config_hash": "dc4b1bcaaacaa64afaa68c5aeaad867786d6a30e17a5f77d9418f93082e61987",
+    "cache_key": "8e14d75f1310cc0f9653840bb3bd89e6c40e44dbccd1921348efe7f846bebb02",
+    "raw_alignment_sha256": "3eed5313bb31b9d52be4e68c9f7ec6496723488a50fa994e882ced5a5892480c",
+    "anchors": [
+      {
+        "anchor_id": "PHRASE-SEG-01",
+        "kind": "PHRASE",
+        "script_span": {
+          "segment_id": "SEG-01",
+          "start": 0,
+          "end": 50,
+          "text": "想让视觉时间线跟着声音走第一步是分清职责脚本负责说什么视觉节拍负责此刻看什么声音决定它们什么时候出现"
+        },
+        "start_ms": 300,
+        "end_ms": 11240,
+        "confidence": 0.9761015833333334,
+        "provenance": {
+          "source": "TOLERANT_TRANSCRIPT_ALIGNMENT_OVER_DTW_TOKENS",
+          "matched_chars": 48,
+          "total_chars": 50,
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "PHRASE-SEG-02",
+        "kind": "PHRASE",
+        "script_span": {
+          "segment_id": "SEG-02",
+          "start": 0,
+          "end": 46,
+          "text": "接着给每个脚本段落绑定明确的视觉意图先判断这段是在讲解提问还是强调模板和人物动作才有选择依据"
+        },
+        "start_ms": 11460,
+        "end_ms": 20600,
+        "confidence": 0.9824260869565218,
+        "provenance": {
+          "source": "TOLERANT_TRANSCRIPT_ALIGNMENT_OVER_DTW_TOKENS",
+          "matched_chars": 46,
+          "total_chars": 46,
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "PHRASE-SEG-03",
+        "kind": "PHRASE",
+        "script_span": {
+          "segment_id": "SEG-03",
+          "start": 0,
+          "end": 35,
+          "text": "然后做节拍拆分一句话里有转折就可以拆成两个节拍不必让整句一直挂在屏幕上"
+        },
+        "start_ms": 20940,
+        "end_ms": 28100,
+        "confidence": 0.9797397142857142,
+        "provenance": {
+          "source": "TOLERANT_TRANSCRIPT_ALIGNMENT_OVER_DTW_TOKENS",
+          "matched_chars": 35,
+          "total_chars": 35,
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "PHRASE-SEG-04",
+        "kind": "PHRASE",
+        "script_span": {
+          "segment_id": "SEG-04",
+          "start": 0,
+          "end": 43,
+          "text": "时间线只决定画面何时出现接入声音之后以实际语音长度为主再安排关键词人物和信息元素的入场"
+        },
+        "start_ms": 28740,
+        "end_ms": 38540,
+        "confidence": 0.9832639302325582,
+        "provenance": {
+          "source": "TOLERANT_TRANSCRIPT_ALIGNMENT_OVER_DTW_TOKENS",
+          "matched_chars": 43,
+          "total_chars": 43,
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "PHRASE-SEG-05",
+        "kind": "PHRASE",
+        "script_span": {
+          "segment_id": "SEG-05",
+          "start": 0,
+          "end": 44,
+          "text": "还要检查镜头的读完时间镜头过短观众来不及读完信息镜头太长却没有变化画面也会停住两边都要看"
+        },
+        "start_ms": 38880,
+        "end_ms": 48580,
+        "confidence": 0.9832563636363637,
+        "provenance": {
+          "source": "TOLERANT_TRANSCRIPT_ALIGNMENT_OVER_DTW_TOKENS",
+          "matched_chars": 44,
+          "total_chars": 44,
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "PHRASE-SEG-06",
+        "kind": "PHRASE",
+        "script_span": {
+          "segment_id": "SEG-06",
+          "start": 0,
+          "end": 45,
+          "text": "遇到对比内容就把差异并排放好先让观众看清变化再让角色补一句解释稳定结构比堆叠特效更容易复查"
+        },
+        "start_ms": 48920,
+        "end_ms": 58420,
+        "confidence": 0.9849434,
+        "provenance": {
+          "source": "TOLERANT_TRANSCRIPT_ALIGNMENT_OVER_DTW_TOKENS",
+          "matched_chars": 45,
+          "total_chars": 45,
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "PHRASE-SEG-07",
+        "kind": "PHRASE",
+        "script_span": {
+          "segment_id": "SEG-07",
+          "start": 0,
+          "end": 39,
+          "text": "信息元素可以晚一点独立出现等口播说到相关内容再让图标箭头或卡片出现信息会更集中"
+        },
+        "start_ms": 58840,
+        "end_ms": 67960,
+        "confidence": 0.9697910540540541,
+        "provenance": {
+          "source": "TOLERANT_TRANSCRIPT_ALIGNMENT_OVER_DTW_TOKENS",
+          "matched_chars": 37,
+          "total_chars": 39,
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "PHRASE-SEG-08",
+        "kind": "PHRASE",
+        "script_span": {
+          "segment_id": "SEG-08",
+          "start": 0,
+          "end": 40,
+          "text": "已有道具的动作就不重复叠加图标人物负责身体语言信息符号负责提示两层不要互相抢位置"
+        },
+        "start_ms": 68220,
+        "end_ms": 76040,
+        "confidence": 0.9744332564102564,
+        "provenance": {
+          "source": "TOLERANT_TRANSCRIPT_ALIGNMENT_OVER_DTW_TOKENS",
+          "matched_chars": 39,
+          "total_chars": 40,
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "PHRASE-SEG-09",
+        "kind": "PHRASE",
+        "script_span": {
+          "segment_id": "SEG-09",
+          "start": 0,
+          "end": 40,
+          "text": "最后按脚本顺序生成再按时间复查声音讲到新信息时对应画面就该进入不要还停留在上一句"
+        },
+        "start_ms": 76300,
+        "end_ms": 84600,
+        "confidence": 0.970099325,
+        "provenance": {
+          "source": "TOLERANT_TRANSCRIPT_ALIGNMENT_OVER_DTW_TOKENS",
+          "matched_chars": 40,
+          "total_chars": 40,
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-01-C0000",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-01",
+          "start": 0,
+          "end": 1,
+          "text": "想"
+        },
+        "start_ms": 300,
+        "end_ms": 300,
+        "confidence": 0.889006,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-01-C0001",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-01",
+          "start": 1,
+          "end": 2,
+          "text": "让"
+        },
+        "start_ms": 640,
+        "end_ms": 640,
+        "confidence": 0.901899,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-01-C0002",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-01",
+          "start": 2,
+          "end": 3,
+          "text": "视"
+        },
+        "start_ms": 880,
+        "end_ms": 880,
+        "confidence": 0.97499,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-01-C0003",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-01",
+          "start": 3,
+          "end": 4,
+          "text": "觉"
+        },
+        "start_ms": 1020,
+        "end_ms": 1020,
+        "confidence": 0.99839,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-01-C0004",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-01",
+          "start": 4,
+          "end": 5,
+          "text": "时"
+        },
+        "start_ms": 1280,
+        "end_ms": 1280,
+        "confidence": 0.989408,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-01-C0005",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-01",
+          "start": 5,
+          "end": 6,
+          "text": "间"
+        },
+        "start_ms": 1280,
+        "end_ms": 1280,
+        "confidence": 0.989408,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-01-C0006",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-01",
+          "start": 6,
+          "end": 7,
+          "text": "线"
+        },
+        "start_ms": 1580,
+        "end_ms": 1580,
+        "confidence": 0.998658,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-01-C0007",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-01",
+          "start": 7,
+          "end": 8,
+          "text": "跟"
+        },
+        "start_ms": 1820,
+        "end_ms": 1820,
+        "confidence": 0.986779,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-01-C0008",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-01",
+          "start": 8,
+          "end": 9,
+          "text": "着"
+        },
+        "start_ms": 1940,
+        "end_ms": 1940,
+        "confidence": 0.993786,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-01-C0009",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-01",
+          "start": 9,
+          "end": 10,
+          "text": "声"
+        },
+        "start_ms": 2160,
+        "end_ms": 2160,
+        "confidence": 0.99279,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-01-C0010",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-01",
+          "start": 10,
+          "end": 11,
+          "text": "音"
+        },
+        "start_ms": 2260,
+        "end_ms": 2260,
+        "confidence": 0.999924,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-01-C0011",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-01",
+          "start": 11,
+          "end": 12,
+          "text": "走"
+        },
+        "start_ms": 2740,
+        "end_ms": 2740,
+        "confidence": 0.993822,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-01-C0012",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-01",
+          "start": 12,
+          "end": 13,
+          "text": "第"
+        },
+        "start_ms": 3080,
+        "end_ms": 3080,
+        "confidence": 0.954731,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-01-C0013",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-01",
+          "start": 13,
+          "end": 14,
+          "text": "一"
+        },
+        "start_ms": 3080,
+        "end_ms": 3080,
+        "confidence": 0.954731,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-01-C0014",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-01",
+          "start": 14,
+          "end": 15,
+          "text": "步"
+        },
+        "start_ms": 3440,
+        "end_ms": 3440,
+        "confidence": 0.993619,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-01-C0015",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-01",
+          "start": 15,
+          "end": 16,
+          "text": "是"
+        },
+        "start_ms": 3620,
+        "end_ms": 3620,
+        "confidence": 0.974096,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-01-C0016",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-01",
+          "start": 16,
+          "end": 17,
+          "text": "分"
+        },
+        "start_ms": 3880,
+        "end_ms": 3880,
+        "confidence": 0.996748,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-01-C0017",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-01",
+          "start": 17,
+          "end": 18,
+          "text": "清"
+        },
+        "start_ms": 4040,
+        "end_ms": 4040,
+        "confidence": 0.860285,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-01-C0019",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-01",
+          "start": 19,
+          "end": 20,
+          "text": "责"
+        },
+        "start_ms": 4720,
+        "end_ms": 4720,
+        "confidence": 0.928559,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-01-C0020",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-01",
+          "start": 20,
+          "end": 21,
+          "text": "脚"
+        },
+        "start_ms": 5240,
+        "end_ms": 5240,
+        "confidence": 0.954032,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-01-C0021",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-01",
+          "start": 21,
+          "end": 22,
+          "text": "本"
+        },
+        "start_ms": 5500,
+        "end_ms": 5500,
+        "confidence": 0.999847,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-01-C0022",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-01",
+          "start": 22,
+          "end": 23,
+          "text": "负"
+        },
+        "start_ms": 5740,
+        "end_ms": 5740,
+        "confidence": 0.993401,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-01-C0023",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-01",
+          "start": 23,
+          "end": 24,
+          "text": "责"
+        },
+        "start_ms": 5820,
+        "end_ms": 5820,
+        "confidence": 0.997139,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-01-C0024",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-01",
+          "start": 24,
+          "end": 25,
+          "text": "说"
+        },
+        "start_ms": 6020,
+        "end_ms": 6020,
+        "confidence": 0.998456,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-01-C0025",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-01",
+          "start": 25,
+          "end": 26,
+          "text": "什"
+        },
+        "start_ms": 6380,
+        "end_ms": 6380,
+        "confidence": 0.994025,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-01-C0026",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-01",
+          "start": 26,
+          "end": 27,
+          "text": "么"
+        },
+        "start_ms": 6380,
+        "end_ms": 6380,
+        "confidence": 0.994025,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-01-C0027",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-01",
+          "start": 27,
+          "end": 28,
+          "text": "视"
+        },
+        "start_ms": 6720,
+        "end_ms": 6720,
+        "confidence": 0.984053,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-01-C0028",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-01",
+          "start": 28,
+          "end": 29,
+          "text": "觉"
+        },
+        "start_ms": 6840,
+        "end_ms": 6840,
+        "confidence": 0.998216,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-01-C0029",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-01",
+          "start": 29,
+          "end": 30,
+          "text": "节"
+        },
+        "start_ms": 7120,
+        "end_ms": 7120,
+        "confidence": 0.942484,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-01-C0030",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-01",
+          "start": 30,
+          "end": 31,
+          "text": "拍"
+        },
+        "start_ms": 7180,
+        "end_ms": 7180,
+        "confidence": 0.99843,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-01-C0031",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-01",
+          "start": 31,
+          "end": 32,
+          "text": "负"
+        },
+        "start_ms": 7480,
+        "end_ms": 7480,
+        "confidence": 0.998188,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-01-C0032",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-01",
+          "start": 32,
+          "end": 33,
+          "text": "责"
+        },
+        "start_ms": 7640,
+        "end_ms": 7640,
+        "confidence": 0.998601,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-01-C0033",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-01",
+          "start": 33,
+          "end": 34,
+          "text": "此"
+        },
+        "start_ms": 8180,
+        "end_ms": 8180,
+        "confidence": 0.99955,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-01-C0034",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-01",
+          "start": 34,
+          "end": 35,
+          "text": "刻"
+        },
+        "start_ms": 8320,
+        "end_ms": 8320,
+        "confidence": 0.997056,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-01-C0035",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-01",
+          "start": 35,
+          "end": 36,
+          "text": "看"
+        },
+        "start_ms": 8560,
+        "end_ms": 8560,
+        "confidence": 0.996618,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-01-C0036",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-01",
+          "start": 36,
+          "end": 37,
+          "text": "什"
+        },
+        "start_ms": 8820,
+        "end_ms": 8820,
+        "confidence": 0.997409,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-01-C0037",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-01",
+          "start": 37,
+          "end": 38,
+          "text": "么"
+        },
+        "start_ms": 8820,
+        "end_ms": 8820,
+        "confidence": 0.997409,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-01-C0038",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-01",
+          "start": 38,
+          "end": 39,
+          "text": "声"
+        },
+        "start_ms": 9180,
+        "end_ms": 9180,
+        "confidence": 0.996949,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-01-C0039",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-01",
+          "start": 39,
+          "end": 40,
+          "text": "音"
+        },
+        "start_ms": 9320,
+        "end_ms": 9320,
+        "confidence": 0.999889,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-01-C0040",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-01",
+          "start": 40,
+          "end": 41,
+          "text": "决"
+        },
+        "start_ms": 9580,
+        "end_ms": 9580,
+        "confidence": 0.996561,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-01-C0041",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-01",
+          "start": 41,
+          "end": 42,
+          "text": "定"
+        },
+        "start_ms": 9740,
+        "end_ms": 9740,
+        "confidence": 0.99995,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-01-C0043",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-01",
+          "start": 43,
+          "end": 44,
+          "text": "们"
+        },
+        "start_ms": 10060,
+        "end_ms": 10060,
+        "confidence": 0.686546,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-01-C0044",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-01",
+          "start": 44,
+          "end": 45,
+          "text": "什"
+        },
+        "start_ms": 10260,
+        "end_ms": 10260,
+        "confidence": 0.990626,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-01-C0045",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-01",
+          "start": 45,
+          "end": 46,
+          "text": "么"
+        },
+        "start_ms": 10260,
+        "end_ms": 10260,
+        "confidence": 0.990626,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-01-C0046",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-01",
+          "start": 46,
+          "end": 47,
+          "text": "时"
+        },
+        "start_ms": 10520,
+        "end_ms": 10520,
+        "confidence": 0.995101,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-01-C0047",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-01",
+          "start": 47,
+          "end": 48,
+          "text": "候"
+        },
+        "start_ms": 10520,
+        "end_ms": 10520,
+        "confidence": 0.995101,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-01-C0048",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-01",
+          "start": 48,
+          "end": 49,
+          "text": "出"
+        },
+        "start_ms": 10800,
+        "end_ms": 10800,
+        "confidence": 0.991401,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-01-C0049",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-01",
+          "start": 49,
+          "end": 50,
+          "text": "现"
+        },
+        "start_ms": 11240,
+        "end_ms": 11240,
+        "confidence": 0.999558,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-02-C0000",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-02",
+          "start": 0,
+          "end": 1,
+          "text": "接"
+        },
+        "start_ms": 11460,
+        "end_ms": 11460,
+        "confidence": 0.999729,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-02-C0001",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-02",
+          "start": 1,
+          "end": 2,
+          "text": "着"
+        },
+        "start_ms": 11600,
+        "end_ms": 11600,
+        "confidence": 0.995828,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-02-C0002",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-02",
+          "start": 2,
+          "end": 3,
+          "text": "给"
+        },
+        "start_ms": 11780,
+        "end_ms": 11780,
+        "confidence": 0.989855,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-02-C0003",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-02",
+          "start": 3,
+          "end": 4,
+          "text": "每"
+        },
+        "start_ms": 12000,
+        "end_ms": 12000,
+        "confidence": 0.997113,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-02-C0004",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-02",
+          "start": 4,
+          "end": 5,
+          "text": "个"
+        },
+        "start_ms": 12100,
+        "end_ms": 12100,
+        "confidence": 0.998064,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-02-C0005",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-02",
+          "start": 5,
+          "end": 6,
+          "text": "脚"
+        },
+        "start_ms": 12300,
+        "end_ms": 12300,
+        "confidence": 0.995235,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-02-C0006",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-02",
+          "start": 6,
+          "end": 7,
+          "text": "本"
+        },
+        "start_ms": 12440,
+        "end_ms": 12440,
+        "confidence": 0.998167,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-02-C0007",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-02",
+          "start": 7,
+          "end": 8,
+          "text": "段"
+        },
+        "start_ms": 12680,
+        "end_ms": 12680,
+        "confidence": 0.947927,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-02-C0008",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-02",
+          "start": 8,
+          "end": 9,
+          "text": "落"
+        },
+        "start_ms": 12880,
+        "end_ms": 12880,
+        "confidence": 0.99934,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-02-C0009",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-02",
+          "start": 9,
+          "end": 10,
+          "text": "绑"
+        },
+        "start_ms": 13080,
+        "end_ms": 13080,
+        "confidence": 0.955237,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-02-C0010",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-02",
+          "start": 10,
+          "end": 11,
+          "text": "定"
+        },
+        "start_ms": 13240,
+        "end_ms": 13240,
+        "confidence": 0.999817,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-02-C0011",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-02",
+          "start": 11,
+          "end": 12,
+          "text": "明"
+        },
+        "start_ms": 13540,
+        "end_ms": 13540,
+        "confidence": 0.996808,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-02-C0012",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-02",
+          "start": 12,
+          "end": 13,
+          "text": "确"
+        },
+        "start_ms": 13600,
+        "end_ms": 13600,
+        "confidence": 0.999344,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-02-C0013",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-02",
+          "start": 13,
+          "end": 14,
+          "text": "的"
+        },
+        "start_ms": 13820,
+        "end_ms": 13820,
+        "confidence": 0.998228,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-02-C0014",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-02",
+          "start": 14,
+          "end": 15,
+          "text": "视"
+        },
+        "start_ms": 13980,
+        "end_ms": 13980,
+        "confidence": 0.986487,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-02-C0015",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-02",
+          "start": 15,
+          "end": 16,
+          "text": "觉"
+        },
+        "start_ms": 14100,
+        "end_ms": 14100,
+        "confidence": 0.997973,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-02-C0016",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-02",
+          "start": 16,
+          "end": 17,
+          "text": "意"
+        },
+        "start_ms": 14360,
+        "end_ms": 14360,
+        "confidence": 0.994628,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-02-C0017",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-02",
+          "start": 17,
+          "end": 18,
+          "text": "图"
+        },
+        "start_ms": 14760,
+        "end_ms": 14760,
+        "confidence": 0.99967,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-02-C0018",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-02",
+          "start": 18,
+          "end": 19,
+          "text": "先"
+        },
+        "start_ms": 15040,
+        "end_ms": 15040,
+        "confidence": 0.996204,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-02-C0019",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-02",
+          "start": 19,
+          "end": 20,
+          "text": "判"
+        },
+        "start_ms": 15300,
+        "end_ms": 15300,
+        "confidence": 0.999928,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-02-C0020",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-02",
+          "start": 20,
+          "end": 21,
+          "text": "断"
+        },
+        "start_ms": 15400,
+        "end_ms": 15400,
+        "confidence": 0.999931,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-02-C0021",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-02",
+          "start": 21,
+          "end": 22,
+          "text": "这"
+        },
+        "start_ms": 15620,
+        "end_ms": 15620,
+        "confidence": 0.944584,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-02-C0022",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-02",
+          "start": 22,
+          "end": 23,
+          "text": "段"
+        },
+        "start_ms": 15700,
+        "end_ms": 15700,
+        "confidence": 0.998753,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-02-C0023",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-02",
+          "start": 23,
+          "end": 24,
+          "text": "是"
+        },
+        "start_ms": 15860,
+        "end_ms": 15860,
+        "confidence": 0.963868,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-02-C0024",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-02",
+          "start": 24,
+          "end": 25,
+          "text": "在"
+        },
+        "start_ms": 16060,
+        "end_ms": 16060,
+        "confidence": 0.996953,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-02-C0025",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-02",
+          "start": 25,
+          "end": 26,
+          "text": "讲"
+        },
+        "start_ms": 16300,
+        "end_ms": 16300,
+        "confidence": 0.861955,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-02-C0026",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-02",
+          "start": 26,
+          "end": 27,
+          "text": "解"
+        },
+        "start_ms": 16620,
+        "end_ms": 16620,
+        "confidence": 0.999809,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-02-C0027",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-02",
+          "start": 27,
+          "end": 28,
+          "text": "提"
+        },
+        "start_ms": 16920,
+        "end_ms": 16920,
+        "confidence": 0.980331,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-02-C0028",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-02",
+          "start": 28,
+          "end": 29,
+          "text": "问"
+        },
+        "start_ms": 17080,
+        "end_ms": 17080,
+        "confidence": 0.999436,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-02-C0029",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-02",
+          "start": 29,
+          "end": 30,
+          "text": "还"
+        },
+        "start_ms": 17380,
+        "end_ms": 17380,
+        "confidence": 0.974323,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-02-C0030",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-02",
+          "start": 30,
+          "end": 31,
+          "text": "是"
+        },
+        "start_ms": 17380,
+        "end_ms": 17380,
+        "confidence": 0.974323,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-02-C0031",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-02",
+          "start": 31,
+          "end": 32,
+          "text": "强"
+        },
+        "start_ms": 17680,
+        "end_ms": 17680,
+        "confidence": 0.996575,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-02-C0032",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-02",
+          "start": 32,
+          "end": 33,
+          "text": "调"
+        },
+        "start_ms": 17920,
+        "end_ms": 17920,
+        "confidence": 0.998715,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-02-C0033",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-02",
+          "start": 33,
+          "end": 34,
+          "text": "模"
+        },
+        "start_ms": 18420,
+        "end_ms": 18420,
+        "confidence": 0.93734,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-02-C0034",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-02",
+          "start": 34,
+          "end": 35,
+          "text": "板"
+        },
+        "start_ms": 18520,
+        "end_ms": 18520,
+        "confidence": 0.946257,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-02-C0035",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-02",
+          "start": 35,
+          "end": 36,
+          "text": "和"
+        },
+        "start_ms": 18720,
+        "end_ms": 18720,
+        "confidence": 0.998673,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-02-C0036",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-02",
+          "start": 36,
+          "end": 37,
+          "text": "人"
+        },
+        "start_ms": 18880,
+        "end_ms": 18880,
+        "confidence": 0.998222,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-02-C0037",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-02",
+          "start": 37,
+          "end": 38,
+          "text": "物"
+        },
+        "start_ms": 18980,
+        "end_ms": 18980,
+        "confidence": 0.990832,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-02-C0038",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-02",
+          "start": 38,
+          "end": 39,
+          "text": "动"
+        },
+        "start_ms": 19220,
+        "end_ms": 19220,
+        "confidence": 0.997033,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-02-C0039",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-02",
+          "start": 39,
+          "end": 40,
+          "text": "作"
+        },
+        "start_ms": 19360,
+        "end_ms": 19360,
+        "confidence": 0.999828,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-02-C0040",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-02",
+          "start": 40,
+          "end": 41,
+          "text": "才"
+        },
+        "start_ms": 19560,
+        "end_ms": 19560,
+        "confidence": 0.801158,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-02-C0041",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-02",
+          "start": 41,
+          "end": 42,
+          "text": "有"
+        },
+        "start_ms": 19720,
+        "end_ms": 19720,
+        "confidence": 0.996881,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-02-C0042",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-02",
+          "start": 42,
+          "end": 43,
+          "text": "选"
+        },
+        "start_ms": 19940,
+        "end_ms": 19940,
+        "confidence": 0.999051,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-02-C0043",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-02",
+          "start": 43,
+          "end": 44,
+          "text": "择"
+        },
+        "start_ms": 20060,
+        "end_ms": 20060,
+        "confidence": 0.999832,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-02-C0044",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-02",
+          "start": 44,
+          "end": 45,
+          "text": "依"
+        },
+        "start_ms": 20320,
+        "end_ms": 20320,
+        "confidence": 0.997925,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-02-C0045",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-02",
+          "start": 45,
+          "end": 46,
+          "text": "据"
+        },
+        "start_ms": 20600,
+        "end_ms": 20600,
+        "confidence": 0.99343,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-03-C0000",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-03",
+          "start": 0,
+          "end": 1,
+          "text": "然"
+        },
+        "start_ms": 20940,
+        "end_ms": 20940,
+        "confidence": 0.999047,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-03-C0001",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-03",
+          "start": 1,
+          "end": 2,
+          "text": "后"
+        },
+        "start_ms": 20940,
+        "end_ms": 20940,
+        "confidence": 0.999047,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-03-C0002",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-03",
+          "start": 2,
+          "end": 3,
+          "text": "做"
+        },
+        "start_ms": 21200,
+        "end_ms": 21200,
+        "confidence": 0.990388,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-03-C0003",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-03",
+          "start": 3,
+          "end": 4,
+          "text": "节"
+        },
+        "start_ms": 21480,
+        "end_ms": 21480,
+        "confidence": 0.996983,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-03-C0004",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-03",
+          "start": 4,
+          "end": 5,
+          "text": "拍"
+        },
+        "start_ms": 21580,
+        "end_ms": 21580,
+        "confidence": 0.998769,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-03-C0005",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-03",
+          "start": 5,
+          "end": 6,
+          "text": "拆"
+        },
+        "start_ms": 21840,
+        "end_ms": 21840,
+        "confidence": 0.781669,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-03-C0006",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-03",
+          "start": 6,
+          "end": 7,
+          "text": "分"
+        },
+        "start_ms": 22120,
+        "end_ms": 22120,
+        "confidence": 0.998645,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-03-C0007",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-03",
+          "start": 7,
+          "end": 8,
+          "text": "一"
+        },
+        "start_ms": 22400,
+        "end_ms": 22400,
+        "confidence": 0.996196,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-03-C0008",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-03",
+          "start": 8,
+          "end": 9,
+          "text": "句"
+        },
+        "start_ms": 22500,
+        "end_ms": 22500,
+        "confidence": 0.999331,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-03-C0009",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-03",
+          "start": 9,
+          "end": 10,
+          "text": "话"
+        },
+        "start_ms": 22700,
+        "end_ms": 22700,
+        "confidence": 0.999508,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-03-C0010",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-03",
+          "start": 10,
+          "end": 11,
+          "text": "里"
+        },
+        "start_ms": 22860,
+        "end_ms": 22860,
+        "confidence": 0.972644,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-03-C0011",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-03",
+          "start": 11,
+          "end": 12,
+          "text": "有"
+        },
+        "start_ms": 23060,
+        "end_ms": 23060,
+        "confidence": 0.971895,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-03-C0012",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-03",
+          "start": 12,
+          "end": 13,
+          "text": "转"
+        },
+        "start_ms": 23280,
+        "end_ms": 23280,
+        "confidence": 0.997246,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-03-C0013",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-03",
+          "start": 13,
+          "end": 14,
+          "text": "折"
+        },
+        "start_ms": 23500,
+        "end_ms": 23500,
+        "confidence": 0.998788,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-03-C0014",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-03",
+          "start": 14,
+          "end": 15,
+          "text": "就"
+        },
+        "start_ms": 24120,
+        "end_ms": 24120,
+        "confidence": 0.995911,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-03-C0015",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-03",
+          "start": 15,
+          "end": 16,
+          "text": "可"
+        },
+        "start_ms": 24120,
+        "end_ms": 24120,
+        "confidence": 0.995911,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-03-C0016",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-03",
+          "start": 16,
+          "end": 17,
+          "text": "以"
+        },
+        "start_ms": 24120,
+        "end_ms": 24120,
+        "confidence": 0.995911,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-03-C0017",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-03",
+          "start": 17,
+          "end": 18,
+          "text": "拆"
+        },
+        "start_ms": 24460,
+        "end_ms": 24460,
+        "confidence": 0.990909,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-03-C0018",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-03",
+          "start": 18,
+          "end": 19,
+          "text": "成"
+        },
+        "start_ms": 24580,
+        "end_ms": 24580,
+        "confidence": 0.999058,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-03-C0019",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-03",
+          "start": 19,
+          "end": 20,
+          "text": "两"
+        },
+        "start_ms": 24900,
+        "end_ms": 24900,
+        "confidence": 0.984829,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-03-C0020",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-03",
+          "start": 20,
+          "end": 21,
+          "text": "个"
+        },
+        "start_ms": 25000,
+        "end_ms": 25000,
+        "confidence": 0.994863,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-03-C0021",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-03",
+          "start": 21,
+          "end": 22,
+          "text": "节"
+        },
+        "start_ms": 25220,
+        "end_ms": 25220,
+        "confidence": 0.995664,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-03-C0022",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-03",
+          "start": 22,
+          "end": 23,
+          "text": "拍"
+        },
+        "start_ms": 25620,
+        "end_ms": 25620,
+        "confidence": 0.996698,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-03-C0023",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-03",
+          "start": 23,
+          "end": 24,
+          "text": "不"
+        },
+        "start_ms": 25900,
+        "end_ms": 25900,
+        "confidence": 0.995949,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-03-C0024",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-03",
+          "start": 24,
+          "end": 25,
+          "text": "必"
+        },
+        "start_ms": 26060,
+        "end_ms": 26060,
+        "confidence": 0.99968,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-03-C0025",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-03",
+          "start": 25,
+          "end": 26,
+          "text": "让"
+        },
+        "start_ms": 26260,
+        "end_ms": 26260,
+        "confidence": 0.997638,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-03-C0026",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-03",
+          "start": 26,
+          "end": 27,
+          "text": "整"
+        },
+        "start_ms": 26460,
+        "end_ms": 26460,
+        "confidence": 0.919518,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-03-C0027",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-03",
+          "start": 27,
+          "end": 28,
+          "text": "句"
+        },
+        "start_ms": 26740,
+        "end_ms": 26740,
+        "confidence": 0.996022,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-03-C0028",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-03",
+          "start": 28,
+          "end": 29,
+          "text": "一"
+        },
+        "start_ms": 27120,
+        "end_ms": 27120,
+        "confidence": 0.877137,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-03-C0029",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-03",
+          "start": 29,
+          "end": 30,
+          "text": "直"
+        },
+        "start_ms": 27120,
+        "end_ms": 27120,
+        "confidence": 0.877137,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-03-C0030",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-03",
+          "start": 30,
+          "end": 31,
+          "text": "挂"
+        },
+        "start_ms": 27360,
+        "end_ms": 27360,
+        "confidence": 0.990331,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-03-C0031",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-03",
+          "start": 31,
+          "end": 32,
+          "text": "在"
+        },
+        "start_ms": 27540,
+        "end_ms": 27540,
+        "confidence": 0.99851,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-03-C0032",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-03",
+          "start": 32,
+          "end": 33,
+          "text": "屏"
+        },
+        "start_ms": 27780,
+        "end_ms": 27780,
+        "confidence": 0.991221,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-03-C0033",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-03",
+          "start": 33,
+          "end": 34,
+          "text": "幕"
+        },
+        "start_ms": 27900,
+        "end_ms": 27900,
+        "confidence": 0.999866,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-03-C0034",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-03",
+          "start": 34,
+          "end": 35,
+          "text": "上"
+        },
+        "start_ms": 28100,
+        "end_ms": 28100,
+        "confidence": 0.997971,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-04-C0000",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-04",
+          "start": 0,
+          "end": 1,
+          "text": "时"
+        },
+        "start_ms": 28740,
+        "end_ms": 28740,
+        "confidence": 0.993498,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-04-C0001",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-04",
+          "start": 1,
+          "end": 2,
+          "text": "间"
+        },
+        "start_ms": 28740,
+        "end_ms": 28740,
+        "confidence": 0.993498,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-04-C0002",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-04",
+          "start": 2,
+          "end": 3,
+          "text": "线"
+        },
+        "start_ms": 29140,
+        "end_ms": 29140,
+        "confidence": 0.99814,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-04-C0003",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-04",
+          "start": 3,
+          "end": 4,
+          "text": "只"
+        },
+        "start_ms": 29380,
+        "end_ms": 29380,
+        "confidence": 0.810962,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-04-C0004",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-04",
+          "start": 4,
+          "end": 5,
+          "text": "决"
+        },
+        "start_ms": 29660,
+        "end_ms": 29660,
+        "confidence": 0.998169,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-04-C0005",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-04",
+          "start": 5,
+          "end": 6,
+          "text": "定"
+        },
+        "start_ms": 29780,
+        "end_ms": 29780,
+        "confidence": 0.999939,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-04-C0006",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-04",
+          "start": 6,
+          "end": 7,
+          "text": "画"
+        },
+        "start_ms": 30060,
+        "end_ms": 30060,
+        "confidence": 0.996221,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-04-C0007",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-04",
+          "start": 7,
+          "end": 8,
+          "text": "面"
+        },
+        "start_ms": 30220,
+        "end_ms": 30220,
+        "confidence": 0.99995,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-04-C0008",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-04",
+          "start": 8,
+          "end": 9,
+          "text": "何"
+        },
+        "start_ms": 30460,
+        "end_ms": 30460,
+        "confidence": 0.989347,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-04-C0009",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-04",
+          "start": 9,
+          "end": 10,
+          "text": "时"
+        },
+        "start_ms": 30560,
+        "end_ms": 30560,
+        "confidence": 0.999012,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-04-C0010",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-04",
+          "start": 10,
+          "end": 11,
+          "text": "出"
+        },
+        "start_ms": 30820,
+        "end_ms": 30820,
+        "confidence": 0.99911,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-04-C0011",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-04",
+          "start": 11,
+          "end": 12,
+          "text": "现"
+        },
+        "start_ms": 31180,
+        "end_ms": 31180,
+        "confidence": 0.999733,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-04-C0012",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-04",
+          "start": 12,
+          "end": 13,
+          "text": "接"
+        },
+        "start_ms": 31500,
+        "end_ms": 31500,
+        "confidence": 0.91612,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-04-C0013",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-04",
+          "start": 13,
+          "end": 14,
+          "text": "入"
+        },
+        "start_ms": 31620,
+        "end_ms": 31620,
+        "confidence": 0.997562,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-04-C0014",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-04",
+          "start": 14,
+          "end": 15,
+          "text": "声"
+        },
+        "start_ms": 31860,
+        "end_ms": 31860,
+        "confidence": 0.998662,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-04-C0015",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-04",
+          "start": 15,
+          "end": 16,
+          "text": "音"
+        },
+        "start_ms": 31940,
+        "end_ms": 31940,
+        "confidence": 0.999718,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-04-C0016",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-04",
+          "start": 16,
+          "end": 17,
+          "text": "之"
+        },
+        "start_ms": 32200,
+        "end_ms": 32200,
+        "confidence": 0.996198,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-04-C0017",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-04",
+          "start": 17,
+          "end": 18,
+          "text": "后"
+        },
+        "start_ms": 32400,
+        "end_ms": 32400,
+        "confidence": 0.999706,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-04-C0018",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-04",
+          "start": 18,
+          "end": 19,
+          "text": "以"
+        },
+        "start_ms": 32660,
+        "end_ms": 32660,
+        "confidence": 0.998631,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-04-C0019",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-04",
+          "start": 19,
+          "end": 20,
+          "text": "实"
+        },
+        "start_ms": 33000,
+        "end_ms": 33000,
+        "confidence": 0.994033,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-04-C0020",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-04",
+          "start": 20,
+          "end": 21,
+          "text": "际"
+        },
+        "start_ms": 33280,
+        "end_ms": 33280,
+        "confidence": 0.998967,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-04-C0021",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-04",
+          "start": 21,
+          "end": 22,
+          "text": "语"
+        },
+        "start_ms": 33560,
+        "end_ms": 33560,
+        "confidence": 0.986645,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-04-C0022",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-04",
+          "start": 22,
+          "end": 23,
+          "text": "音"
+        },
+        "start_ms": 33760,
+        "end_ms": 33760,
+        "confidence": 0.999045,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-04-C0023",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-04",
+          "start": 23,
+          "end": 24,
+          "text": "长"
+        },
+        "start_ms": 34000,
+        "end_ms": 34000,
+        "confidence": 0.813709,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-04-C0024",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-04",
+          "start": 24,
+          "end": 25,
+          "text": "度"
+        },
+        "start_ms": 34140,
+        "end_ms": 34140,
+        "confidence": 0.999924,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-04-C0025",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-04",
+          "start": 25,
+          "end": 26,
+          "text": "为"
+        },
+        "start_ms": 34380,
+        "end_ms": 34380,
+        "confidence": 0.996227,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-04-C0026",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-04",
+          "start": 26,
+          "end": 27,
+          "text": "主"
+        },
+        "start_ms": 34720,
+        "end_ms": 34720,
+        "confidence": 0.999051,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-04-C0027",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-04",
+          "start": 27,
+          "end": 28,
+          "text": "再"
+        },
+        "start_ms": 35020,
+        "end_ms": 35020,
+        "confidence": 0.85065,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-04-C0028",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-04",
+          "start": 28,
+          "end": 29,
+          "text": "安"
+        },
+        "start_ms": 35340,
+        "end_ms": 35340,
+        "confidence": 0.999817,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-04-C0029",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-04",
+          "start": 29,
+          "end": 30,
+          "text": "排"
+        },
+        "start_ms": 35540,
+        "end_ms": 35540,
+        "confidence": 0.999905,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-04-C0030",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-04",
+          "start": 30,
+          "end": 31,
+          "text": "关"
+        },
+        "start_ms": 35780,
+        "end_ms": 35780,
+        "confidence": 0.98212,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-04-C0031",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-04",
+          "start": 31,
+          "end": 32,
+          "text": "键"
+        },
+        "start_ms": 35960,
+        "end_ms": 35960,
+        "confidence": 0.998612,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-04-C0032",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-04",
+          "start": 32,
+          "end": 33,
+          "text": "词"
+        },
+        "start_ms": 36280,
+        "end_ms": 36280,
+        "confidence": 0.999056,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-04-C0033",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-04",
+          "start": 33,
+          "end": 34,
+          "text": "人"
+        },
+        "start_ms": 36580,
+        "end_ms": 36580,
+        "confidence": 0.999272,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-04-C0034",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-04",
+          "start": 34,
+          "end": 35,
+          "text": "物"
+        },
+        "start_ms": 36800,
+        "end_ms": 36800,
+        "confidence": 0.999523,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-04-C0035",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-04",
+          "start": 35,
+          "end": 36,
+          "text": "和"
+        },
+        "start_ms": 37100,
+        "end_ms": 37100,
+        "confidence": 0.996105,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-04-C0036",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-04",
+          "start": 36,
+          "end": 37,
+          "text": "信"
+        },
+        "start_ms": 37420,
+        "end_ms": 37420,
+        "confidence": 0.997185,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-04-C0037",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-04",
+          "start": 37,
+          "end": 38,
+          "text": "息"
+        },
+        "start_ms": 37540,
+        "end_ms": 37540,
+        "confidence": 0.999943,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-04-C0038",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-04",
+          "start": 38,
+          "end": 39,
+          "text": "元"
+        },
+        "start_ms": 37820,
+        "end_ms": 37820,
+        "confidence": 0.994063,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-04-C0039",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-04",
+          "start": 39,
+          "end": 40,
+          "text": "素"
+        },
+        "start_ms": 37900,
+        "end_ms": 37900,
+        "confidence": 0.999032,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-04-C0040",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-04",
+          "start": 40,
+          "end": 41,
+          "text": "的"
+        },
+        "start_ms": 38120,
+        "end_ms": 38120,
+        "confidence": 0.998022,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-04-C0041",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-04",
+          "start": 41,
+          "end": 42,
+          "text": "入"
+        },
+        "start_ms": 38280,
+        "end_ms": 38280,
+        "confidence": 0.996096,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-04-C0042",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-04",
+          "start": 42,
+          "end": 43,
+          "text": "场"
+        },
+        "start_ms": 38540,
+        "end_ms": 38540,
+        "confidence": 0.999171,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-05-C0000",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-05",
+          "start": 0,
+          "end": 1,
+          "text": "还"
+        },
+        "start_ms": 38880,
+        "end_ms": 38880,
+        "confidence": 0.99803,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-05-C0001",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-05",
+          "start": 1,
+          "end": 2,
+          "text": "要"
+        },
+        "start_ms": 39020,
+        "end_ms": 39020,
+        "confidence": 0.999447,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-05-C0002",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-05",
+          "start": 2,
+          "end": 3,
+          "text": "检"
+        },
+        "start_ms": 39320,
+        "end_ms": 39320,
+        "confidence": 0.999693,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-05-C0003",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-05",
+          "start": 3,
+          "end": 4,
+          "text": "查"
+        },
+        "start_ms": 39520,
+        "end_ms": 39520,
+        "confidence": 0.998049,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-05-C0004",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-05",
+          "start": 4,
+          "end": 5,
+          "text": "镜"
+        },
+        "start_ms": 39820,
+        "end_ms": 39820,
+        "confidence": 0.950686,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-05-C0005",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-05",
+          "start": 5,
+          "end": 6,
+          "text": "头"
+        },
+        "start_ms": 39960,
+        "end_ms": 39960,
+        "confidence": 0.999928,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-05-C0006",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-05",
+          "start": 6,
+          "end": 7,
+          "text": "的"
+        },
+        "start_ms": 40160,
+        "end_ms": 40160,
+        "confidence": 0.997904,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-05-C0007",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-05",
+          "start": 7,
+          "end": 8,
+          "text": "读"
+        },
+        "start_ms": 40240,
+        "end_ms": 40240,
+        "confidence": 0.724144,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-05-C0008",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-05",
+          "start": 8,
+          "end": 9,
+          "text": "完"
+        },
+        "start_ms": 40320,
+        "end_ms": 40320,
+        "confidence": 0.814129,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-05-C0009",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-05",
+          "start": 9,
+          "end": 10,
+          "text": "时"
+        },
+        "start_ms": 40800,
+        "end_ms": 40800,
+        "confidence": 0.996194,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-05-C0010",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-05",
+          "start": 10,
+          "end": 11,
+          "text": "间"
+        },
+        "start_ms": 40800,
+        "end_ms": 40800,
+        "confidence": 0.996194,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-05-C0011",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-05",
+          "start": 11,
+          "end": 12,
+          "text": "镜"
+        },
+        "start_ms": 41320,
+        "end_ms": 41320,
+        "confidence": 0.991136,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-05-C0012",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-05",
+          "start": 12,
+          "end": 13,
+          "text": "头"
+        },
+        "start_ms": 41520,
+        "end_ms": 41520,
+        "confidence": 0.999935,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-05-C0013",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-05",
+          "start": 13,
+          "end": 14,
+          "text": "过"
+        },
+        "start_ms": 41760,
+        "end_ms": 41760,
+        "confidence": 0.998338,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-05-C0014",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-05",
+          "start": 14,
+          "end": 15,
+          "text": "短"
+        },
+        "start_ms": 41960,
+        "end_ms": 41960,
+        "confidence": 0.999699,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-05-C0015",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-05",
+          "start": 15,
+          "end": 16,
+          "text": "观"
+        },
+        "start_ms": 42300,
+        "end_ms": 42300,
+        "confidence": 0.997767,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-05-C0016",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-05",
+          "start": 16,
+          "end": 17,
+          "text": "众"
+        },
+        "start_ms": 42420,
+        "end_ms": 42420,
+        "confidence": 0.999924,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-05-C0017",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-05",
+          "start": 17,
+          "end": 18,
+          "text": "来"
+        },
+        "start_ms": 42640,
+        "end_ms": 42640,
+        "confidence": 0.997255,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-05-C0018",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-05",
+          "start": 18,
+          "end": 19,
+          "text": "不"
+        },
+        "start_ms": 42780,
+        "end_ms": 42780,
+        "confidence": 0.998818,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-05-C0019",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-05",
+          "start": 19,
+          "end": 20,
+          "text": "及"
+        },
+        "start_ms": 42860,
+        "end_ms": 42860,
+        "confidence": 0.99975,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-05-C0020",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-05",
+          "start": 20,
+          "end": 21,
+          "text": "读"
+        },
+        "start_ms": 43060,
+        "end_ms": 43060,
+        "confidence": 0.99449,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-05-C0021",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-05",
+          "start": 21,
+          "end": 22,
+          "text": "完"
+        },
+        "start_ms": 43180,
+        "end_ms": 43180,
+        "confidence": 0.999636,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-05-C0022",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-05",
+          "start": 22,
+          "end": 23,
+          "text": "信"
+        },
+        "start_ms": 43460,
+        "end_ms": 43460,
+        "confidence": 0.993411,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-05-C0023",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-05",
+          "start": 23,
+          "end": 24,
+          "text": "息"
+        },
+        "start_ms": 43880,
+        "end_ms": 43880,
+        "confidence": 0.999958,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-05-C0024",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-05",
+          "start": 24,
+          "end": 25,
+          "text": "镜"
+        },
+        "start_ms": 44080,
+        "end_ms": 44080,
+        "confidence": 0.997425,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-05-C0025",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-05",
+          "start": 25,
+          "end": 26,
+          "text": "头"
+        },
+        "start_ms": 44260,
+        "end_ms": 44260,
+        "confidence": 0.999916,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-05-C0026",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-05",
+          "start": 26,
+          "end": 27,
+          "text": "太"
+        },
+        "start_ms": 44520,
+        "end_ms": 44520,
+        "confidence": 0.9996,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-05-C0027",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-05",
+          "start": 27,
+          "end": 28,
+          "text": "长"
+        },
+        "start_ms": 44740,
+        "end_ms": 44740,
+        "confidence": 0.997265,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-05-C0028",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-05",
+          "start": 28,
+          "end": 29,
+          "text": "却"
+        },
+        "start_ms": 44940,
+        "end_ms": 44940,
+        "confidence": 0.995478,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-05-C0029",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-05",
+          "start": 29,
+          "end": 30,
+          "text": "没"
+        },
+        "start_ms": 45160,
+        "end_ms": 45160,
+        "confidence": 0.998727,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-05-C0030",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-05",
+          "start": 30,
+          "end": 31,
+          "text": "有"
+        },
+        "start_ms": 45160,
+        "end_ms": 45160,
+        "confidence": 0.998727,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-05-C0031",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-05",
+          "start": 31,
+          "end": 32,
+          "text": "变"
+        },
+        "start_ms": 45480,
+        "end_ms": 45480,
+        "confidence": 0.999405,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-05-C0032",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-05",
+          "start": 32,
+          "end": 33,
+          "text": "化"
+        },
+        "start_ms": 45860,
+        "end_ms": 45860,
+        "confidence": 0.984192,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-05-C0033",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-05",
+          "start": 33,
+          "end": 34,
+          "text": "画"
+        },
+        "start_ms": 46220,
+        "end_ms": 46220,
+        "confidence": 0.998948,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-05-C0034",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-05",
+          "start": 34,
+          "end": 35,
+          "text": "面"
+        },
+        "start_ms": 46360,
+        "end_ms": 46360,
+        "confidence": 0.999905,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-05-C0035",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-05",
+          "start": 35,
+          "end": 36,
+          "text": "也"
+        },
+        "start_ms": 46580,
+        "end_ms": 46580,
+        "confidence": 0.998209,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-05-C0036",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-05",
+          "start": 36,
+          "end": 37,
+          "text": "会"
+        },
+        "start_ms": 46720,
+        "end_ms": 46720,
+        "confidence": 0.999573,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-05-C0037",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-05",
+          "start": 37,
+          "end": 38,
+          "text": "停"
+        },
+        "start_ms": 47000,
+        "end_ms": 47000,
+        "confidence": 0.996025,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-05-C0038",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-05",
+          "start": 38,
+          "end": 39,
+          "text": "住"
+        },
+        "start_ms": 47340,
+        "end_ms": 47340,
+        "confidence": 0.927884,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-05-C0039",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-05",
+          "start": 39,
+          "end": 40,
+          "text": "两"
+        },
+        "start_ms": 47620,
+        "end_ms": 47620,
+        "confidence": 0.99854,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-05-C0040",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-05",
+          "start": 40,
+          "end": 41,
+          "text": "边"
+        },
+        "start_ms": 47780,
+        "end_ms": 47780,
+        "confidence": 0.998708,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-05-C0041",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-05",
+          "start": 41,
+          "end": 42,
+          "text": "都"
+        },
+        "start_ms": 48020,
+        "end_ms": 48020,
+        "confidence": 0.998163,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-05-C0042",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-05",
+          "start": 42,
+          "end": 43,
+          "text": "要"
+        },
+        "start_ms": 48220,
+        "end_ms": 48220,
+        "confidence": 0.999363,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-05-C0043",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-05",
+          "start": 43,
+          "end": 44,
+          "text": "看"
+        },
+        "start_ms": 48580,
+        "end_ms": 48580,
+        "confidence": 0.932712,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-06-C0000",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-06",
+          "start": 0,
+          "end": 1,
+          "text": "遇"
+        },
+        "start_ms": 48920,
+        "end_ms": 48920,
+        "confidence": 0.995063,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-06-C0001",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-06",
+          "start": 1,
+          "end": 2,
+          "text": "到"
+        },
+        "start_ms": 49040,
+        "end_ms": 49040,
+        "confidence": 0.999828,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-06-C0002",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-06",
+          "start": 2,
+          "end": 3,
+          "text": "对"
+        },
+        "start_ms": 49220,
+        "end_ms": 49220,
+        "confidence": 0.998746,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-06-C0003",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-06",
+          "start": 3,
+          "end": 4,
+          "text": "比"
+        },
+        "start_ms": 49340,
+        "end_ms": 49340,
+        "confidence": 0.999089,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-06-C0004",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-06",
+          "start": 4,
+          "end": 5,
+          "text": "内"
+        },
+        "start_ms": 49560,
+        "end_ms": 49560,
+        "confidence": 0.993415,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-06-C0005",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-06",
+          "start": 5,
+          "end": 6,
+          "text": "容"
+        },
+        "start_ms": 49740,
+        "end_ms": 49740,
+        "confidence": 0.999912,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-06-C0006",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-06",
+          "start": 6,
+          "end": 7,
+          "text": "就"
+        },
+        "start_ms": 49920,
+        "end_ms": 49920,
+        "confidence": 0.998959,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-06-C0007",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-06",
+          "start": 7,
+          "end": 8,
+          "text": "把"
+        },
+        "start_ms": 50140,
+        "end_ms": 50140,
+        "confidence": 0.998875,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-06-C0008",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-06",
+          "start": 8,
+          "end": 9,
+          "text": "差"
+        },
+        "start_ms": 50400,
+        "end_ms": 50400,
+        "confidence": 0.67216,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-06-C0009",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-06",
+          "start": 9,
+          "end": 10,
+          "text": "异"
+        },
+        "start_ms": 50520,
+        "end_ms": 50520,
+        "confidence": 0.99681,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-06-C0010",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-06",
+          "start": 10,
+          "end": 11,
+          "text": "并"
+        },
+        "start_ms": 50740,
+        "end_ms": 50740,
+        "confidence": 0.980535,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-06-C0011",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-06",
+          "start": 11,
+          "end": 12,
+          "text": "排"
+        },
+        "start_ms": 50840,
+        "end_ms": 50840,
+        "confidence": 0.999005,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-06-C0012",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-06",
+          "start": 12,
+          "end": 13,
+          "text": "放"
+        },
+        "start_ms": 51100,
+        "end_ms": 51100,
+        "confidence": 0.994683,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-06-C0013",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-06",
+          "start": 13,
+          "end": 14,
+          "text": "好"
+        },
+        "start_ms": 51520,
+        "end_ms": 51520,
+        "confidence": 0.998346,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-06-C0014",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-06",
+          "start": 14,
+          "end": 15,
+          "text": "先"
+        },
+        "start_ms": 51760,
+        "end_ms": 51760,
+        "confidence": 0.996485,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-06-C0015",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-06",
+          "start": 15,
+          "end": 16,
+          "text": "让"
+        },
+        "start_ms": 51900,
+        "end_ms": 51900,
+        "confidence": 0.997322,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-06-C0016",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-06",
+          "start": 16,
+          "end": 17,
+          "text": "观"
+        },
+        "start_ms": 52140,
+        "end_ms": 52140,
+        "confidence": 0.999577,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-06-C0017",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-06",
+          "start": 17,
+          "end": 18,
+          "text": "众"
+        },
+        "start_ms": 52220,
+        "end_ms": 52220,
+        "confidence": 0.999943,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-06-C0018",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-06",
+          "start": 18,
+          "end": 19,
+          "text": "看"
+        },
+        "start_ms": 52480,
+        "end_ms": 52480,
+        "confidence": 0.998807,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-06-C0019",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-06",
+          "start": 19,
+          "end": 20,
+          "text": "清"
+        },
+        "start_ms": 52640,
+        "end_ms": 52640,
+        "confidence": 0.996092,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-06-C0020",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-06",
+          "start": 20,
+          "end": 21,
+          "text": "变"
+        },
+        "start_ms": 52920,
+        "end_ms": 52920,
+        "confidence": 0.98644,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-06-C0021",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-06",
+          "start": 21,
+          "end": 22,
+          "text": "化"
+        },
+        "start_ms": 53360,
+        "end_ms": 53360,
+        "confidence": 0.999905,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-06-C0022",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-06",
+          "start": 22,
+          "end": 23,
+          "text": "再"
+        },
+        "start_ms": 53580,
+        "end_ms": 53580,
+        "confidence": 0.997269,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-06-C0023",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-06",
+          "start": 23,
+          "end": 24,
+          "text": "让"
+        },
+        "start_ms": 53760,
+        "end_ms": 53760,
+        "confidence": 0.998929,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-06-C0024",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-06",
+          "start": 24,
+          "end": 25,
+          "text": "角"
+        },
+        "start_ms": 54040,
+        "end_ms": 54040,
+        "confidence": 0.993401,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-06-C0025",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-06",
+          "start": 25,
+          "end": 26,
+          "text": "色"
+        },
+        "start_ms": 54200,
+        "end_ms": 54200,
+        "confidence": 0.999847,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-06-C0026",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-06",
+          "start": 26,
+          "end": 27,
+          "text": "补"
+        },
+        "start_ms": 54380,
+        "end_ms": 54380,
+        "confidence": 0.95896,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-06-C0027",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-06",
+          "start": 27,
+          "end": 28,
+          "text": "一"
+        },
+        "start_ms": 54600,
+        "end_ms": 54600,
+        "confidence": 0.994732,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-06-C0028",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-06",
+          "start": 28,
+          "end": 29,
+          "text": "句"
+        },
+        "start_ms": 54760,
+        "end_ms": 54760,
+        "confidence": 0.942072,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-06-C0029",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-06",
+          "start": 29,
+          "end": 30,
+          "text": "解"
+        },
+        "start_ms": 55080,
+        "end_ms": 55080,
+        "confidence": 0.986805,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-06-C0030",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-06",
+          "start": 30,
+          "end": 31,
+          "text": "释"
+        },
+        "start_ms": 55280,
+        "end_ms": 55280,
+        "confidence": 0.999388,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-06-C0031",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-06",
+          "start": 31,
+          "end": 32,
+          "text": "稳"
+        },
+        "start_ms": 55560,
+        "end_ms": 55560,
+        "confidence": 0.989542,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-06-C0032",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-06",
+          "start": 32,
+          "end": 33,
+          "text": "定"
+        },
+        "start_ms": 55700,
+        "end_ms": 55700,
+        "confidence": 0.999947,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-06-C0033",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-06",
+          "start": 33,
+          "end": 34,
+          "text": "结"
+        },
+        "start_ms": 55960,
+        "end_ms": 55960,
+        "confidence": 0.997491,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-06-C0034",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-06",
+          "start": 34,
+          "end": 35,
+          "text": "构"
+        },
+        "start_ms": 56220,
+        "end_ms": 56220,
+        "confidence": 0.999668,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-06-C0035",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-06",
+          "start": 35,
+          "end": 36,
+          "text": "比"
+        },
+        "start_ms": 56540,
+        "end_ms": 56540,
+        "confidence": 0.993623,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-06-C0036",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-06",
+          "start": 36,
+          "end": 37,
+          "text": "堆"
+        },
+        "start_ms": 56840,
+        "end_ms": 56840,
+        "confidence": 0.995313,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-06-C0037",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-06",
+          "start": 37,
+          "end": 38,
+          "text": "叠"
+        },
+        "start_ms": 56920,
+        "end_ms": 56920,
+        "confidence": 0.918101,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-06-C0038",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-06",
+          "start": 38,
+          "end": 39,
+          "text": "特"
+        },
+        "start_ms": 57200,
+        "end_ms": 57200,
+        "confidence": 0.999609,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-06-C0039",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-06",
+          "start": 39,
+          "end": 40,
+          "text": "效"
+        },
+        "start_ms": 57360,
+        "end_ms": 57360,
+        "confidence": 0.999687,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-06-C0040",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-06",
+          "start": 40,
+          "end": 41,
+          "text": "更"
+        },
+        "start_ms": 57600,
+        "end_ms": 57600,
+        "confidence": 0.997664,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-06-C0041",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-06",
+          "start": 41,
+          "end": 42,
+          "text": "容"
+        },
+        "start_ms": 57860,
+        "end_ms": 57860,
+        "confidence": 0.999664,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-06-C0042",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-06",
+          "start": 42,
+          "end": 43,
+          "text": "易"
+        },
+        "start_ms": 57860,
+        "end_ms": 57860,
+        "confidence": 0.999664,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-06-C0043",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-06",
+          "start": 43,
+          "end": 44,
+          "text": "复"
+        },
+        "start_ms": 58120,
+        "end_ms": 58120,
+        "confidence": 0.972338,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-06-C0044",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-06",
+          "start": 44,
+          "end": 45,
+          "text": "查"
+        },
+        "start_ms": 58420,
+        "end_ms": 58420,
+        "confidence": 0.988742,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-07-C0000",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-07",
+          "start": 0,
+          "end": 1,
+          "text": "信"
+        },
+        "start_ms": 58840,
+        "end_ms": 58840,
+        "confidence": 0.997474,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-07-C0001",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-07",
+          "start": 1,
+          "end": 2,
+          "text": "息"
+        },
+        "start_ms": 58940,
+        "end_ms": 58940,
+        "confidence": 0.999924,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-07-C0002",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-07",
+          "start": 2,
+          "end": 3,
+          "text": "元"
+        },
+        "start_ms": 59220,
+        "end_ms": 59220,
+        "confidence": 0.998005,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-07-C0003",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-07",
+          "start": 3,
+          "end": 4,
+          "text": "素"
+        },
+        "start_ms": 59340,
+        "end_ms": 59340,
+        "confidence": 0.998727,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-07-C0004",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-07",
+          "start": 4,
+          "end": 5,
+          "text": "可"
+        },
+        "start_ms": 59680,
+        "end_ms": 59680,
+        "confidence": 0.881025,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-07-C0005",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-07",
+          "start": 5,
+          "end": 6,
+          "text": "以"
+        },
+        "start_ms": 59680,
+        "end_ms": 59680,
+        "confidence": 0.881025,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-07-C0006",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-07",
+          "start": 6,
+          "end": 7,
+          "text": "晚"
+        },
+        "start_ms": 59900,
+        "end_ms": 59900,
+        "confidence": 0.99307,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-07-C0007",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-07",
+          "start": 7,
+          "end": 8,
+          "text": "一"
+        },
+        "start_ms": 60140,
+        "end_ms": 60140,
+        "confidence": 0.984945,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-07-C0008",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-07",
+          "start": 8,
+          "end": 9,
+          "text": "点"
+        },
+        "start_ms": 60140,
+        "end_ms": 60140,
+        "confidence": 0.984945,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-07-C0009",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-07",
+          "start": 9,
+          "end": 10,
+          "text": "独"
+        },
+        "start_ms": 60440,
+        "end_ms": 60440,
+        "confidence": 0.845705,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-07-C0010",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-07",
+          "start": 10,
+          "end": 11,
+          "text": "立"
+        },
+        "start_ms": 60560,
+        "end_ms": 60560,
+        "confidence": 0.998032,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-07-C0011",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-07",
+          "start": 11,
+          "end": 12,
+          "text": "出"
+        },
+        "start_ms": 60820,
+        "end_ms": 60820,
+        "confidence": 0.993462,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-07-C0012",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-07",
+          "start": 12,
+          "end": 13,
+          "text": "现"
+        },
+        "start_ms": 61180,
+        "end_ms": 61180,
+        "confidence": 0.999611,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-07-C0013",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-07",
+          "start": 13,
+          "end": 14,
+          "text": "等"
+        },
+        "start_ms": 61440,
+        "end_ms": 61440,
+        "confidence": 0.997368,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-07-C0014",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-07",
+          "start": 14,
+          "end": 15,
+          "text": "口"
+        },
+        "start_ms": 61780,
+        "end_ms": 61780,
+        "confidence": 0.976777,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-07-C0016",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-07",
+          "start": 16,
+          "end": 17,
+          "text": "说"
+        },
+        "start_ms": 62240,
+        "end_ms": 62240,
+        "confidence": 0.993149,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-07-C0017",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-07",
+          "start": 17,
+          "end": 18,
+          "text": "到"
+        },
+        "start_ms": 62440,
+        "end_ms": 62440,
+        "confidence": 0.974743,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-07-C0018",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-07",
+          "start": 18,
+          "end": 19,
+          "text": "相"
+        },
+        "start_ms": 62700,
+        "end_ms": 62700,
+        "confidence": 0.999743,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-07-C0019",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-07",
+          "start": 19,
+          "end": 20,
+          "text": "关"
+        },
+        "start_ms": 62800,
+        "end_ms": 62800,
+        "confidence": 0.999298,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-07-C0020",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-07",
+          "start": 20,
+          "end": 21,
+          "text": "内"
+        },
+        "start_ms": 63080,
+        "end_ms": 63080,
+        "confidence": 0.994981,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-07-C0021",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-07",
+          "start": 21,
+          "end": 22,
+          "text": "容"
+        },
+        "start_ms": 63540,
+        "end_ms": 63540,
+        "confidence": 0.999966,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-07-C0022",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-07",
+          "start": 22,
+          "end": 23,
+          "text": "再"
+        },
+        "start_ms": 63800,
+        "end_ms": 63800,
+        "confidence": 0.993358,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-07-C0023",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-07",
+          "start": 23,
+          "end": 24,
+          "text": "让"
+        },
+        "start_ms": 64060,
+        "end_ms": 64060,
+        "confidence": 0.998224,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-07-C0024",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-07",
+          "start": 24,
+          "end": 25,
+          "text": "图"
+        },
+        "start_ms": 64360,
+        "end_ms": 64360,
+        "confidence": 0.99858,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-07-C0026",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-07",
+          "start": 26,
+          "end": 27,
+          "text": "箭"
+        },
+        "start_ms": 64940,
+        "end_ms": 64940,
+        "confidence": 0.782258,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-07-C0027",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-07",
+          "start": 27,
+          "end": 28,
+          "text": "头"
+        },
+        "start_ms": 65200,
+        "end_ms": 65200,
+        "confidence": 0.999699,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-07-C0028",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-07",
+          "start": 28,
+          "end": 29,
+          "text": "或"
+        },
+        "start_ms": 65400,
+        "end_ms": 65400,
+        "confidence": 0.688709,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-07-C0029",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-07",
+          "start": 29,
+          "end": 30,
+          "text": "卡"
+        },
+        "start_ms": 65700,
+        "end_ms": 65700,
+        "confidence": 0.998641,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-07-C0030",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-07",
+          "start": 30,
+          "end": 31,
+          "text": "片"
+        },
+        "start_ms": 65960,
+        "end_ms": 65960,
+        "confidence": 0.999691,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-07-C0031",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-07",
+          "start": 31,
+          "end": 32,
+          "text": "出"
+        },
+        "start_ms": 66300,
+        "end_ms": 66300,
+        "confidence": 0.995984,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-07-C0032",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-07",
+          "start": 32,
+          "end": 33,
+          "text": "现"
+        },
+        "start_ms": 66440,
+        "end_ms": 66440,
+        "confidence": 0.99926,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-07-C0033",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-07",
+          "start": 33,
+          "end": 34,
+          "text": "信"
+        },
+        "start_ms": 66720,
+        "end_ms": 66720,
+        "confidence": 0.995015,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-07-C0034",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-07",
+          "start": 34,
+          "end": 35,
+          "text": "息"
+        },
+        "start_ms": 66860,
+        "end_ms": 66860,
+        "confidence": 0.999962,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-07-C0035",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-07",
+          "start": 35,
+          "end": 36,
+          "text": "会"
+        },
+        "start_ms": 67020,
+        "end_ms": 67020,
+        "confidence": 0.947983,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-07-C0036",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-07",
+          "start": 36,
+          "end": 37,
+          "text": "更"
+        },
+        "start_ms": 67260,
+        "end_ms": 67260,
+        "confidence": 0.999558,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-07-C0037",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-07",
+          "start": 37,
+          "end": 38,
+          "text": "集"
+        },
+        "start_ms": 67500,
+        "end_ms": 67500,
+        "confidence": 0.993631,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-07-C0038",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-07",
+          "start": 38,
+          "end": 39,
+          "text": "中"
+        },
+        "start_ms": 67960,
+        "end_ms": 67960,
+        "confidence": 0.999741,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-08-C0000",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-08",
+          "start": 0,
+          "end": 1,
+          "text": "已"
+        },
+        "start_ms": 68220,
+        "end_ms": 68220,
+        "confidence": 0.903954,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-08-C0001",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-08",
+          "start": 1,
+          "end": 2,
+          "text": "有"
+        },
+        "start_ms": 68400,
+        "end_ms": 68400,
+        "confidence": 0.999661,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-08-C0002",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-08",
+          "start": 2,
+          "end": 3,
+          "text": "道"
+        },
+        "start_ms": 68620,
+        "end_ms": 68620,
+        "confidence": 0.986152,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-08-C0003",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-08",
+          "start": 3,
+          "end": 4,
+          "text": "具"
+        },
+        "start_ms": 68740,
+        "end_ms": 68740,
+        "confidence": 0.997895,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-08-C0004",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-08",
+          "start": 4,
+          "end": 5,
+          "text": "的"
+        },
+        "start_ms": 68920,
+        "end_ms": 68920,
+        "confidence": 0.999096,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-08-C0005",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-08",
+          "start": 5,
+          "end": 6,
+          "text": "动"
+        },
+        "start_ms": 69100,
+        "end_ms": 69100,
+        "confidence": 0.999329,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-08-C0006",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-08",
+          "start": 6,
+          "end": 7,
+          "text": "作"
+        },
+        "start_ms": 69260,
+        "end_ms": 69260,
+        "confidence": 0.999638,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-08-C0007",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-08",
+          "start": 7,
+          "end": 8,
+          "text": "就"
+        },
+        "start_ms": 69480,
+        "end_ms": 69480,
+        "confidence": 0.999051,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-08-C0008",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-08",
+          "start": 8,
+          "end": 9,
+          "text": "不"
+        },
+        "start_ms": 69640,
+        "end_ms": 69640,
+        "confidence": 0.999443,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-08-C0009",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-08",
+          "start": 9,
+          "end": 10,
+          "text": "重"
+        },
+        "start_ms": 69860,
+        "end_ms": 69860,
+        "confidence": 0.998944,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-08-C0010",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-08",
+          "start": 10,
+          "end": 11,
+          "text": "复"
+        },
+        "start_ms": 69960,
+        "end_ms": 69960,
+        "confidence": 0.998015,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-08-C0011",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-08",
+          "start": 11,
+          "end": 12,
+          "text": "叠"
+        },
+        "start_ms": 70180,
+        "end_ms": 70180,
+        "confidence": 0.93462,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-08-C0012",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-08",
+          "start": 12,
+          "end": 13,
+          "text": "加"
+        },
+        "start_ms": 70300,
+        "end_ms": 70300,
+        "confidence": 0.999729,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-08-C0013",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-08",
+          "start": 13,
+          "end": 14,
+          "text": "图"
+        },
+        "start_ms": 70580,
+        "end_ms": 70580,
+        "confidence": 0.997474,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-08-C0015",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-08",
+          "start": 15,
+          "end": 16,
+          "text": "人"
+        },
+        "start_ms": 71280,
+        "end_ms": 71280,
+        "confidence": 0.997935,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-08-C0016",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-08",
+          "start": 16,
+          "end": 17,
+          "text": "物"
+        },
+        "start_ms": 71420,
+        "end_ms": 71420,
+        "confidence": 0.999672,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-08-C0017",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-08",
+          "start": 17,
+          "end": 18,
+          "text": "负"
+        },
+        "start_ms": 71640,
+        "end_ms": 71640,
+        "confidence": 0.997902,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-08-C0018",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-08",
+          "start": 18,
+          "end": 19,
+          "text": "责"
+        },
+        "start_ms": 71760,
+        "end_ms": 71760,
+        "confidence": 0.996238,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-08-C0019",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-08",
+          "start": 19,
+          "end": 20,
+          "text": "身"
+        },
+        "start_ms": 72020,
+        "end_ms": 72020,
+        "confidence": 0.838445,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-08-C0020",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-08",
+          "start": 20,
+          "end": 21,
+          "text": "体"
+        },
+        "start_ms": 72080,
+        "end_ms": 72080,
+        "confidence": 0.980976,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-08-C0021",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-08",
+          "start": 21,
+          "end": 22,
+          "text": "语"
+        },
+        "start_ms": 72300,
+        "end_ms": 72300,
+        "confidence": 0.988968,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-08-C0022",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-08",
+          "start": 22,
+          "end": 23,
+          "text": "言"
+        },
+        "start_ms": 72400,
+        "end_ms": 72400,
+        "confidence": 0.990331,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-08-C0023",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-08",
+          "start": 23,
+          "end": 24,
+          "text": "信"
+        },
+        "start_ms": 72640,
+        "end_ms": 72640,
+        "confidence": 0.646182,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-08-C0024",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-08",
+          "start": 24,
+          "end": 25,
+          "text": "息"
+        },
+        "start_ms": 72760,
+        "end_ms": 72760,
+        "confidence": 0.999973,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-08-C0025",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-08",
+          "start": 25,
+          "end": 26,
+          "text": "符"
+        },
+        "start_ms": 73000,
+        "end_ms": 73000,
+        "confidence": 0.970127,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-08-C0026",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-08",
+          "start": 26,
+          "end": 27,
+          "text": "号"
+        },
+        "start_ms": 73320,
+        "end_ms": 73320,
+        "confidence": 0.998127,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-08-C0027",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-08",
+          "start": 27,
+          "end": 28,
+          "text": "负"
+        },
+        "start_ms": 73620,
+        "end_ms": 73620,
+        "confidence": 0.999413,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-08-C0028",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-08",
+          "start": 28,
+          "end": 29,
+          "text": "责"
+        },
+        "start_ms": 73720,
+        "end_ms": 73720,
+        "confidence": 0.998251,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-08-C0029",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-08",
+          "start": 29,
+          "end": 30,
+          "text": "提"
+        },
+        "start_ms": 73980,
+        "end_ms": 73980,
+        "confidence": 0.979066,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-08-C0030",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-08",
+          "start": 30,
+          "end": 31,
+          "text": "示"
+        },
+        "start_ms": 74060,
+        "end_ms": 74060,
+        "confidence": 0.999838,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-08-C0031",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-08",
+          "start": 31,
+          "end": 32,
+          "text": "两"
+        },
+        "start_ms": 74340,
+        "end_ms": 74340,
+        "confidence": 0.98265,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-08-C0032",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-08",
+          "start": 32,
+          "end": 33,
+          "text": "层"
+        },
+        "start_ms": 74500,
+        "end_ms": 74500,
+        "confidence": 0.863614,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-08-C0033",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-08",
+          "start": 33,
+          "end": 34,
+          "text": "不"
+        },
+        "start_ms": 74820,
+        "end_ms": 74820,
+        "confidence": 0.990798,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-08-C0034",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-08",
+          "start": 34,
+          "end": 35,
+          "text": "要"
+        },
+        "start_ms": 74820,
+        "end_ms": 74820,
+        "confidence": 0.990798,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-08-C0035",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-08",
+          "start": 35,
+          "end": 36,
+          "text": "互"
+        },
+        "start_ms": 75120,
+        "end_ms": 75120,
+        "confidence": 0.999314,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-08-C0036",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-08",
+          "start": 36,
+          "end": 37,
+          "text": "相"
+        },
+        "start_ms": 75260,
+        "end_ms": 75260,
+        "confidence": 0.997919,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-08-C0037",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-08",
+          "start": 37,
+          "end": 38,
+          "text": "抢"
+        },
+        "start_ms": 75420,
+        "end_ms": 75420,
+        "confidence": 0.998401,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-08-C0038",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-08",
+          "start": 38,
+          "end": 39,
+          "text": "位"
+        },
+        "start_ms": 75640,
+        "end_ms": 75640,
+        "confidence": 0.999718,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-08-C0039",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-08",
+          "start": 39,
+          "end": 40,
+          "text": "置"
+        },
+        "start_ms": 76040,
+        "end_ms": 76040,
+        "confidence": 0.98524,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-09-C0000",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-09",
+          "start": 0,
+          "end": 1,
+          "text": "最"
+        },
+        "start_ms": 76300,
+        "end_ms": 76300,
+        "confidence": 0.998837,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-09-C0001",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-09",
+          "start": 1,
+          "end": 2,
+          "text": "后"
+        },
+        "start_ms": 76360,
+        "end_ms": 76360,
+        "confidence": 0.999699,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-09-C0002",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-09",
+          "start": 2,
+          "end": 3,
+          "text": "按"
+        },
+        "start_ms": 76560,
+        "end_ms": 76560,
+        "confidence": 0.996215,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-09-C0003",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-09",
+          "start": 3,
+          "end": 4,
+          "text": "脚"
+        },
+        "start_ms": 76800,
+        "end_ms": 76800,
+        "confidence": 0.910432,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-09-C0004",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-09",
+          "start": 4,
+          "end": 5,
+          "text": "本"
+        },
+        "start_ms": 76940,
+        "end_ms": 76940,
+        "confidence": 0.999855,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-09-C0005",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-09",
+          "start": 5,
+          "end": 6,
+          "text": "顺"
+        },
+        "start_ms": 77200,
+        "end_ms": 77200,
+        "confidence": 0.980742,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-09-C0006",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-09",
+          "start": 6,
+          "end": 7,
+          "text": "序"
+        },
+        "start_ms": 77320,
+        "end_ms": 77320,
+        "confidence": 0.99886,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-09-C0007",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-09",
+          "start": 7,
+          "end": 8,
+          "text": "生"
+        },
+        "start_ms": 77580,
+        "end_ms": 77580,
+        "confidence": 0.948592,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-09-C0008",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-09",
+          "start": 8,
+          "end": 9,
+          "text": "成"
+        },
+        "start_ms": 77900,
+        "end_ms": 77900,
+        "confidence": 0.984855,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-09-C0009",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-09",
+          "start": 9,
+          "end": 10,
+          "text": "再"
+        },
+        "start_ms": 78140,
+        "end_ms": 78140,
+        "confidence": 0.906485,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-09-C0010",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-09",
+          "start": 10,
+          "end": 11,
+          "text": "按"
+        },
+        "start_ms": 78220,
+        "end_ms": 78220,
+        "confidence": 0.998192,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-09-C0011",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-09",
+          "start": 11,
+          "end": 12,
+          "text": "时"
+        },
+        "start_ms": 78560,
+        "end_ms": 78560,
+        "confidence": 0.992048,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-09-C0012",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-09",
+          "start": 12,
+          "end": 13,
+          "text": "间"
+        },
+        "start_ms": 78560,
+        "end_ms": 78560,
+        "confidence": 0.992048,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-09-C0013",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-09",
+          "start": 13,
+          "end": 14,
+          "text": "复"
+        },
+        "start_ms": 78860,
+        "end_ms": 78860,
+        "confidence": 0.994556,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-09-C0014",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-09",
+          "start": 14,
+          "end": 15,
+          "text": "查"
+        },
+        "start_ms": 79200,
+        "end_ms": 79200,
+        "confidence": 0.994765,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-09-C0015",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-09",
+          "start": 15,
+          "end": 16,
+          "text": "声"
+        },
+        "start_ms": 79620,
+        "end_ms": 79620,
+        "confidence": 0.997546,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-09-C0016",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-09",
+          "start": 16,
+          "end": 17,
+          "text": "音"
+        },
+        "start_ms": 79740,
+        "end_ms": 79740,
+        "confidence": 0.999878,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-09-C0017",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-09",
+          "start": 17,
+          "end": 18,
+          "text": "讲"
+        },
+        "start_ms": 79960,
+        "end_ms": 79960,
+        "confidence": 0.989623,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-09-C0018",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-09",
+          "start": 18,
+          "end": 19,
+          "text": "到"
+        },
+        "start_ms": 80100,
+        "end_ms": 80100,
+        "confidence": 0.995691,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-09-C0019",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-09",
+          "start": 19,
+          "end": 20,
+          "text": "新"
+        },
+        "start_ms": 80320,
+        "end_ms": 80320,
+        "confidence": 0.997896,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-09-C0020",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-09",
+          "start": 20,
+          "end": 21,
+          "text": "信"
+        },
+        "start_ms": 80540,
+        "end_ms": 80540,
+        "confidence": 0.997706,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-09-C0021",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-09",
+          "start": 21,
+          "end": 22,
+          "text": "息"
+        },
+        "start_ms": 80680,
+        "end_ms": 80680,
+        "confidence": 0.999966,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-09-C0022",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-09",
+          "start": 22,
+          "end": 23,
+          "text": "时"
+        },
+        "start_ms": 81180,
+        "end_ms": 81180,
+        "confidence": 0.981772,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-09-C0023",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-09",
+          "start": 23,
+          "end": 24,
+          "text": "对"
+        },
+        "start_ms": 81460,
+        "end_ms": 81460,
+        "confidence": 0.957399,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-09-C0024",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-09",
+          "start": 24,
+          "end": 25,
+          "text": "应"
+        },
+        "start_ms": 81560,
+        "end_ms": 81560,
+        "confidence": 0.60598,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-09-C0025",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-09",
+          "start": 25,
+          "end": 26,
+          "text": "画"
+        },
+        "start_ms": 81840,
+        "end_ms": 81840,
+        "confidence": 0.996749,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-09-C0026",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-09",
+          "start": 26,
+          "end": 27,
+          "text": "面"
+        },
+        "start_ms": 81980,
+        "end_ms": 81980,
+        "confidence": 0.999714,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-09-C0027",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-09",
+          "start": 27,
+          "end": 28,
+          "text": "就"
+        },
+        "start_ms": 82180,
+        "end_ms": 82180,
+        "confidence": 0.976887,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-09-C0028",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-09",
+          "start": 28,
+          "end": 29,
+          "text": "该"
+        },
+        "start_ms": 82300,
+        "end_ms": 82300,
+        "confidence": 0.999245,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-09-C0029",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-09",
+          "start": 29,
+          "end": 30,
+          "text": "进"
+        },
+        "start_ms": 82480,
+        "end_ms": 82480,
+        "confidence": 0.997575,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-09-C0030",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-09",
+          "start": 30,
+          "end": 31,
+          "text": "入"
+        },
+        "start_ms": 82620,
+        "end_ms": 82620,
+        "confidence": 0.999866,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-09-C0031",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-09",
+          "start": 31,
+          "end": 32,
+          "text": "不"
+        },
+        "start_ms": 83100,
+        "end_ms": 83100,
+        "confidence": 0.843492,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-09-C0032",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-09",
+          "start": 32,
+          "end": 33,
+          "text": "要"
+        },
+        "start_ms": 83100,
+        "end_ms": 83100,
+        "confidence": 0.843492,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-09-C0033",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-09",
+          "start": 33,
+          "end": 34,
+          "text": "还"
+        },
+        "start_ms": 83480,
+        "end_ms": 83480,
+        "confidence": 0.943075,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-09-C0034",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-09",
+          "start": 34,
+          "end": 35,
+          "text": "停"
+        },
+        "start_ms": 83740,
+        "end_ms": 83740,
+        "confidence": 0.998847,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-09-C0035",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-09",
+          "start": 35,
+          "end": 36,
+          "text": "留"
+        },
+        "start_ms": 83840,
+        "end_ms": 83840,
+        "confidence": 0.999853,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-09-C0036",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-09",
+          "start": 36,
+          "end": 37,
+          "text": "在"
+        },
+        "start_ms": 84060,
+        "end_ms": 84060,
+        "confidence": 0.992555,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-09-C0037",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-09",
+          "start": 37,
+          "end": 38,
+          "text": "上"
+        },
+        "start_ms": 84320,
+        "end_ms": 84320,
+        "confidence": 0.996008,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-09-C0038",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-09",
+          "start": 38,
+          "end": 39,
+          "text": "一"
+        },
+        "start_ms": 84500,
+        "end_ms": 84500,
+        "confidence": 0.997398,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      },
+      {
+        "anchor_id": "SEG-09-C0039",
+        "kind": "CHAR",
+        "script_span": {
+          "segment_id": "SEG-09",
+          "start": 39,
+          "end": 40,
+          "text": "句"
+        },
+        "start_ms": 84600,
+        "end_ms": 84600,
+        "confidence": 0.999579,
+        "provenance": {
+          "source": "TOLERANT_MATCHED_SCRIPT_CHAR_DTW",
+          "raw_asr_segment_boundary_used": false
+        }
+      }
+    ],
+    "performance": {
+      "alignment_runtime_seconds": 17.03059445800318,
+      "peak_memory_mb_approx": 2092.46875,
+      "peak_memory_measurement": "RUSAGE_CHILDREN_MAXRSS_PROCESS_GROUP_CUMULATIVE",
+      "child_maxrss_before": 41172992,
+      "child_maxrss_after": 2194112512,
+      "audio_duration_seconds": 84.76,
+      "real_time_factor": 0.2009272588249549,
+      "model_disk_size_bytes": 1533763059,
+      "cache_hit": false
+    },
+    "provenance": {
+      "alignment_method": "POST-TTS ASR TIMING + TRANSCRIPT ALIGNMENT",
+      "not_method": "TRANSCRIPT-CONDITIONED FORCED ALIGNMENT",
+      "approved_script_used_as_decoding_prompt": false,
+      "raw_asr_segments_consumed_as_boundaries": false,
+      "semantic_policy_owner": "EXTERNAL_APPROVED_BEAT_BINDINGS"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "contract_id": "XIAOY_MOTION_DESIGN_V1",
+  "source_shot_plan_id": "MDC-001-FOUR-SHOT",
+  "design_sha256": "64bdfdc24534cb4f199cb8908d6c2b1778e3ff1ab0eb7d401a0e9ae9bd09ebf2",
+  "shots": [
+    {
+      "shot_id": "MDC-S01",
+      "phrase_id": "MDC-MDC-S01",
+      "intent": "FOCUS",
+      "primary_clip_id": "MDC-S01-MEDIA-evidence",
+      "secondary_clip_ids": [
+        "MDC-S01-TEXT-callout"
+      ],
+      "background_context_clip_ids": []
+    },
+    {
+      "shot_id": "MDC-S02",
+      "phrase_id": "MDC-MDC-S02",
+      "intent": "EXPLAIN",
+      "primary_clip_id": "MDC-S02-CHARACTER-character",
+      "secondary_clip_ids": [
+        "MDC-S02-TEXT-callout"
+      ],
+      "background_context_clip_ids": []
+    },
+    {
+      "shot_id": "MDC-S03",
+      "phrase_id": "MDC-MDC-S03",
+      "intent": "IMPACT_WARN",
+      "primary_clip_id": "MDC-S03-CHARACTER-character",
+      "secondary_clip_ids": [
+        "MDC-S03-MEDIA-evidence",
+        "MDC-S03-TEXT-callout"
+      ],
+      "background_context_clip_ids": []
+    },
+    {
+      "shot_id": "MDC-S04",
+      "phrase_id": "MDC-MDC-S04",
+      "intent": "CONNECT",
+      "primary_clip_id": "MDC-S04-ELEMENT-relation",
+      "secondary_clip_ids": [
+        "MDC-S04-TEXT-callout"
+      ],
+      "background_context_clip_ids": [
+        "MDC-S04-MEDIA-evidence"
+      ]
+    }
+  ],
+  "compiled_motion_sha256": "c70ba6095fb676620574314cfb541ddf4b47fa0e506bd22249f66a0fe82e140e"
+}

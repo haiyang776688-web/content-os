@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "case": "ALIGNMENT_NOT_AVAILABLE_FALLBACK_RENDER",
+  "result": "PASS",
+  "props_sha256": "b6165ffce9b75c3841db487435cca8b54c26a19e07321a68f4b09c6487a70196",
+  "video_sha256": "8cd1181a0792104a51a7d2e32f9d7327f3bf62cf7e2b5c182c55025ce6ece460",
+  "video_size_bytes": 16442,
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "30/1",
+        "side_data_list": [
+          {}
+        ]
+      }
+    ],
+    "format": {
+      "duration": "1.500000"
+    }
+  },
+  "timing_provenance": {
+    "timing_mode": "CURRENT",
+    "alignment_artifact_id": null,
+    "alignment_artifact_sha": null,
+    "engine": "whisper.cpp",
+    "engine_version": "1.9.1",
+    "model": "ggml-medium.bin",
+    "model_sha": "6c14d5adee5f86394037b4e4e8b59f1673b6cee10e3cf0b11bbdbee79c156208",
+    "coverage": null,
+    "fallback_used": true,
+    "reason": "ALIGNMENT_RUNTIME_NOT_AVAILABLE",
+    "applied": []
+  },
+  "statement": "Renderer completed from CURRENT timing props after alignment fallback; no alignment artifact was required."
+}

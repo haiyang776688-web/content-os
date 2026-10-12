@@ -1,0 +1,25 @@
+{
+  "source_start": 5.56,
+  "source_end": 24.68,
+  "beats": [
+    {"beat_id": "BEAT-02", "start": 5.56, "end": 11.8, "segment_id": "SEG-02"},
+    {"beat_id": "BEAT-03", "start": 11.8, "end": 17.44, "segment_id": "SEG-03"},
+    {"beat_id": "BEAT-04", "start": 17.44, "end": 21.06, "segment_id": "SEG-04"},
+    {"beat_id": "BEAT-5a133712b419", "start": 21.06, "end": 24.68, "segment_id": "SEG-04"}
+  ],
+  "states": [
+    {"state_id": "R1", "beat_id": "BEAT-02", "start": 5.56, "end": 6.56, "operation": "FULL_FRAME_MEDIA", "primary_subject": "EVIDENCE", "media_asset_id": "MED-23b344b5d0c0"},
+    {"state_id": "R2", "beat_id": "BEAT-02", "start": 6.56, "end": 8.56, "operation": "ZOOM_TO_REGION", "primary_subject": "EVIDENCE", "media_asset_id": "MED-23b344b5d0c0", "region": [0.14, 0.47, 0.45, 0.30]},
+    {"state_id": "R3", "beat_id": "BEAT-02", "start": 8.56, "end": 11.8, "operation": "HIGHLIGHT_RECT", "primary_subject": "EVIDENCE", "media_asset_id": "MED-23b344b5d0c0", "region": [0.14, 0.47, 0.45, 0.30], "focus": [0.05, 0.50, 0.22, 0.18], "text": "候选需确认"},
+    {"state_id": "H1", "beat_id": "BEAT-03", "start": 11.8, "end": 14.6, "operation": "SHOW_TEXT", "primary_subject": "TEXT", "media_asset_id": "MED-23b344b5d0c0", "region": [0.14, 0.47, 0.45, 0.30], "text": "模型候选引文"},
+    {"state_id": "H2", "beat_id": "BEAT-03", "start": 14.6, "end": 17.44, "operation": "SHOW_TEXT", "primary_subject": "TEXT", "media_asset_id": "MED-23b344b5d0c0", "region": [0.14, 0.47, 0.45, 0.30], "text": "人工确认后才是 Fact"},
+    {"state_id": "F1", "beat_id": "BEAT-04", "start": 17.44, "end": 18.54, "operation": "FULL_FRAME_MEDIA", "primary_subject": "EVIDENCE", "media_asset_id": "MED-a380de2ef563"},
+    {"state_id": "F2", "beat_id": "BEAT-04", "start": 18.54, "end": 21.06, "operation": "ZOOM_TO_REGION", "primary_subject": "EVIDENCE", "media_asset_id": "MED-a380de2ef563", "region": [0.15, 0.35, 0.5625, 0.35]},
+    {"state_id": "C1", "beat_id": "BEAT-5a133712b419", "start": 21.06, "end": 22.66, "operation": "HIGHLIGHT_RECT", "primary_subject": "EVIDENCE", "media_asset_id": "MED-a380de2ef563", "region": [0.15, 0.35, 0.5625, 0.35], "focus": [0.28, 0.18, 0.16, 0.13]},
+    {"state_id": "C2", "beat_id": "BEAT-5a133712b419", "start": 22.66, "end": 24.68, "operation": "CALLOUT_TEXT", "primary_subject": "EVIDENCE", "media_asset_id": "MED-a380de2ef563", "region": [0.15, 0.35, 0.5625, 0.35], "text": "事实主张 → 已有 Fact ID"}
+  ],
+  "subtitle_repair": [
+    {"start": 17.44, "end": 20.98, "text": "Fact Pack 把选中的事实与来源绑定"},
+    {"start": 20.98, "end": 24.68, "text": "脚本里的事实性主张要引用已有 Fact ID"}
+  ]
+}

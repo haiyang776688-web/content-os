@@ -1,0 +1,3293 @@
+{
+  "character_id": "XIAO-Y_V1",
+  "version": "AR-0004",
+  "master": {
+    "path": "assets/character_master/XIAO-Y_V1.png",
+    "sha256": "9b073744a2eb31d0e8086d232114d1492cf539c5d919becf3bc4032bd6a1c432"
+  },
+  "actions": [
+    {
+      "id": "XACT-001",
+      "asset_id": "XACT-001",
+      "asset_type": "CHARACTER_ACTION",
+      "character_id": "XIAO-Y_V1",
+      "label": "自然站立",
+      "label_zh": "自然站立",
+      "slug": "neutral_stand",
+      "asset_pack": "XIAO-Y_Action_Pack_v2_Production_48",
+      "path": "packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-001_neutral_stand.png",
+      "format": "PNG",
+      "background": "TRANSPARENT",
+      "width_px": 1000,
+      "height_px": 872,
+      "sha256": "d85c0a4fc245a363dadef262ecaae0957a2ea060e53bbc69f472debf6f136a2f",
+      "verified": true,
+      "asset_status": "VERIFIED",
+      "anchor_status": "CALIBRATED",
+      "prop_mode": "NONE",
+      "baked_prop_type": null,
+      "semantic_intents": [
+        "GENERAL"
+      ],
+      "provenance": {
+        "pack_id": "XIAO-Y_Action_Pack_v2_Production_48",
+        "source_zip_sha256": "642a9dc740a0f95727d99be2f0d1bee1e90f72939cd3a87b9616272dba383d9c"
+      },
+      "remotion": {
+        "calibration_status": "CALIBRATED",
+        "content_bbox": {
+          "x": 0.27,
+          "y": 0.045871559633027525,
+          "w": 0.567,
+          "h": 0.9541284403669725
+        },
+        "character_bbox": {
+          "x": 0.27,
+          "y": 0.045871559633027525,
+          "w": 0.567,
+          "h": 0.9541284403669725
+        },
+        "anchor": {
+          "x": 0.5535,
+          "y": 1.0
+        },
+        "recommended_scale": 0.8293269230769231,
+        "composition_class": "STANDARD",
+        "anchor_kind": "FOOT_BASELINE",
+        "preferred_placement": "CENTER",
+        "allowed_placements": [
+          "LEFT",
+          "CENTER",
+          "RIGHT"
+        ],
+        "calibration_source": "FRESH_AR0004_ALPHA_AND_VISUAL_REVIEW",
+        "safe_area_check": "PASS"
+      }
+    },
+    {
+      "id": "XACT-002",
+      "asset_id": "XACT-002",
+      "asset_type": "CHARACTER_ACTION",
+      "character_id": "XIAO-Y_V1",
+      "label": "开心向右展示",
+      "label_zh": "开心向右展示",
+      "slug": "present_right_happy",
+      "asset_pack": "XIAO-Y_Action_Pack_v2_Production_48",
+      "path": "packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-002_present_right_happy.png",
+      "format": "PNG",
+      "background": "TRANSPARENT",
+      "width_px": 1000,
+      "height_px": 940,
+      "sha256": "c70883c4fde6ef8f22f430dd5690c71ae561326676ca0f7c9dbdaa52cd2a0aea",
+      "verified": true,
+      "asset_status": "VERIFIED",
+      "anchor_status": "CALIBRATED",
+      "prop_mode": "NONE",
+      "baked_prop_type": null,
+      "semantic_intents": [
+        "EXPLAIN",
+        "POSITIVE"
+      ],
+      "provenance": {
+        "pack_id": "XIAO-Y_Action_Pack_v2_Production_48",
+        "source_zip_sha256": "642a9dc740a0f95727d99be2f0d1bee1e90f72939cd3a87b9616272dba383d9c"
+      },
+      "remotion": {
+        "calibration_status": "CALIBRATED",
+        "content_bbox": {
+          "x": 0.06,
+          "y": 0.08085106382978724,
+          "w": 0.798,
+          "h": 0.9191489361702128
+        },
+        "character_bbox": {
+          "x": 0.06,
+          "y": 0.08085106382978724,
+          "w": 0.798,
+          "h": 0.9191489361702128
+        },
+        "anchor": {
+          "x": 0.459,
+          "y": 1.0
+        },
+        "recommended_scale": 0.7986111111111112,
+        "composition_class": "STANDARD",
+        "anchor_kind": "FOOT_BASELINE",
+        "preferred_placement": "LEFT",
+        "allowed_placements": [
+          "LEFT",
+          "CENTER",
+          "RIGHT"
+        ],
+        "calibration_source": "FRESH_AR0004_ALPHA_AND_VISUAL_REVIEW",
+        "safe_area_check": "PASS"
+      }
+    },
+    {
+      "id": "XACT-003",
+      "asset_id": "XACT-003",
+      "asset_type": "CHARACTER_ACTION",
+      "character_id": "XIAO-Y_V1",
+      "label": "比耶 / V 手势",
+      "label_zh": "比耶 / V 手势",
+      "slug": "peace_sign",
+      "asset_pack": "XIAO-Y_Action_Pack_v2_Production_48",
+      "path": "packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-003_peace_sign.png",
+      "format": "PNG",
+      "background": "TRANSPARENT",
+      "width_px": 1000,
+      "height_px": 877,
+      "sha256": "b3225c69a1f1dfb970bb4c5e12f28a6c88ab57e2ef4700e6cf7a90d2880654fc",
+      "verified": true,
+      "asset_status": "VERIFIED",
+      "anchor_status": "CALIBRATED",
+      "prop_mode": "NONE",
+      "baked_prop_type": null,
+      "semantic_intents": [
+        "POSITIVE",
+        "HAPPY"
+      ],
+      "provenance": {
+        "pack_id": "XIAO-Y_Action_Pack_v2_Production_48",
+        "source_zip_sha256": "642a9dc740a0f95727d99be2f0d1bee1e90f72939cd3a87b9616272dba383d9c"
+      },
+      "remotion": {
+        "calibration_status": "CALIBRATED",
+        "content_bbox": {
+          "x": 0.107,
+          "y": 0.052451539338654506,
+          "w": 0.796,
+          "h": 0.9475484606613455
+        },
+        "character_bbox": {
+          "x": 0.107,
+          "y": 0.052451539338654506,
+          "w": 0.796,
+          "h": 0.9475484606613455
+        },
+        "anchor": {
+          "x": 0.505,
+          "y": 1.0
+        },
+        "recommended_scale": 0.8303249097472925,
+        "composition_class": "STANDARD",
+        "anchor_kind": "FOOT_BASELINE",
+        "preferred_placement": "CENTER",
+        "allowed_placements": [
+          "LEFT",
+          "CENTER",
+          "RIGHT"
+        ],
+        "calibration_source": "FRESH_AR0004_ALPHA_AND_VISUAL_REVIEW",
+        "safe_area_check": "PASS"
+      }
+    },
+    {
+      "id": "XACT-004",
+      "asset_id": "XACT-004",
+      "asset_type": "CHARACTER_ACTION",
+      "character_id": "XIAO-Y_V1",
+      "label": "眨眼大笑展示",
+      "label_zh": "眨眼大笑展示",
+      "slug": "laugh_wink_present",
+      "asset_pack": "XIAO-Y_Action_Pack_v2_Production_48",
+      "path": "packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-004_laugh_wink_present.png",
+      "format": "PNG",
+      "background": "TRANSPARENT",
+      "width_px": 1000,
+      "height_px": 877,
+      "sha256": "98bf70d4caa00dbd9daf6f2a9c940af44e4ff469390a89638dabe0be09d23866",
+      "verified": true,
+      "asset_status": "VERIFIED",
+      "anchor_status": "CALIBRATED",
+      "prop_mode": "NONE",
+      "baked_prop_type": null,
+      "semantic_intents": [
+        "HAPPY",
+        "STRONG_POSITIVE"
+      ],
+      "provenance": {
+        "pack_id": "XIAO-Y_Action_Pack_v2_Production_48",
+        "source_zip_sha256": "642a9dc740a0f95727d99be2f0d1bee1e90f72939cd3a87b9616272dba383d9c"
+      },
+      "remotion": {
+        "calibration_status": "CALIBRATED",
+        "content_bbox": {
+          "x": 0.0,
+          "y": 0.05815279361459521,
+          "w": 0.918,
+          "h": 0.9418472063854048
+        },
+        "character_bbox": {
+          "x": 0.0,
+          "y": 0.05815279361459521,
+          "w": 0.918,
+          "h": 0.9418472063854048
+        },
+        "anchor": {
+          "x": 0.459,
+          "y": 1.0
+        },
+        "recommended_scale": 0.8278867102396514,
+        "composition_class": "STANDARD",
+        "anchor_kind": "FOOT_BASELINE",
+        "preferred_placement": "CENTER",
+        "allowed_placements": [
+          "LEFT",
+          "CENTER",
+          "RIGHT"
+        ],
+        "calibration_source": "FRESH_AR0004_ALPHA_AND_VISUAL_REVIEW",
+        "safe_area_check": "PASS"
+      }
+    },
+    {
+      "id": "XACT-005",
+      "asset_id": "XACT-005",
+      "asset_type": "CHARACTER_ACTION",
+      "character_id": "XIAO-Y_V1",
+      "label": "兴奋跑动",
+      "label_zh": "兴奋跑动",
+      "slug": "running_excited",
+      "asset_pack": "XIAO-Y_Action_Pack_v2_Production_48",
+      "path": "packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-005_running_excited.png",
+      "format": "PNG",
+      "background": "TRANSPARENT",
+      "width_px": 1000,
+      "height_px": 877,
+      "sha256": "45963052db27c5eaeaaf4d619097d5a5b6050be48af9a9ada7acea7c427565c5",
+      "verified": true,
+      "asset_status": "VERIFIED",
+      "anchor_status": "CALIBRATED",
+      "prop_mode": "NONE",
+      "baked_prop_type": null,
+      "semantic_intents": [
+        "STRONG_POSITIVE",
+        "HAPPY"
+      ],
+      "provenance": {
+        "pack_id": "XIAO-Y_Action_Pack_v2_Production_48",
+        "source_zip_sha256": "642a9dc740a0f95727d99be2f0d1bee1e90f72939cd3a87b9616272dba383d9c"
+      },
+      "remotion": {
+        "calibration_status": "CALIBRATED",
+        "content_bbox": {
+          "x": 0.076,
+          "y": 0.055872291904218926,
+          "w": 0.786,
+          "h": 0.8996579247434435
+        },
+        "character_bbox": {
+          "x": 0.076,
+          "y": 0.055872291904218926,
+          "w": 0.786,
+          "h": 0.8996579247434435
+        },
+        "anchor": {
+          "x": 0.469,
+          "y": 0.9555302166476625
+        },
+        "recommended_scale": 0.8745247148288974,
+        "composition_class": "STANDARD",
+        "anchor_kind": "FOOT_BASELINE",
+        "preferred_placement": "CENTER",
+        "allowed_placements": [
+          "LEFT",
+          "CENTER",
+          "RIGHT"
+        ],
+        "calibration_source": "FRESH_AR0004_ALPHA_AND_VISUAL_REVIEW",
+        "safe_area_check": "PASS"
+      }
+    },
+    {
+      "id": "XACT-006",
+      "asset_id": "XACT-006",
+      "asset_type": "CHARACTER_ACTION",
+      "character_id": "XIAO-Y_V1",
+      "label": "开心张开双臂",
+      "label_zh": "开心张开双臂",
+      "slug": "open_arms_happy",
+      "asset_pack": "XIAO-Y_Action_Pack_v2_Production_48",
+      "path": "packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-006_open_arms_happy.png",
+      "format": "PNG",
+      "background": "TRANSPARENT",
+      "width_px": 1000,
+      "height_px": 900,
+      "sha256": "22e93d6308168d19257282d67b22626a9eaaa65a61485aa5b848ff01de0e1ffe",
+      "verified": true,
+      "asset_status": "VERIFIED",
+      "anchor_status": "CALIBRATED",
+      "prop_mode": "NONE",
+      "baked_prop_type": null,
+      "semantic_intents": [
+        "HAPPY",
+        "EXPLAIN"
+      ],
+      "provenance": {
+        "pack_id": "XIAO-Y_Action_Pack_v2_Production_48",
+        "source_zip_sha256": "642a9dc740a0f95727d99be2f0d1bee1e90f72939cd3a87b9616272dba383d9c"
+      },
+      "remotion": {
+        "calibration_status": "CALIBRATED",
+        "content_bbox": {
+          "x": 0.073,
+          "y": 0.028888888888888888,
+          "w": 0.922,
+          "h": 0.9711111111111111
+        },
+        "character_bbox": {
+          "x": 0.073,
+          "y": 0.028888888888888888,
+          "w": 0.922,
+          "h": 0.9711111111111111
+        },
+        "anchor": {
+          "x": 0.534,
+          "y": 1.0
+        },
+        "recommended_scale": 0.7894736842105263,
+        "composition_class": "STANDARD",
+        "anchor_kind": "FOOT_BASELINE",
+        "preferred_placement": "CENTER",
+        "allowed_placements": [
+          "LEFT",
+          "CENTER",
+          "RIGHT"
+        ],
+        "calibration_source": "FRESH_AR0004_ALPHA_AND_VISUAL_REVIEW",
+        "safe_area_check": "PASS"
+      }
+    },
+    {
+      "id": "XACT-007",
+      "asset_id": "XACT-007",
+      "asset_type": "CHARACTER_ACTION",
+      "character_id": "XIAO-Y_V1",
+      "label": "指向右侧",
+      "label_zh": "指向右侧",
+      "slug": "point_right",
+      "asset_pack": "XIAO-Y_Action_Pack_v2_Production_48",
+      "path": "packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-007_point_right.png",
+      "format": "PNG",
+      "background": "TRANSPARENT",
+      "width_px": 1000,
+      "height_px": 877,
+      "sha256": "2a04f4166c04bc76a74be76459d89344b7d39fcd7950abeaf8d6e949072eea3d",
+      "verified": true,
+      "asset_status": "VERIFIED",
+      "anchor_status": "CALIBRATED",
+      "prop_mode": "NONE",
+      "baked_prop_type": null,
+      "semantic_intents": [
+        "POINT_RIGHT",
+        "KEY_POINT"
+      ],
+      "provenance": {
+        "pack_id": "XIAO-Y_Action_Pack_v2_Production_48",
+        "source_zip_sha256": "642a9dc740a0f95727d99be2f0d1bee1e90f72939cd3a87b9616272dba383d9c"
+      },
+      "remotion": {
+        "calibration_status": "CALIBRATED",
+        "content_bbox": {
+          "x": 0.194,
+          "y": 0.06385404789053592,
+          "w": 0.781,
+          "h": 0.936145952109464
+        },
+        "character_bbox": {
+          "x": 0.194,
+          "y": 0.06385404789053592,
+          "w": 0.781,
+          "h": 0.936145952109464
+        },
+        "anchor": {
+          "x": 0.5845,
+          "y": 1.0
+        },
+        "recommended_scale": 0.8404384896467723,
+        "composition_class": "STANDARD",
+        "anchor_kind": "FOOT_BASELINE",
+        "preferred_placement": "LEFT",
+        "allowed_placements": [
+          "LEFT",
+          "CENTER",
+          "RIGHT"
+        ],
+        "calibration_source": "FRESH_AR0004_ALPHA_AND_VISUAL_REVIEW",
+        "safe_area_check": "PASS"
+      }
+    },
+    {
+      "id": "XACT-008",
+      "asset_id": "XACT-008",
+      "asset_type": "CHARACTER_ACTION",
+      "character_id": "XIAO-Y_V1",
+      "label": "叉腰开心",
+      "label_zh": "叉腰开心",
+      "slug": "hands_on_hips_happy",
+      "asset_pack": "XIAO-Y_Action_Pack_v2_Production_48",
+      "path": "packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-008_hands_on_hips_happy.png",
+      "format": "PNG",
+      "background": "TRANSPARENT",
+      "width_px": 1000,
+      "height_px": 910,
+      "sha256": "dd1e9f8f29a3bd88c2434b8c77d1f724bdf0c5ae3a860b4e3a749464bf214e6b",
+      "verified": true,
+      "asset_status": "VERIFIED",
+      "anchor_status": "CALIBRATED",
+      "prop_mode": "NONE",
+      "baked_prop_type": null,
+      "semantic_intents": [
+        "POSITIVE",
+        "GENERAL"
+      ],
+      "provenance": {
+        "pack_id": "XIAO-Y_Action_Pack_v2_Production_48",
+        "source_zip_sha256": "642a9dc740a0f95727d99be2f0d1bee1e90f72939cd3a87b9616272dba383d9c"
+      },
+      "remotion": {
+        "calibration_status": "CALIBRATED",
+        "content_bbox": {
+          "x": 0.148,
+          "y": 0.04065934065934066,
+          "w": 0.65,
+          "h": 0.9593406593406594
+        },
+        "character_bbox": {
+          "x": 0.148,
+          "y": 0.04065934065934066,
+          "w": 0.65,
+          "h": 0.9593406593406594
+        },
+        "anchor": {
+          "x": 0.473,
+          "y": 1.0
+        },
+        "recommended_scale": 0.7903780068728522,
+        "composition_class": "STANDARD",
+        "anchor_kind": "FOOT_BASELINE",
+        "preferred_placement": "CENTER",
+        "allowed_placements": [
+          "LEFT",
+          "CENTER",
+          "RIGHT"
+        ],
+        "calibration_source": "FRESH_AR0004_ALPHA_AND_VISUAL_REVIEW",
+        "safe_area_check": "PASS"
+      }
+    },
+    {
+      "id": "XACT-009",
+      "asset_id": "XACT-009",
+      "asset_type": "CHARACTER_ACTION",
+      "character_id": "XIAO-Y_V1",
+      "label": "点赞",
+      "label_zh": "点赞",
+      "slug": "thumbs_up",
+      "asset_pack": "XIAO-Y_Action_Pack_v2_Production_48",
+      "path": "packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-009_thumbs_up.png",
+      "format": "PNG",
+      "background": "TRANSPARENT",
+      "width_px": 1000,
+      "height_px": 862,
+      "sha256": "3c2b4fc19917e5d0f94d179b0d348499e99f3b9d4196dd5a88ca4d53da5b8499",
+      "verified": true,
+      "asset_status": "VERIFIED",
+      "anchor_status": "CALIBRATED",
+      "prop_mode": "NONE",
+      "baked_prop_type": null,
+      "semantic_intents": [
+        "APPROVE",
+        "POSITIVE"
+      ],
+      "provenance": {
+        "pack_id": "XIAO-Y_Action_Pack_v2_Production_48",
+        "source_zip_sha256": "642a9dc740a0f95727d99be2f0d1bee1e90f72939cd3a87b9616272dba383d9c"
+      },
+      "remotion": {
+        "calibration_status": "CALIBRATED",
+        "content_bbox": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 1.0,
+          "h": 0.9651972157772621
+        },
+        "character_bbox": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 1.0,
+          "h": 0.9651972157772621
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.9651972157772621
+        },
+        "recommended_scale": 0.76,
+        "composition_class": "STANDARD",
+        "anchor_kind": "FOOT_BASELINE",
+        "preferred_placement": "CENTER",
+        "allowed_placements": [
+          "LEFT",
+          "CENTER",
+          "RIGHT"
+        ],
+        "calibration_source": "FRESH_AR0004_ALPHA_AND_VISUAL_REVIEW",
+        "safe_area_check": "PASS"
+      }
+    },
+    {
+      "id": "XACT-010",
+      "asset_id": "XACT-010",
+      "asset_type": "CHARACTER_ACTION",
+      "character_id": "XIAO-Y_V1",
+      "label": "向下指",
+      "label_zh": "向下指",
+      "slug": "point_down",
+      "asset_pack": "XIAO-Y_Action_Pack_v2_Production_48",
+      "path": "packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-010_point_down.png",
+      "format": "PNG",
+      "background": "TRANSPARENT",
+      "width_px": 1000,
+      "height_px": 929,
+      "sha256": "be6c19fa1f8fab521b04b2631571399bd4df849340230e292cac321f402d817d",
+      "verified": true,
+      "asset_status": "VERIFIED",
+      "anchor_status": "CALIBRATED",
+      "prop_mode": "NONE",
+      "baked_prop_type": null,
+      "semantic_intents": [
+        "KEY_POINT"
+      ],
+      "provenance": {
+        "pack_id": "XIAO-Y_Action_Pack_v2_Production_48",
+        "source_zip_sha256": "642a9dc740a0f95727d99be2f0d1bee1e90f72939cd3a87b9616272dba383d9c"
+      },
+      "remotion": {
+        "calibration_status": "CALIBRATED",
+        "content_bbox": {
+          "x": 0.005,
+          "y": 0.0,
+          "w": 0.864,
+          "h": 0.9946178686759957
+        },
+        "character_bbox": {
+          "x": 0.005,
+          "y": 0.0,
+          "w": 0.864,
+          "h": 0.9946178686759957
+        },
+        "anchor": {
+          "x": 0.437,
+          "y": 0.9946178686759957
+        },
+        "recommended_scale": 0.7467532467532467,
+        "composition_class": "STANDARD",
+        "anchor_kind": "FOOT_BASELINE",
+        "preferred_placement": "CENTER",
+        "allowed_placements": [
+          "LEFT",
+          "CENTER",
+          "RIGHT"
+        ],
+        "calibration_source": "FRESH_AR0004_ALPHA_AND_VISUAL_REVIEW",
+        "safe_area_check": "PASS"
+      }
+    },
+    {
+      "id": "XACT-011",
+      "asset_id": "XACT-011",
+      "asset_type": "CHARACTER_ACTION",
+      "character_id": "XIAO-Y_V1",
+      "label": "指向右侧 2",
+      "label_zh": "指向右侧 2",
+      "slug": "point_right_alt",
+      "asset_pack": "XIAO-Y_Action_Pack_v2_Production_48",
+      "path": "packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-011_point_right_alt.png",
+      "format": "PNG",
+      "background": "TRANSPARENT",
+      "width_px": 1000,
+      "height_px": 867,
+      "sha256": "3d1efbd1bf1f79c54a6864120b2e2ce0316d609a499754a0571cb38107a487e9",
+      "verified": true,
+      "asset_status": "VERIFIED",
+      "anchor_status": "CALIBRATED",
+      "prop_mode": "NONE",
+      "baked_prop_type": null,
+      "semantic_intents": [
+        "POINT_RIGHT",
+        "KEY_POINT"
+      ],
+      "provenance": {
+        "pack_id": "XIAO-Y_Action_Pack_v2_Production_48",
+        "source_zip_sha256": "642a9dc740a0f95727d99be2f0d1bee1e90f72939cd3a87b9616272dba383d9c"
+      },
+      "remotion": {
+        "calibration_status": "CALIBRATED",
+        "content_bbox": {
+          "x": 0.035,
+          "y": 0.0,
+          "w": 0.965,
+          "h": 0.9884659746251442
+        },
+        "character_bbox": {
+          "x": 0.035,
+          "y": 0.0,
+          "w": 0.965,
+          "h": 0.9884659746251442
+        },
+        "anchor": {
+          "x": 0.5175,
+          "y": 0.9884659746251442
+        },
+        "recommended_scale": 0.7875647668393783,
+        "composition_class": "STANDARD",
+        "anchor_kind": "FOOT_BASELINE",
+        "preferred_placement": "LEFT",
+        "allowed_placements": [
+          "LEFT",
+          "CENTER",
+          "RIGHT"
+        ],
+        "calibration_source": "FRESH_AR0004_ALPHA_AND_VISUAL_REVIEW",
+        "safe_area_check": "PASS"
+      }
+    },
+    {
+      "id": "XACT-012",
+      "asset_id": "XACT-012",
+      "asset_type": "CHARACTER_ACTION",
+      "character_id": "XIAO-Y_V1",
+      "label": "指向左侧",
+      "label_zh": "指向左侧",
+      "slug": "point_left",
+      "asset_pack": "XIAO-Y_Action_Pack_v2_Production_48",
+      "path": "packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-012_point_left.png",
+      "format": "PNG",
+      "background": "TRANSPARENT",
+      "width_px": 1000,
+      "height_px": 867,
+      "sha256": "078fa576d573a9ffc7e2c880b4c062b7359c3761e233b802fc00b3b4bbf44ed8",
+      "verified": true,
+      "asset_status": "VERIFIED",
+      "anchor_status": "CALIBRATED",
+      "prop_mode": "NONE",
+      "baked_prop_type": null,
+      "semantic_intents": [
+        "POINT_LEFT",
+        "KEY_POINT"
+      ],
+      "provenance": {
+        "pack_id": "XIAO-Y_Action_Pack_v2_Production_48",
+        "source_zip_sha256": "642a9dc740a0f95727d99be2f0d1bee1e90f72939cd3a87b9616272dba383d9c"
+      },
+      "remotion": {
+        "calibration_status": "CALIBRATED",
+        "content_bbox": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 1.0,
+          "h": 0.9769319492502884
+        },
+        "character_bbox": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 1.0,
+          "h": 0.9769319492502884
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.9769319492502884
+        },
+        "recommended_scale": 0.76,
+        "composition_class": "STANDARD",
+        "anchor_kind": "FOOT_BASELINE",
+        "preferred_placement": "RIGHT",
+        "allowed_placements": [
+          "LEFT",
+          "CENTER",
+          "RIGHT"
+        ],
+        "calibration_source": "FRESH_AR0004_ALPHA_AND_VISUAL_REVIEW",
+        "safe_area_check": "PASS"
+      }
+    },
+    {
+      "id": "XACT-013",
+      "asset_id": "XACT-013",
+      "asset_type": "CHARACTER_ACTION",
+      "character_id": "XIAO-Y_V1",
+      "label": "握拳贴胸 / 鼓劲",
+      "label_zh": "握拳贴胸 / 鼓劲",
+      "slug": "fist_chest_happy",
+      "asset_pack": "XIAO-Y_Action_Pack_v2_Production_48",
+      "path": "packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-013_fist_chest_happy.png",
+      "format": "PNG",
+      "background": "TRANSPARENT",
+      "width_px": 1000,
+      "height_px": 867,
+      "sha256": "b05280f1767ddf5c5ee6d81da84aa0e6e50d7e32f9b94268a56b340857fd1632",
+      "verified": true,
+      "asset_status": "VERIFIED",
+      "anchor_status": "CALIBRATED",
+      "prop_mode": "NONE",
+      "baked_prop_type": null,
+      "semantic_intents": [
+        "POSITIVE",
+        "CTA"
+      ],
+      "provenance": {
+        "pack_id": "XIAO-Y_Action_Pack_v2_Production_48",
+        "source_zip_sha256": "642a9dc740a0f95727d99be2f0d1bee1e90f72939cd3a87b9616272dba383d9c"
+      },
+      "remotion": {
+        "calibration_status": "CALIBRATED",
+        "content_bbox": {
+          "x": 0.005,
+          "y": 0.03460207612456748,
+          "w": 0.795,
+          "h": 0.9653979238754326
+        },
+        "character_bbox": {
+          "x": 0.005,
+          "y": 0.03460207612456748,
+          "w": 0.795,
+          "h": 0.9653979238754326
+        },
+        "anchor": {
+          "x": 0.4025,
+          "y": 1.0
+        },
+        "recommended_scale": 0.8243727598566308,
+        "composition_class": "STANDARD",
+        "anchor_kind": "FOOT_BASELINE",
+        "preferred_placement": "CENTER",
+        "allowed_placements": [
+          "LEFT",
+          "CENTER",
+          "RIGHT"
+        ],
+        "calibration_source": "FRESH_AR0004_ALPHA_AND_VISUAL_REVIEW",
+        "safe_area_check": "PASS"
+      }
+    },
+    {
+      "id": "XACT-014",
+      "asset_id": "XACT-014",
+      "asset_type": "CHARACTER_ACTION",
+      "character_id": "XIAO-Y_V1",
+      "label": "向右展示",
+      "label_zh": "向右展示",
+      "slug": "present_right",
+      "asset_pack": "XIAO-Y_Action_Pack_v2_Production_48",
+      "path": "packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-014_present_right.png",
+      "format": "PNG",
+      "background": "TRANSPARENT",
+      "width_px": 1000,
+      "height_px": 889,
+      "sha256": "145768108cd26c52229933406c5be158474c96bc0e217c9194b9e29255b0138b",
+      "verified": true,
+      "asset_status": "VERIFIED",
+      "anchor_status": "CALIBRATED",
+      "prop_mode": "NONE",
+      "baked_prop_type": null,
+      "semantic_intents": [
+        "EXPLAIN"
+      ],
+      "provenance": {
+        "pack_id": "XIAO-Y_Action_Pack_v2_Production_48",
+        "source_zip_sha256": "642a9dc740a0f95727d99be2f0d1bee1e90f72939cd3a87b9616272dba383d9c"
+      },
+      "remotion": {
+        "calibration_status": "CALIBRATED",
+        "content_bbox": {
+          "x": 0.142,
+          "y": 0.0,
+          "w": 0.785,
+          "h": 0.9763779527559056
+        },
+        "character_bbox": {
+          "x": 0.142,
+          "y": 0.0,
+          "w": 0.785,
+          "h": 0.9763779527559056
+        },
+        "anchor": {
+          "x": 0.5345,
+          "y": 0.9763779527559056
+        },
+        "recommended_scale": 0.7949308755760369,
+        "composition_class": "STANDARD",
+        "anchor_kind": "FOOT_BASELINE",
+        "preferred_placement": "LEFT",
+        "allowed_placements": [
+          "LEFT",
+          "CENTER",
+          "RIGHT"
+        ],
+        "calibration_source": "FRESH_AR0004_ALPHA_AND_VISUAL_REVIEW",
+        "safe_area_check": "PASS"
+      }
+    },
+    {
+      "id": "XACT-015",
+      "asset_id": "XACT-015",
+      "asset_type": "CHARACTER_ACTION",
+      "character_id": "XIAO-Y_V1",
+      "label": "担忧摊开双臂",
+      "label_zh": "担忧摊开双臂",
+      "slug": "open_arms_worried",
+      "asset_pack": "XIAO-Y_Action_Pack_v2_Production_48",
+      "path": "packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-015_open_arms_worried.png",
+      "format": "PNG",
+      "background": "TRANSPARENT",
+      "width_px": 1000,
+      "height_px": 867,
+      "sha256": "63236fe12b5b95c4428305d6b94c461a58fbbe157e0a2eab649af4430d173768",
+      "verified": true,
+      "asset_status": "VERIFIED",
+      "anchor_status": "CALIBRATED",
+      "prop_mode": "NONE",
+      "baked_prop_type": null,
+      "semantic_intents": [
+        "SERIOUS",
+        "CONFUSION"
+      ],
+      "provenance": {
+        "pack_id": "XIAO-Y_Action_Pack_v2_Production_48",
+        "source_zip_sha256": "642a9dc740a0f95727d99be2f0d1bee1e90f72939cd3a87b9616272dba383d9c"
+      },
+      "remotion": {
+        "calibration_status": "CALIBRATED",
+        "content_bbox": {
+          "x": 0.071,
+          "y": 0.0,
+          "w": 0.853,
+          "h": 0.9884659746251442
+        },
+        "character_bbox": {
+          "x": 0.071,
+          "y": 0.0,
+          "w": 0.853,
+          "h": 0.9884659746251442
+        },
+        "anchor": {
+          "x": 0.4975,
+          "y": 0.9884659746251442
+        },
+        "recommended_scale": 0.8051341890315052,
+        "composition_class": "STANDARD",
+        "anchor_kind": "FOOT_BASELINE",
+        "preferred_placement": "CENTER",
+        "allowed_placements": [
+          "LEFT",
+          "CENTER",
+          "RIGHT"
+        ],
+        "calibration_source": "FRESH_AR0004_ALPHA_AND_VISUAL_REVIEW",
+        "safe_area_check": "PASS"
+      }
+    },
+    {
+      "id": "XACT-016",
+      "asset_id": "XACT-016",
+      "asset_type": "CHARACTER_ACTION",
+      "character_id": "XIAO-Y_V1",
+      "label": "惊讶张开双臂",
+      "label_zh": "惊讶张开双臂",
+      "slug": "open_arms_surprised",
+      "asset_pack": "XIAO-Y_Action_Pack_v2_Production_48",
+      "path": "packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-016_open_arms_surprised.png",
+      "format": "PNG",
+      "background": "TRANSPARENT",
+      "width_px": 1000,
+      "height_px": 899,
+      "sha256": "d68778ed337813d7993226de7e98505c2d3f9a2ea8df6a3323e29183408b83c6",
+      "verified": true,
+      "asset_status": "VERIFIED",
+      "anchor_status": "CALIBRATED",
+      "prop_mode": "NONE",
+      "baked_prop_type": null,
+      "semantic_intents": [
+        "SURPRISE"
+      ],
+      "provenance": {
+        "pack_id": "XIAO-Y_Action_Pack_v2_Production_48",
+        "source_zip_sha256": "642a9dc740a0f95727d99be2f0d1bee1e90f72939cd3a87b9616272dba383d9c"
+      },
+      "remotion": {
+        "calibration_status": "CALIBRATED",
+        "content_bbox": {
+          "x": 0.047,
+          "y": 0.0,
+          "w": 0.874,
+          "h": 0.9766407119021134
+        },
+        "character_bbox": {
+          "x": 0.047,
+          "y": 0.0,
+          "w": 0.874,
+          "h": 0.9766407119021134
+        },
+        "anchor": {
+          "x": 0.484,
+          "y": 0.9766407119021134
+        },
+        "recommended_scale": 0.785876993166287,
+        "composition_class": "STANDARD",
+        "anchor_kind": "FOOT_BASELINE",
+        "preferred_placement": "CENTER",
+        "allowed_placements": [
+          "LEFT",
+          "CENTER",
+          "RIGHT"
+        ],
+        "calibration_source": "FRESH_AR0004_ALPHA_AND_VISUAL_REVIEW",
+        "safe_area_check": "PASS"
+      }
+    },
+    {
+      "id": "XACT-017",
+      "asset_id": "XACT-017",
+      "asset_type": "CHARACTER_ACTION",
+      "character_id": "XIAO-Y_V1",
+      "label": "微笑张开双臂",
+      "label_zh": "微笑张开双臂",
+      "slug": "open_arms_smile",
+      "asset_pack": "XIAO-Y_Action_Pack_v2_Production_48",
+      "path": "packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-017_open_arms_smile.png",
+      "format": "PNG",
+      "background": "TRANSPARENT",
+      "width_px": 1000,
+      "height_px": 878,
+      "sha256": "e59ced2c257b4bcc988b00aa20e65bebe3d15337ff88f36db41729a0bedcfe72",
+      "verified": true,
+      "asset_status": "VERIFIED",
+      "anchor_status": "CALIBRATED",
+      "prop_mode": "NONE",
+      "baked_prop_type": null,
+      "semantic_intents": [
+        "EXPLAIN",
+        "POSITIVE"
+      ],
+      "provenance": {
+        "pack_id": "XIAO-Y_Action_Pack_v2_Production_48",
+        "source_zip_sha256": "642a9dc740a0f95727d99be2f0d1bee1e90f72939cd3a87b9616272dba383d9c"
+      },
+      "remotion": {
+        "calibration_status": "CALIBRATED",
+        "content_bbox": {
+          "x": 0.0,
+          "y": 0.03986332574031891,
+          "w": 0.99,
+          "h": 0.9601366742596811
+        },
+        "character_bbox": {
+          "x": 0.0,
+          "y": 0.03986332574031891,
+          "w": 0.99,
+          "h": 0.9601366742596811
+        },
+        "anchor": {
+          "x": 0.495,
+          "y": 1.0
+        },
+        "recommended_scale": 0.7676767676767676,
+        "composition_class": "STANDARD",
+        "anchor_kind": "FOOT_BASELINE",
+        "preferred_placement": "CENTER",
+        "allowed_placements": [
+          "LEFT",
+          "CENTER",
+          "RIGHT"
+        ],
+        "calibration_source": "FRESH_AR0004_ALPHA_AND_VISUAL_REVIEW",
+        "safe_area_check": "PASS"
+      }
+    },
+    {
+      "id": "XACT-018",
+      "asset_id": "XACT-018",
+      "asset_type": "CHARACTER_ACTION",
+      "character_id": "XIAO-Y_V1",
+      "label": "开心举拳",
+      "label_zh": "开心举拳",
+      "slug": "raised_fist_happy",
+      "asset_pack": "XIAO-Y_Action_Pack_v2_Production_48",
+      "path": "packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-018_raised_fist_happy.png",
+      "format": "PNG",
+      "background": "TRANSPARENT",
+      "width_px": 1000,
+      "height_px": 945,
+      "sha256": "fb6d98870b00f0ca04bd1424f6fd8967bd8c4429926545edbb42dadb3479a263",
+      "verified": true,
+      "asset_status": "VERIFIED",
+      "anchor_status": "CALIBRATED",
+      "prop_mode": "NONE",
+      "baked_prop_type": null,
+      "semantic_intents": [
+        "CELEBRATION",
+        "CTA"
+      ],
+      "provenance": {
+        "pack_id": "XIAO-Y_Action_Pack_v2_Production_48",
+        "source_zip_sha256": "642a9dc740a0f95727d99be2f0d1bee1e90f72939cd3a87b9616272dba383d9c"
+      },
+      "remotion": {
+        "calibration_status": "CALIBRATED",
+        "content_bbox": {
+          "x": 0.104,
+          "y": 0.033862433862433865,
+          "w": 0.896,
+          "h": 0.9661375661375662
+        },
+        "character_bbox": {
+          "x": 0.104,
+          "y": 0.033862433862433865,
+          "w": 0.896,
+          "h": 0.9661375661375662
+        },
+        "anchor": {
+          "x": 0.552,
+          "y": 1.0
+        },
+        "recommended_scale": 0.755750273822563,
+        "composition_class": "STANDARD",
+        "anchor_kind": "FOOT_BASELINE",
+        "preferred_placement": "CENTER",
+        "allowed_placements": [
+          "LEFT",
+          "CENTER",
+          "RIGHT"
+        ],
+        "calibration_source": "FRESH_AR0004_ALPHA_AND_VISUAL_REVIEW",
+        "safe_area_check": "PASS"
+      }
+    },
+    {
+      "id": "XACT-019",
+      "asset_id": "XACT-019",
+      "asset_type": "CHARACTER_ACTION",
+      "character_id": "XIAO-Y_V1",
+      "label": "双手抱握 / 担忧",
+      "label_zh": "双手抱握 / 担忧",
+      "slug": "hands_clasped_concerned",
+      "asset_pack": "XIAO-Y_Action_Pack_v2_Production_48",
+      "path": "packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-019_hands_clasped_concerned.png",
+      "format": "PNG",
+      "background": "TRANSPARENT",
+      "width_px": 1000,
+      "height_px": 882,
+      "sha256": "503cac9db44592bae1dd92518fcee379704781cb3d0abda4546e466a6a2dc35e",
+      "verified": true,
+      "asset_status": "VERIFIED",
+      "anchor_status": "CALIBRATED",
+      "prop_mode": "NONE",
+      "baked_prop_type": null,
+      "semantic_intents": [
+        "SERIOUS"
+      ],
+      "provenance": {
+        "pack_id": "XIAO-Y_Action_Pack_v2_Production_48",
+        "source_zip_sha256": "642a9dc740a0f95727d99be2f0d1bee1e90f72939cd3a87b9616272dba383d9c"
+      },
+      "remotion": {
+        "calibration_status": "CALIBRATED",
+        "content_bbox": {
+          "x": 0.015,
+          "y": 0.022675736961451247,
+          "w": 0.832,
+          "h": 0.9773242630385488
+        },
+        "character_bbox": {
+          "x": 0.015,
+          "y": 0.022675736961451247,
+          "w": 0.832,
+          "h": 0.9773242630385488
+        },
+        "anchor": {
+          "x": 0.431,
+          "y": 1.0
+        },
+        "recommended_scale": 0.8004640371229699,
+        "composition_class": "STANDARD",
+        "anchor_kind": "FOOT_BASELINE",
+        "preferred_placement": "CENTER",
+        "allowed_placements": [
+          "LEFT",
+          "CENTER",
+          "RIGHT"
+        ],
+        "calibration_source": "FRESH_AR0004_ALPHA_AND_VISUAL_REVIEW",
+        "safe_area_check": "PASS"
+      }
+    },
+    {
+      "id": "XACT-020",
+      "asset_id": "XACT-020",
+      "asset_type": "CHARACTER_ACTION",
+      "character_id": "XIAO-Y_V1",
+      "label": "握拳准备 / 坚定",
+      "label_zh": "握拳准备 / 坚定",
+      "slug": "fists_ready",
+      "asset_pack": "XIAO-Y_Action_Pack_v2_Production_48",
+      "path": "packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-020_fists_ready.png",
+      "format": "PNG",
+      "background": "TRANSPARENT",
+      "width_px": 1000,
+      "height_px": 882,
+      "sha256": "68067ea441123128d42bb3ab1cf8af50bd4ddf3e611f4c44225786efc8387730",
+      "verified": true,
+      "asset_status": "VERIFIED",
+      "anchor_status": "CALIBRATED",
+      "prop_mode": "NONE",
+      "baked_prop_type": null,
+      "semantic_intents": [
+        "SERIOUS",
+        "KEY_POINT"
+      ],
+      "provenance": {
+        "pack_id": "XIAO-Y_Action_Pack_v2_Production_48",
+        "source_zip_sha256": "642a9dc740a0f95727d99be2f0d1bee1e90f72939cd3a87b9616272dba383d9c"
+      },
+      "remotion": {
+        "calibration_status": "CALIBRATED",
+        "content_bbox": {
+          "x": 0.133,
+          "y": 0.046485260770975055,
+          "w": 0.724,
+          "h": 0.9308390022675737
+        },
+        "character_bbox": {
+          "x": 0.133,
+          "y": 0.046485260770975055,
+          "w": 0.724,
+          "h": 0.9308390022675737
+        },
+        "anchor": {
+          "x": 0.495,
+          "y": 0.9773242630385488
+        },
+        "recommended_scale": 0.8404384896467723,
+        "composition_class": "STANDARD",
+        "anchor_kind": "FOOT_BASELINE",
+        "preferred_placement": "CENTER",
+        "allowed_placements": [
+          "LEFT",
+          "CENTER",
+          "RIGHT"
+        ],
+        "calibration_source": "FRESH_AR0004_ALPHA_AND_VISUAL_REVIEW",
+        "safe_area_check": "PASS"
+      }
+    },
+    {
+      "id": "XACT-021",
+      "asset_id": "XACT-021",
+      "asset_type": "CHARACTER_ACTION",
+      "character_id": "XIAO-Y_V1",
+      "label": "生气握拳",
+      "label_zh": "生气握拳",
+      "slug": "angry_fists",
+      "asset_pack": "XIAO-Y_Action_Pack_v2_Production_48",
+      "path": "packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-021_angry_fists.png",
+      "format": "PNG",
+      "background": "TRANSPARENT",
+      "width_px": 1000,
+      "height_px": 882,
+      "sha256": "9b6e1839ed124155f7915ab29b209392214dcd06bf86ffa70486efbf338895cd",
+      "verified": true,
+      "asset_status": "VERIFIED",
+      "anchor_status": "CALIBRATED",
+      "prop_mode": "NONE",
+      "baked_prop_type": null,
+      "semantic_intents": [
+        "ANGER",
+        "STRONG_ANGER"
+      ],
+      "provenance": {
+        "pack_id": "XIAO-Y_Action_Pack_v2_Production_48",
+        "source_zip_sha256": "642a9dc740a0f95727d99be2f0d1bee1e90f72939cd3a87b9616272dba383d9c"
+      },
+      "remotion": {
+        "calibration_status": "CALIBRATED",
+        "content_bbox": {
+          "x": 0.071,
+          "y": 0.0,
+          "w": 0.76,
+          "h": 1.0
+        },
+        "character_bbox": {
+          "x": 0.071,
+          "y": 0.0,
+          "w": 0.76,
+          "h": 1.0
+        },
+        "anchor": {
+          "x": 0.451,
+          "y": 1.0
+        },
+        "recommended_scale": 0.782312925170068,
+        "composition_class": "STANDARD",
+        "anchor_kind": "FOOT_BASELINE",
+        "preferred_placement": "CENTER",
+        "allowed_placements": [
+          "LEFT",
+          "CENTER",
+          "RIGHT"
+        ],
+        "calibration_source": "FRESH_AR0004_ALPHA_AND_VISUAL_REVIEW",
+        "safe_area_check": "PASS"
+      }
+    },
+    {
+      "id": "XACT-022",
+      "asset_id": "XACT-022",
+      "asset_type": "CHARACTER_ACTION",
+      "character_id": "XIAO-Y_V1",
+      "label": "双手近嘴 / 紧张",
+      "label_zh": "双手近嘴 / 紧张",
+      "slug": "hands_near_mouth_anxious",
+      "asset_pack": "XIAO-Y_Action_Pack_v2_Production_48",
+      "path": "packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-022_hands_near_mouth_anxious.png",
+      "format": "PNG",
+      "background": "TRANSPARENT",
+      "width_px": 1000,
+      "height_px": 905,
+      "sha256": "f97e3bacf0479972fc05d066df6597ba1573cf442a23e5304bb8f692916352b7",
+      "verified": true,
+      "asset_status": "VERIFIED",
+      "anchor_status": "CALIBRATED",
+      "prop_mode": "NONE",
+      "baked_prop_type": null,
+      "semantic_intents": [
+        "CONFUSION",
+        "SERIOUS"
+      ],
+      "provenance": {
+        "pack_id": "XIAO-Y_Action_Pack_v2_Production_48",
+        "source_zip_sha256": "642a9dc740a0f95727d99be2f0d1bee1e90f72939cd3a87b9616272dba383d9c"
+      },
+      "remotion": {
+        "calibration_status": "CALIBRATED",
+        "content_bbox": {
+          "x": 0.063,
+          "y": 0.039779005524861875,
+          "w": 0.722,
+          "h": 0.9602209944751381
+        },
+        "character_bbox": {
+          "x": 0.063,
+          "y": 0.039779005524861875,
+          "w": 0.722,
+          "h": 0.9602209944751381
+        },
+        "anchor": {
+          "x": 0.424,
+          "y": 1.0
+        },
+        "recommended_scale": 0.7940161104718066,
+        "composition_class": "STANDARD",
+        "anchor_kind": "FOOT_BASELINE",
+        "preferred_placement": "CENTER",
+        "allowed_placements": [
+          "LEFT",
+          "CENTER",
+          "RIGHT"
+        ],
+        "calibration_source": "FRESH_AR0004_ALPHA_AND_VISUAL_REVIEW",
+        "safe_area_check": "PASS"
+      }
+    },
+    {
+      "id": "XACT-023",
+      "asset_id": "XACT-023",
+      "asset_type": "CHARACTER_ACTION",
+      "character_id": "XIAO-Y_V1",
+      "label": "坐地哭泣",
+      "label_zh": "坐地哭泣",
+      "slug": "seated_crying",
+      "asset_pack": "XIAO-Y_Action_Pack_v2_Production_48",
+      "path": "packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-023_seated_crying.png",
+      "format": "PNG",
+      "background": "TRANSPARENT",
+      "width_px": 1000,
+      "height_px": 882,
+      "sha256": "6a753c72c5103624115e797551de838b25b0d16850b43f5b02ed3c55e97e262f",
+      "verified": true,
+      "asset_status": "VERIFIED",
+      "anchor_status": "CALIBRATED",
+      "prop_mode": "NONE",
+      "baked_prop_type": null,
+      "semantic_intents": [
+        "SAD"
+      ],
+      "provenance": {
+        "pack_id": "XIAO-Y_Action_Pack_v2_Production_48",
+        "source_zip_sha256": "642a9dc740a0f95727d99be2f0d1bee1e90f72939cd3a87b9616272dba383d9c"
+      },
+      "remotion": {
+        "calibration_status": "CALIBRATED",
+        "content_bbox": {
+          "x": 0.061,
+          "y": 0.06349206349206349,
+          "w": 0.898,
+          "h": 0.9365079365079365
+        },
+        "character_bbox": {
+          "x": 0.061,
+          "y": 0.06349206349206349,
+          "w": 0.898,
+          "h": 0.9365079365079365
+        },
+        "anchor": {
+          "x": 0.51,
+          "y": 1.0
+        },
+        "recommended_scale": 0.6900726392251816,
+        "composition_class": "SEATED",
+        "anchor_kind": "VISIBLE_BASE",
+        "preferred_placement": "CENTER",
+        "allowed_placements": [
+          "CENTER"
+        ],
+        "calibration_source": "FRESH_AR0004_ALPHA_AND_VISUAL_REVIEW",
+        "safe_area_check": "PASS"
+      }
+    },
+    {
+      "id": "XACT-024",
+      "asset_id": "XACT-024",
+      "asset_type": "CHARACTER_ACTION",
+      "character_id": "XIAO-Y_V1",
+      "label": "双手贴脸惊讶",
+      "label_zh": "双手贴脸惊讶",
+      "slug": "hands_to_cheeks_surprised",
+      "asset_pack": "XIAO-Y_Action_Pack_v2_Production_48",
+      "path": "packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-024_hands_to_cheeks_surprised.png",
+      "format": "PNG",
+      "background": "TRANSPARENT",
+      "width_px": 1000,
+      "height_px": 915,
+      "sha256": "18d141429e428cfb70726f234c2eb2f9a672706649763cb82b5392ca0cc7704f",
+      "verified": true,
+      "asset_status": "VERIFIED",
+      "anchor_status": "CALIBRATED",
+      "prop_mode": "NONE",
+      "baked_prop_type": null,
+      "semantic_intents": [
+        "SURPRISE"
+      ],
+      "provenance": {
+        "pack_id": "XIAO-Y_Action_Pack_v2_Production_48",
+        "source_zip_sha256": "642a9dc740a0f95727d99be2f0d1bee1e90f72939cd3a87b9616272dba383d9c"
+      },
+      "remotion": {
+        "calibration_status": "CALIBRATED",
+        "content_bbox": {
+          "x": 0.148,
+          "y": 0.033879781420765025,
+          "w": 0.682,
+          "h": 0.966120218579235
+        },
+        "character_bbox": {
+          "x": 0.148,
+          "y": 0.033879781420765025,
+          "w": 0.682,
+          "h": 0.966120218579235
+        },
+        "anchor": {
+          "x": 0.489,
+          "y": 1.0
+        },
+        "recommended_scale": 0.7805429864253394,
+        "composition_class": "STANDARD",
+        "anchor_kind": "FOOT_BASELINE",
+        "preferred_placement": "CENTER",
+        "allowed_placements": [
+          "LEFT",
+          "CENTER",
+          "RIGHT"
+        ],
+        "calibration_source": "FRESH_AR0004_ALPHA_AND_VISUAL_REVIEW",
+        "safe_area_check": "PASS"
+      }
+    },
+    {
+      "id": "XACT-025",
+      "asset_id": "XACT-025",
+      "asset_type": "CHARACTER_ACTION",
+      "character_id": "XIAO-Y_V1",
+      "label": "托腮思考 1",
+      "label_zh": "托腮思考 1",
+      "slug": "thinking_chin",
+      "asset_pack": "XIAO-Y_Action_Pack_v2_Production_48",
+      "path": "packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-025_thinking_chin.png",
+      "format": "PNG",
+      "background": "TRANSPARENT",
+      "width_px": 1000,
+      "height_px": 883,
+      "sha256": "09876932729bd14d1ec788b9b1dd6834a08c4da1716ac0a1b81d9d0d52d887d3",
+      "verified": true,
+      "asset_status": "VERIFIED",
+      "anchor_status": "CALIBRATED",
+      "prop_mode": "NONE",
+      "baked_prop_type": null,
+      "semantic_intents": [
+        "THINKING"
+      ],
+      "provenance": {
+        "pack_id": "XIAO-Y_Action_Pack_v2_Production_48",
+        "source_zip_sha256": "642a9dc740a0f95727d99be2f0d1bee1e90f72939cd3a87b9616272dba383d9c"
+      },
+      "remotion": {
+        "calibration_status": "CALIBRATED",
+        "content_bbox": {
+          "x": 0.193,
+          "y": 0.0,
+          "w": 0.639,
+          "h": 0.9943374858437146
+        },
+        "character_bbox": {
+          "x": 0.193,
+          "y": 0.0,
+          "w": 0.639,
+          "h": 0.9943374858437146
+        },
+        "anchor": {
+          "x": 0.5125,
+          "y": 0.9943374858437146
+        },
+        "recommended_scale": 0.785876993166287,
+        "composition_class": "STANDARD",
+        "anchor_kind": "FOOT_BASELINE",
+        "preferred_placement": "CENTER",
+        "allowed_placements": [
+          "LEFT",
+          "CENTER",
+          "RIGHT"
+        ],
+        "calibration_source": "FRESH_AR0004_ALPHA_AND_VISUAL_REVIEW",
+        "safe_area_check": "PASS"
+      }
+    },
+    {
+      "id": "XACT-026",
+      "asset_id": "XACT-026",
+      "asset_type": "CHARACTER_ACTION",
+      "character_id": "XIAO-Y_V1",
+      "label": "托腮思考 2",
+      "label_zh": "托腮思考 2",
+      "slug": "thinking_chin_alt",
+      "asset_pack": "XIAO-Y_Action_Pack_v2_Production_48",
+      "path": "packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-026_thinking_chin_alt.png",
+      "format": "PNG",
+      "background": "TRANSPARENT",
+      "width_px": 1000,
+      "height_px": 951,
+      "sha256": "b3f1012ece50bb07cf1451c56d397f5c62de38e0513b7ce05c9e8ca5dd08e961",
+      "verified": true,
+      "asset_status": "VERIFIED",
+      "anchor_status": "CALIBRATED",
+      "prop_mode": "NONE",
+      "baked_prop_type": null,
+      "semantic_intents": [
+        "THINKING"
+      ],
+      "provenance": {
+        "pack_id": "XIAO-Y_Action_Pack_v2_Production_48",
+        "source_zip_sha256": "642a9dc740a0f95727d99be2f0d1bee1e90f72939cd3a87b9616272dba383d9c"
+      },
+      "remotion": {
+        "calibration_status": "CALIBRATED",
+        "content_bbox": {
+          "x": 0.104,
+          "y": 0.0,
+          "w": 0.737,
+          "h": 1.0
+        },
+        "character_bbox": {
+          "x": 0.104,
+          "y": 0.0,
+          "w": 0.737,
+          "h": 1.0
+        },
+        "anchor": {
+          "x": 0.4725,
+          "y": 1.0
+        },
+        "recommended_scale": 0.7255520504731862,
+        "composition_class": "STANDARD",
+        "anchor_kind": "FOOT_BASELINE",
+        "preferred_placement": "CENTER",
+        "allowed_placements": [
+          "LEFT",
+          "CENTER",
+          "RIGHT"
+        ],
+        "calibration_source": "FRESH_AR0004_ALPHA_AND_VISUAL_REVIEW",
+        "safe_area_check": "PASS"
+      }
+    },
+    {
+      "id": "XACT-027",
+      "asset_id": "XACT-027",
+      "asset_type": "CHARACTER_ACTION",
+      "character_id": "XIAO-Y_V1",
+      "label": "手抵嘴思考",
+      "label_zh": "手抵嘴思考",
+      "slug": "thinking_hand_mouth",
+      "asset_pack": "XIAO-Y_Action_Pack_v2_Production_48",
+      "path": "packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-027_thinking_hand_mouth.png",
+      "format": "PNG",
+      "background": "TRANSPARENT",
+      "width_px": 1000,
+      "height_px": 887,
+      "sha256": "3f10cf924fafb7199428a53aaaa841a07d318784914761361e3e64cdf74cac7f",
+      "verified": true,
+      "asset_status": "VERIFIED",
+      "anchor_status": "CALIBRATED",
+      "prop_mode": "NONE",
+      "baked_prop_type": null,
+      "semantic_intents": [
+        "THINKING"
+      ],
+      "provenance": {
+        "pack_id": "XIAO-Y_Action_Pack_v2_Production_48",
+        "source_zip_sha256": "642a9dc740a0f95727d99be2f0d1bee1e90f72939cd3a87b9616272dba383d9c"
+      },
+      "remotion": {
+        "calibration_status": "CALIBRATED",
+        "content_bbox": {
+          "x": 0.066,
+          "y": 0.0,
+          "w": 0.765,
+          "h": 0.9943630214205186
+        },
+        "character_bbox": {
+          "x": 0.066,
+          "y": 0.0,
+          "w": 0.765,
+          "h": 0.9943630214205186
+        },
+        "anchor": {
+          "x": 0.4485,
+          "y": 0.9943630214205186
+        },
+        "recommended_scale": 0.782312925170068,
+        "composition_class": "STANDARD",
+        "anchor_kind": "FOOT_BASELINE",
+        "preferred_placement": "CENTER",
+        "allowed_placements": [
+          "LEFT",
+          "CENTER",
+          "RIGHT"
+        ],
+        "calibration_source": "FRESH_AR0004_ALPHA_AND_VISUAL_REVIEW",
+        "safe_area_check": "PASS"
+      }
+    },
+    {
+      "id": "XACT-028",
+      "asset_id": "XACT-028",
+      "asset_type": "CHARACTER_ACTION",
+      "character_id": "XIAO-Y_V1",
+      "label": "抱胸",
+      "label_zh": "抱胸",
+      "slug": "arms_crossed_neutral",
+      "asset_pack": "XIAO-Y_Action_Pack_v2_Production_48",
+      "path": "packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-028_arms_crossed_neutral.png",
+      "format": "PNG",
+      "background": "TRANSPARENT",
+      "width_px": 1000,
+      "height_px": 887,
+      "sha256": "3c3f22b499d1380fad7540a42010c92c2952fabe95348d68dcb2dfd5e924ba25",
+      "verified": true,
+      "asset_status": "VERIFIED",
+      "anchor_status": "CALIBRATED",
+      "prop_mode": "NONE",
+      "baked_prop_type": null,
+      "semantic_intents": [
+        "SERIOUS"
+      ],
+      "provenance": {
+        "pack_id": "XIAO-Y_Action_Pack_v2_Production_48",
+        "source_zip_sha256": "642a9dc740a0f95727d99be2f0d1bee1e90f72939cd3a87b9616272dba383d9c"
+      },
+      "remotion": {
+        "calibration_status": "CALIBRATED",
+        "content_bbox": {
+          "x": 0.0,
+          "y": 0.005636978579481398,
+          "w": 1.0,
+          "h": 0.9887260428410372
+        },
+        "character_bbox": {
+          "x": 0.0,
+          "y": 0.005636978579481398,
+          "w": 1.0,
+          "h": 0.9887260428410372
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.9943630214205186
+        },
+        "recommended_scale": 0.76,
+        "composition_class": "STANDARD",
+        "anchor_kind": "FOOT_BASELINE",
+        "preferred_placement": "CENTER",
+        "allowed_placements": [
+          "LEFT",
+          "CENTER",
+          "RIGHT"
+        ],
+        "calibration_source": "FRESH_AR0004_ALPHA_AND_VISUAL_REVIEW",
+        "safe_area_check": "PASS"
+      }
+    },
+    {
+      "id": "XACT-029",
+      "asset_id": "XACT-029",
+      "asset_type": "CHARACTER_ACTION",
+      "character_id": "XIAO-Y_V1",
+      "label": "双手合拢思考",
+      "label_zh": "双手合拢思考",
+      "slug": "clasped_hands_thinking",
+      "asset_pack": "XIAO-Y_Action_Pack_v2_Production_48",
+      "path": "packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-029_clasped_hands_thinking.png",
+      "format": "PNG",
+      "background": "TRANSPARENT",
+      "width_px": 1000,
+      "height_px": 887,
+      "sha256": "d2ee154a79b11e0aed937890412b9f49723a05fc57e58adfaf37890990981960",
+      "verified": true,
+      "asset_status": "VERIFIED",
+      "anchor_status": "CALIBRATED",
+      "prop_mode": "NONE",
+      "baked_prop_type": null,
+      "semantic_intents": [
+        "THINKING"
+      ],
+      "provenance": {
+        "pack_id": "XIAO-Y_Action_Pack_v2_Production_48",
+        "source_zip_sha256": "642a9dc740a0f95727d99be2f0d1bee1e90f72939cd3a87b9616272dba383d9c"
+      },
+      "remotion": {
+        "calibration_status": "CALIBRATED",
+        "content_bbox": {
+          "x": 0.133,
+          "y": 0.005636978579481398,
+          "w": 0.637,
+          "h": 0.9943630214205186
+        },
+        "character_bbox": {
+          "x": 0.133,
+          "y": 0.005636978579481398,
+          "w": 0.637,
+          "h": 0.9943630214205186
+        },
+        "anchor": {
+          "x": 0.4515,
+          "y": 1.0
+        },
+        "recommended_scale": 0.782312925170068,
+        "composition_class": "STANDARD",
+        "anchor_kind": "FOOT_BASELINE",
+        "preferred_placement": "CENTER",
+        "allowed_placements": [
+          "LEFT",
+          "CENTER",
+          "RIGHT"
+        ],
+        "calibration_source": "FRESH_AR0004_ALPHA_AND_VISUAL_REVIEW",
+        "safe_area_check": "PASS"
+      }
+    },
+    {
+      "id": "XACT-030",
+      "asset_id": "XACT-030",
+      "asset_type": "CHARACTER_ACTION",
+      "character_id": "XIAO-Y_V1",
+      "label": "站立惊讶",
+      "label_zh": "站立惊讶",
+      "slug": "surprised_stand",
+      "asset_pack": "XIAO-Y_Action_Pack_v2_Production_48",
+      "path": "packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-030_surprised_stand.png",
+      "format": "PNG",
+      "background": "TRANSPARENT",
+      "width_px": 1000,
+      "height_px": 911,
+      "sha256": "f325b90961da60204e250864a2ef57c6a7e7b28cc37ac774dc7d2879a01cfcb6",
+      "verified": true,
+      "asset_status": "VERIFIED",
+      "anchor_status": "CALIBRATED",
+      "prop_mode": "NONE",
+      "baked_prop_type": null,
+      "semantic_intents": [
+        "SURPRISE"
+      ],
+      "provenance": {
+        "pack_id": "XIAO-Y_Action_Pack_v2_Production_48",
+        "source_zip_sha256": "642a9dc740a0f95727d99be2f0d1bee1e90f72939cd3a87b9616272dba383d9c"
+      },
+      "remotion": {
+        "calibration_status": "CALIBRATED",
+        "content_bbox": {
+          "x": 0.131,
+          "y": 0.0,
+          "w": 0.675,
+          "h": 0.9835345773874863
+        },
+        "character_bbox": {
+          "x": 0.131,
+          "y": 0.0,
+          "w": 0.675,
+          "h": 0.9835345773874863
+        },
+        "anchor": {
+          "x": 0.4685,
+          "y": 0.9835345773874863
+        },
+        "recommended_scale": 0.7700892857142857,
+        "composition_class": "STANDARD",
+        "anchor_kind": "FOOT_BASELINE",
+        "preferred_placement": "CENTER",
+        "allowed_placements": [
+          "LEFT",
+          "CENTER",
+          "RIGHT"
+        ],
+        "calibration_source": "FRESH_AR0004_ALPHA_AND_VISUAL_REVIEW",
+        "safe_area_check": "PASS"
+      }
+    },
+    {
+      "id": "XACT-031",
+      "asset_id": "XACT-031",
+      "asset_type": "CHARACTER_ACTION",
+      "character_id": "XIAO-Y_V1",
+      "label": "担忧抱胸",
+      "label_zh": "担忧抱胸",
+      "slug": "arms_crossed_worried",
+      "asset_pack": "XIAO-Y_Action_Pack_v2_Production_48",
+      "path": "packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-031_arms_crossed_worried.png",
+      "format": "PNG",
+      "background": "TRANSPARENT",
+      "width_px": 1000,
+      "height_px": 887,
+      "sha256": "58519969d8f27e2e6aca7895df94858b109908e1987ae7778285f2aab6abc249",
+      "verified": true,
+      "asset_status": "VERIFIED",
+      "anchor_status": "CALIBRATED",
+      "prop_mode": "NONE",
+      "baked_prop_type": null,
+      "semantic_intents": [
+        "SERIOUS"
+      ],
+      "provenance": {
+        "pack_id": "XIAO-Y_Action_Pack_v2_Production_48",
+        "source_zip_sha256": "642a9dc740a0f95727d99be2f0d1bee1e90f72939cd3a87b9616272dba383d9c"
+      },
+      "remotion": {
+        "calibration_status": "CALIBRATED",
+        "content_bbox": {
+          "x": 0.061,
+          "y": 0.0,
+          "w": 0.76,
+          "h": 1.0
+        },
+        "character_bbox": {
+          "x": 0.061,
+          "y": 0.0,
+          "w": 0.76,
+          "h": 1.0
+        },
+        "anchor": {
+          "x": 0.441,
+          "y": 1.0
+        },
+        "recommended_scale": 0.7779030439684329,
+        "composition_class": "STANDARD",
+        "anchor_kind": "FOOT_BASELINE",
+        "preferred_placement": "CENTER",
+        "allowed_placements": [
+          "LEFT",
+          "CENTER",
+          "RIGHT"
+        ],
+        "calibration_source": "FRESH_AR0004_ALPHA_AND_VISUAL_REVIEW",
+        "safe_area_check": "PASS"
+      }
+    },
+    {
+      "id": "XACT-032",
+      "asset_id": "XACT-032",
+      "asset_type": "CHARACTER_ACTION",
+      "character_id": "XIAO-Y_V1",
+      "label": "点赞 2",
+      "label_zh": "点赞 2",
+      "slug": "thumbs_up_alt",
+      "asset_pack": "XIAO-Y_Action_Pack_v2_Production_48",
+      "path": "packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-032_thumbs_up_alt.png",
+      "format": "PNG",
+      "background": "TRANSPARENT",
+      "width_px": 1000,
+      "height_px": 920,
+      "sha256": "f30cd83e8754c72a7b48610d2cd15270ee3fd4149507382c50f6e99b785abe35",
+      "verified": true,
+      "asset_status": "VERIFIED",
+      "anchor_status": "CALIBRATED",
+      "prop_mode": "NONE",
+      "baked_prop_type": null,
+      "semantic_intents": [
+        "APPROVE",
+        "POSITIVE"
+      ],
+      "provenance": {
+        "pack_id": "XIAO-Y_Action_Pack_v2_Production_48",
+        "source_zip_sha256": "642a9dc740a0f95727d99be2f0d1bee1e90f72939cd3a87b9616272dba383d9c"
+      },
+      "remotion": {
+        "calibration_status": "CALIBRATED",
+        "content_bbox": {
+          "x": 0.095,
+          "y": 0.0,
+          "w": 0.751,
+          "h": 1.0
+        },
+        "character_bbox": {
+          "x": 0.095,
+          "y": 0.0,
+          "w": 0.751,
+          "h": 1.0
+        },
+        "anchor": {
+          "x": 0.4705,
+          "y": 1.0
+        },
+        "recommended_scale": 0.75,
+        "composition_class": "STANDARD",
+        "anchor_kind": "FOOT_BASELINE",
+        "preferred_placement": "CENTER",
+        "allowed_placements": [
+          "LEFT",
+          "CENTER",
+          "RIGHT"
+        ],
+        "calibration_source": "FRESH_AR0004_ALPHA_AND_VISUAL_REVIEW",
+        "safe_area_check": "PASS"
+      }
+    },
+    {
+      "id": "XACT-033",
+      "asset_id": "XACT-033",
+      "asset_type": "CHARACTER_ACTION",
+      "character_id": "XIAO-Y_V1",
+      "label": "看手机",
+      "label_zh": "看手机",
+      "slug": "look_phone",
+      "asset_pack": "XIAO-Y_Action_Pack_v2_Production_48",
+      "path": "packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-033_look_phone.png",
+      "format": "PNG",
+      "background": "TRANSPARENT",
+      "width_px": 1000,
+      "height_px": 857,
+      "sha256": "d2a5618cd3d9d96403a5b7d371d887bfa903043bd7b3cb5231c25d3f793e7dea",
+      "verified": true,
+      "asset_status": "VERIFIED",
+      "anchor_status": "CALIBRATED",
+      "prop_mode": "BAKED_PROP",
+      "baked_prop_type": "PHONE",
+      "semantic_intents": [
+        "PHONE"
+      ],
+      "provenance": {
+        "pack_id": "XIAO-Y_Action_Pack_v2_Production_48",
+        "source_zip_sha256": "642a9dc740a0f95727d99be2f0d1bee1e90f72939cd3a87b9616272dba383d9c"
+      },
+      "remotion": {
+        "calibration_status": "CALIBRATED",
+        "content_bbox": {
+          "x": 0.219,
+          "y": 0.046674445740956826,
+          "w": 0.781,
+          "h": 0.941656942823804
+        },
+        "character_bbox": {
+          "x": 0.219,
+          "y": 0.046674445740956826,
+          "w": 0.551,
+          "h": 0.941656942823804
+        },
+        "anchor": {
+          "x": 0.6095,
+          "y": 0.9883313885647608
+        },
+        "recommended_scale": 0.7806691449814126,
+        "composition_class": "PROP_PHONE",
+        "anchor_kind": "VISIBLE_BASE",
+        "preferred_placement": "CENTER",
+        "allowed_placements": [
+          "LEFT",
+          "CENTER",
+          "RIGHT"
+        ],
+        "calibration_source": "FRESH_AR0004_ALPHA_AND_VISUAL_REVIEW",
+        "safe_area_check": "PASS"
+      }
+    },
+    {
+      "id": "XACT-034",
+      "asset_id": "XACT-034",
+      "asset_type": "CHARACTER_ACTION",
+      "character_id": "XIAO-Y_V1",
+      "label": "看手机惊讶",
+      "label_zh": "看手机惊讶",
+      "slug": "phone_surprise",
+      "asset_pack": "XIAO-Y_Action_Pack_v2_Production_48",
+      "path": "packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-034_phone_surprise.png",
+      "format": "PNG",
+      "background": "TRANSPARENT",
+      "width_px": 1000,
+      "height_px": 923,
+      "sha256": "41fad5c2d55c41bb2c64ddb3c92d68f54cfbfc3c0fca9a04acee6438b47610d7",
+      "verified": true,
+      "asset_status": "VERIFIED",
+      "anchor_status": "CALIBRATED",
+      "prop_mode": "BAKED_PROP",
+      "baked_prop_type": "PHONE",
+      "semantic_intents": [
+        "PHONE",
+        "SURPRISE"
+      ],
+      "provenance": {
+        "pack_id": "XIAO-Y_Action_Pack_v2_Production_48",
+        "source_zip_sha256": "642a9dc740a0f95727d99be2f0d1bee1e90f72939cd3a87b9616272dba383d9c"
+      },
+      "remotion": {
+        "calibration_status": "CALIBRATED",
+        "content_bbox": {
+          "x": 0.115,
+          "y": 0.02275189599133261,
+          "w": 0.743,
+          "h": 0.9772481040086674
+        },
+        "character_bbox": {
+          "x": 0.115,
+          "y": 0.02275189599133261,
+          "w": 0.645,
+          "h": 0.9772481040086674
+        },
+        "anchor": {
+          "x": 0.4865,
+          "y": 1.0
+        },
+        "recommended_scale": 0.6984478935698448,
+        "composition_class": "PROP_PHONE",
+        "anchor_kind": "VISIBLE_BASE",
+        "preferred_placement": "CENTER",
+        "allowed_placements": [
+          "LEFT",
+          "CENTER",
+          "RIGHT"
+        ],
+        "calibration_source": "FRESH_AR0004_ALPHA_AND_VISUAL_REVIEW",
+        "safe_area_check": "PASS"
+      }
+    },
+    {
+      "id": "XACT-035",
+      "asset_id": "XACT-035",
+      "asset_type": "CHARACTER_ACTION",
+      "character_id": "XIAO-Y_V1",
+      "label": "使用电脑",
+      "label_zh": "使用电脑",
+      "slug": "use_computer",
+      "asset_pack": "XIAO-Y_Action_Pack_v2_Production_48",
+      "path": "packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-035_use_computer.png",
+      "format": "PNG",
+      "background": "TRANSPARENT",
+      "width_px": 1000,
+      "height_px": 862,
+      "sha256": "bd11a3b9c8d485173b4500c2309c3f52007d80e2448743acb98f746ebfcf748c",
+      "verified": true,
+      "asset_status": "VERIFIED",
+      "anchor_status": "CALIBRATED",
+      "prop_mode": "BAKED_PROP",
+      "baked_prop_type": "LAPTOP",
+      "semantic_intents": [
+        "COMPUTER"
+      ],
+      "provenance": {
+        "pack_id": "XIAO-Y_Action_Pack_v2_Production_48",
+        "source_zip_sha256": "642a9dc740a0f95727d99be2f0d1bee1e90f72939cd3a87b9616272dba383d9c"
+      },
+      "remotion": {
+        "calibration_status": "CALIBRATED",
+        "content_bbox": {
+          "x": 0.153,
+          "y": 0.03480278422273782,
+          "w": 0.709,
+          "h": 0.9477958236658933
+        },
+        "character_bbox": {
+          "x": 0.21,
+          "y": 0.03480278422273782,
+          "w": 0.515,
+          "h": 0.9477958236658933
+        },
+        "anchor": {
+          "x": 0.5075,
+          "y": 0.9825986078886311
+        },
+        "recommended_scale": 0.6976744186046512,
+        "composition_class": "PROP_COMPUTER",
+        "anchor_kind": "VISIBLE_BASE",
+        "preferred_placement": "CENTER",
+        "allowed_placements": [
+          "LEFT",
+          "CENTER",
+          "RIGHT"
+        ],
+        "calibration_source": "FRESH_AR0004_ALPHA_AND_VISUAL_REVIEW",
+        "safe_area_check": "PASS"
+      }
+    },
+    {
+      "id": "XACT-036",
+      "asset_id": "XACT-036",
+      "asset_type": "CHARACTER_ACTION",
+      "character_id": "XIAO-Y_V1",
+      "label": "查看文件",
+      "label_zh": "查看文件",
+      "slug": "review_document",
+      "asset_pack": "XIAO-Y_Action_Pack_v2_Production_48",
+      "path": "packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-036_review_document.png",
+      "format": "PNG",
+      "background": "TRANSPARENT",
+      "width_px": 1000,
+      "height_px": 862,
+      "sha256": "93511ca52c3f0f25e0c1a0f001ca14fc4ecd4dddd88ab39a3a8360d0816b41f5",
+      "verified": true,
+      "asset_status": "VERIFIED",
+      "anchor_status": "CALIBRATED",
+      "prop_mode": "BAKED_PROP",
+      "baked_prop_type": "DOCUMENT",
+      "semantic_intents": [
+        "DOCUMENT"
+      ],
+      "provenance": {
+        "pack_id": "XIAO-Y_Action_Pack_v2_Production_48",
+        "source_zip_sha256": "642a9dc740a0f95727d99be2f0d1bee1e90f72939cd3a87b9616272dba383d9c"
+      },
+      "remotion": {
+        "calibration_status": "CALIBRATED",
+        "content_bbox": {
+          "x": 0.02,
+          "y": 0.03480278422273782,
+          "w": 0.965,
+          "h": 0.9477958236658933
+        },
+        "character_bbox": {
+          "x": 0.02,
+          "y": 0.03480278422273782,
+          "w": 0.78,
+          "h": 0.9477958236658933
+        },
+        "anchor": {
+          "x": 0.5025,
+          "y": 0.9825986078886311
+        },
+        "recommended_scale": 0.7711138310893513,
+        "composition_class": "PROP_DOCUMENT",
+        "anchor_kind": "VISIBLE_BASE",
+        "preferred_placement": "CENTER",
+        "allowed_placements": [
+          "LEFT",
+          "CENTER",
+          "RIGHT"
+        ],
+        "calibration_source": "FRESH_AR0004_ALPHA_AND_VISUAL_REVIEW",
+        "safe_area_check": "PASS"
+      }
+    },
+    {
+      "id": "XACT-037",
+      "asset_id": "XACT-037",
+      "asset_type": "CHARACTER_ACTION",
+      "character_id": "XIAO-Y_V1",
+      "label": "阅读",
+      "label_zh": "阅读",
+      "slug": "read_book",
+      "asset_pack": "XIAO-Y_Action_Pack_v2_Production_48",
+      "path": "packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-037_read_book.png",
+      "format": "PNG",
+      "background": "TRANSPARENT",
+      "width_px": 1000,
+      "height_px": 862,
+      "sha256": "1ca4a7b358d4c9f426e6de121a001bf2bed2330283e32f9021998f848785682b",
+      "verified": true,
+      "asset_status": "VERIFIED",
+      "anchor_status": "CALIBRATED",
+      "prop_mode": "BAKED_PROP",
+      "baked_prop_type": "BOOK",
+      "semantic_intents": [
+        "READING"
+      ],
+      "provenance": {
+        "pack_id": "XIAO-Y_Action_Pack_v2_Production_48",
+        "source_zip_sha256": "642a9dc740a0f95727d99be2f0d1bee1e90f72939cd3a87b9616272dba383d9c"
+      },
+      "remotion": {
+        "calibration_status": "CALIBRATED",
+        "content_bbox": {
+          "x": 0.143,
+          "y": 0.0,
+          "w": 0.688,
+          "h": 1.0
+        },
+        "character_bbox": {
+          "x": 0.143,
+          "y": 0.0,
+          "w": 0.577,
+          "h": 1.0
+        },
+        "anchor": {
+          "x": 0.487,
+          "y": 1.0
+        },
+        "recommended_scale": 0.7308584686774942,
+        "composition_class": "PROP_READING",
+        "anchor_kind": "VISIBLE_BASE",
+        "preferred_placement": "CENTER",
+        "allowed_placements": [
+          "LEFT",
+          "CENTER",
+          "RIGHT"
+        ],
+        "calibration_source": "FRESH_AR0004_ALPHA_AND_VISUAL_REVIEW",
+        "safe_area_check": "PASS"
+      }
+    },
+    {
+      "id": "XACT-038",
+      "asset_id": "XACT-038",
+      "asset_type": "CHARACTER_ACTION",
+      "character_id": "XIAO-Y_V1",
+      "label": "写笔记",
+      "label_zh": "写笔记",
+      "slug": "write_note",
+      "asset_pack": "XIAO-Y_Action_Pack_v2_Production_48",
+      "path": "packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-038_write_note.png",
+      "format": "PNG",
+      "background": "TRANSPARENT",
+      "width_px": 1000,
+      "height_px": 884,
+      "sha256": "b677d78082502c1161c6507fdadbc53e0afa7c67d362e9c4015c86fe6ba879ef",
+      "verified": true,
+      "asset_status": "VERIFIED",
+      "anchor_status": "CALIBRATED",
+      "prop_mode": "BAKED_PROP",
+      "baked_prop_type": "DOCUMENT",
+      "semantic_intents": [
+        "DOCUMENT"
+      ],
+      "provenance": {
+        "pack_id": "XIAO-Y_Action_Pack_v2_Production_48",
+        "source_zip_sha256": "642a9dc740a0f95727d99be2f0d1bee1e90f72939cd3a87b9616272dba383d9c"
+      },
+      "remotion": {
+        "calibration_status": "CALIBRATED",
+        "content_bbox": {
+          "x": 0.068,
+          "y": 0.029411764705882353,
+          "w": 0.843,
+          "h": 0.9649321266968326
+        },
+        "character_bbox": {
+          "x": 0.068,
+          "y": 0.029411764705882353,
+          "w": 0.582,
+          "h": 0.9649321266968326
+        },
+        "anchor": {
+          "x": 0.4895,
+          "y": 0.994343891402715
+        },
+        "recommended_scale": 0.738569753810082,
+        "composition_class": "PROP_DOCUMENT",
+        "anchor_kind": "VISIBLE_BASE",
+        "preferred_placement": "CENTER",
+        "allowed_placements": [
+          "LEFT",
+          "CENTER",
+          "RIGHT"
+        ],
+        "calibration_source": "FRESH_AR0004_ALPHA_AND_VISUAL_REVIEW",
+        "safe_area_check": "PASS"
+      }
+    },
+    {
+      "id": "XACT-039",
+      "asset_id": "XACT-039",
+      "asset_type": "CHARACTER_ACTION",
+      "character_id": "XIAO-Y_V1",
+      "label": "坐姿思考",
+      "label_zh": "坐姿思考",
+      "slug": "seated_thinking",
+      "asset_pack": "XIAO-Y_Action_Pack_v2_Production_48",
+      "path": "packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-039_seated_thinking.png",
+      "format": "PNG",
+      "background": "TRANSPARENT",
+      "width_px": 1000,
+      "height_px": 862,
+      "sha256": "a3226e7626be9c2f21e98239a691e2ed8e939afa450268a8ae2f812d14cb953f",
+      "verified": true,
+      "asset_status": "VERIFIED",
+      "anchor_status": "CALIBRATED",
+      "prop_mode": "NONE",
+      "baked_prop_type": null,
+      "semantic_intents": [
+        "SEATED_THINKING",
+        "THINKING"
+      ],
+      "provenance": {
+        "pack_id": "XIAO-Y_Action_Pack_v2_Production_48",
+        "source_zip_sha256": "642a9dc740a0f95727d99be2f0d1bee1e90f72939cd3a87b9616272dba383d9c"
+      },
+      "remotion": {
+        "calibration_status": "CALIBRATED",
+        "content_bbox": {
+          "x": 0.041,
+          "y": 0.0,
+          "w": 0.857,
+          "h": 0.9825986078886311
+        },
+        "character_bbox": {
+          "x": 0.041,
+          "y": 0.0,
+          "w": 0.857,
+          "h": 0.9825986078886311
+        },
+        "anchor": {
+          "x": 0.4695,
+          "y": 0.9825986078886311
+        },
+        "recommended_scale": 0.6729634002361276,
+        "composition_class": "SEATED",
+        "anchor_kind": "VISIBLE_BASE",
+        "preferred_placement": "CENTER",
+        "allowed_placements": [
+          "CENTER"
+        ],
+        "calibration_source": "FRESH_AR0004_ALPHA_AND_VISUAL_REVIEW",
+        "safe_area_check": "PASS"
+      }
+    },
+    {
+      "id": "XACT-040",
+      "asset_id": "XACT-040",
+      "asset_type": "CHARACTER_ACTION",
+      "character_id": "XIAO-Y_V1",
+      "label": "专注电脑工作",
+      "label_zh": "专注电脑工作",
+      "slug": "focused_work",
+      "asset_pack": "XIAO-Y_Action_Pack_v2_Production_48",
+      "path": "packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-040_focused_work.png",
+      "format": "PNG",
+      "background": "TRANSPARENT",
+      "width_px": 1000,
+      "height_px": 894,
+      "sha256": "c66f00670f90ebc16dba1018fa2a0a2140167d236b96a0a67bdc860ea76fc9b4",
+      "verified": true,
+      "asset_status": "VERIFIED",
+      "anchor_status": "CALIBRATED",
+      "prop_mode": "BAKED_PROP",
+      "baked_prop_type": "LAPTOP",
+      "semantic_intents": [
+        "COMPUTER",
+        "SERIOUS"
+      ],
+      "provenance": {
+        "pack_id": "XIAO-Y_Action_Pack_v2_Production_48",
+        "source_zip_sha256": "642a9dc740a0f95727d99be2f0d1bee1e90f72939cd3a87b9616272dba383d9c"
+      },
+      "remotion": {
+        "calibration_status": "CALIBRATED",
+        "content_bbox": {
+          "x": 0.042,
+          "y": 0.0,
+          "w": 0.805,
+          "h": 1.0
+        },
+        "character_bbox": {
+          "x": 0.14,
+          "y": 0.0,
+          "w": 0.545,
+          "h": 1.0
+        },
+        "anchor": {
+          "x": 0.4445,
+          "y": 1.0
+        },
+        "recommended_scale": 0.6375838926174496,
+        "composition_class": "PROP_COMPUTER",
+        "anchor_kind": "VISIBLE_BASE",
+        "preferred_placement": "CENTER",
+        "allowed_placements": [
+          "LEFT",
+          "CENTER",
+          "RIGHT"
+        ],
+        "calibration_source": "FRESH_AR0004_ALPHA_AND_VISUAL_REVIEW",
+        "safe_area_check": "PASS"
+      }
+    },
+    {
+      "id": "XACT-041",
+      "asset_id": "XACT-041",
+      "asset_type": "CHARACTER_ACTION",
+      "character_id": "XIAO-Y_V1",
+      "label": "兴奋跳起",
+      "label_zh": "兴奋跳起",
+      "slug": "excited_jump",
+      "asset_pack": "XIAO-Y_Action_Pack_v2_Production_48",
+      "path": "packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-041_excited_jump.png",
+      "format": "PNG",
+      "background": "TRANSPARENT",
+      "width_px": 1000,
+      "height_px": 872,
+      "sha256": "93ff02748847ad5394c084d2ff16d2970c195c6c1cac7b5a0c1c3f246cf8657f",
+      "verified": true,
+      "asset_status": "VERIFIED",
+      "anchor_status": "CALIBRATED",
+      "prop_mode": "NONE",
+      "baked_prop_type": null,
+      "semantic_intents": [
+        "HAPPY",
+        "STRONG_POSITIVE"
+      ],
+      "provenance": {
+        "pack_id": "XIAO-Y_Action_Pack_v2_Production_48",
+        "source_zip_sha256": "642a9dc740a0f95727d99be2f0d1bee1e90f72939cd3a87b9616272dba383d9c"
+      },
+      "remotion": {
+        "calibration_status": "CALIBRATED",
+        "content_bbox": {
+          "x": 0.153,
+          "y": 0.05733944954128441,
+          "w": 0.832,
+          "h": 0.9426605504587156
+        },
+        "character_bbox": {
+          "x": 0.153,
+          "y": 0.05733944954128441,
+          "w": 0.832,
+          "h": 0.9426605504587156
+        },
+        "anchor": {
+          "x": 0.569,
+          "y": 1.0
+        },
+        "recommended_scale": 0.8394160583941606,
+        "composition_class": "STANDARD",
+        "anchor_kind": "FOOT_BASELINE",
+        "preferred_placement": "CENTER",
+        "allowed_placements": [
+          "LEFT",
+          "CENTER",
+          "RIGHT"
+        ],
+        "calibration_source": "FRESH_AR0004_ALPHA_AND_VISUAL_REVIEW",
+        "safe_area_check": "PASS"
+      }
+    },
+    {
+      "id": "XACT-042",
+      "asset_id": "XACT-042",
+      "asset_type": "CHARACTER_ACTION",
+      "character_id": "XIAO-Y_V1",
+      "label": "跳起庆祝",
+      "label_zh": "跳起庆祝",
+      "slug": "celebrate_jump",
+      "asset_pack": "XIAO-Y_Action_Pack_v2_Production_48",
+      "path": "packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-042_celebrate_jump.png",
+      "format": "PNG",
+      "background": "TRANSPARENT",
+      "width_px": 1000,
+      "height_px": 940,
+      "sha256": "741fbc51acc931f23184880f0900b6f4353a8e491fe3a9648e5f81fb00bb90d4",
+      "verified": true,
+      "asset_status": "VERIFIED",
+      "anchor_status": "CALIBRATED",
+      "prop_mode": "NONE",
+      "baked_prop_type": null,
+      "semantic_intents": [
+        "CELEBRATION",
+        "STRONG_POSITIVE"
+      ],
+      "provenance": {
+        "pack_id": "XIAO-Y_Action_Pack_v2_Production_48",
+        "source_zip_sha256": "642a9dc740a0f95727d99be2f0d1bee1e90f72939cd3a87b9616272dba383d9c"
+      },
+      "remotion": {
+        "calibration_status": "CALIBRATED",
+        "content_bbox": {
+          "x": 0.038,
+          "y": 0.0,
+          "w": 0.919,
+          "h": 0.9425531914893617
+        },
+        "character_bbox": {
+          "x": 0.038,
+          "y": 0.0,
+          "w": 0.919,
+          "h": 0.9425531914893617
+        },
+        "anchor": {
+          "x": 0.4975,
+          "y": 0.9425531914893617
+        },
+        "recommended_scale": 0.7787810383747178,
+        "composition_class": "STANDARD",
+        "anchor_kind": "FOOT_BASELINE",
+        "preferred_placement": "CENTER",
+        "allowed_placements": [
+          "LEFT",
+          "CENTER",
+          "RIGHT"
+        ],
+        "calibration_source": "FRESH_AR0004_ALPHA_AND_VISUAL_REVIEW",
+        "safe_area_check": "PASS"
+      }
+    },
+    {
+      "id": "XACT-043",
+      "asset_id": "XACT-043",
+      "asset_type": "CHARACTER_ACTION",
+      "character_id": "XIAO-Y_V1",
+      "label": "前伸点赞",
+      "label_zh": "前伸点赞",
+      "slug": "thumbs_up_forward",
+      "asset_pack": "XIAO-Y_Action_Pack_v2_Production_48",
+      "path": "packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-043_thumbs_up_forward.png",
+      "format": "PNG",
+      "background": "TRANSPARENT",
+      "width_px": 1000,
+      "height_px": 877,
+      "sha256": "787758d7f60549021e707c730fd24f610d876a4c8dd477c1bead6fb7eb9e1ae0",
+      "verified": true,
+      "asset_status": "VERIFIED",
+      "anchor_status": "CALIBRATED",
+      "prop_mode": "NONE",
+      "baked_prop_type": null,
+      "semantic_intents": [
+        "APPROVE",
+        "POSITIVE"
+      ],
+      "provenance": {
+        "pack_id": "XIAO-Y_Action_Pack_v2_Production_48",
+        "source_zip_sha256": "642a9dc740a0f95727d99be2f0d1bee1e90f72939cd3a87b9616272dba383d9c"
+      },
+      "remotion": {
+        "calibration_status": "CALIBRATED",
+        "content_bbox": {
+          "x": 0.176,
+          "y": 0.04903078677309008,
+          "w": 0.627,
+          "h": 0.9019384264538198
+        },
+        "character_bbox": {
+          "x": 0.176,
+          "y": 0.04903078677309008,
+          "w": 0.627,
+          "h": 0.9019384264538198
+        },
+        "anchor": {
+          "x": 0.4895,
+          "y": 0.95096921322691
+        },
+        "recommended_scale": 0.8723135271807838,
+        "composition_class": "STANDARD",
+        "anchor_kind": "FOOT_BASELINE",
+        "preferred_placement": "CENTER",
+        "allowed_placements": [
+          "LEFT",
+          "CENTER",
+          "RIGHT"
+        ],
+        "calibration_source": "FRESH_AR0004_ALPHA_AND_VISUAL_REVIEW",
+        "safe_area_check": "PASS"
+      }
+    },
+    {
+      "id": "XACT-044",
+      "asset_id": "XACT-044",
+      "asset_type": "CHARACTER_ACTION",
+      "character_id": "XIAO-Y_V1",
+      "label": "严肃抱胸",
+      "label_zh": "严肃抱胸",
+      "slug": "arms_crossed_serious",
+      "asset_pack": "XIAO-Y_Action_Pack_v2_Production_48",
+      "path": "packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-044_arms_crossed_serious.png",
+      "format": "PNG",
+      "background": "TRANSPARENT",
+      "width_px": 1000,
+      "height_px": 877,
+      "sha256": "98224de435934967460f803da3fc7da29ad531f22f86ee151aa6ba36c0ab3530",
+      "verified": true,
+      "asset_status": "VERIFIED",
+      "anchor_status": "CALIBRATED",
+      "prop_mode": "NONE",
+      "baked_prop_type": null,
+      "semantic_intents": [
+        "SERIOUS"
+      ],
+      "provenance": {
+        "pack_id": "XIAO-Y_Action_Pack_v2_Production_48",
+        "source_zip_sha256": "642a9dc740a0f95727d99be2f0d1bee1e90f72939cd3a87b9616272dba383d9c"
+      },
+      "remotion": {
+        "calibration_status": "CALIBRATED",
+        "content_bbox": {
+          "x": 0.178,
+          "y": 0.03534777651083238,
+          "w": 0.806,
+          "h": 0.9304446978335233
+        },
+        "character_bbox": {
+          "x": 0.178,
+          "y": 0.03534777651083238,
+          "w": 0.806,
+          "h": 0.9304446978335233
+        },
+        "anchor": {
+          "x": 0.581,
+          "y": 0.9657924743443558
+        },
+        "recommended_scale": 0.8455882352941176,
+        "composition_class": "STANDARD",
+        "anchor_kind": "FOOT_BASELINE",
+        "preferred_placement": "CENTER",
+        "allowed_placements": [
+          "LEFT",
+          "CENTER",
+          "RIGHT"
+        ],
+        "calibration_source": "FRESH_AR0004_ALPHA_AND_VISUAL_REVIEW",
+        "safe_area_check": "PASS"
+      }
+    },
+    {
+      "id": "XACT-045",
+      "asset_id": "XACT-045",
+      "asset_type": "CHARACTER_ACTION",
+      "character_id": "XIAO-Y_V1",
+      "label": "行动号召 / 指向右侧",
+      "label_zh": "行动号召 / 指向右侧",
+      "slug": "cta_point_right",
+      "asset_pack": "XIAO-Y_Action_Pack_v2_Production_48",
+      "path": "packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-045_cta_point_right.png",
+      "format": "PNG",
+      "background": "TRANSPARENT",
+      "width_px": 1000,
+      "height_px": 877,
+      "sha256": "4c2800384c24986e80f2711043628615f4c43d3bcf189ae29d644edb3e98c8c5",
+      "verified": true,
+      "asset_status": "VERIFIED",
+      "anchor_status": "CALIBRATED",
+      "prop_mode": "NONE",
+      "baked_prop_type": null,
+      "semantic_intents": [
+        "CTA",
+        "POINT_RIGHT"
+      ],
+      "provenance": {
+        "pack_id": "XIAO-Y_Action_Pack_v2_Production_48",
+        "source_zip_sha256": "642a9dc740a0f95727d99be2f0d1bee1e90f72939cd3a87b9616272dba383d9c"
+      },
+      "remotion": {
+        "calibration_status": "CALIBRATED",
+        "content_bbox": {
+          "x": 0.123,
+          "y": 0.029646522234891677,
+          "w": 0.821,
+          "h": 0.9418472063854048
+        },
+        "character_bbox": {
+          "x": 0.123,
+          "y": 0.029646522234891677,
+          "w": 0.821,
+          "h": 0.9418472063854048
+        },
+        "anchor": {
+          "x": 0.5335,
+          "y": 0.9714937286202965
+        },
+        "recommended_scale": 0.8353510895883777,
+        "composition_class": "STANDARD",
+        "anchor_kind": "FOOT_BASELINE",
+        "preferred_placement": "LEFT",
+        "allowed_placements": [
+          "LEFT",
+          "CENTER",
+          "RIGHT"
+        ],
+        "calibration_source": "FRESH_AR0004_ALPHA_AND_VISUAL_REVIEW",
+        "safe_area_check": "PASS"
+      }
+    },
+    {
+      "id": "XACT-046",
+      "asset_id": "XACT-046",
+      "asset_type": "CHARACTER_ACTION",
+      "character_id": "XIAO-Y_V1",
+      "label": "低头道歉",
+      "label_zh": "低头道歉",
+      "slug": "bow_apologize",
+      "asset_pack": "XIAO-Y_Action_Pack_v2_Production_48",
+      "path": "packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-046_bow_apologize.png",
+      "format": "PNG",
+      "background": "TRANSPARENT",
+      "width_px": 1000,
+      "height_px": 900,
+      "sha256": "62a48f5ec956835fca38b1141c37c91a6f2efb143461c1efec9c007d4c16d0a0",
+      "verified": true,
+      "asset_status": "VERIFIED",
+      "anchor_status": "CALIBRATED",
+      "prop_mode": "NONE",
+      "baked_prop_type": null,
+      "semantic_intents": [
+        "SAD",
+        "SERIOUS"
+      ],
+      "provenance": {
+        "pack_id": "XIAO-Y_Action_Pack_v2_Production_48",
+        "source_zip_sha256": "642a9dc740a0f95727d99be2f0d1bee1e90f72939cd3a87b9616272dba383d9c"
+      },
+      "remotion": {
+        "calibration_status": "CALIBRATED",
+        "content_bbox": {
+          "x": 0.191,
+          "y": 0.028888888888888888,
+          "w": 0.727,
+          "h": 0.9422222222222222
+        },
+        "character_bbox": {
+          "x": 0.191,
+          "y": 0.028888888888888888,
+          "w": 0.727,
+          "h": 0.9422222222222222
+        },
+        "anchor": {
+          "x": 0.5545,
+          "y": 0.9711111111111111
+        },
+        "recommended_scale": 0.8136792452830188,
+        "composition_class": "STANDARD",
+        "anchor_kind": "FOOT_BASELINE",
+        "preferred_placement": "CENTER",
+        "allowed_placements": [
+          "LEFT",
+          "CENTER",
+          "RIGHT"
+        ],
+        "calibration_source": "FRESH_AR0004_ALPHA_AND_VISUAL_REVIEW",
+        "safe_area_check": "PASS"
+      }
+    },
+    {
+      "id": "XACT-047",
+      "asset_id": "XACT-047",
+      "asset_type": "CHARACTER_ACTION",
+      "character_id": "XIAO-Y_V1",
+      "label": "双手致谢",
+      "label_zh": "双手致谢",
+      "slug": "thanks_hands",
+      "asset_pack": "XIAO-Y_Action_Pack_v2_Production_48",
+      "path": "packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-047_thanks_hands.png",
+      "format": "PNG",
+      "background": "TRANSPARENT",
+      "width_px": 1000,
+      "height_px": 877,
+      "sha256": "440e5a330af6acabd79e393c9db7341ce452d5518e912e4340e44012bbd64d56",
+      "verified": true,
+      "asset_status": "VERIFIED",
+      "anchor_status": "CALIBRATED",
+      "prop_mode": "NONE",
+      "baked_prop_type": null,
+      "semantic_intents": [
+        "POSITIVE",
+        "HAPPY"
+      ],
+      "provenance": {
+        "pack_id": "XIAO-Y_Action_Pack_v2_Production_48",
+        "source_zip_sha256": "642a9dc740a0f95727d99be2f0d1bee1e90f72939cd3a87b9616272dba383d9c"
+      },
+      "remotion": {
+        "calibration_status": "CALIBRATED",
+        "content_bbox": {
+          "x": 0.169,
+          "y": 0.052451539338654506,
+          "w": 0.662,
+          "h": 0.895096921322691
+        },
+        "character_bbox": {
+          "x": 0.169,
+          "y": 0.052451539338654506,
+          "w": 0.662,
+          "h": 0.895096921322691
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.9475484606613455
+        },
+        "recommended_scale": 0.8789808917197452,
+        "composition_class": "STANDARD",
+        "anchor_kind": "FOOT_BASELINE",
+        "preferred_placement": "CENTER",
+        "allowed_placements": [
+          "LEFT",
+          "CENTER",
+          "RIGHT"
+        ],
+        "calibration_source": "FRESH_AR0004_ALPHA_AND_VISUAL_REVIEW",
+        "safe_area_check": "PASS"
+      }
+    },
+    {
+      "id": "XACT-048",
+      "asset_id": "XACT-048",
+      "asset_type": "CHARACTER_ACTION",
+      "character_id": "XIAO-Y_V1",
+      "label": "动态前向强调",
+      "label_zh": "动态前向强调",
+      "slug": "dynamic_forward_emphasis",
+      "asset_pack": "XIAO-Y_Action_Pack_v2_Production_48",
+      "path": "packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-048_dynamic_forward_emphasis.png",
+      "format": "PNG",
+      "background": "TRANSPARENT",
+      "width_px": 1000,
+      "height_px": 910,
+      "sha256": "90f0e669f09634282b8a91a4cad61e62c9aa4486b5c65dd00fda20c5a339cf02",
+      "verified": true,
+      "asset_status": "VERIFIED",
+      "anchor_status": "CALIBRATED",
+      "prop_mode": "NONE",
+      "baked_prop_type": null,
+      "semantic_intents": [
+        "KEY_POINT",
+        "CTA"
+      ],
+      "provenance": {
+        "pack_id": "XIAO-Y_Action_Pack_v2_Production_48",
+        "source_zip_sha256": "642a9dc740a0f95727d99be2f0d1bee1e90f72939cd3a87b9616272dba383d9c"
+      },
+      "remotion": {
+        "calibration_status": "CALIBRATED",
+        "content_bbox": {
+          "x": 0.114,
+          "y": 0.023076923076923078,
+          "w": 0.772,
+          "h": 0.9538461538461539
+        },
+        "character_bbox": {
+          "x": 0.114,
+          "y": 0.023076923076923078,
+          "w": 0.772,
+          "h": 0.9538461538461539
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.9769230769230769
+        },
+        "recommended_scale": 0.7258064516129032,
+        "composition_class": "DYNAMIC",
+        "anchor_kind": "FOOT_BASELINE",
+        "preferred_placement": "CENTER",
+        "allowed_placements": [
+          "LEFT",
+          "CENTER",
+          "RIGHT"
+        ],
+        "calibration_source": "FRESH_AR0004_ALPHA_AND_VISUAL_REVIEW",
+        "safe_area_check": "PASS"
+      }
+    }
+  ],
+  "action_semantics": {
+    "XACT-001": [
+      "GENERAL"
+    ],
+    "XACT-002": [
+      "EXPLAIN",
+      "POSITIVE"
+    ],
+    "XACT-003": [
+      "POSITIVE",
+      "HAPPY"
+    ],
+    "XACT-004": [
+      "HAPPY",
+      "STRONG_POSITIVE"
+    ],
+    "XACT-005": [
+      "STRONG_POSITIVE",
+      "HAPPY"
+    ],
+    "XACT-006": [
+      "HAPPY",
+      "EXPLAIN"
+    ],
+    "XACT-007": [
+      "POINT_RIGHT",
+      "KEY_POINT"
+    ],
+    "XACT-008": [
+      "POSITIVE",
+      "GENERAL"
+    ],
+    "XACT-009": [
+      "APPROVE",
+      "POSITIVE"
+    ],
+    "XACT-010": [
+      "KEY_POINT"
+    ],
+    "XACT-011": [
+      "POINT_RIGHT",
+      "KEY_POINT"
+    ],
+    "XACT-012": [
+      "POINT_LEFT",
+      "KEY_POINT"
+    ],
+    "XACT-013": [
+      "POSITIVE",
+      "CTA"
+    ],
+    "XACT-014": [
+      "EXPLAIN"
+    ],
+    "XACT-015": [
+      "SERIOUS",
+      "CONFUSION"
+    ],
+    "XACT-016": [
+      "SURPRISE"
+    ],
+    "XACT-017": [
+      "EXPLAIN",
+      "POSITIVE"
+    ],
+    "XACT-018": [
+      "CELEBRATION",
+      "CTA"
+    ],
+    "XACT-019": [
+      "SERIOUS"
+    ],
+    "XACT-020": [
+      "SERIOUS",
+      "KEY_POINT"
+    ],
+    "XACT-021": [
+      "ANGER",
+      "STRONG_ANGER"
+    ],
+    "XACT-022": [
+      "CONFUSION",
+      "SERIOUS"
+    ],
+    "XACT-023": [
+      "SAD"
+    ],
+    "XACT-024": [
+      "SURPRISE"
+    ],
+    "XACT-025": [
+      "THINKING"
+    ],
+    "XACT-026": [
+      "THINKING"
+    ],
+    "XACT-027": [
+      "THINKING"
+    ],
+    "XACT-028": [
+      "SERIOUS"
+    ],
+    "XACT-029": [
+      "THINKING"
+    ],
+    "XACT-030": [
+      "SURPRISE"
+    ],
+    "XACT-031": [
+      "SERIOUS"
+    ],
+    "XACT-032": [
+      "APPROVE",
+      "POSITIVE"
+    ],
+    "XACT-033": [
+      "PHONE"
+    ],
+    "XACT-034": [
+      "PHONE",
+      "SURPRISE"
+    ],
+    "XACT-035": [
+      "COMPUTER"
+    ],
+    "XACT-036": [
+      "DOCUMENT"
+    ],
+    "XACT-037": [
+      "READING"
+    ],
+    "XACT-038": [
+      "DOCUMENT"
+    ],
+    "XACT-039": [
+      "SEATED_THINKING",
+      "THINKING"
+    ],
+    "XACT-040": [
+      "COMPUTER",
+      "SERIOUS"
+    ],
+    "XACT-041": [
+      "HAPPY",
+      "STRONG_POSITIVE"
+    ],
+    "XACT-042": [
+      "CELEBRATION",
+      "STRONG_POSITIVE"
+    ],
+    "XACT-043": [
+      "APPROVE",
+      "POSITIVE"
+    ],
+    "XACT-044": [
+      "SERIOUS"
+    ],
+    "XACT-045": [
+      "CTA",
+      "POINT_RIGHT"
+    ],
+    "XACT-046": [
+      "SAD",
+      "SERIOUS"
+    ],
+    "XACT-047": [
+      "POSITIVE",
+      "HAPPY"
+    ],
+    "XACT-048": [
+      "KEY_POINT",
+      "CTA"
+    ]
+  },
+  "constraints": {
+    "no_mirroring": true
+  },
+  "calibration": {
+    "schema_version": 1,
+    "canvas": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 30
+    },
+    "placement_presets": {
+      "LEFT": {
+        "x": 570
+      },
+      "CENTER": {
+        "x": 960
+      },
+      "RIGHT": {
+        "x": 1350
+      }
+    },
+    "class_baselines": {
+      "STANDARD": 880,
+      "DYNAMIC": 880,
+      "SEATED": 850,
+      "PROP_PHONE": 870,
+      "PROP_COMPUTER": 820,
+      "PROP_DOCUMENT": 860,
+      "PROP_READING": 860
+    },
+    "safe_area": {
+      "action": {
+        "x": 96,
+        "y": 54,
+        "w": 1728,
+        "h": 886
+      },
+      "title": {
+        "x": 192,
+        "y": 108,
+        "w": 1536,
+        "h": 792
+      },
+      "subtitle": {
+        "x": 192,
+        "y": 940,
+        "w": 1536,
+        "h": 86
+      }
+    },
+    "coordinate_system": "native PNG normalized xywh; output pixel geometry",
+    "bounds_method": "fresh alpha>0 measurement of all 48 source PNGs",
+    "character_method": "visual review of XACT48 source contact sheet; baked prop exclusions manually annotated",
+    "no_mirroring": true
+  },
+  "default_style": "XIAO-Y_STYLE_V1",
+  "recommended_voice_profiles": [
+    "YU_LOCAL_V1"
+  ],
+  "assets": [
+    {
+      "id": "XACT-001",
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-001_neutral_stand.png",
+      "sha256": "d85c0a4fc245a363dadef262ecaae0957a2ea060e53bbc69f472debf6f136a2f"
+    },
+    {
+      "id": "XACT-002",
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-002_present_right_happy.png",
+      "sha256": "c70883c4fde6ef8f22f430dd5690c71ae561326676ca0f7c9dbdaa52cd2a0aea"
+    },
+    {
+      "id": "XACT-003",
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-003_peace_sign.png",
+      "sha256": "b3225c69a1f1dfb970bb4c5e12f28a6c88ab57e2ef4700e6cf7a90d2880654fc"
+    },
+    {
+      "id": "XACT-004",
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-004_laugh_wink_present.png",
+      "sha256": "98bf70d4caa00dbd9daf6f2a9c940af44e4ff469390a89638dabe0be09d23866"
+    },
+    {
+      "id": "XACT-005",
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-005_running_excited.png",
+      "sha256": "45963052db27c5eaeaaf4d619097d5a5b6050be48af9a9ada7acea7c427565c5"
+    },
+    {
+      "id": "XACT-006",
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-006_open_arms_happy.png",
+      "sha256": "22e93d6308168d19257282d67b22626a9eaaa65a61485aa5b848ff01de0e1ffe"
+    },
+    {
+      "id": "XACT-007",
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-007_point_right.png",
+      "sha256": "2a04f4166c04bc76a74be76459d89344b7d39fcd7950abeaf8d6e949072eea3d"
+    },
+    {
+      "id": "XACT-008",
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-008_hands_on_hips_happy.png",
+      "sha256": "dd1e9f8f29a3bd88c2434b8c77d1f724bdf0c5ae3a860b4e3a749464bf214e6b"
+    },
+    {
+      "id": "XACT-009",
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-009_thumbs_up.png",
+      "sha256": "3c2b4fc19917e5d0f94d179b0d348499e99f3b9d4196dd5a88ca4d53da5b8499"
+    },
+    {
+      "id": "XACT-010",
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-010_point_down.png",
+      "sha256": "be6c19fa1f8fab521b04b2631571399bd4df849340230e292cac321f402d817d"
+    },
+    {
+      "id": "XACT-011",
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-011_point_right_alt.png",
+      "sha256": "3d1efbd1bf1f79c54a6864120b2e2ce0316d609a499754a0571cb38107a487e9"
+    },
+    {
+      "id": "XACT-012",
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-012_point_left.png",
+      "sha256": "078fa576d573a9ffc7e2c880b4c062b7359c3761e233b802fc00b3b4bbf44ed8"
+    },
+    {
+      "id": "XACT-013",
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-013_fist_chest_happy.png",
+      "sha256": "b05280f1767ddf5c5ee6d81da84aa0e6e50d7e32f9b94268a56b340857fd1632"
+    },
+    {
+      "id": "XACT-014",
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-014_present_right.png",
+      "sha256": "145768108cd26c52229933406c5be158474c96bc0e217c9194b9e29255b0138b"
+    },
+    {
+      "id": "XACT-015",
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-015_open_arms_worried.png",
+      "sha256": "63236fe12b5b95c4428305d6b94c461a58fbbe157e0a2eab649af4430d173768"
+    },
+    {
+      "id": "XACT-016",
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-016_open_arms_surprised.png",
+      "sha256": "d68778ed337813d7993226de7e98505c2d3f9a2ea8df6a3323e29183408b83c6"
+    },
+    {
+      "id": "XACT-017",
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-017_open_arms_smile.png",
+      "sha256": "e59ced2c257b4bcc988b00aa20e65bebe3d15337ff88f36db41729a0bedcfe72"
+    },
+    {
+      "id": "XACT-018",
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-018_raised_fist_happy.png",
+      "sha256": "fb6d98870b00f0ca04bd1424f6fd8967bd8c4429926545edbb42dadb3479a263"
+    },
+    {
+      "id": "XACT-019",
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-019_hands_clasped_concerned.png",
+      "sha256": "503cac9db44592bae1dd92518fcee379704781cb3d0abda4546e466a6a2dc35e"
+    },
+    {
+      "id": "XACT-020",
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-020_fists_ready.png",
+      "sha256": "68067ea441123128d42bb3ab1cf8af50bd4ddf3e611f4c44225786efc8387730"
+    },
+    {
+      "id": "XACT-021",
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-021_angry_fists.png",
+      "sha256": "9b6e1839ed124155f7915ab29b209392214dcd06bf86ffa70486efbf338895cd"
+    },
+    {
+      "id": "XACT-022",
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-022_hands_near_mouth_anxious.png",
+      "sha256": "f97e3bacf0479972fc05d066df6597ba1573cf442a23e5304bb8f692916352b7"
+    },
+    {
+      "id": "XACT-023",
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-023_seated_crying.png",
+      "sha256": "6a753c72c5103624115e797551de838b25b0d16850b43f5b02ed3c55e97e262f"
+    },
+    {
+      "id": "XACT-024",
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-024_hands_to_cheeks_surprised.png",
+      "sha256": "18d141429e428cfb70726f234c2eb2f9a672706649763cb82b5392ca0cc7704f"
+    },
+    {
+      "id": "XACT-025",
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-025_thinking_chin.png",
+      "sha256": "09876932729bd14d1ec788b9b1dd6834a08c4da1716ac0a1b81d9d0d52d887d3"
+    },
+    {
+      "id": "XACT-026",
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-026_thinking_chin_alt.png",
+      "sha256": "b3f1012ece50bb07cf1451c56d397f5c62de38e0513b7ce05c9e8ca5dd08e961"
+    },
+    {
+      "id": "XACT-027",
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-027_thinking_hand_mouth.png",
+      "sha256": "3f10cf924fafb7199428a53aaaa841a07d318784914761361e3e64cdf74cac7f"
+    },
+    {
+      "id": "XACT-028",
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-028_arms_crossed_neutral.png",
+      "sha256": "3c3f22b499d1380fad7540a42010c92c2952fabe95348d68dcb2dfd5e924ba25"
+    },
+    {
+      "id": "XACT-029",
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-029_clasped_hands_thinking.png",
+      "sha256": "d2ee154a79b11e0aed937890412b9f49723a05fc57e58adfaf37890990981960"
+    },
+    {
+      "id": "XACT-030",
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-030_surprised_stand.png",
+      "sha256": "f325b90961da60204e250864a2ef57c6a7e7b28cc37ac774dc7d2879a01cfcb6"
+    },
+    {
+      "id": "XACT-031",
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-031_arms_crossed_worried.png",
+      "sha256": "58519969d8f27e2e6aca7895df94858b109908e1987ae7778285f2aab6abc249"
+    },
+    {
+      "id": "XACT-032",
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-032_thumbs_up_alt.png",
+      "sha256": "f30cd83e8754c72a7b48610d2cd15270ee3fd4149507382c50f6e99b785abe35"
+    },
+    {
+      "id": "XACT-033",
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-033_look_phone.png",
+      "sha256": "d2a5618cd3d9d96403a5b7d371d887bfa903043bd7b3cb5231c25d3f793e7dea"
+    },
+    {
+      "id": "XACT-034",
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-034_phone_surprise.png",
+      "sha256": "41fad5c2d55c41bb2c64ddb3c92d68f54cfbfc3c0fca9a04acee6438b47610d7"
+    },
+    {
+      "id": "XACT-035",
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-035_use_computer.png",
+      "sha256": "bd11a3b9c8d485173b4500c2309c3f52007d80e2448743acb98f746ebfcf748c"
+    },
+    {
+      "id": "XACT-036",
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-036_review_document.png",
+      "sha256": "93511ca52c3f0f25e0c1a0f001ca14fc4ecd4dddd88ab39a3a8360d0816b41f5"
+    },
+    {
+      "id": "XACT-037",
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-037_read_book.png",
+      "sha256": "1ca4a7b358d4c9f426e6de121a001bf2bed2330283e32f9021998f848785682b"
+    },
+    {
+      "id": "XACT-038",
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-038_write_note.png",
+      "sha256": "b677d78082502c1161c6507fdadbc53e0afa7c67d362e9c4015c86fe6ba879ef"
+    },
+    {
+      "id": "XACT-039",
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-039_seated_thinking.png",
+      "sha256": "a3226e7626be9c2f21e98239a691e2ed8e939afa450268a8ae2f812d14cb953f"
+    },
+    {
+      "id": "XACT-040",
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-040_focused_work.png",
+      "sha256": "c66f00670f90ebc16dba1018fa2a0a2140167d236b96a0a67bdc860ea76fc9b4"
+    },
+    {
+      "id": "XACT-041",
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-041_excited_jump.png",
+      "sha256": "93ff02748847ad5394c084d2ff16d2970c195c6c1cac7b5a0c1c3f246cf8657f"
+    },
+    {
+      "id": "XACT-042",
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-042_celebrate_jump.png",
+      "sha256": "741fbc51acc931f23184880f0900b6f4353a8e491fe3a9648e5f81fb00bb90d4"
+    },
+    {
+      "id": "XACT-043",
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-043_thumbs_up_forward.png",
+      "sha256": "787758d7f60549021e707c730fd24f610d876a4c8dd477c1bead6fb7eb9e1ae0"
+    },
+    {
+      "id": "XACT-044",
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-044_arms_crossed_serious.png",
+      "sha256": "98224de435934967460f803da3fc7da29ad531f22f86ee151aa6ba36c0ab3530"
+    },
+    {
+      "id": "XACT-045",
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-045_cta_point_right.png",
+      "sha256": "4c2800384c24986e80f2711043628615f4c43d3bcf189ae29d644edb3e98c8c5"
+    },
+    {
+      "id": "XACT-046",
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-046_bow_apologize.png",
+      "sha256": "62a48f5ec956835fca38b1141c37c91a6f2efb143461c1efec9c007d4c16d0a0"
+    },
+    {
+      "id": "XACT-047",
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-047_thanks_hands.png",
+      "sha256": "440e5a330af6acabd79e393c9db7341ce452d5518e912e4340e44012bbd64d56"
+    },
+    {
+      "id": "XACT-048",
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-048_dynamic_forward_emphasis.png",
+      "sha256": "90f0e669f09634282b8a91a4cad61e62c9aa4486b5c65dd00fda20c5a339cf02"
+    }
+  ]
+}

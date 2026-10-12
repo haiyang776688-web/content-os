@@ -1,0 +1,147 @@
+{
+  "$defs": {
+    "ArtifactDependency": {
+      "additionalProperties": false,
+      "properties": {
+        "artifact_id": {
+          "title": "Artifact Id",
+          "type": "string"
+        },
+        "output_hash": {
+          "title": "Output Hash",
+          "type": "string"
+        }
+      },
+      "required": [
+        "artifact_id",
+        "output_hash"
+      ],
+      "title": "ArtifactDependency",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "artifact_id": {
+      "title": "Artifact Id",
+      "type": "string"
+    },
+    "project_id": {
+      "title": "Project Id",
+      "type": "string"
+    },
+    "artifact_type": {
+      "title": "Artifact Type",
+      "type": "string"
+    },
+    "revision": {
+      "minimum": 1,
+      "title": "Revision",
+      "type": "integer"
+    },
+    "created_by_role": {
+      "title": "Created By Role",
+      "type": "string"
+    },
+    "worker": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Worker"
+    },
+    "provider": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Provider"
+    },
+    "model": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Model"
+    },
+    "prompt_version": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Prompt Version"
+    },
+    "dependencies": {
+      "items": {
+        "$ref": "#/$defs/ArtifactDependency"
+      },
+      "title": "Dependencies",
+      "type": "array"
+    },
+    "input_hash": {
+      "title": "Input Hash",
+      "type": "string"
+    },
+    "output_hash": {
+      "title": "Output Hash",
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "DRAFT",
+        "READY",
+        "STALE",
+        "DIRTY",
+        "BLOCKED",
+        "FAILED",
+        "APPROVED",
+        "LOCKED"
+      ],
+      "title": "Status",
+      "type": "string"
+    },
+    "created_at": {
+      "title": "Created At",
+      "type": "string"
+    },
+    "payload": {
+      "additionalProperties": true,
+      "title": "Payload",
+      "type": "object"
+    }
+  },
+  "required": [
+    "artifact_id",
+    "project_id",
+    "artifact_type",
+    "revision",
+    "created_by_role",
+    "input_hash",
+    "output_hash",
+    "status",
+    "created_at",
+    "payload"
+  ],
+  "title": "Artifact",
+  "type": "object"
+}

@@ -1,0 +1,36 @@
+{
+  "artifact_id": "ART-6a51319fb31d4de8",
+  "project_id": "PRJ-df2146b8a6b1",
+  "artifact_type": "H2_GATE",
+  "revision": 1,
+  "created_by_role": "HUMAN",
+  "worker": null,
+  "provider": null,
+  "model": null,
+  "prompt_version": null,
+  "dependencies": [
+    {
+      "artifact_id": "ART-9b6c9b779c19418f",
+      "output_hash": "da12676ee8250df6605f85735e2299d894aca738db6bf6d3b11b52b9e4fe8a81"
+    },
+    {
+      "artifact_id": "ART-af3bf2c68c7b4b9a",
+      "output_hash": "696803ce117e45ca29e53c53b349cbc0bd9ebd5cc87a1ed45e06dacaafe5d7d7"
+    },
+    {
+      "artifact_id": "ART-9ad83d9a0f0f453e",
+      "output_hash": "71b5c862afdb6ede376fd6d6098bc851f57cd065025cdde7ad17ee697031e7df"
+    }
+  ],
+  "input_hash": "8b8cf1c91a22d9ff2d75f3ae228082f45c0e689d1822aafb9e38068db05307ca",
+  "output_hash": "a5cc1eaf2dba7300c88cdc2b464acc55aeeb6e34312c05aa31284d5f97155609",
+  "status": "READY",
+  "created_at": "2026-09-26T15:59:44.471096+00:00",
+  "payload": {
+    "script_artifact_id": "ART-9b6c9b779c19418f",
+    "risk_acknowledged": true,
+    "decision": "APPROVE",
+    "at": "2026-09-26T15:59:44.469523+00:00"
+  },
+  "current_status": "READY"
+}

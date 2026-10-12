@@ -1,0 +1,672 @@
+{
+  "schema_version": 1,
+  "spike": "TCU-001",
+  "sample": "A",
+  "baseline_commit": "eea4b00e9b3809e16cd2c5b31123a5f4089cc00c",
+  "ats_readonly_commit": "e79aa07a1d06985237b177c9e65f980ad1aca3f3",
+  "inputs": {
+    "script_artifact_id": "ART-bef1d4cecaf94b5d",
+    "script_artifact_output_hash": "cb975af6dd6b80f4a01ff1092fa202d2d72aadc3df107278d40596f25f8a4263",
+    "script_text_sha256": "ca462d45d2e1329c9ec6766afe01db8e54ab2bc2c6294e8ab1bcd66ce4b2f173",
+    "audio_artifact_id": "ART-ce387c3fce5546ee",
+    "audio_sha256": "2d0278e8a2bfcc2c483b2958d60ba9d6f902990bb7b2a2edf7879ddbec2cf813",
+    "director_ir_artifact_id": "ART-b4d37b320dd5416e",
+    "director_ir_sha256": "633455882206fc2ec728c4962dbb38c09e5e02198374ca541c11ad5b8151e515",
+    "shotplan_sha256": "a5136a23bca90222ceedbb173c52faa719d024d279102bf45569231e55050fc0",
+    "visual_edt_artifact_id": "ART-a592915c5e7f4634",
+    "visual_edt_sha256": "aad11fc10e7b1ed2f3f1493ac645bd3bd4414475c5344130a4b4eee4429ca50d",
+    "current_timing_artifact_id": "ART-de11de6cee654e77",
+    "current_timing_artifact_sha256": "64d382a382acee0147e5cec14939c76dea65f8b1640ca5b7baca778eff7871a5",
+    "aligned_timing_artifact_sha256": "dec3b23281d7344593d34c17cfa391e39f5b2cac280bf28aa62d61dc205e8762",
+    "alignment_evidence_sha256": "3eed5313bb31b9d52be4e68c9f7ec6496723488a50fa994e882ced5a5892480c"
+  },
+  "ab": {
+    "current_props_sha256": "ce9950752a36c7697d90ae019572fe0efbb7b8181c665097c58d8b6769b3d397",
+    "aligned_props_sha256": "47ab42f9ceb79fe297ef6caa94962faa60fb1417d79ee0cfee92285a1603826b",
+    "current_semantic_projection_sha256": "42944f0a419e955e4da62d1c18325e168e30d015ffc45d12d8b8b36b9b3d5f33",
+    "aligned_semantic_projection_sha256": "42944f0a419e955e4da62d1c18325e168e30d015ffc45d12d8b8b36b9b3d5f33",
+    "counts_current": {
+      "clips": 95,
+      "beats": 18,
+      "shots": 18,
+      "subtitle_chunks": 45
+    },
+    "counts_aligned": {
+      "clips": 95,
+      "beats": 18,
+      "shots": 18,
+      "subtitle_chunks": 45
+    }
+  },
+  "aligned_timing_map": {
+    "coverage": 0.9869109947643979,
+    "phrase_anchor_count": 9,
+    "text_span_anchor_count": 377,
+    "raw_asr_segment_boundaries_consumed": false
+  },
+  "consumer_a_subtitles": {
+    "report": {
+      "mode": "ALIGNED_WITH_DETERMINISTIC_FALLBACK",
+      "aligned_chunks": 34,
+      "total_chunks": 45,
+      "fallback_phrases": [
+        {
+          "phrase_id": "SEG-01-P01",
+          "reason": "BOUNDARY_LEVEL_DETERMINISTIC_FALLBACK",
+          "positions": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "phrase_id": "SEG-02-P01",
+          "reason": "BOUNDARY_LEVEL_DETERMINISTIC_FALLBACK",
+          "positions": [
+            0,
+            4,
+            5
+          ]
+        },
+        {
+          "phrase_id": "SEG-03-P01",
+          "reason": "BOUNDARY_LEVEL_DETERMINISTIC_FALLBACK",
+          "positions": [
+            0,
+            4
+          ]
+        },
+        {
+          "phrase_id": "SEG-04-P01",
+          "reason": "BOUNDARY_LEVEL_DETERMINISTIC_FALLBACK",
+          "positions": [
+            0,
+            1,
+            4,
+            5
+          ]
+        },
+        {
+          "phrase_id": "SEG-05-P01",
+          "reason": "BOUNDARY_LEVEL_DETERMINISTIC_FALLBACK",
+          "positions": [
+            0,
+            6
+          ]
+        },
+        {
+          "phrase_id": "SEG-06-P01",
+          "reason": "BOUNDARY_LEVEL_DETERMINISTIC_FALLBACK",
+          "positions": [
+            0,
+            5
+          ]
+        },
+        {
+          "phrase_id": "SEG-07-P01",
+          "reason": "BOUNDARY_LEVEL_DETERMINISTIC_FALLBACK",
+          "positions": [
+            0,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "phrase_id": "SEG-08-P01",
+          "reason": "BOUNDARY_LEVEL_DETERMINISTIC_FALLBACK",
+          "positions": [
+            0,
+            2,
+            3,
+            5
+          ]
+        },
+        {
+          "phrase_id": "SEG-09-P01",
+          "reason": "BOUNDARY_LEVEL_DETERMINISTIC_FALLBACK",
+          "positions": [
+            0,
+            3
+          ]
+        }
+      ],
+      "text_and_chunk_count_preserved": true,
+      "raw_asr_segments_consumed": false
+    },
+    "current_ground_truth": {
+      "positive": [
+        {
+          "case_id": "TG-004",
+          "target_ms": 72780,
+          "nearest_ms": 72429,
+          "absolute_error_ms": 351
+        },
+        {
+          "case_id": "TG-007",
+          "target_ms": 82572,
+          "nearest_ms": 82762,
+          "absolute_error_ms": 190
+        }
+      ],
+      "positive_error": {
+        "n": 2,
+        "median_ms": 270.5,
+        "p90_ms": 334.9,
+        "max_ms": 351
+      },
+      "no_boundary": [
+        {
+          "case_id": "TG-001",
+          "new_or_existing_hits_ms": []
+        },
+        {
+          "case_id": "TG-002",
+          "new_or_existing_hits_ms": []
+        },
+        {
+          "case_id": "TG-003",
+          "new_or_existing_hits_ms": []
+        },
+        {
+          "case_id": "TG-005",
+          "new_or_existing_hits_ms": []
+        },
+        {
+          "case_id": "TG-006",
+          "new_or_existing_hits_ms": [
+            80986
+          ]
+        },
+        {
+          "case_id": "TG-008",
+          "new_or_existing_hits_ms": []
+        }
+      ]
+    },
+    "aligned_ground_truth": {
+      "positive": [
+        {
+          "case_id": "TG-004",
+          "target_ms": 72780,
+          "nearest_ms": 72429,
+          "absolute_error_ms": 351
+        },
+        {
+          "case_id": "TG-007",
+          "target_ms": 82572,
+          "nearest_ms": 82860,
+          "absolute_error_ms": 288
+        }
+      ],
+      "positive_error": {
+        "n": 2,
+        "median_ms": 319.5,
+        "p90_ms": 344.7,
+        "max_ms": 351
+      },
+      "no_boundary": [
+        {
+          "case_id": "TG-001",
+          "new_or_existing_hits_ms": []
+        },
+        {
+          "case_id": "TG-002",
+          "new_or_existing_hits_ms": []
+        },
+        {
+          "case_id": "TG-003",
+          "new_or_existing_hits_ms": []
+        },
+        {
+          "case_id": "TG-005",
+          "new_or_existing_hits_ms": []
+        },
+        {
+          "case_id": "TG-006",
+          "new_or_existing_hits_ms": [
+            80986
+          ]
+        },
+        {
+          "case_id": "TG-008",
+          "new_or_existing_hits_ms": []
+        }
+      ]
+    },
+    "current_normal_controls": [
+      {
+        "control_id": "NC-001",
+        "window_start_ms": 5100,
+        "window_end_ms": 5900,
+        "hits_ms": []
+      },
+      {
+        "control_id": "NC-002",
+        "window_start_ms": 12740,
+        "window_end_ms": 13540,
+        "hits_ms": []
+      },
+      {
+        "control_id": "NC-003",
+        "window_start_ms": 26460,
+        "window_end_ms": 27260,
+        "hits_ms": []
+      },
+      {
+        "control_id": "NC-004",
+        "window_start_ms": 31100,
+        "window_end_ms": 31900,
+        "hits_ms": []
+      },
+      {
+        "control_id": "NC-005",
+        "window_start_ms": 39580,
+        "window_end_ms": 40380,
+        "hits_ms": []
+      },
+      {
+        "control_id": "NC-006",
+        "window_start_ms": 53660,
+        "window_end_ms": 54460,
+        "hits_ms": []
+      },
+      {
+        "control_id": "NC-007",
+        "window_start_ms": 64860,
+        "window_end_ms": 65660,
+        "hits_ms": []
+      },
+      {
+        "control_id": "NC-008",
+        "window_start_ms": 68860,
+        "window_end_ms": 69660,
+        "hits_ms": [
+          69181
+        ]
+      },
+      {
+        "control_id": "NC-009",
+        "window_start_ms": 78980,
+        "window_end_ms": 79780,
+        "hits_ms": [
+          79210
+        ]
+      },
+      {
+        "control_id": "NC-010",
+        "window_start_ms": 19140,
+        "window_end_ms": 19940,
+        "hits_ms": []
+      }
+    ],
+    "aligned_normal_controls": [
+      {
+        "control_id": "NC-001",
+        "window_start_ms": 5100,
+        "window_end_ms": 5900,
+        "hits_ms": []
+      },
+      {
+        "control_id": "NC-002",
+        "window_start_ms": 12740,
+        "window_end_ms": 13540,
+        "hits_ms": []
+      },
+      {
+        "control_id": "NC-003",
+        "window_start_ms": 26460,
+        "window_end_ms": 27260,
+        "hits_ms": []
+      },
+      {
+        "control_id": "NC-004",
+        "window_start_ms": 31100,
+        "window_end_ms": 31900,
+        "hits_ms": []
+      },
+      {
+        "control_id": "NC-005",
+        "window_start_ms": 39580,
+        "window_end_ms": 40380,
+        "hits_ms": []
+      },
+      {
+        "control_id": "NC-006",
+        "window_start_ms": 53660,
+        "window_end_ms": 54460,
+        "hits_ms": []
+      },
+      {
+        "control_id": "NC-007",
+        "window_start_ms": 64860,
+        "window_end_ms": 65660,
+        "hits_ms": []
+      },
+      {
+        "control_id": "NC-008",
+        "window_start_ms": 68860,
+        "window_end_ms": 69660,
+        "hits_ms": [
+          69370
+        ]
+      },
+      {
+        "control_id": "NC-009",
+        "window_start_ms": 78980,
+        "window_end_ms": 79780,
+        "hits_ms": [
+          79410
+        ]
+      },
+      {
+        "control_id": "NC-010",
+        "window_start_ms": 19140,
+        "window_end_ms": 19940,
+        "hits_ms": []
+      }
+    ],
+    "normal_control_changes": [
+      {
+        "control_id": "NC-008",
+        "current_hits_ms": [
+          69181
+        ],
+        "aligned_hits_ms": [
+          69370
+        ],
+        "new_timestamp_values_ms": [
+          69370
+        ],
+        "new_regression": false
+      },
+      {
+        "control_id": "NC-009",
+        "current_hits_ms": [
+          79210
+        ],
+        "aligned_hits_ms": [
+          79410
+        ],
+        "new_timestamp_values_ms": [
+          79410
+        ],
+        "new_regression": false
+      }
+    ],
+    "new_normal_control_regressions": []
+  },
+  "consumer_b_existing_beats": {
+    "report": {
+      "mode": "ALIGNED_EXISTING_BEATS_ONLY",
+      "applied": [
+        {
+          "boundary_id": "TG-004",
+          "segment_id": "SEG-08",
+          "beat_after_id": "B-08-02",
+          "timestamp_ms": 72880,
+          "confidence": 0.970127,
+          "source": "APPROVED_SCRIPT_ANCHOR_ALIGNED_TO_DTW",
+          "beat_before_id": "B-08-01",
+          "old_timestamp_ms": 71820,
+          "new_timestamp_ms": 72880
+        },
+        {
+          "boundary_id": "TG-007",
+          "segment_id": "SEG-09",
+          "beat_after_id": "B-09-02",
+          "timestamp_ms": 82860,
+          "confidence": 0.843492,
+          "source": "APPROVED_SCRIPT_ANCHOR_ALIGNED_TO_DTW",
+          "beat_before_id": "B-09-01",
+          "old_timestamp_ms": 80954,
+          "new_timestamp_ms": 82860
+        }
+      ],
+      "fallback": [],
+      "beat_count_preserved": true,
+      "raw_asr_segments_consumed": false
+    },
+    "current_ground_truth": {
+      "positive": [
+        {
+          "case_id": "TG-004",
+          "target_ms": 72780,
+          "nearest_ms": 71820,
+          "absolute_error_ms": 960
+        },
+        {
+          "case_id": "TG-007",
+          "target_ms": 82572,
+          "nearest_ms": 80954,
+          "absolute_error_ms": 1618
+        }
+      ],
+      "positive_error": {
+        "n": 2,
+        "median_ms": 1289.0,
+        "p90_ms": 1552.2,
+        "max_ms": 1618
+      },
+      "no_boundary": [
+        {
+          "case_id": "TG-001",
+          "new_or_existing_hits_ms": []
+        },
+        {
+          "case_id": "TG-002",
+          "new_or_existing_hits_ms": []
+        },
+        {
+          "case_id": "TG-003",
+          "new_or_existing_hits_ms": []
+        },
+        {
+          "case_id": "TG-005",
+          "new_or_existing_hits_ms": []
+        },
+        {
+          "case_id": "TG-006",
+          "new_or_existing_hits_ms": [
+            80954
+          ]
+        },
+        {
+          "case_id": "TG-008",
+          "new_or_existing_hits_ms": []
+        }
+      ]
+    },
+    "aligned_ground_truth": {
+      "positive": [
+        {
+          "case_id": "TG-004",
+          "target_ms": 72780,
+          "nearest_ms": 72880,
+          "absolute_error_ms": 100
+        },
+        {
+          "case_id": "TG-007",
+          "target_ms": 82572,
+          "nearest_ms": 82860,
+          "absolute_error_ms": 288
+        }
+      ],
+      "positive_error": {
+        "n": 2,
+        "median_ms": 194.0,
+        "p90_ms": 269.20000000000005,
+        "max_ms": 288
+      },
+      "no_boundary": [
+        {
+          "case_id": "TG-001",
+          "new_or_existing_hits_ms": []
+        },
+        {
+          "case_id": "TG-002",
+          "new_or_existing_hits_ms": []
+        },
+        {
+          "case_id": "TG-003",
+          "new_or_existing_hits_ms": []
+        },
+        {
+          "case_id": "TG-005",
+          "new_or_existing_hits_ms": []
+        },
+        {
+          "case_id": "TG-006",
+          "new_or_existing_hits_ms": []
+        },
+        {
+          "case_id": "TG-008",
+          "new_or_existing_hits_ms": []
+        }
+      ]
+    },
+    "current_normal_controls": [
+      {
+        "control_id": "NC-001",
+        "window_start_ms": 5100,
+        "window_end_ms": 5900,
+        "hits_ms": [
+          5520
+        ]
+      },
+      {
+        "control_id": "NC-002",
+        "window_start_ms": 12740,
+        "window_end_ms": 13540,
+        "hits_ms": []
+      },
+      {
+        "control_id": "NC-003",
+        "window_start_ms": 26460,
+        "window_end_ms": 27260,
+        "hits_ms": []
+      },
+      {
+        "control_id": "NC-004",
+        "window_start_ms": 31100,
+        "window_end_ms": 31900,
+        "hits_ms": []
+      },
+      {
+        "control_id": "NC-005",
+        "window_start_ms": 39580,
+        "window_end_ms": 40380,
+        "hits_ms": []
+      },
+      {
+        "control_id": "NC-006",
+        "window_start_ms": 53660,
+        "window_end_ms": 54460,
+        "hits_ms": []
+      },
+      {
+        "control_id": "NC-007",
+        "window_start_ms": 64860,
+        "window_end_ms": 65660,
+        "hits_ms": []
+      },
+      {
+        "control_id": "NC-008",
+        "window_start_ms": 68860,
+        "window_end_ms": 69660,
+        "hits_ms": []
+      },
+      {
+        "control_id": "NC-009",
+        "window_start_ms": 78980,
+        "window_end_ms": 79780,
+        "hits_ms": []
+      },
+      {
+        "control_id": "NC-010",
+        "window_start_ms": 19140,
+        "window_end_ms": 19940,
+        "hits_ms": []
+      }
+    ],
+    "aligned_normal_controls": [
+      {
+        "control_id": "NC-001",
+        "window_start_ms": 5100,
+        "window_end_ms": 5900,
+        "hits_ms": [
+          5520
+        ]
+      },
+      {
+        "control_id": "NC-002",
+        "window_start_ms": 12740,
+        "window_end_ms": 13540,
+        "hits_ms": []
+      },
+      {
+        "control_id": "NC-003",
+        "window_start_ms": 26460,
+        "window_end_ms": 27260,
+        "hits_ms": []
+      },
+      {
+        "control_id": "NC-004",
+        "window_start_ms": 31100,
+        "window_end_ms": 31900,
+        "hits_ms": []
+      },
+      {
+        "control_id": "NC-005",
+        "window_start_ms": 39580,
+        "window_end_ms": 40380,
+        "hits_ms": []
+      },
+      {
+        "control_id": "NC-006",
+        "window_start_ms": 53660,
+        "window_end_ms": 54460,
+        "hits_ms": []
+      },
+      {
+        "control_id": "NC-007",
+        "window_start_ms": 64860,
+        "window_end_ms": 65660,
+        "hits_ms": []
+      },
+      {
+        "control_id": "NC-008",
+        "window_start_ms": 68860,
+        "window_end_ms": 69660,
+        "hits_ms": []
+      },
+      {
+        "control_id": "NC-009",
+        "window_start_ms": 78980,
+        "window_end_ms": 79780,
+        "hits_ms": []
+      },
+      {
+        "control_id": "NC-010",
+        "window_start_ms": 19140,
+        "window_end_ms": 19940,
+        "hits_ms": []
+      }
+    ],
+    "normal_control_changes": [],
+    "new_normal_control_regressions": [],
+    "new_no_boundary_hits": []
+  },
+  "contracts": {
+    "semantic_projection_equal": true,
+    "counts_equal": true,
+    "subtitle_text_equal": true,
+    "subtitle_order_equal": true,
+    "raw_asr_segmentation_used": false,
+    "production_default": "UNCHANGED",
+    "decisions": "UNCHANGED"
+  }
+}

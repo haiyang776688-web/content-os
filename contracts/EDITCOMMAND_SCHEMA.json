@@ -1,0 +1,77 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "command_id": {
+      "title": "Command Id",
+      "type": "string"
+    },
+    "project_id": {
+      "title": "Project Id",
+      "type": "string"
+    },
+    "actor": {
+      "title": "Actor",
+      "type": "string"
+    },
+    "actor_type": {
+      "enum": [
+        "HUMAN",
+        "AGENT",
+        "SYSTEM"
+      ],
+      "title": "Actor Type",
+      "type": "string"
+    },
+    "target": {
+      "title": "Target",
+      "type": "string"
+    },
+    "operation": {
+      "title": "Operation",
+      "type": "string"
+    },
+    "arguments": {
+      "additionalProperties": true,
+      "title": "Arguments",
+      "type": "object"
+    },
+    "before_revision": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Before Revision"
+    },
+    "after_revision": {
+      "title": "After Revision",
+      "type": "string"
+    },
+    "timestamp": {
+      "title": "Timestamp",
+      "type": "string"
+    },
+    "reason": {
+      "title": "Reason",
+      "type": "string"
+    }
+  },
+  "required": [
+    "command_id",
+    "project_id",
+    "actor",
+    "actor_type",
+    "target",
+    "operation",
+    "arguments",
+    "before_revision",
+    "after_revision",
+    "timestamp",
+    "reason"
+  ],
+  "title": "EditCommand",
+  "type": "object"
+}

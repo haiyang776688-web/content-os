@@ -1,0 +1,18 @@
+{
+  "user_project_hashes_before": {
+    "PRJ-3e7963af47cc": "9e56b31c5920a1055330bff8315cbfb019b2cec971fc4a3eae63dd5fe30efabc",
+    "PRJ-b417f4c7957a": "f13b2153597054042a9876e958592b78deebe12e0ad81b48d5d41ad5d7f4f2df"
+  },
+  "user_project_hashes_after": {
+    "PRJ-3e7963af47cc": "9e56b31c5920a1055330bff8315cbfb019b2cec971fc4a3eae63dd5fe30efabc",
+    "PRJ-b417f4c7957a": "f13b2153597054042a9876e958592b78deebe12e0ad81b48d5d41ad5d7f4f2df"
+  },
+  "user_projects_unchanged": true,
+  "protected_pack_files": 85,
+  "changed_pack_files": [],
+  "frozen_release_zips_unchanged": {
+    "content-os-vnext-phase1.zip": true,
+    "content-os-vnext-phase2-preview.zip": true,
+    "content-os-vnext-phase2-closure.zip": true
+  }
+}

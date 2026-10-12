@@ -1,0 +1,248 @@
+{
+  "review": {
+    "review_id": "REVIEW-VLA-001-B",
+    "plan_id": "VLA-001-B",
+    "plan_sha256": "97ced1ac05224571ecd27449a2eb94463dc05fd57e98a6f96048c7a6ca4a327d",
+    "status": "APPROVED",
+    "reviewer": "VLA_SPIKE_REVIEW_OPERATOR",
+    "rejection_reason": null,
+    "frames": [
+      {
+        "shot_id": "VLA-001-B-S01",
+        "path": "frames-reviewed/VLA-001-B-S01.png",
+        "time": 2.2
+      },
+      {
+        "shot_id": "VLA-001-B-S02",
+        "path": "frames-reviewed/VLA-001-B-S02.png",
+        "time": 6.7
+      },
+      {
+        "shot_id": "VLA-001-B-S03",
+        "path": "frames-reviewed/VLA-001-B-S03.png",
+        "time": 11.7
+      },
+      {
+        "shot_id": "VLA-001-B-S04",
+        "path": "frames-reviewed/VLA-001-B-S04.png",
+        "time": 17.15
+      },
+      {
+        "shot_id": "VLA-001-B-S05",
+        "path": "frames-reviewed/VLA-001-B-S05.png",
+        "time": 22.5
+      },
+      {
+        "shot_id": "VLA-001-B-S06",
+        "path": "frames-reviewed/VLA-001-B-S06.png",
+        "time": 27.450000000000003
+      },
+      {
+        "shot_id": "VLA-001-B-S07",
+        "path": "frames-reviewed/VLA-001-B-S07.png",
+        "time": 32.2
+      },
+      {
+        "shot_id": "VLA-001-B-S08",
+        "path": "frames-reviewed/VLA-001-B-S08.png",
+        "time": 37.2
+      },
+      {
+        "shot_id": "VLA-001-B-S09",
+        "path": "frames-reviewed/VLA-001-B-S09.png",
+        "time": 42.2
+      }
+    ],
+    "edits": [
+      {
+        "beat_id": "B-B04",
+        "shot_id": null,
+        "changes": {
+          "visual_job": "PROVE"
+        },
+        "reason": "The narration states a review requirement; the screenshot is proof, not a procedure demo."
+      },
+      {
+        "beat_id": "B-B04",
+        "shot_id": "VLA-001-B-S04",
+        "changes": {
+          "shot_type": "EVIDENCE_HIGHLIGHT",
+          "evidence_treatment": "HIGHLIGHT_REGION",
+          "motion_semantic": "FOCUS"
+        },
+        "reason": "Keep the Director inspector visible and highlight the registered semantic-field region."
+      }
+    ]
+  },
+  "rows": [
+    {
+      "beat_id": "B-B01",
+      "shot_id": "VLA-001-B-S01",
+      "narration": "做视频最贵的返工，往往不是渲染慢，而是到成片才发现镜头职责错了。",
+      "visual_job": "TRANSITION",
+      "visual_mode": "BRAND_BALANCED",
+      "shot_type": "CHARACTER_INTRO",
+      "primary": "XIAOY",
+      "evidence_asset": null,
+      "evidence_region": null,
+      "evidence_treatment": null,
+      "character_role": "GUIDE",
+      "motion_semantic": "REVEAL",
+      "representative_frame": "frames-reviewed/VLA-001-B-S01.png"
+    },
+    {
+      "beat_id": "B-B02",
+      "shot_id": "VLA-001-B-S02",
+      "narration": "比如这张分镜接触表，画面能看，但你只能看到结果。",
+      "visual_job": "PROVE",
+      "visual_mode": "EVIDENCE_HEAVY",
+      "shot_type": "EVIDENCE_HIGHLIGHT",
+      "primary": "EVIDENCE",
+      "evidence_asset": "EV-CONTACT",
+      "evidence_region": "result_grid",
+      "evidence_treatment": "HIGHLIGHT_REGION",
+      "character_role": "NONE",
+      "motion_semantic": "FOCUS",
+      "representative_frame": "frames-reviewed/VLA-001-B-S02.png"
+    },
+    {
+      "beat_id": "B-B03",
+      "shot_id": "VLA-001-B-S03",
+      "narration": "它没有直接告诉你：这一镜为什么用证据，下一镜为什么让 XIAO-Y 出现。",
+      "visual_job": "EXPLAIN",
+      "visual_mode": "BRAND_BALANCED",
+      "shot_type": "RELATION_EXPLAIN",
+      "primary": "DIAGRAM",
+      "evidence_asset": "EV-CONTACT",
+      "evidence_region": "role_cards",
+      "evidence_treatment": "RELATION",
+      "character_role": "NONE",
+      "motion_semantic": "CONNECT",
+      "representative_frame": "frames-reviewed/VLA-001-B-S03.png"
+    },
+    {
+      "beat_id": "B-B04",
+      "shot_id": "VLA-001-B-S04",
+      "narration": "真正可审查的分镜，要把视觉任务、主角和证据处理一起摆出来。",
+      "visual_job": "PROVE",
+      "visual_mode": "EVIDENCE_HEAVY",
+      "shot_type": "EVIDENCE_HIGHLIGHT",
+      "primary": "EVIDENCE",
+      "evidence_asset": "EV-WORKBENCH",
+      "evidence_region": "director_inspector",
+      "evidence_treatment": "HIGHLIGHT_REGION",
+      "character_role": "NONE",
+      "motion_semantic": "FOCUS",
+      "representative_frame": "frames-reviewed/VLA-001-B-S04.png"
+    },
+    {
+      "beat_id": "B-B05",
+      "shot_id": "VLA-001-B-S05",
+      "narration": "当口播在证明或演示，界面截图和关键区域应该占据画面主位。",
+      "visual_job": "DEMONSTRATE",
+      "visual_mode": "EVIDENCE_HEAVY",
+      "shot_type": "EVIDENCE_FOCUS",
+      "primary": "EVIDENCE",
+      "evidence_asset": "EV-WORKBENCH",
+      "evidence_region": "preview_stage",
+      "evidence_treatment": "FOCUS_REGION",
+      "character_role": "NONE",
+      "motion_semantic": "FOLLOW",
+      "representative_frame": "frames-reviewed/VLA-001-B-S05.png"
+    },
+    {
+      "beat_id": "B-B06",
+      "shot_id": "VLA-001-B-S06",
+      "narration": "角色这时只负责指引，不能挡住真正需要看的证据。",
+      "visual_job": "WARN",
+      "visual_mode": "BRAND_BALANCED",
+      "shot_type": "CHARACTER_RESPONSIBILITY",
+      "primary": "XIAOY",
+      "evidence_asset": "EV-WORKBENCH",
+      "evidence_region": "director_inspector",
+      "evidence_treatment": "DETAIL_CROP",
+      "character_role": "RESPONSIBILITY",
+      "motion_semantic": "INTERRUPT",
+      "representative_frame": "frames-reviewed/VLA-001-B-S06.png"
+    },
+    {
+      "beat_id": "B-B07",
+      "shot_id": "VLA-001-B-S07",
+      "narration": "到了警告、转场和总结，XIAO-Y 才回来，负责提醒、承接和收束。",
+      "visual_job": "TRANSITION",
+      "visual_mode": "BRAND_BALANCED",
+      "shot_type": "CHARACTER_INTRO",
+      "primary": "XIAOY",
+      "evidence_asset": null,
+      "evidence_region": null,
+      "evidence_treatment": null,
+      "character_role": "TRANSITION",
+      "motion_semantic": "REVEAL",
+      "representative_frame": "frames-reviewed/VLA-001-B-S07.png"
+    },
+    {
+      "beat_id": "B-B08",
+      "shot_id": "VLA-001-B-S08",
+      "narration": "更关键的是，人工必须能在渲染前修改或拒绝这份镜头计划。",
+      "visual_job": "DEMONSTRATE",
+      "visual_mode": "EVIDENCE_HEAVY",
+      "shot_type": "EVIDENCE_FOCUS",
+      "primary": "EVIDENCE",
+      "evidence_asset": "EV-WORKBENCH",
+      "evidence_region": "artifact_history",
+      "evidence_treatment": "FOCUS_REGION",
+      "character_role": "NONE",
+      "motion_semantic": "FOLLOW",
+      "representative_frame": "frames-reviewed/VLA-001-B-S08.png"
+    },
+    {
+      "beat_id": "B-B09",
+      "shot_id": "VLA-001-B-S09",
+      "narration": "先看懂，再批准，最后才渲染，才能把昂贵的错误挡在前面。",
+      "visual_job": "SUMMARIZE",
+      "visual_mode": "BRAND_BALANCED",
+      "shot_type": "SUMMARY",
+      "primary": "XIAOY",
+      "evidence_asset": null,
+      "evidence_region": null,
+      "evidence_treatment": null,
+      "character_role": "SUMMARY",
+      "motion_semantic": "SETTLE",
+      "representative_frame": "frames-reviewed/VLA-001-B-S09.png"
+    }
+  ],
+  "distributions": {
+    "visual_jobs": {
+      "TRANSITION": 2,
+      "PROVE": 2,
+      "EXPLAIN": 1,
+      "DEMONSTRATE": 2,
+      "WARN": 1,
+      "SUMMARIZE": 1
+    },
+    "visual_modes": {
+      "BRAND_BALANCED": 5,
+      "EVIDENCE_HEAVY": 4
+    },
+    "shot_types": {
+      "CHARACTER_INTRO": 2,
+      "EVIDENCE_HIGHLIGHT": 2,
+      "RELATION_EXPLAIN": 1,
+      "EVIDENCE_FOCUS": 2,
+      "CHARACTER_RESPONSIBILITY": 1,
+      "SUMMARY": 1
+    },
+    "evidence_treatments": {
+      "HIGHLIGHT_REGION": 2,
+      "RELATION": 1,
+      "FOCUS_REGION": 2,
+      "DETAIL_CROP": 1
+    },
+    "character_roles": {
+      "GUIDE": 1,
+      "RESPONSIBILITY": 1,
+      "TRANSITION": 1,
+      "SUMMARY": 1
+    }
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "default": 1,
+      "title": "Schema Version",
+      "type": "integer"
+    },
+    "beat_id": {
+      "title": "Beat Id",
+      "type": "string"
+    },
+    "pattern_id": {
+      "title": "Pattern Id",
+      "type": "string"
+    },
+    "template_id": {
+      "title": "Template Id",
+      "type": "string"
+    },
+    "character": {
+      "anyOf": [
+        {
+          "additionalProperties": true,
+          "type": "object"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Character"
+    },
+    "elements": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Elements",
+      "type": "array"
+    },
+    "media_slots": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Media Slots",
+      "type": "array"
+    },
+    "text_slots": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Text Slots",
+      "type": "array"
+    },
+    "typography_roles": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Typography Roles",
+      "type": "array"
+    },
+    "layout": {
+      "additionalProperties": true,
+      "title": "Layout",
+      "type": "object"
+    },
+    "z_order": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Z Order",
+      "type": "array"
+    },
+    "transforms": {
+      "additionalProperties": true,
+      "title": "Transforms",
+      "type": "object"
+    },
+    "timing": {
+      "additionalProperties": true,
+      "title": "Timing",
+      "type": "object"
+    },
+    "motions": {
+      "additionalProperties": true,
+      "title": "Motions",
+      "type": "object"
+    },
+    "safe_area": {
+      "additionalProperties": true,
+      "title": "Safe Area",
+      "type": "object"
+    },
+    "overlap_allowed": {
+      "items": {
+        "items": {
+          "type": "string"
+        },
+        "type": "array"
+      },
+      "title": "Overlap Allowed",
+      "type": "array"
+    }
+  },
+  "required": [
+    "beat_id",
+    "pattern_id",
+    "template_id",
+    "layout",
+    "z_order",
+    "timing",
+    "safe_area"
+  ],
+  "title": "ResolvedVisualComposition",
+  "type": "object"
+}

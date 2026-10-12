@@ -1,0 +1,57 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "hook_type": {
+      "enum": [
+        "CONTRAST",
+        "SURPRISE",
+        "QUESTION",
+        "DIRECT_VALUE",
+        "PROBLEM",
+        "RESULT_FIRST",
+        "CHANGE_ALERT"
+      ],
+      "title": "Hook Type",
+      "type": "string"
+    },
+    "max_duration": {
+      "default": 8,
+      "exclusiveMinimum": 0,
+      "title": "Max Duration",
+      "type": "number"
+    },
+    "max_sentence_count": {
+      "default": 2,
+      "minimum": 1,
+      "title": "Max Sentence Count",
+      "type": "integer"
+    },
+    "information_gap": {
+      "default": "",
+      "title": "Information Gap",
+      "type": "string"
+    },
+    "specificity": {
+      "default": "Specific and source-bound",
+      "title": "Specificity",
+      "type": "string"
+    },
+    "promise": {
+      "default": "Deliver in this script",
+      "title": "Promise",
+      "type": "string"
+    },
+    "forbidden_patterns": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Forbidden Patterns",
+      "type": "array"
+    }
+  },
+  "required": [
+    "hook_type"
+  ],
+  "title": "HookRuleSet",
+  "type": "object"
+}

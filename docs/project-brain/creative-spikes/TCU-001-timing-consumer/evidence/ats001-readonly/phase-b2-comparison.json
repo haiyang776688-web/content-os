@@ -1,0 +1,289 @@
+{
+  "schema_version": 1,
+  "method": "POST-TTS ASR TIMING + TRANSCRIPT ALIGNMENT",
+  "detection_tolerance_ms": 500,
+  "raw_asr": {
+    "normalized_reference_chars": 382,
+    "normalized_asr_chars": 382,
+    "exact_document_match": false,
+    "tolerant_reference_char_coverage": 0.9869109947643979,
+    "raw_segment_boundary_count": 47
+  },
+  "strict": {
+    "mode": "STRICT",
+    "document_text_match": "FAIL",
+    "reason": "NORMALIZED_ASR_TEXT_DIFFERS_FROM_APPROVED_SCRIPT",
+    "targeted": [
+      {
+        "case_id": "TG-001",
+        "verdict": "NO_BOUNDARY",
+        "classification": "TRUE_NEGATIVE",
+        "candidate_boundaries_ms": [],
+        "timing_error_ms": null
+      },
+      {
+        "case_id": "TG-002",
+        "verdict": "NO_BOUNDARY",
+        "classification": "TRUE_NEGATIVE",
+        "candidate_boundaries_ms": [],
+        "timing_error_ms": null
+      },
+      {
+        "case_id": "TG-003",
+        "verdict": "NO_BOUNDARY",
+        "classification": "TRUE_NEGATIVE",
+        "candidate_boundaries_ms": [],
+        "timing_error_ms": null
+      },
+      {
+        "case_id": "TG-004",
+        "verdict": "BOUNDARY",
+        "classification": "FALSE_NEGATIVE_BOUNDARY",
+        "predicted_timestamp_ms": null,
+        "absolute_error_ms": null,
+        "reason": "STRICT_DOCUMENT_TEXT_MATCH_FAILED"
+      },
+      {
+        "case_id": "TG-005",
+        "verdict": "NO_BOUNDARY",
+        "classification": "TRUE_NEGATIVE",
+        "candidate_boundaries_ms": [],
+        "timing_error_ms": null
+      },
+      {
+        "case_id": "TG-006",
+        "verdict": "NO_BOUNDARY",
+        "classification": "TRUE_NEGATIVE",
+        "candidate_boundaries_ms": [],
+        "timing_error_ms": null
+      },
+      {
+        "case_id": "TG-007",
+        "verdict": "BOUNDARY",
+        "classification": "FALSE_NEGATIVE_BOUNDARY",
+        "predicted_timestamp_ms": null,
+        "absolute_error_ms": null,
+        "reason": "STRICT_DOCUMENT_TEXT_MATCH_FAILED"
+      },
+      {
+        "case_id": "TG-008",
+        "verdict": "NO_BOUNDARY",
+        "classification": "TRUE_NEGATIVE",
+        "candidate_boundaries_ms": [],
+        "timing_error_ms": null
+      }
+    ],
+    "classification": {
+      "true_positive": 0,
+      "true_negative": 6,
+      "false_positive_boundary": 0,
+      "false_negative_boundary": 2
+    },
+    "alignment_acceptance": {
+      "eligible_boundary_anchors": 2,
+      "accepted": 0,
+      "coverage": 0.0,
+      "false_reject": 2,
+      "false_rescue": 0,
+      "false_rescue_definition": "An emitted timestamp whose absolute error exceeds detection_tolerance_ms. NO_BOUNDARY false positives are reported separately under classification."
+    },
+    "boundary_timing_error": {
+      "n": 0,
+      "median_ms": null,
+      "p90_ms": null,
+      "p95_ms": null,
+      "max_ms": null
+    },
+    "normal_controls": {
+      "n": 10,
+      "preserved": 10,
+      "potential_new_segmentation_regression": 0,
+      "interpretation": "Strict mode emitted no alignment because document text mismatch failed."
+    }
+  },
+  "tolerant": {
+    "mode": "TOLERANT",
+    "document_text_match": "TOLERANT_SEQUENCE_ALIGNMENT",
+    "reference_char_coverage": 0.9869109947643979,
+    "targeted": [
+      {
+        "case_id": "TG-001",
+        "verdict": "NO_BOUNDARY",
+        "classification": "FALSE_POSITIVE_BOUNDARY",
+        "candidate_boundaries_ms": [
+          7760
+        ],
+        "timing_error_ms": null,
+        "candidate_source": "RAW_ASR_SEGMENT_BOUNDARY"
+      },
+      {
+        "case_id": "TG-002",
+        "verdict": "NO_BOUNDARY",
+        "classification": "TRUE_NEGATIVE",
+        "candidate_boundaries_ms": [],
+        "timing_error_ms": null,
+        "candidate_source": "RAW_ASR_SEGMENT_BOUNDARY"
+      },
+      {
+        "case_id": "TG-003",
+        "verdict": "NO_BOUNDARY",
+        "classification": "FALSE_POSITIVE_BOUNDARY",
+        "candidate_boundaries_ms": [
+          56240
+        ],
+        "timing_error_ms": null,
+        "candidate_source": "RAW_ASR_SEGMENT_BOUNDARY"
+      },
+      {
+        "case_id": "TG-004",
+        "verdict": "BOUNDARY",
+        "classification": "TRUE_POSITIVE",
+        "correct_boundary_timestamp_ms": 72780,
+        "predicted_timestamp_ms": 72880,
+        "absolute_error_ms": 100,
+        "absolute_error_frames_30fps": 3.0,
+        "candidate_source": "TOLERANT_MATCHED_SCRIPT_ANCHOR_DTW",
+        "evaluation_probe_only": true
+      },
+      {
+        "case_id": "TG-005",
+        "verdict": "NO_BOUNDARY",
+        "classification": "FALSE_POSITIVE_BOUNDARY",
+        "candidate_boundaries_ms": [
+          73240
+        ],
+        "timing_error_ms": null,
+        "candidate_source": "RAW_ASR_SEGMENT_BOUNDARY"
+      },
+      {
+        "case_id": "TG-006",
+        "verdict": "NO_BOUNDARY",
+        "classification": "FALSE_POSITIVE_BOUNDARY",
+        "candidate_boundaries_ms": [
+          81080
+        ],
+        "timing_error_ms": null,
+        "candidate_source": "RAW_ASR_SEGMENT_BOUNDARY"
+      },
+      {
+        "case_id": "TG-007",
+        "verdict": "BOUNDARY",
+        "classification": "TRUE_POSITIVE",
+        "correct_boundary_timestamp_ms": 82572,
+        "predicted_timestamp_ms": 82860,
+        "absolute_error_ms": 288,
+        "absolute_error_frames_30fps": 8.639999999999999,
+        "candidate_source": "TOLERANT_MATCHED_SCRIPT_ANCHOR_DTW",
+        "evaluation_probe_only": true
+      },
+      {
+        "case_id": "TG-008",
+        "verdict": "NO_BOUNDARY",
+        "classification": "FALSE_POSITIVE_BOUNDARY",
+        "candidate_boundaries_ms": [
+          83120
+        ],
+        "timing_error_ms": null,
+        "candidate_source": "RAW_ASR_SEGMENT_BOUNDARY"
+      }
+    ],
+    "classification": {
+      "true_positive": 2,
+      "true_negative": 1,
+      "false_positive_boundary": 5,
+      "false_negative_boundary": 0
+    },
+    "alignment_acceptance": {
+      "eligible_boundary_anchors": 2,
+      "accepted": 2,
+      "coverage": 1.0,
+      "false_reject": 0,
+      "false_rescue": 0,
+      "false_rescue_definition": "An emitted timestamp whose absolute error exceeds detection_tolerance_ms. NO_BOUNDARY false positives are reported separately under classification."
+    },
+    "boundary_timing_error": {
+      "n": 2,
+      "median_ms": 194.0,
+      "p90_ms": 269.20000000000005,
+      "p95_ms": 278.6,
+      "max_ms": 288
+    },
+    "normal_controls": {
+      "n": 10,
+      "preserved": 6,
+      "potential_new_segmentation_regression": 4,
+      "rows": [
+        {
+          "control_id": "NC-001",
+          "candidate_boundaries_ms": [],
+          "classification": "CONTROL_PRESERVED",
+          "reason": null
+        },
+        {
+          "control_id": "NC-002",
+          "candidate_boundaries_ms": [
+            12800
+          ],
+          "classification": "POTENTIAL_NEW_SEGMENTATION_REGRESSION",
+          "reason": "RAW_ASR_SEGMENT_BOUNDARY_IN_CONTROL_WINDOW"
+        },
+        {
+          "control_id": "NC-003",
+          "candidate_boundaries_ms": [],
+          "classification": "CONTROL_PRESERVED",
+          "reason": null
+        },
+        {
+          "control_id": "NC-004",
+          "candidate_boundaries_ms": [
+            31120
+          ],
+          "classification": "POTENTIAL_NEW_SEGMENTATION_REGRESSION",
+          "reason": "RAW_ASR_SEGMENT_BOUNDARY_IN_CONTROL_WINDOW"
+        },
+        {
+          "control_id": "NC-005",
+          "candidate_boundaries_ms": [],
+          "classification": "CONTROL_PRESERVED",
+          "reason": null
+        },
+        {
+          "control_id": "NC-006",
+          "candidate_boundaries_ms": [],
+          "classification": "CONTROL_PRESERVED",
+          "reason": null
+        },
+        {
+          "control_id": "NC-007",
+          "candidate_boundaries_ms": [],
+          "classification": "CONTROL_PRESERVED",
+          "reason": null
+        },
+        {
+          "control_id": "NC-008",
+          "candidate_boundaries_ms": [
+            69200
+          ],
+          "classification": "POTENTIAL_NEW_SEGMENTATION_REGRESSION",
+          "reason": "RAW_ASR_SEGMENT_BOUNDARY_IN_CONTROL_WINDOW"
+        },
+        {
+          "control_id": "NC-009",
+          "candidate_boundaries_ms": [
+            79200
+          ],
+          "classification": "POTENTIAL_NEW_SEGMENTATION_REGRESSION",
+          "reason": "RAW_ASR_SEGMENT_BOUNDARY_IN_CONTROL_WINDOW"
+        },
+        {
+          "control_id": "NC-010",
+          "candidate_boundaries_ms": [],
+          "classification": "CONTROL_PRESERVED",
+          "reason": null
+        }
+      ],
+      "interpretation": "Potential regressions require listening confirmation; CONTROL_NORMAL is not a precise boundary label."
+    }
+  },
+  "method_limit": "Tolerant anchor timing shows whether an already nominated script transition can be timed. It does not supply a production policy for deciding which transitions should become cuts."
+}

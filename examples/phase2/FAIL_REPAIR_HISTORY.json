@@ -1,0 +1,522 @@
+[
+  {
+    "artifact_id": "ART-83de0961c5a34cfc",
+    "project_id": "PRJ-b417f4c7957a",
+    "artifact_type": "SCRIPT",
+    "revision": 1,
+    "created_by_role": "SCRIPT_PRIMARY",
+    "worker": "MOCK",
+    "provider": "mock",
+    "model": "deterministic-v1",
+    "prompt_version": "SCRIPT_PRIMARY_V1",
+    "dependencies": [
+      {
+        "artifact_id": "ART-5cca4f2824cb4de8",
+        "output_hash": "8a81040875137953c151ff389aaf89b30825ce0c4eb566004d40386f02dc8fb6"
+      },
+      {
+        "artifact_id": "ART-236e58965e4f4da5",
+        "output_hash": "58f7554b2fb0b360a5f8ba1146a2dafea5402f1a1ce20bf9f0c97b96bc124066"
+      }
+    ],
+    "input_hash": "6fd1aede96379433085236f8eefda2456661a6f70af2ab68914a0427355b3b54",
+    "output_hash": "c404ae5ffb50139d8288d85df7d0cb2a1655703ceab56eb5661d43972c34d465",
+    "status": "READY",
+    "created_at": "2026-09-26T10:38:40.160859+00:00",
+    "payload": {
+      "text": "生产先读取规则，再使用已绑定来源的事实。\n脚本修改经过独立审计，确认方向后才进入导演设计。\n画面按主信息、次信息和辅助信息这3个层次依次展开。\n分镜退回责任部门，修复完成后再生成新的分镜版本。\n字幕保持单行白字，没有底板，沿固定基线显示。\n终稿确认和发布授权分别记录，完成终稿并不自动发布。",
+      "segments": [
+        {
+          "segment_id": "SEG1",
+          "text": "生产先读取规则，再使用已绑定来源的事实。",
+          "claim": true,
+          "fact_ids": [
+            "F1"
+          ]
+        },
+        {
+          "segment_id": "SEG2",
+          "text": "脚本修改经过独立审计，确认方向后才进入导演设计。",
+          "claim": true,
+          "fact_ids": [
+            "F2"
+          ]
+        },
+        {
+          "segment_id": "SEG3",
+          "text": "画面按主信息、次信息和辅助信息这3个层次依次展开。",
+          "claim": true,
+          "fact_ids": [
+            "F3"
+          ]
+        },
+        {
+          "segment_id": "SEG4",
+          "text": "分镜退回责任部门，修复完成后再生成新的分镜版本。",
+          "claim": true,
+          "fact_ids": [
+            "F4"
+          ]
+        },
+        {
+          "segment_id": "SEG5",
+          "text": "字幕保持单行白字，没有底板，沿固定基线显示。",
+          "claim": true,
+          "fact_ids": [
+            "F5"
+          ]
+        },
+        {
+          "segment_id": "SEG6",
+          "text": "终稿确认和发布授权分别记录，完成终稿并不自动发布。",
+          "claim": true,
+          "fact_ids": [
+            "F6"
+          ]
+        }
+      ],
+      "semantic_status": "AUDIT_REQUIRED",
+      "semantic_diff": {},
+      "parent_script_artifact_id": null
+    },
+    "current_status": "STALE"
+  },
+  {
+    "artifact_id": "ART-657a924955aa4d52",
+    "project_id": "PRJ-b417f4c7957a",
+    "artifact_type": "SCRIPT",
+    "revision": 2,
+    "created_by_role": "SCRIPT_EDITOR",
+    "worker": "MOCK",
+    "provider": "mock",
+    "model": "deterministic-v1",
+    "prompt_version": "SCRIPT_EDITOR_V1",
+    "dependencies": [
+      {
+        "artifact_id": "ART-5cca4f2824cb4de8",
+        "output_hash": "8a81040875137953c151ff389aaf89b30825ce0c4eb566004d40386f02dc8fb6"
+      },
+      {
+        "artifact_id": "ART-d7f3ccaaea144024",
+        "output_hash": "4fc7429f536ac89aec92fdd8a28b0852dc6ab9dae74c1fb5550f9934a47e4965"
+      }
+    ],
+    "input_hash": "1c81dedc4926502e9300d67d75d3222447e5094f72ad2406bf7d2aa4fdbe54e9",
+    "output_hash": "6b086dcbd3ac6db61ff71172e456988deafb92ed561d2f1cdee6a53d5477f8f6",
+    "status": "READY",
+    "created_at": "2026-09-26T10:38:40.215903+00:00",
+    "payload": {
+      "text": "生产先读取规则，再使用已绑定来源的事实。\n脚本修改经过独立审计，确认方向后才进入导演设计。\n画面按主信息、次信息和辅助信息这3个层次依次展开。\n分镜退回责任部门，修复完成后再生成新的分镜版本。\n字幕保持单行白字，没有底板，沿固定基线显示。\n终稿确认和发布授权分别记录，完成终稿并不自动发布。",
+      "segments": [
+        {
+          "segment_id": "SEG1",
+          "text": "生产先读取规则，再使用已绑定来源的事实。",
+          "claim": true,
+          "fact_ids": [
+            "F1"
+          ]
+        },
+        {
+          "segment_id": "SEG2",
+          "text": "脚本修改经过独立审计，确认方向后才进入导演设计。",
+          "claim": true,
+          "fact_ids": [
+            "F2"
+          ]
+        },
+        {
+          "segment_id": "SEG3",
+          "text": "画面按主信息、次信息和辅助信息这3个层次依次展开。",
+          "claim": true,
+          "fact_ids": [
+            "F3"
+          ]
+        },
+        {
+          "segment_id": "SEG4",
+          "text": "分镜退回责任部门，修复完成后再生成新的分镜版本。",
+          "claim": true,
+          "fact_ids": [
+            "F4"
+          ]
+        },
+        {
+          "segment_id": "SEG5",
+          "text": "字幕保持单行白字，没有底板，沿固定基线显示。",
+          "claim": true,
+          "fact_ids": [
+            "F5"
+          ]
+        },
+        {
+          "segment_id": "SEG6",
+          "text": "终稿确认和发布授权分别记录，完成终稿并不自动发布。",
+          "claim": true,
+          "fact_ids": [
+            "F6"
+          ]
+        }
+      ],
+      "semantic_status": "AUDIT_REQUIRED",
+      "semantic_diff": {
+        "numbers": false,
+        "entities": false,
+        "polarity": false,
+        "fact_bindings": false,
+        "claim_text": false
+      },
+      "parent_script_artifact_id": "ART-83de0961c5a34cfc"
+    },
+    "current_status": "STALE"
+  },
+  {
+    "artifact_id": "ART-8806f4794d14438a",
+    "project_id": "PRJ-b417f4c7957a",
+    "artifact_type": "AUDIT",
+    "revision": 1,
+    "created_by_role": "AUDIT",
+    "worker": "MOCK",
+    "provider": "mock",
+    "model": "deterministic-v1",
+    "prompt_version": "AUDIT_V1",
+    "dependencies": [
+      {
+        "artifact_id": "ART-657a924955aa4d52",
+        "output_hash": "6b086dcbd3ac6db61ff71172e456988deafb92ed561d2f1cdee6a53d5477f8f6"
+      },
+      {
+        "artifact_id": "ART-5cca4f2824cb4de8",
+        "output_hash": "8a81040875137953c151ff389aaf89b30825ce0c4eb566004d40386f02dc8fb6"
+      },
+      {
+        "artifact_id": "ART-aecfe04792ff44d9",
+        "output_hash": "11a5543b4d5f7342e0b2d4d2e87fb3089611de1d5277647d24c95b62ad0d0633"
+      },
+      {
+        "artifact_id": "ART-cf57ce8c763246b6",
+        "output_hash": "e414ec033117aa04d6c9135d180efec19f9e5c7f4f5916b06bbba975b23a9534"
+      }
+    ],
+    "input_hash": "0ee2895c44cd592b68a8b760a2fba2bc217223f4abca54119c61bd48d08598a3",
+    "output_hash": "41b72121039226d1dda23a57b53c8a5da33edcf7e53c458655aaabcb19f200c0",
+    "status": "READY",
+    "created_at": "2026-09-26T10:38:40.257259+00:00",
+    "payload": {
+      "verdict": "FAIL",
+      "findings": [
+        {
+          "owner": "SCRIPT_PRIMARY",
+          "severity": "BLOCKER",
+          "description": "Diagnostic: independently audit every repaired script version"
+        }
+      ],
+      "rationale": "Mock review for contract testing; not a factual audit."
+    },
+    "current_status": "STALE"
+  },
+  {
+    "artifact_id": "ART-f142d29c16634d7f",
+    "project_id": "PRJ-b417f4c7957a",
+    "artifact_type": "SCRIPT_GATE",
+    "revision": 1,
+    "created_by_role": "GATE_ENGINE",
+    "worker": null,
+    "provider": null,
+    "model": null,
+    "prompt_version": null,
+    "dependencies": [
+      {
+        "artifact_id": "ART-657a924955aa4d52",
+        "output_hash": "6b086dcbd3ac6db61ff71172e456988deafb92ed561d2f1cdee6a53d5477f8f6"
+      },
+      {
+        "artifact_id": "ART-8806f4794d14438a",
+        "output_hash": "41b72121039226d1dda23a57b53c8a5da33edcf7e53c458655aaabcb19f200c0"
+      }
+    ],
+    "input_hash": "c2983296f50b388afca4744a2a5a3527934690948b16fadec714a40daf0e92c4",
+    "output_hash": "8eb344feef92ad6a3484c3f4370c7e183b74575572170e0c6a02fa5e822176db",
+    "status": "READY",
+    "created_at": "2026-09-26T10:38:40.260004+00:00",
+    "payload": {
+      "decision": "FAIL",
+      "risk": null,
+      "human_confirmation_required": false,
+      "script_artifact_id": "ART-657a924955aa4d52",
+      "audit_artifact_id": "ART-8806f4794d14438a"
+    },
+    "current_status": "STALE"
+  },
+  {
+    "artifact_id": "ART-34a0bd408abd406a",
+    "project_id": "PRJ-b417f4c7957a",
+    "artifact_type": "CHANGE_REQUEST",
+    "revision": 1,
+    "created_by_role": "AUDIT",
+    "worker": null,
+    "provider": null,
+    "model": null,
+    "prompt_version": null,
+    "dependencies": [
+      {
+        "artifact_id": "ART-657a924955aa4d52",
+        "output_hash": "6b086dcbd3ac6db61ff71172e456988deafb92ed561d2f1cdee6a53d5477f8f6"
+      }
+    ],
+    "input_hash": "3efd4f0e155f822335d59ba0114515aadb1691a64e79e0a76ce0688107fbfc63",
+    "output_hash": "896f60a04bb532a8cd90a8b1768c9eec28fb933449c2de4f01a8a42a683ed07d",
+    "status": "READY",
+    "created_at": "2026-09-26T10:38:40.262375+00:00",
+    "payload": {
+      "target_artifact_id": "ART-657a924955aa4d52",
+      "owner": "SCRIPT_EDITOR",
+      "reason": "Diagnostic: independently audit every repaired script version"
+    },
+    "current_status": "STALE"
+  },
+  {
+    "artifact_id": "ART-292b610d0adb4ac6",
+    "project_id": "PRJ-b417f4c7957a",
+    "artifact_type": "ERROR_CANDIDATE",
+    "revision": 1,
+    "created_by_role": "AUDIT",
+    "worker": null,
+    "provider": null,
+    "model": null,
+    "prompt_version": null,
+    "dependencies": [
+      {
+        "artifact_id": "ART-657a924955aa4d52",
+        "output_hash": "6b086dcbd3ac6db61ff71172e456988deafb92ed561d2f1cdee6a53d5477f8f6"
+      }
+    ],
+    "input_hash": "3efd4f0e155f822335d59ba0114515aadb1691a64e79e0a76ce0688107fbfc63",
+    "output_hash": "a9f03a7d146ee4fd738558a9351742c7837e79ebcb4bbd7fd00029d2d01b77e3",
+    "status": "READY",
+    "created_at": "2026-09-26T10:38:40.264661+00:00",
+    "payload": {
+      "summary": "Diagnostic: independently audit every repaired script version",
+      "detail": "",
+      "root_cause": "UNKNOWN",
+      "artifact_id": "ART-657a924955aa4d52",
+      "submitted_by_role": "AUDIT"
+    },
+    "current_status": "STALE"
+  },
+  {
+    "artifact_id": "ART-afc14da3291d4449",
+    "project_id": "PRJ-b417f4c7957a",
+    "artifact_type": "ERROR_CANDIDATE",
+    "revision": 2,
+    "created_by_role": "AUDIT",
+    "worker": null,
+    "provider": null,
+    "model": null,
+    "prompt_version": null,
+    "dependencies": [
+      {
+        "artifact_id": "ART-657a924955aa4d52",
+        "output_hash": "6b086dcbd3ac6db61ff71172e456988deafb92ed561d2f1cdee6a53d5477f8f6"
+      }
+    ],
+    "input_hash": "3efd4f0e155f822335d59ba0114515aadb1691a64e79e0a76ce0688107fbfc63",
+    "output_hash": "a9f03a7d146ee4fd738558a9351742c7837e79ebcb4bbd7fd00029d2d01b77e3",
+    "status": "READY",
+    "created_at": "2026-09-26T10:38:40.282180+00:00",
+    "payload": {
+      "summary": "Diagnostic: independently audit every repaired script version",
+      "detail": "",
+      "root_cause": "UNKNOWN",
+      "artifact_id": "ART-657a924955aa4d52",
+      "submitted_by_role": "AUDIT"
+    },
+    "current_status": "STALE"
+  },
+  {
+    "artifact_id": "ART-5b9591d9c30b40fe",
+    "project_id": "PRJ-b417f4c7957a",
+    "artifact_type": "SCRIPT",
+    "revision": 3,
+    "created_by_role": "SCRIPT_EDITOR",
+    "worker": null,
+    "provider": null,
+    "model": null,
+    "prompt_version": null,
+    "dependencies": [
+      {
+        "artifact_id": "ART-5cca4f2824cb4de8",
+        "output_hash": "8a81040875137953c151ff389aaf89b30825ce0c4eb566004d40386f02dc8fb6"
+      },
+      {
+        "artifact_id": "ART-a7a8cd6da3c449e6",
+        "output_hash": "219b432b165dd1cb2f86d693bc3673971a66a2f67267ad9af47321c8496bb6d7"
+      }
+    ],
+    "input_hash": "8ddefc6c111142ebef37ce7526c6357de16d11829809c62a6c58b94f758bb80c",
+    "output_hash": "be230459da33425e902c137d72eede3a4ffb3295dc6d60d69b9a9c931bf4da48",
+    "status": "READY",
+    "created_at": "2026-09-26T10:38:40.310946+00:00",
+    "payload": {
+      "text": "生产先读取规则，再使用已绑定来源的事实。\n脚本修改经过独立审计，确认方向后才进入导演设计。\n画面按主信息、次信息和辅助信息这3个层次依次展开。\n分镜退回责任部门，修复完成后再生成新的分镜版本。\n字幕保持单行白字，没有底板，沿固定基线显示。\n终稿确认和发布授权分别记录，完成终稿并不自动发布。",
+      "segments": [
+        {
+          "segment_id": "SEG1",
+          "text": "生产先读取规则，再使用已绑定来源的事实。",
+          "claim": true,
+          "fact_ids": [
+            "F1"
+          ]
+        },
+        {
+          "segment_id": "SEG2",
+          "text": "脚本修改经过独立审计，确认方向后才进入导演设计。",
+          "claim": true,
+          "fact_ids": [
+            "F2"
+          ]
+        },
+        {
+          "segment_id": "SEG3",
+          "text": "画面按主信息、次信息和辅助信息这3个层次依次展开。",
+          "claim": true,
+          "fact_ids": [
+            "F3"
+          ]
+        },
+        {
+          "segment_id": "SEG4",
+          "text": "分镜退回责任部门，修复完成后再生成新的分镜版本。",
+          "claim": true,
+          "fact_ids": [
+            "F4"
+          ]
+        },
+        {
+          "segment_id": "SEG5",
+          "text": "字幕保持单行白字，没有底板，沿固定基线显示。",
+          "claim": true,
+          "fact_ids": [
+            "F5"
+          ]
+        },
+        {
+          "segment_id": "SEG6",
+          "text": "终稿确认和发布授权分别记录，完成终稿并不自动发布。",
+          "claim": true,
+          "fact_ids": [
+            "F6"
+          ]
+        }
+      ],
+      "semantic_status": "AUDIT_REQUIRED",
+      "semantic_diff": {
+        "numbers": false,
+        "entities": false,
+        "polarity": false,
+        "fact_bindings": false,
+        "claim_text": false
+      },
+      "parent_script_artifact_id": "ART-657a924955aa4d52"
+    },
+    "current_status": "READY"
+  },
+  {
+    "artifact_id": "ART-154b6f985e924773",
+    "project_id": "PRJ-b417f4c7957a",
+    "artifact_type": "AUDIT",
+    "revision": 2,
+    "created_by_role": "AUDIT",
+    "worker": "MOCK",
+    "provider": "mock",
+    "model": "deterministic-v1",
+    "prompt_version": "AUDIT_V1",
+    "dependencies": [
+      {
+        "artifact_id": "ART-5b9591d9c30b40fe",
+        "output_hash": "be230459da33425e902c137d72eede3a4ffb3295dc6d60d69b9a9c931bf4da48"
+      },
+      {
+        "artifact_id": "ART-5cca4f2824cb4de8",
+        "output_hash": "8a81040875137953c151ff389aaf89b30825ce0c4eb566004d40386f02dc8fb6"
+      },
+      {
+        "artifact_id": "ART-aecfe04792ff44d9",
+        "output_hash": "11a5543b4d5f7342e0b2d4d2e87fb3089611de1d5277647d24c95b62ad0d0633"
+      },
+      {
+        "artifact_id": "ART-b22348a1fe494dcb",
+        "output_hash": "7b77affcbe00da93da440a9df9bcbefbc997ff646824ae30866fdac76182a8d5"
+      }
+    ],
+    "input_hash": "6c9d28bc4d635af987be7e10d96483427fb9a6f30c88e2f16982214f1798a4a4",
+    "output_hash": "573b867e80905b95eb89766cdf37fb894ab88f0247e4de883175c32467d91f98",
+    "status": "READY",
+    "created_at": "2026-09-26T10:38:40.348966+00:00",
+    "payload": {
+      "verdict": "PASS",
+      "findings": [],
+      "rationale": "Mock review for contract testing; not a factual audit."
+    },
+    "current_status": "READY"
+  },
+  {
+    "artifact_id": "ART-ddea0746b52249a6",
+    "project_id": "PRJ-b417f4c7957a",
+    "artifact_type": "SCRIPT_GATE",
+    "revision": 2,
+    "created_by_role": "GATE_ENGINE",
+    "worker": null,
+    "provider": null,
+    "model": null,
+    "prompt_version": null,
+    "dependencies": [
+      {
+        "artifact_id": "ART-5b9591d9c30b40fe",
+        "output_hash": "be230459da33425e902c137d72eede3a4ffb3295dc6d60d69b9a9c931bf4da48"
+      },
+      {
+        "artifact_id": "ART-154b6f985e924773",
+        "output_hash": "573b867e80905b95eb89766cdf37fb894ab88f0247e4de883175c32467d91f98"
+      }
+    ],
+    "input_hash": "1cd3b4e0fc3796ebdf0e8ee3cc85dc9058957ec7fa33d39ba466cf3bb7b42016",
+    "output_hash": "e95d64f8557efeab2665f9cdc17ea1dbac5a6ed05ee223bdd6cc8c8a18b4786f",
+    "status": "READY",
+    "created_at": "2026-09-26T10:38:40.352345+00:00",
+    "payload": {
+      "decision": "PASS",
+      "risk": null,
+      "human_confirmation_required": false,
+      "script_artifact_id": "ART-5b9591d9c30b40fe",
+      "audit_artifact_id": "ART-154b6f985e924773"
+    },
+    "current_status": "READY"
+  },
+  {
+    "artifact_id": "ART-6840ab5fcb5849ab",
+    "project_id": "PRJ-b417f4c7957a",
+    "artifact_type": "CHANGE_REQUEST",
+    "revision": 2,
+    "created_by_role": "HUMAN",
+    "worker": null,
+    "provider": null,
+    "model": null,
+    "prompt_version": null,
+    "dependencies": [
+      {
+        "artifact_id": "ART-5493e921ba9f43c8",
+        "output_hash": "0614d17d535339f04538927ecf5df6b865f73a5b409080d4104430f50efe4826"
+      }
+    ],
+    "input_hash": "a08df32dc84ee522f4b795c8f8e714ecf7347f37d9dade57adc9358c844fadec",
+    "output_hash": "832a9656b31aef08ecd409eefb57f2f6dbc6cc09ca0446f7a9695476702e4433",
+    "status": "READY",
+    "created_at": "2026-09-26T10:39:00.936713+00:00",
+    "payload": {
+      "target_artifact_id": "ART-5493e921ba9f43c8",
+      "owner": "DIRECTOR",
+      "reason": "Diagnostic gate veto verifies routing only"
+    },
+    "current_status": "READY"
+  }
+]

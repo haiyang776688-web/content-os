@@ -1,0 +1,39 @@
+{
+  "artifact_id": "ART-154b6f985e924773",
+  "project_id": "PRJ-b417f4c7957a",
+  "artifact_type": "AUDIT",
+  "revision": 2,
+  "created_by_role": "AUDIT",
+  "worker": "MOCK",
+  "provider": "mock",
+  "model": "deterministic-v1",
+  "prompt_version": "AUDIT_V1",
+  "dependencies": [
+    {
+      "artifact_id": "ART-5b9591d9c30b40fe",
+      "output_hash": "be230459da33425e902c137d72eede3a4ffb3295dc6d60d69b9a9c931bf4da48"
+    },
+    {
+      "artifact_id": "ART-5cca4f2824cb4de8",
+      "output_hash": "8a81040875137953c151ff389aaf89b30825ce0c4eb566004d40386f02dc8fb6"
+    },
+    {
+      "artifact_id": "ART-aecfe04792ff44d9",
+      "output_hash": "11a5543b4d5f7342e0b2d4d2e87fb3089611de1d5277647d24c95b62ad0d0633"
+    },
+    {
+      "artifact_id": "ART-b22348a1fe494dcb",
+      "output_hash": "7b77affcbe00da93da440a9df9bcbefbc997ff646824ae30866fdac76182a8d5"
+    }
+  ],
+  "input_hash": "6c9d28bc4d635af987be7e10d96483427fb9a6f30c88e2f16982214f1798a4a4",
+  "output_hash": "573b867e80905b95eb89766cdf37fb894ab88f0247e4de883175c32467d91f98",
+  "status": "READY",
+  "created_at": "2026-09-26T10:38:40.348966+00:00",
+  "payload": {
+    "verdict": "PASS",
+    "findings": [],
+    "rationale": "Mock review for contract testing; not a factual audit."
+  },
+  "current_status": "READY"
+}

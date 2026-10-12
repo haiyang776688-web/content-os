@@ -1,0 +1,36 @@
+{
+  "status": "PASS_ISOLATED_F2_REPRODUCTION_NOT_H3_OR_H4",
+  "render": {
+    "path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/outputs/vre-001/VRE-001-F2-Reproduction.mp4",
+    "duration": "19.178667",
+    "frames": 574,
+    "resolution": [1920, 1080],
+    "fps": "30/1",
+    "audio_hash": "SHA256=a4b438037280fe1abeaf0f78ef11737cbf1ce54e759e32bbd038098373c4995b",
+    "file_sha256": "4bbb37c27d1a01799c317165cccf54a53dee50cd3cb1a004e9706e2ab066195a",
+    "bytes": 2521108
+  },
+  "gold_master": {
+    "name": "VGB-002-F2-BrandBalanced.mp4",
+    "file_sha256": "97bda94eab6fda8be603270405f211894be2bacb06ad1385cd241c2882bd0f1c"
+  },
+  "contract": {
+    "visual_mode": "BRAND_BALANCED",
+    "shot_count": 10,
+    "one_primary": true,
+    "shot_plan_has_geometry": false,
+    "frozen_audio": true,
+    "caption_count": 6,
+    "fact_id_intact": true
+  },
+  "creative_checks": {
+    "evidence_clarity": "PASS",
+    "character_role": "PASS",
+    "protagonist": "PASS",
+    "shot_sequence": "PASS",
+    "subtitle_defects": "PASS",
+    "page_template_slideshow": "PASS"
+  },
+  "human_creative_acceptance": "NOT_REQUESTED_FOR_THIS_REPRODUCTION",
+  "publication_authorization": false
+}

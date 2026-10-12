@@ -1,0 +1,169 @@
+{
+  "artifact_id": "ART-39c9329dcb984e08",
+  "project_id": "PRJ-df2146b8a6b1",
+  "artifact_type": "RESOLVED_VISUAL_COMPOSITION",
+  "revision": 2,
+  "created_by_role": "VISUAL_RESOLVER",
+  "worker": null,
+  "provider": null,
+  "model": null,
+  "prompt_version": null,
+  "dependencies": [
+    {
+      "artifact_id": "ART-ff4b3070be6e4015",
+      "output_hash": "d15d4169536aa785735fe2a8752a932e8adf5804b11f56e87827df7346937aa6"
+    },
+    {
+      "artifact_id": "ART-c2da62eb3ca64775",
+      "output_hash": "89c202a9df5a21ae273e506ecaed24284bb0fe07dd2cddfc725b6c4b786ec09a"
+    },
+    {
+      "artifact_id": "ART-c54a40514d184879",
+      "output_hash": "2430b84c36a60077ccad4da9359630e91dd744f790ca9a0122d4084c61197181"
+    },
+    {
+      "artifact_id": "ART-573faed3b5f84057",
+      "output_hash": "7b57fedc5e19314d445eb99012976d432bc105304f260afc7b7a3fc805876115"
+    },
+    {
+      "artifact_id": "ART-7b5e50c986bf4e2c",
+      "output_hash": "130426776f85458fd1aaa0a075d0ff81663752f7149a622e58041fb354a54d3e"
+    }
+  ],
+  "input_hash": "8d84c0ffdb704b4742e6905d43ffce80cfd1629bec93ee5072cb6ad29cc84c30",
+  "output_hash": "7bd6ab5c55ede59762cc0d9adfb91a066f7266bc78dd753c36d05063ff80409d",
+  "status": "READY",
+  "created_at": "2026-09-26T15:59:45.619261+00:00",
+  "payload": {
+    "resolver_version": "VISUAL_RESOLVER_V1",
+    "compositions": [
+      {
+        "schema_version": 1,
+        "beat_id": "B1",
+        "pattern_id": "CHARACTER_EXPLAIN_KEYWORD",
+        "template_id": "CHARACTER_LEFT_TEXT_RIGHT",
+        "character": {
+          "asset_id": "XACT-002",
+          "registry_path": "packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-002_present_right_happy.png",
+          "resolved_location": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-002_present_right_happy.png",
+          "expected_hash": "c70883c4fde6ef8f22f430dd5690c71ae561326676ca0f7c9dbdaa52cd2a0aea",
+          "calibration": {
+            "calibration_status": "CALIBRATED",
+            "content_bbox": {
+              "x": 0.06,
+              "y": 0.08085106382978724,
+              "w": 0.798,
+              "h": 0.9191489361702128
+            },
+            "character_bbox": {
+              "x": 0.06,
+              "y": 0.08085106382978724,
+              "w": 0.798,
+              "h": 0.9191489361702128
+            },
+            "anchor": {
+              "x": 0.459,
+              "y": 1.0
+            },
+            "recommended_scale": 0.7986111111111112,
+            "composition_class": "STANDARD",
+            "anchor_kind": "FOOT_BASELINE",
+            "preferred_placement": "LEFT",
+            "allowed_placements": [
+              "LEFT",
+              "CENTER",
+              "RIGHT"
+            ],
+            "calibration_source": "FRESH_AR0004_ALPHA_AND_VISUAL_REVIEW",
+            "safe_area_check": "PASS"
+          },
+          "role": "CHARACTER",
+          "character_pack": "XIAO-Y_V1",
+          "action_id": "XACT-002"
+        },
+        "elements": [
+          {
+            "asset_id": "ELM-CHECK",
+            "registry_path": "packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-CHECK.svg",
+            "resolved_location": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/assets/packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-CHECK.svg",
+            "expected_hash": "7d738aa014389bf30eba3551323ea0f8911bf2a89b2e5ca159a13ef5385d7085",
+            "calibration": {},
+            "role": "APPROVE",
+            "element_id": "ELM-CHECK"
+          }
+        ],
+        "media_slots": [],
+        "text_slots": [
+          {
+            "slot_id": "text-0",
+            "text": "Alpha / 3 items",
+            "role": "KEYWORD"
+          }
+        ],
+        "typography_roles": [
+          "KEYWORD",
+          "SUBTITLE"
+        ],
+        "layout": {
+          "character": [
+            0.2,
+            0.5,
+            0.88
+          ],
+          "text": [
+            0.67,
+            0.32,
+            0.49
+          ]
+        },
+        "z_order": [
+          "MEDIA",
+          "CHARACTER",
+          "ELEMENT",
+          "TEXT",
+          "SUBTITLE"
+        ],
+        "transforms": {
+          "normalized_coordinates": true,
+          "object_fit": "contain",
+          "character_scale": 0.88
+        },
+        "timing": {
+          "start": 0.0,
+          "end": 2.96,
+          "source": "AUDIO_TIMING_MAP",
+          "audio_timing_hash": "130426776f85458fd1aaa0a075d0ff81663752f7149a622e58041fb354a54d3e"
+        },
+        "motions": {
+          "kind": "FADE",
+          "reveal_order": [
+            "PRIMARY"
+          ]
+        },
+        "safe_area": {
+          "left": 0.05,
+          "right": 0.05,
+          "top": 0.05,
+          "bottom": 0.1
+        },
+        "overlap_allowed": [],
+        "scene_id": "SC1",
+        "segment_id": "SEG1",
+        "semantic_pattern": "EXPLAIN"
+      }
+    ],
+    "template_pack": "XIAO-Y_TEMPLATES_V1",
+    "template_registry_hash": "1e4c49a2b19cb6e4eafae05fc5e5a808ca6bd30a03c162a7e637b94dd956ab97",
+    "character_registry_hash": "ac811a656e5a9bd0e4c967b5ec8e187ca2935ad9fc30184fb0e6d3489979c959",
+    "element_registry_hash": "54b8296d9aa27c57d220ac101bbb9ac3d679c92781b45e8cadf4f838a3067a40",
+    "style_registry_hash": "fa9e94913dc1b197d192cc09621f2ee7def163b14d2d9f2c1b880dae57c646c2",
+    "colors": {
+      "background": "#FFFFFF",
+      "ink": "#111111",
+      "yellow": "#FFD51E",
+      "red": "#F21E2C",
+      "muted": "#E9EAEC"
+    }
+  },
+  "current_status": "READY"
+}

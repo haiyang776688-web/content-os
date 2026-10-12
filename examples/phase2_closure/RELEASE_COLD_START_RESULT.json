@@ -1,0 +1,52 @@
+{
+  "all_routes_ok": true,
+  "empty_projects": true,
+  "api_keys_removed_from_environment": true,
+  "routes": [
+    {
+      "path": "/",
+      "status": 200
+    },
+    {
+      "path": "/workbench.js",
+      "status": 200
+    },
+    {
+      "path": "/phase2.js",
+      "status": 200
+    },
+    {
+      "path": "/i18n.js",
+      "status": 200
+    },
+    {
+      "path": "/preview.js",
+      "status": 200
+    },
+    {
+      "path": "/program-monitor",
+      "status": 200
+    },
+    {
+      "path": "/monitor.bundle.js",
+      "status": 200
+    },
+    {
+      "path": "/api/i18n/zh-CN",
+      "status": 200
+    },
+    {
+      "path": "/api/i18n/en-US",
+      "status": 200
+    },
+    {
+      "path": "/api/catalog",
+      "status": 200
+    },
+    {
+      "path": "/api/projects",
+      "status": 200
+    }
+  ],
+  "dependencies_runtime": "Installed local Python dependencies; delivered source/bundle have no venv/node_modules/data."
+}

@@ -1,0 +1,43 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "font_id": {
+      "title": "Font Id",
+      "type": "string"
+    },
+    "weight": {
+      "default": 400,
+      "maximum": 1000,
+      "minimum": 1,
+      "title": "Weight",
+      "type": "integer"
+    },
+    "size": {
+      "default": 48,
+      "exclusiveMinimum": 0,
+      "title": "Size",
+      "type": "number"
+    },
+    "letter_spacing": {
+      "default": 0,
+      "title": "Letter Spacing",
+      "type": "number"
+    },
+    "line_height": {
+      "default": 1.15,
+      "exclusiveMinimum": 0,
+      "title": "Line Height",
+      "type": "number"
+    },
+    "shadow": {
+      "default": "0 2px 4px #0008",
+      "title": "Shadow",
+      "type": "string"
+    }
+  },
+  "required": [
+    "font_id"
+  ],
+  "title": "FontRole",
+  "type": "object"
+}

@@ -1,0 +1,93 @@
+{
+  "review_type": "MANUAL_VISUAL_MOTION_REVIEW",
+  "reviewer": "MDC-001-WORKING-WINDOW",
+  "formal_h3": false,
+  "evidence": [
+    "MDC-001-motion-preview-side-by-side.mp4",
+    "MDC-001-motion-temporal-strip.jpg",
+    "MDC-001-static-dynamic-contact-sheet.jpg"
+  ],
+  "rating_vocabulary": [
+    "BETTER",
+    "SAME",
+    "WORSE"
+  ],
+  "shots": [
+    {
+      "shot_id": "MDC-S01",
+      "shot_type": "EVIDENCE_FOCUS",
+      "phrase": "FOCUS",
+      "ratings": {
+        "attention_guidance": "BETTER",
+        "primary_clarity": "BETTER",
+        "phase_separation": "BETTER",
+        "impact_clarity": "SAME",
+        "settle_quality": "BETTER",
+        "motion_continuity": "BETTER",
+        "ppt_feeling": "BETTER",
+        "over_animation": "SAME"
+      },
+      "reason": "Evidence stays primary; the callout waits until the focus action is established. The slight anticipation and settle are visible without changing geometry."
+    },
+    {
+      "shot_id": "MDC-S02",
+      "shot_type": "CHARACTER_EXPLAIN",
+      "phrase": "EXPLAIN",
+      "ratings": {
+        "attention_guidance": "BETTER",
+        "primary_clarity": "BETTER",
+        "phase_separation": "BETTER",
+        "impact_clarity": "SAME",
+        "settle_quality": "BETTER",
+        "motion_continuity": "BETTER",
+        "ppt_feeling": "BETTER",
+        "over_animation": "SAME"
+      },
+      "reason": "XIAO-Y resolves first and the label follows. Primitive-only reveals character and callout together; the designed version reads as explanation then support."
+    },
+    {
+      "shot_id": "MDC-S03",
+      "shot_type": "CHARACTER_REACTION",
+      "phrase": "IMPACT_WARN",
+      "ratings": {
+        "attention_guidance": "BETTER",
+        "primary_clarity": "BETTER",
+        "phase_separation": "BETTER",
+        "impact_clarity": "BETTER",
+        "settle_quality": "BETTER",
+        "motion_continuity": "BETTER",
+        "ppt_feeling": "BETTER",
+        "over_animation": "SAME"
+      },
+      "reason": "Character anticipation and impact lead; evidence and callout remain absent until their response window. The settle removes the abrupt primitive-only stop."
+    },
+    {
+      "shot_id": "MDC-S04",
+      "shot_type": "RELATION_EXPLAIN",
+      "phrase": "CONNECT",
+      "ratings": {
+        "attention_guidance": "BETTER",
+        "primary_clarity": "BETTER",
+        "phase_separation": "BETTER",
+        "impact_clarity": "BETTER",
+        "settle_quality": "BETTER",
+        "motion_continuity": "BETTER",
+        "ppt_feeling": "BETTER",
+        "over_animation": "SAME"
+      },
+      "reason": "Source context appears, the relationship draws, then the explanatory label responds. Primitive-only moves all three at the start."
+    }
+  ],
+  "overall": {
+    "attention_guidance": "BETTER",
+    "primary_clarity": "BETTER",
+    "phase_separation": "BETTER",
+    "impact_clarity": "BETTER",
+    "settle_quality": "BETTER",
+    "motion_continuity": "BETTER",
+    "ppt_feeling": "BETTER",
+    "over_animation": "SAME"
+  },
+  "failures_observed": [],
+  "notes": "SAME for over-animation means no new over-animation was observed; it is not a claim of additional benefit. This experimental review is not H3 approval."
+}

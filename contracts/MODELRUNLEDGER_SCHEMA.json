@@ -1,0 +1,181 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "run_id": {
+      "title": "Run Id",
+      "type": "string"
+    },
+    "project_id": {
+      "title": "Project Id",
+      "type": "string"
+    },
+    "stage": {
+      "title": "Stage",
+      "type": "string"
+    },
+    "role": {
+      "title": "Role",
+      "type": "string"
+    },
+    "provider": {
+      "title": "Provider",
+      "type": "string"
+    },
+    "model": {
+      "title": "Model",
+      "type": "string"
+    },
+    "input_tokens": {
+      "anyOf": [
+        {
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Input Tokens"
+    },
+    "output_tokens": {
+      "anyOf": [
+        {
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Output Tokens"
+    },
+    "cached_tokens": {
+      "anyOf": [
+        {
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Cached Tokens"
+    },
+    "image_inputs": {
+      "default": 0,
+      "title": "Image Inputs",
+      "type": "integer"
+    },
+    "audio_inputs": {
+      "default": 0,
+      "title": "Audio Inputs",
+      "type": "integer"
+    },
+    "video_inputs": {
+      "default": 0,
+      "title": "Video Inputs",
+      "type": "integer"
+    },
+    "estimated_cost": {
+      "anyOf": [
+        {
+          "minimum": 0,
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Estimated Cost"
+    },
+    "actual_cost": {
+      "anyOf": [
+        {
+          "minimum": 0,
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Actual Cost"
+    },
+    "currency": {
+      "default": "USD",
+      "title": "Currency",
+      "type": "string"
+    },
+    "cost_status": {
+      "default": "UNKNOWN",
+      "enum": [
+        "ACTUAL",
+        "ESTIMATED",
+        "UNKNOWN"
+      ],
+      "title": "Cost Status",
+      "type": "string"
+    },
+    "latency": {
+      "default": 0,
+      "minimum": 0,
+      "title": "Latency",
+      "type": "number"
+    },
+    "retry_count": {
+      "default": 0,
+      "minimum": 0,
+      "title": "Retry Count",
+      "type": "integer"
+    },
+    "cache_hit": {
+      "default": false,
+      "title": "Cache Hit",
+      "type": "boolean"
+    },
+    "status": {
+      "enum": [
+        "RESERVED",
+        "COMPLETED",
+        "FAILED",
+        "BLOCKED"
+      ],
+      "title": "Status",
+      "type": "string"
+    },
+    "at": {
+      "title": "At",
+      "type": "string"
+    },
+    "fallback_from": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Fallback From"
+    },
+    "metadata": {
+      "additionalProperties": true,
+      "title": "Metadata",
+      "type": "object"
+    }
+  },
+  "required": [
+    "run_id",
+    "project_id",
+    "stage",
+    "role",
+    "provider",
+    "model",
+    "status",
+    "at"
+  ],
+  "title": "ModelRunLedger",
+  "type": "object"
+}

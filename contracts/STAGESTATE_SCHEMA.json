@@ -1,0 +1,77 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "stage": {
+      "title": "Stage",
+      "type": "string"
+    },
+    "input_hash": {
+      "title": "Input Hash",
+      "type": "string"
+    },
+    "config_hash": {
+      "title": "Config Hash",
+      "type": "string"
+    },
+    "worker": {
+      "title": "Worker",
+      "type": "string"
+    },
+    "prompt": {
+      "title": "Prompt",
+      "type": "string"
+    },
+    "skills": {
+      "title": "Skills",
+      "type": "string"
+    },
+    "output_artifact": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Output Artifact"
+    },
+    "status": {
+      "enum": [
+        "CLEAN",
+        "DIRTY",
+        "RUNNING",
+        "FAILED",
+        "BLOCKED",
+        "COMPLETED",
+        "CACHED"
+      ],
+      "title": "Status",
+      "type": "string"
+    },
+    "error": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Error"
+    }
+  },
+  "required": [
+    "stage",
+    "input_hash",
+    "config_hash",
+    "worker",
+    "prompt",
+    "skills",
+    "status"
+  ],
+  "title": "StageState",
+  "type": "object"
+}

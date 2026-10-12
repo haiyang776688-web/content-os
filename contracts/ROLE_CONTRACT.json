@@ -1,0 +1,73 @@
+{
+  "$defs": {
+    "Capability": {
+      "enum": [
+        "VISION",
+        "JSON_SCHEMA",
+        "TEXT",
+        "IMAGE_INPUT",
+        "AUDIO_INPUT",
+        "VIDEO_INPUT",
+        "STRUCTURED_OUTPUT",
+        "TOOL_CALLING",
+        "REASONING",
+        "STREAMING"
+      ],
+      "title": "Capability",
+      "type": "string"
+    },
+    "Role": {
+      "enum": [
+        "RESEARCH",
+        "SCRIPT_PRIMARY",
+        "SCRIPT_EDITOR",
+        "AUDIT",
+        "DIRECTOR",
+        "MEDIA_RESOLVER",
+        "VOICE",
+        "VIDEO_QA",
+        "ANALYTICS",
+        "EVOLUTION"
+      ],
+      "title": "Role",
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "role": {
+      "$ref": "#/$defs/Role"
+    },
+    "owned_artifact_types": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Owned Artifact Types",
+      "type": "array"
+    },
+    "required_capabilities": {
+      "items": {
+        "$ref": "#/$defs/Capability"
+      },
+      "title": "Required Capabilities",
+      "type": "array"
+    },
+    "default_worker": {
+      "title": "Default Worker",
+      "type": "string"
+    },
+    "prompt_id": {
+      "title": "Prompt Id",
+      "type": "string"
+    }
+  },
+  "required": [
+    "role",
+    "owned_artifact_types",
+    "required_capabilities",
+    "default_worker",
+    "prompt_id"
+  ],
+  "title": "RoleContract",
+  "type": "object"
+}

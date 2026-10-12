@@ -1,0 +1,128 @@
+{
+  "status": "PASS",
+  "contract_sha256": "cad34e15e4e3280cf4e28adae23ae846ad16906ecbe1fd409dfc71c1f6718b57",
+  "gallery": {
+    "path": "MPH-001-Motion-Primitive-Gallery.mp4",
+    "sha256": "3e5e48bfe929d0e2d7d79e7f6101f895da9b2298c41f23dad675682ea420efbf",
+    "bytes": 1807075,
+    "duration_seconds": 15.0,
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": "30/1"
+  },
+  "frame_validation": [
+    {
+      "primitive": "PUSH_IN",
+      "frames": {
+        "start": "element-000.png",
+        "middle": "element-006.png",
+        "settled": "element-020.png"
+      },
+      "start_middle_changed": true,
+      "middle_settled_changed": true,
+      "verdict": "PASS"
+    },
+    {
+      "primitive": "FADE_IN",
+      "frames": {
+        "start": "element-045.png",
+        "middle": "element-051.png",
+        "settled": "element-065.png"
+      },
+      "start_middle_changed": true,
+      "middle_settled_changed": true,
+      "verdict": "PASS"
+    },
+    {
+      "primitive": "FOLLOW_PATH",
+      "frames": {
+        "start": "element-090.png",
+        "middle": "element-096.png",
+        "settled": "element-110.png"
+      },
+      "start_middle_changed": true,
+      "middle_settled_changed": true,
+      "verdict": "PASS"
+    },
+    {
+      "primitive": "MATCHED_WIPE",
+      "frames": {
+        "start": "element-135.png",
+        "middle": "element-141.png",
+        "settled": "element-155.png"
+      },
+      "start_middle_changed": true,
+      "middle_settled_changed": true,
+      "verdict": "PASS"
+    },
+    {
+      "primitive": "POP_CUT",
+      "frames": {
+        "start": "element-180.png",
+        "middle": "element-186.png",
+        "settled": "element-200.png"
+      },
+      "start_middle_changed": true,
+      "middle_settled_changed": true,
+      "verdict": "PASS"
+    },
+    {
+      "primitive": "RETURN_TO_ANCHOR",
+      "frames": {
+        "start": "element-225.png",
+        "middle": "element-231.png",
+        "settled": "element-245.png"
+      },
+      "start_middle_changed": true,
+      "middle_settled_changed": true,
+      "verdict": "PASS"
+    },
+    {
+      "primitive": "DRAW_CONNECTION",
+      "frames": {
+        "start": "element-270.png",
+        "middle": "element-276.png",
+        "settled": "element-290.png"
+      },
+      "start_middle_changed": true,
+      "middle_settled_changed": true,
+      "verdict": "PASS"
+    },
+    {
+      "primitive": "SETTLE_HOLD",
+      "frames": {
+        "start": "element-315.png",
+        "middle": "element-321.png",
+        "settled": "element-335.png"
+      },
+      "start_middle_changed": true,
+      "middle_settled_changed": true,
+      "verdict": "PASS"
+    },
+    {
+      "primitive": "DRAW_UNDERLINE",
+      "frames": {
+        "start": "element-360.png",
+        "middle": "element-366.png",
+        "settled": "element-380.png"
+      },
+      "start_middle_changed": true,
+      "middle_settled_changed": true,
+      "verdict": "PASS"
+    },
+    {
+      "primitive": "LABEL_REVEAL",
+      "frames": {
+        "start": "element-405.png",
+        "middle": "element-411.png",
+        "settled": "element-425.png"
+      },
+      "start_middle_changed": true,
+      "middle_settled_changed": true,
+      "verdict": "PASS"
+    }
+  ],
+  "contact_sheet": "motion-primitive-contact-sheet.jpg"
+}

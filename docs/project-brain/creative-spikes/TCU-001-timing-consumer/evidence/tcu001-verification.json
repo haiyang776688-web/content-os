@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "spike": "TCU-001",
+  "sample": "A",
+  "renders": {
+    "current": {
+      "path": "TCU-001-Sample-A-CURRENT.mp4",
+      "sha256": "ddc467f1a2d8ea859ace519d1cae9ee585dd906e1481c945ae913bbba856f841",
+      "bytes": 7492799,
+      "duration_seconds": 84.821333,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "fps": "30/1",
+      "frame_count": 2543,
+      "has_audio": true,
+      "decoded_audio_sha256": "SHA256=5bb60905a4e234d8040902cb9f48021adbaff34e7b86f5c4450d070557c91a4e"
+    },
+    "aligned": {
+      "path": "TCU-001-Sample-A-ALIGNED.mp4",
+      "sha256": "38913cf96db72dfdc7d1b678ac1b842f31b7c9f79223c91fe123ba34bb659b24",
+      "bytes": 7470933,
+      "duration_seconds": 84.821333,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "fps": "30/1",
+      "frame_count": 2543,
+      "has_audio": true,
+      "decoded_audio_sha256": "SHA256=5bb60905a4e234d8040902cb9f48021adbaff34e7b86f5c4450d070557c91a4e"
+    },
+    "decoded_audio_equal": true
+  },
+  "visual_checks": [
+    {
+      "case_id": "TG-004",
+      "timestamp_seconds": 72.4,
+      "purpose": "before approved boundary; CURRENT has already cut, ALIGNED has not",
+      "side_by_side": "TG-004-SIDE-BY-SIDE.jpg",
+      "sha256": "58477642192b9e758c9a6abd736a201b5d770c60d9fc9891674684b175074fc3"
+    },
+    {
+      "case_id": "TG-006",
+      "timestamp_seconds": 81.0,
+      "purpose": "NO_BOUNDARY window; aligned Beat no longer cuts here",
+      "side_by_side": "TG-006-SIDE-BY-SIDE.jpg",
+      "sha256": "6c2f4f49b181abed0b0ea9267f2c4672c66113dc2e5dbf52f70df98fbc6a69c3"
+    },
+    {
+      "case_id": "TG-007",
+      "timestamp_seconds": 82.0,
+      "purpose": "before approved boundary; CURRENT has already cut, ALIGNED has not",
+      "side_by_side": "TG-007-SIDE-BY-SIDE.jpg",
+      "sha256": "5c2f1134bd094b80f5aac38c58a025a5187779a1cead0eff7a070d7e81ddf827"
+    },
+    {
+      "case_id": "NC-004",
+      "timestamp_seconds": 31.5,
+      "purpose": "normal-control spot check",
+      "side_by_side": "NC-004-SIDE-BY-SIDE.jpg",
+      "sha256": "2ebf1f7091d927491a98d27db16a7d8524904871e31ca01c6bee994f864f60ac"
+    }
+  ],
+  "acceptance": {
+    "A_positive_boundary_timing_improved": true,
+    "B_no_new_no_boundary_beat_cuts": true,
+    "C_no_new_normal_control_regression": true,
+    "D_real_consumer_benefit": true,
+    "E_deterministic_fallback_covered_by_tests": true,
+    "F_semantics_counts_and_defaults_unchanged": true
+  },
+  "decision": "TCU-PASS",
+  "consumer_conclusion": {
+    "existing_beat_timing": "MEANINGFUL_BENEFIT",
+    "positive_median_error_ms": {
+      "current": 1289.0,
+      "aligned": 194.0
+    },
+    "subtitles": "NO_PROVEN_POSITIVE_BENEFIT_ON_TWO_POSITIVE_TARGETS",
+    "subtitle_note": "Text/order/chunk count are preserved and no new control regression appears, but targeted median error does not improve; the pass is based on the existing-Beat consumer."
+  },
+  "next_phase": "FAI-001_NOT_STARTED"
+}

@@ -1,0 +1,61 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "style_id": {
+      "title": "Style Id",
+      "type": "string"
+    },
+    "version": {
+      "title": "Version",
+      "type": "string"
+    },
+    "colors": {
+      "additionalProperties": true,
+      "title": "Colors",
+      "type": "object"
+    },
+    "typography": {
+      "additionalProperties": true,
+      "title": "Typography",
+      "type": "object"
+    },
+    "subtitle_style": {
+      "additionalProperties": true,
+      "title": "Subtitle Style",
+      "type": "object"
+    },
+    "motion_language": {
+      "additionalProperties": true,
+      "title": "Motion Language",
+      "type": "object"
+    },
+    "composition_rules": {
+      "additionalProperties": true,
+      "title": "Composition Rules",
+      "type": "object"
+    },
+    "template_pack": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Template Pack"
+    }
+  },
+  "required": [
+    "style_id",
+    "version",
+    "colors",
+    "typography",
+    "subtitle_style",
+    "motion_language",
+    "composition_rules"
+  ],
+  "title": "StylePack",
+  "type": "object"
+}

@@ -1,0 +1,240 @@
+{
+  "artifact_id": "ART-efce8365cbeb4a15",
+  "project_id": "PRJ-b417f4c7957a",
+  "artifact_type": "REVIEW_PACK",
+  "revision": 1,
+  "created_by_role": "REVIEW",
+  "worker": null,
+  "provider": null,
+  "model": null,
+  "prompt_version": null,
+  "dependencies": [
+    {
+      "artifact_id": "ART-5b9591d9c30b40fe",
+      "output_hash": "be230459da33425e902c137d72eede3a4ffb3295dc6d60d69b9a9c931bf4da48"
+    },
+    {
+      "artifact_id": "ART-5cca4f2824cb4de8",
+      "output_hash": "8a81040875137953c151ff389aaf89b30825ce0c4eb566004d40386f02dc8fb6"
+    },
+    {
+      "artifact_id": "ART-154b6f985e924773",
+      "output_hash": "573b867e80905b95eb89766cdf37fb894ab88f0247e4de883175c32467d91f98"
+    },
+    {
+      "artifact_id": "ART-5493e921ba9f43c8",
+      "output_hash": "0614d17d535339f04538927ecf5df6b865f73a5b409080d4104430f50efe4826"
+    },
+    {
+      "artifact_id": "ART-87bf9630e8184173",
+      "output_hash": "85d0937fb4d5f98484e8b69fab211b531c1f0e166dc6e3f7692098215fb479e5"
+    },
+    {
+      "artifact_id": "ART-b055022dab5e4980",
+      "output_hash": "97946fd1f9c201b6081a67629df5a5df6cb904e3c5fd547ac0d8ea90fc835a6e"
+    },
+    {
+      "artifact_id": "ART-50d929b4f91c4071",
+      "output_hash": "4d7ae9bce3566e3308dbe78015cc86836f948bbaf5ae5d9729477741287428d4"
+    },
+    {
+      "artifact_id": "ART-5906602264d044b9",
+      "output_hash": "316c02b9a9f5b590e558bc1659a2e931d36cb0dc69271f81b113abbbaba8fee3"
+    },
+    {
+      "artifact_id": "ART-839b72f339724535",
+      "output_hash": "42e407da3400f6bec502aa1f7177b6cac5285eab70807d238271721d240c09b3"
+    },
+    {
+      "artifact_id": "ART-0cfc2a5d7fb54fca",
+      "output_hash": "ea3b41c9549fe1b2f100c7480f40426c58a1d21140a6c1908b021903bb8f2543"
+    },
+    {
+      "artifact_id": "ART-e66cee64938b457b",
+      "output_hash": "82a85c5aeb5e35687c2e7bef2a71f931718a1ca9d86f773416630cad358d8a6f"
+    },
+    {
+      "artifact_id": "ART-134e0c6b80584f96",
+      "output_hash": "4356c82b31a346b1ed77b764b81e748ae7329077e0981dbfc631fe2c5611b591"
+    },
+    {
+      "artifact_id": "ART-e38c93a4f45b40de",
+      "output_hash": "b081a5b1d420d381fea96379f652ca2a562dee802f0694a39e8ab021f989bf0d"
+    },
+    {
+      "artifact_id": "ART-aecfe04792ff44d9",
+      "output_hash": "11a5543b4d5f7342e0b2d4d2e87fb3089611de1d5277647d24c95b62ad0d0633"
+    },
+    {
+      "artifact_id": "ART-23143a3307f04a8d",
+      "output_hash": "c9b2e6c6b1c4b58a9057f7ae516be594561989eed4fff31a82090f0bc6493c37"
+    },
+    {
+      "artifact_id": "ART-400bbde1b8614a87",
+      "output_hash": "6e4ac653cd7da3cf3b44ce102477f4f022ea04b5b76ac5213f8dee002e2f9d5a"
+    },
+    {
+      "artifact_id": "ART-b5b5b3f7f96c4aba",
+      "output_hash": "2acfae10d7e047f9f9c4438cd2edd10e48210138d3716942896c41e2d03c17b3"
+    },
+    {
+      "artifact_id": "ART-107d8729e14041f9",
+      "output_hash": "5599d29620e4dfbb89db3358f40c41fcfe4589858ed2c0b3e2593a1126b33575"
+    },
+    {
+      "artifact_id": "ART-43c0a5de4fbc4edf",
+      "output_hash": "7251cc7eab85dc820799da6123f380cedc02da92b79c41a9ad1e512d54a7e705"
+    }
+  ],
+  "input_hash": "92080fb2107763b1394fa34b031dccd2f2cf4ced9f4e22735c26fb98b2626ca1",
+  "output_hash": "4378c176a1cce392c68e23eab96ced1a6b4598cfb329f8e39f1f7791f4ee6699",
+  "status": "READY",
+  "created_at": "2026-09-26T10:40:48.809444+00:00",
+  "payload": {
+    "references": [
+      {
+        "artifact_id": "ART-5b9591d9c30b40fe",
+        "type": "SCRIPT",
+        "hash": "be230459da33425e902c137d72eede3a4ffb3295dc6d60d69b9a9c931bf4da48"
+      },
+      {
+        "artifact_id": "ART-5cca4f2824cb4de8",
+        "type": "FACT_PACK",
+        "hash": "8a81040875137953c151ff389aaf89b30825ce0c4eb566004d40386f02dc8fb6"
+      },
+      {
+        "artifact_id": "ART-154b6f985e924773",
+        "type": "AUDIT",
+        "hash": "573b867e80905b95eb89766cdf37fb894ab88f0247e4de883175c32467d91f98"
+      },
+      {
+        "artifact_id": "ART-5493e921ba9f43c8",
+        "type": "DIRECTOR_IR",
+        "hash": "0614d17d535339f04538927ecf5df6b865f73a5b409080d4104430f50efe4826"
+      },
+      {
+        "artifact_id": "ART-87bf9630e8184173",
+        "type": "STORYBOARD",
+        "hash": "85d0937fb4d5f98484e8b69fab211b531c1f0e166dc6e3f7692098215fb479e5"
+      },
+      {
+        "artifact_id": "ART-b055022dab5e4980",
+        "type": "STORYBOARD_GATE",
+        "hash": "97946fd1f9c201b6081a67629df5a5df6cb904e3c5fd547ac0d8ea90fc835a6e"
+      },
+      {
+        "artifact_id": "ART-50d929b4f91c4071",
+        "type": "VOICE",
+        "hash": "4d7ae9bce3566e3308dbe78015cc86836f948bbaf5ae5d9729477741287428d4"
+      },
+      {
+        "artifact_id": "ART-5906602264d044b9",
+        "type": "EDT",
+        "hash": "316c02b9a9f5b590e558bc1659a2e931d36cb0dc69271f81b113abbbaba8fee3"
+      },
+      {
+        "artifact_id": "ART-839b72f339724535",
+        "type": "RENDER",
+        "hash": "42e407da3400f6bec502aa1f7177b6cac5285eab70807d238271721d240c09b3"
+      },
+      {
+        "artifact_id": "ART-0cfc2a5d7fb54fca",
+        "type": "MECHANICAL_QA",
+        "hash": "ea3b41c9549fe1b2f100c7480f40426c58a1d21140a6c1908b021903bb8f2543"
+      },
+      {
+        "artifact_id": "ART-e66cee64938b457b",
+        "type": "VIDEO_QA",
+        "hash": "82a85c5aeb5e35687c2e7bef2a71f931718a1ca9d86f773416630cad358d8a6f"
+      },
+      {
+        "artifact_id": "ART-134e0c6b80584f96",
+        "type": "TYPOGRAPHY_PROFILE",
+        "hash": "4356c82b31a346b1ed77b764b81e748ae7329077e0981dbfc631fe2c5611b591"
+      },
+      {
+        "artifact_id": "ART-e38c93a4f45b40de",
+        "type": "PROJECT_FONT_SNAPSHOT",
+        "hash": "b081a5b1d420d381fea96379f652ca2a562dee802f0694a39e8ab021f989bf0d"
+      },
+      {
+        "artifact_id": "ART-aecfe04792ff44d9",
+        "type": "SOURCE_USER_PHASE2",
+        "hash": "11a5543b4d5f7342e0b2d4d2e87fb3089611de1d5277647d24c95b62ad0d0633"
+      },
+      {
+        "artifact_id": "ART-23143a3307f04a8d",
+        "type": "EXPORT",
+        "hash": "c9b2e6c6b1c4b58a9057f7ae516be594561989eed4fff31a82090f0bc6493c37"
+      },
+      {
+        "artifact_id": "ART-400bbde1b8614a87",
+        "type": "RULE_CATALOG",
+        "hash": "6e4ac653cd7da3cf3b44ce102477f4f022ea04b5b76ac5213f8dee002e2f9d5a"
+      },
+      {
+        "artifact_id": "ART-b5b5b3f7f96c4aba",
+        "type": "VISUAL_CONFIG",
+        "hash": "2acfae10d7e047f9f9c4438cd2edd10e48210138d3716942896c41e2d03c17b3"
+      },
+      {
+        "artifact_id": "ART-107d8729e14041f9",
+        "type": "MEDIA_SELECTION",
+        "hash": "5599d29620e4dfbb89db3358f40c41fcfe4589858ed2c0b3e2593a1126b33575"
+      },
+      {
+        "artifact_id": "ART-43c0a5de4fbc4edf",
+        "type": "EFFECTIVE_SKILL_SNAPSHOT_DIRECTOR",
+        "hash": "7251cc7eab85dc820799da6123f380cedc02da92b79c41a9ad1e512d54a7e705"
+      }
+    ],
+    "risks": [
+      {
+        "code": "MOCK_VISUAL_QA",
+        "severity": "WARNING",
+        "owner": "HUMAN",
+        "description": "Mock contract validation; visual quality was not reviewed by MiniMax",
+        "start": 0,
+        "end": 60.0
+      },
+      {
+        "code": "JIANYING_FONT_MAPPING_UNVERIFIED",
+        "severity": "WARNING",
+        "owner": "HUMAN",
+        "description": "Pinned font paths exist, but exact typography in the target editor has not been verified",
+        "start": 0,
+        "end": 0
+      },
+      {
+        "code": "FONT_NOT_SUPPORTED",
+        "severity": "WARNING",
+        "owner": "EXPORT",
+        "description": "{'code': 'FONT_NOT_SUPPORTED', 'classification': 'UNSUPPORTED', 'target_version': '11.5.0-beta5', 'description': 'Local diagnostic opened with system font instead of the pinned face; explicit repair in the target editor is required'}",
+        "start": 0,
+        "end": 0
+      },
+      {
+        "code": "SUBTITLE_SHADOW_NOT_MAPPED",
+        "severity": "WARNING",
+        "owner": "EXPORT",
+        "description": "{'code': 'SUBTITLE_SHADOW_NOT_MAPPED', 'classification': 'UNSUPPORTED', 'description': 'Native text shadow fields were ignored in the local diagnostic. White subtitles require manual shadow repair'}",
+        "start": 0,
+        "end": 0
+      },
+      {
+        "code": "FONT_SIZE_WEIGHT_SPACING_APPROXIMATED",
+        "severity": "WARNING",
+        "owner": "EXPORT",
+        "description": "{'code': 'FONT_SIZE_WEIGHT_SPACING_APPROXIMATED', 'classification': 'APPROXIMATED', 'description': 'Text timing/content are editable; exact weight, size, spacing and baseline are not verified'}",
+        "start": 0,
+        "end": 0
+      }
+    ],
+    "script_diff": {
+      "before_artifact_id": "ART-657a924955aa4d52",
+      "diff": ""
+    },
+    "h3_is_not_publish_authorization": true
+  },
+  "current_status": "READY"
+}

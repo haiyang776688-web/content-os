@@ -1,0 +1,174 @@
+{
+  "$defs": {
+    "EvidenceLocator": {
+      "additionalProperties": false,
+      "properties": {
+        "media_type": {
+          "enum": [
+            "TEXT",
+            "PDF",
+            "WEB",
+            "VIDEO",
+            "AUDIO"
+          ],
+          "title": "Media Type",
+          "type": "string"
+        },
+        "character_span": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/TextSpan"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "paragraph": {
+          "anyOf": [
+            {
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Paragraph"
+        },
+        "page": {
+          "anyOf": [
+            {
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Page"
+        },
+        "snapshot": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Snapshot"
+        },
+        "dom_path": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Dom Path"
+        },
+        "start_time": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Start Time"
+        },
+        "end_time": {
+          "anyOf": [
+            {
+              "exclusiveMinimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "End Time"
+        }
+      },
+      "required": [
+        "media_type"
+      ],
+      "title": "EvidenceLocator",
+      "type": "object"
+    },
+    "TextSpan": {
+      "additionalProperties": false,
+      "properties": {
+        "start": {
+          "minimum": 0,
+          "title": "Start",
+          "type": "integer"
+        },
+        "end": {
+          "exclusiveMinimum": 0,
+          "title": "End",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "start",
+        "end"
+      ],
+      "title": "TextSpan",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "evidence_id": {
+      "pattern": "^[A-Za-z0-9_-]+$",
+      "title": "Evidence Id",
+      "type": "string"
+    },
+    "source_id": {
+      "pattern": "^[A-Za-z0-9_-]+$",
+      "title": "Source Id",
+      "type": "string"
+    },
+    "locator": {
+      "$ref": "#/$defs/EvidenceLocator"
+    },
+    "excerpt": {
+      "minLength": 1,
+      "title": "Excerpt",
+      "type": "string"
+    },
+    "excerpt_hash": {
+      "pattern": "^[a-f0-9]{64}$",
+      "title": "Excerpt Hash",
+      "type": "string"
+    },
+    "source_content_hash": {
+      "pattern": "^[a-f0-9]{64}$",
+      "title": "Source Content Hash",
+      "type": "string"
+    }
+  },
+  "required": [
+    "evidence_id",
+    "source_id",
+    "locator",
+    "excerpt",
+    "excerpt_hash",
+    "source_content_hash"
+  ],
+  "title": "EvidenceRef",
+  "type": "object"
+}

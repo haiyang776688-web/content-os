@@ -1,0 +1,53 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "audio_id": {
+      "title": "Audio Id",
+      "type": "string"
+    },
+    "segment_id": {
+      "title": "Segment Id",
+      "type": "string"
+    },
+    "start": {
+      "minimum": 0,
+      "title": "Start",
+      "type": "number"
+    },
+    "end": {
+      "exclusiveMinimum": 0,
+      "title": "End",
+      "type": "number"
+    },
+    "duration": {
+      "exclusiveMinimum": 0,
+      "title": "Duration",
+      "type": "number"
+    },
+    "phrase_ranges": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Phrase Ranges",
+      "type": "array"
+    },
+    "word_ranges": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Word Ranges",
+      "type": "array"
+    }
+  },
+  "required": [
+    "audio_id",
+    "segment_id",
+    "start",
+    "end",
+    "duration"
+  ],
+  "title": "AudioTimingEntry",
+  "type": "object"
+}

@@ -1,0 +1,765 @@
+{
+  "element_pack_id": "XIAO-Y_ELEMENTS_V1",
+  "version": "AR-0004",
+  "elements": [
+    {
+      "element_id": "ELM-WARNING",
+      "semantic_name": "WARNING",
+      "type": "SVG",
+      "semantic_role": "WARNING",
+      "filename": "ELM-WARNING.svg",
+      "viewBox": "0 0 512 512",
+      "render_engine": "REMOTION",
+      "production_status": "VECTOR_MASTER_READY",
+      "sha256": "c2ec5915906253c5cd2c86a89315dd0f56ac0cc9aefb606f1aaf154bad432f29",
+      "path": "packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-WARNING.svg",
+      "source_of_truth": "SVG",
+      "asset_pack": "XIAO-Y_Remotion_Element_Pack_v1",
+      "element_layout": {
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "default_scale": 1.0,
+        "safe_area": "TITLE",
+        "z_index": 30
+      }
+    },
+    {
+      "element_id": "ELM-CHECK",
+      "semantic_name": "CHECK",
+      "type": "SVG",
+      "semantic_role": "APPROVE",
+      "filename": "ELM-CHECK.svg",
+      "viewBox": "0 0 512 512",
+      "render_engine": "REMOTION",
+      "production_status": "VECTOR_MASTER_READY",
+      "sha256": "7d738aa014389bf30eba3551323ea0f8911bf2a89b2e5ca159a13ef5385d7085",
+      "path": "packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-CHECK.svg",
+      "source_of_truth": "SVG",
+      "asset_pack": "XIAO-Y_Remotion_Element_Pack_v1",
+      "element_layout": {
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "default_scale": 1.0,
+        "safe_area": "TITLE",
+        "z_index": 30
+      }
+    },
+    {
+      "element_id": "ELM-CROSS",
+      "semantic_name": "CROSS",
+      "type": "SVG",
+      "semantic_role": "REJECT",
+      "filename": "ELM-CROSS.svg",
+      "viewBox": "0 0 512 512",
+      "render_engine": "REMOTION",
+      "production_status": "VECTOR_MASTER_READY",
+      "sha256": "94ad12143bef5aa96244292b394058eaae88c51648227b23b792193ebba36c90",
+      "path": "packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-CROSS.svg",
+      "source_of_truth": "SVG",
+      "asset_pack": "XIAO-Y_Remotion_Element_Pack_v1",
+      "element_layout": {
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "default_scale": 1.0,
+        "safe_area": "TITLE",
+        "z_index": 30
+      }
+    },
+    {
+      "element_id": "ELM-QUESTION",
+      "semantic_name": "QUESTION",
+      "type": "SVG",
+      "semantic_role": "QUESTION",
+      "filename": "ELM-QUESTION.svg",
+      "viewBox": "0 0 512 512",
+      "render_engine": "REMOTION",
+      "production_status": "VECTOR_MASTER_READY",
+      "sha256": "563808229dc6c1c1f0f28d89353352e6e549dc888c27ee727103c6a5a5051c92",
+      "path": "packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-QUESTION.svg",
+      "source_of_truth": "SVG",
+      "asset_pack": "XIAO-Y_Remotion_Element_Pack_v1",
+      "element_layout": {
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "default_scale": 1.0,
+        "safe_area": "TITLE",
+        "z_index": 30
+      }
+    },
+    {
+      "element_id": "ELM-EXCLAMATION",
+      "semantic_name": "EXCLAMATION",
+      "type": "SVG",
+      "semantic_role": "EMPHASIS",
+      "filename": "ELM-EXCLAMATION.svg",
+      "viewBox": "0 0 512 512",
+      "render_engine": "REMOTION",
+      "production_status": "VECTOR_MASTER_READY",
+      "sha256": "45bd426b00fbc979455930fdefb6a54b93d7c8af057894f40fac059dc40fa316",
+      "path": "packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-EXCLAMATION.svg",
+      "source_of_truth": "SVG",
+      "asset_pack": "XIAO-Y_Remotion_Element_Pack_v1",
+      "element_layout": {
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "default_scale": 1.0,
+        "safe_area": "TITLE",
+        "z_index": 30
+      }
+    },
+    {
+      "element_id": "ELM-LIGHTBULB",
+      "semantic_name": "LIGHTBULB",
+      "type": "SVG",
+      "semantic_role": "IDEA",
+      "filename": "ELM-LIGHTBULB.svg",
+      "viewBox": "0 0 512 512",
+      "render_engine": "REMOTION",
+      "production_status": "VECTOR_MASTER_READY",
+      "sha256": "14aec54ea4837068b0afcffd1dc7b17746675520e1366f48e14ec1f9b75ccd89",
+      "path": "packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-LIGHTBULB.svg",
+      "source_of_truth": "SVG",
+      "asset_pack": "XIAO-Y_Remotion_Element_Pack_v1",
+      "element_layout": {
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "default_scale": 1.0,
+        "safe_area": "TITLE",
+        "z_index": 30
+      }
+    },
+    {
+      "element_id": "ELM-SPARKLE",
+      "semantic_name": "SPARKLE",
+      "type": "SVG",
+      "semantic_role": "POSITIVE",
+      "filename": "ELM-SPARKLE.svg",
+      "viewBox": "0 0 512 512",
+      "render_engine": "REMOTION",
+      "production_status": "VECTOR_MASTER_READY",
+      "sha256": "41ef4c322dbcd3958f74e97e7b55931defbb565071ab65e8557c71548eabdf2f",
+      "path": "packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-SPARKLE.svg",
+      "source_of_truth": "SVG",
+      "asset_pack": "XIAO-Y_Remotion_Element_Pack_v1",
+      "element_layout": {
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "default_scale": 1.0,
+        "safe_area": "TITLE",
+        "z_index": 30
+      }
+    },
+    {
+      "element_id": "ELM-THOUGHT-CLOUD",
+      "semantic_name": "THOUGHT_CLOUD",
+      "type": "SVG",
+      "semantic_role": "THINKING",
+      "filename": "ELM-THOUGHT-CLOUD.svg",
+      "viewBox": "0 0 512 512",
+      "render_engine": "REMOTION",
+      "production_status": "VECTOR_MASTER_READY",
+      "sha256": "0d12137ed856cefbcc55df1ad5e36d187200205d01c51d529bb79690d552381d",
+      "path": "packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-THOUGHT-CLOUD.svg",
+      "source_of_truth": "SVG",
+      "asset_pack": "XIAO-Y_Remotion_Element_Pack_v1",
+      "element_layout": {
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "default_scale": 1.0,
+        "safe_area": "TITLE",
+        "z_index": 30
+      }
+    },
+    {
+      "element_id": "ELM-HEART",
+      "semantic_name": "HEART",
+      "type": "SVG",
+      "semantic_role": "POSITIVE",
+      "filename": "ELM-HEART.svg",
+      "viewBox": "0 0 512 512",
+      "render_engine": "REMOTION",
+      "production_status": "VECTOR_MASTER_READY",
+      "sha256": "3cf86d8ac797b20543d9f3929543e47e458f194445e463a5ec909f3ef608a0a9",
+      "path": "packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-HEART.svg",
+      "source_of_truth": "SVG",
+      "asset_pack": "XIAO-Y_Remotion_Element_Pack_v1",
+      "element_layout": {
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "default_scale": 1.0,
+        "safe_area": "TITLE",
+        "z_index": 30
+      }
+    },
+    {
+      "element_id": "ELM-EMPHASIS-LINES",
+      "semantic_name": "EMPHASIS_LINES",
+      "type": "SVG",
+      "semantic_role": "EMPHASIS",
+      "filename": "ELM-EMPHASIS-LINES.svg",
+      "viewBox": "0 0 512 512",
+      "render_engine": "REMOTION",
+      "production_status": "VECTOR_MASTER_READY",
+      "sha256": "b4e18f59bb6ce87fcc86a4a1524a172c5e130a0e4c6713bfc9e735f28833eee0",
+      "path": "packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-EMPHASIS-LINES.svg",
+      "source_of_truth": "SVG",
+      "asset_pack": "XIAO-Y_Remotion_Element_Pack_v1",
+      "element_layout": {
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "default_scale": 1.0,
+        "safe_area": "TITLE",
+        "z_index": 30
+      }
+    },
+    {
+      "element_id": "ELM-ELLIPSIS",
+      "semantic_name": "ELLIPSIS",
+      "type": "SVG",
+      "semantic_role": "PAUSE",
+      "filename": "ELM-ELLIPSIS.svg",
+      "viewBox": "0 0 512 512",
+      "render_engine": "REMOTION",
+      "production_status": "VECTOR_MASTER_READY",
+      "sha256": "4fa8efed26cc9113a29098921ebf6d9557f3620c62b44058c42912ddbde8536c",
+      "path": "packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-ELLIPSIS.svg",
+      "source_of_truth": "SVG",
+      "asset_pack": "XIAO-Y_Remotion_Element_Pack_v1",
+      "element_layout": {
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "default_scale": 1.0,
+        "safe_area": "TITLE",
+        "z_index": 30
+      }
+    },
+    {
+      "element_id": "ELM-SPEECH-BUBBLE",
+      "semantic_name": "SPEECH_BUBBLE",
+      "type": "SVG",
+      "semantic_role": "DIALOGUE",
+      "filename": "ELM-SPEECH-BUBBLE.svg",
+      "viewBox": "0 0 512 512",
+      "render_engine": "REMOTION",
+      "production_status": "VECTOR_MASTER_READY",
+      "sha256": "7fe88272b1f880cab9f61e98fafb439cab58153831b876536b2005cd2634d14a",
+      "path": "packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-SPEECH-BUBBLE.svg",
+      "source_of_truth": "SVG",
+      "asset_pack": "XIAO-Y_Remotion_Element_Pack_v1",
+      "element_layout": {
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "default_scale": 1.0,
+        "safe_area": "TITLE",
+        "z_index": 30
+      }
+    },
+    {
+      "element_id": "ELM-BURST",
+      "semantic_name": "BURST",
+      "type": "SVG",
+      "semantic_role": "EMPHASIS",
+      "filename": "ELM-BURST.svg",
+      "viewBox": "0 0 512 512",
+      "render_engine": "REMOTION",
+      "production_status": "VECTOR_MASTER_READY",
+      "sha256": "19910ab986e4fd7fc650fb6583f4edcdaabb426331dcd3575ea8e36519a61f9a",
+      "path": "packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-BURST.svg",
+      "source_of_truth": "SVG",
+      "asset_pack": "XIAO-Y_Remotion_Element_Pack_v1",
+      "element_layout": {
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "default_scale": 1.0,
+        "safe_area": "TITLE",
+        "z_index": 30
+      }
+    },
+    {
+      "element_id": "ELM-NOTE-CARD",
+      "semantic_name": "NOTE_CARD",
+      "type": "SVG",
+      "semantic_role": "INFO",
+      "filename": "ELM-NOTE-CARD.svg",
+      "viewBox": "0 0 512 512",
+      "render_engine": "REMOTION",
+      "production_status": "VECTOR_MASTER_READY",
+      "sha256": "fbfe56509669424db46b70aa64053f4b30eade165210ff6e7fd9e2cb3581764a",
+      "path": "packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-NOTE-CARD.svg",
+      "source_of_truth": "SVG",
+      "asset_pack": "XIAO-Y_Remotion_Element_Pack_v1",
+      "element_layout": {
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "default_scale": 1.0,
+        "safe_area": "TITLE",
+        "z_index": 30
+      }
+    },
+    {
+      "element_id": "ELM-BROWSER-FRAME",
+      "semantic_name": "BROWSER_FRAME",
+      "type": "SVG",
+      "semantic_role": "MEDIA",
+      "filename": "ELM-BROWSER-FRAME.svg",
+      "viewBox": "0 0 512 512",
+      "render_engine": "REMOTION",
+      "production_status": "VECTOR_MASTER_READY",
+      "sha256": "a8fdfe5064385c37619bac0846b7c94316d921f0e0209dd02fec45f34ca2c15c",
+      "path": "packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-BROWSER-FRAME.svg",
+      "source_of_truth": "SVG",
+      "asset_pack": "XIAO-Y_Remotion_Element_Pack_v1",
+      "element_layout": {
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "default_scale": 1.0,
+        "safe_area": "TITLE",
+        "z_index": 30
+      }
+    },
+    {
+      "element_id": "ELM-QUOTE",
+      "semantic_name": "QUOTE_MARKS",
+      "type": "SVG",
+      "semantic_role": "QUOTE",
+      "filename": "ELM-QUOTE.svg",
+      "viewBox": "0 0 512 512",
+      "render_engine": "REMOTION",
+      "production_status": "VECTOR_MASTER_READY",
+      "sha256": "cb5308b9fff69ef331fdb343f4b332a3ad6f3e302bdb6362849311f26be5bdf2",
+      "path": "packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-QUOTE.svg",
+      "source_of_truth": "SVG",
+      "asset_pack": "XIAO-Y_Remotion_Element_Pack_v1",
+      "element_layout": {
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "default_scale": 1.0,
+        "safe_area": "TITLE",
+        "z_index": 30
+      }
+    },
+    {
+      "element_id": "ELM-CIRCLE-HIGHLIGHT",
+      "semantic_name": "CIRCLE_HIGHLIGHT",
+      "type": "SVG",
+      "semantic_role": "HIGHLIGHT",
+      "filename": "ELM-CIRCLE-HIGHLIGHT.svg",
+      "viewBox": "0 0 512 512",
+      "render_engine": "REMOTION",
+      "production_status": "VECTOR_MASTER_READY",
+      "sha256": "93907d6a3480f39b08a21b42edfc3fa5fdc3302202e628df81c1555132f7ed7d",
+      "path": "packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-CIRCLE-HIGHLIGHT.svg",
+      "source_of_truth": "SVG",
+      "asset_pack": "XIAO-Y_Remotion_Element_Pack_v1",
+      "element_layout": {
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "default_scale": 1.0,
+        "safe_area": "TITLE",
+        "z_index": 30
+      }
+    },
+    {
+      "element_id": "ELM-ARROW-LEFT",
+      "semantic_name": "ARROW_LEFT",
+      "type": "SVG",
+      "semantic_role": "DIRECTION",
+      "filename": "ELM-ARROW-LEFT.svg",
+      "viewBox": "0 0 512 512",
+      "render_engine": "REMOTION",
+      "production_status": "VECTOR_MASTER_READY",
+      "sha256": "c364466303d0c0e0d325ef4f21d99b672f02563b78332af0b1716bfb6531b2ce",
+      "path": "packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-ARROW-LEFT.svg",
+      "source_of_truth": "SVG",
+      "asset_pack": "XIAO-Y_Remotion_Element_Pack_v1",
+      "element_layout": {
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "default_scale": 1.0,
+        "safe_area": "TITLE",
+        "z_index": 30
+      }
+    },
+    {
+      "element_id": "ELM-ARROW-RIGHT",
+      "semantic_name": "ARROW_RIGHT",
+      "type": "SVG",
+      "semantic_role": "DIRECTION",
+      "filename": "ELM-ARROW-RIGHT.svg",
+      "viewBox": "0 0 512 512",
+      "render_engine": "REMOTION",
+      "production_status": "VECTOR_MASTER_READY",
+      "sha256": "fe29f11c880aa1d40e2abec7217d1a87742216bcf0590b31c579d8618fb214a0",
+      "path": "packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-ARROW-RIGHT.svg",
+      "source_of_truth": "SVG",
+      "asset_pack": "XIAO-Y_Remotion_Element_Pack_v1",
+      "element_layout": {
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "default_scale": 1.0,
+        "safe_area": "TITLE",
+        "z_index": 30
+      }
+    },
+    {
+      "element_id": "ELM-ARROW-UP",
+      "semantic_name": "ARROW_UP",
+      "type": "SVG",
+      "semantic_role": "DIRECTION",
+      "filename": "ELM-ARROW-UP.svg",
+      "viewBox": "0 0 512 512",
+      "render_engine": "REMOTION",
+      "production_status": "VECTOR_MASTER_READY",
+      "sha256": "343c346b94a0e82278edcd6b1de98207335e317ca7c2b206fa54083ac2059e2b",
+      "path": "packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-ARROW-UP.svg",
+      "source_of_truth": "SVG",
+      "asset_pack": "XIAO-Y_Remotion_Element_Pack_v1",
+      "element_layout": {
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "default_scale": 1.0,
+        "safe_area": "TITLE",
+        "z_index": 30
+      }
+    },
+    {
+      "element_id": "ELM-ARROW-DOWN",
+      "semantic_name": "ARROW_DOWN",
+      "type": "SVG",
+      "semantic_role": "DIRECTION",
+      "filename": "ELM-ARROW-DOWN.svg",
+      "viewBox": "0 0 512 512",
+      "render_engine": "REMOTION",
+      "production_status": "VECTOR_MASTER_READY",
+      "sha256": "028d89fd8f619a9acf56a2570ba7bb66f5430b360ee164c3e38e0478e4b780bd",
+      "path": "packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-ARROW-DOWN.svg",
+      "source_of_truth": "SVG",
+      "asset_pack": "XIAO-Y_Remotion_Element_Pack_v1",
+      "element_layout": {
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "default_scale": 1.0,
+        "safe_area": "TITLE",
+        "z_index": 30
+      }
+    },
+    {
+      "element_id": "ELM-A-BADGE",
+      "semantic_name": "A_BADGE",
+      "type": "SVG",
+      "semantic_role": "COMPARE",
+      "filename": "ELM-A-BADGE.svg",
+      "viewBox": "0 0 512 512",
+      "render_engine": "REMOTION",
+      "production_status": "VECTOR_MASTER_READY",
+      "sha256": "a4d91065d74472c8da3d461282b0e9e17ba644ef680e9b8288ce4f31c94453d1",
+      "path": "packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-A-BADGE.svg",
+      "source_of_truth": "SVG",
+      "asset_pack": "XIAO-Y_Remotion_Element_Pack_v1",
+      "element_layout": {
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "default_scale": 1.0,
+        "safe_area": "TITLE",
+        "z_index": 30
+      }
+    },
+    {
+      "element_id": "ELM-B-BADGE",
+      "semantic_name": "B_BADGE",
+      "type": "SVG",
+      "semantic_role": "COMPARE",
+      "filename": "ELM-B-BADGE.svg",
+      "viewBox": "0 0 512 512",
+      "render_engine": "REMOTION",
+      "production_status": "VECTOR_MASTER_READY",
+      "sha256": "8f453dafba657d9e1bfbdda9bd2fdfe46949e505105cfb0ab3b7dfc7c6db1752",
+      "path": "packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-B-BADGE.svg",
+      "source_of_truth": "SVG",
+      "asset_pack": "XIAO-Y_Remotion_Element_Pack_v1",
+      "element_layout": {
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "default_scale": 1.0,
+        "safe_area": "TITLE",
+        "z_index": 30
+      }
+    },
+    {
+      "element_id": "ELM-PHONE",
+      "semantic_name": "PHONE",
+      "type": "SVG",
+      "semantic_role": "DEVICE",
+      "filename": "ELM-PHONE.svg",
+      "viewBox": "0 0 512 512",
+      "render_engine": "REMOTION",
+      "production_status": "VECTOR_MASTER_READY",
+      "sha256": "b8082a22404afbb24dd4e6fc6ca2991c920a973feb8e42c0891149b92765193f",
+      "path": "packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-PHONE.svg",
+      "source_of_truth": "SVG",
+      "asset_pack": "XIAO-Y_Remotion_Element_Pack_v1",
+      "element_layout": {
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "default_scale": 1.0,
+        "safe_area": "TITLE",
+        "z_index": 30
+      }
+    },
+    {
+      "element_id": "ELM-LAPTOP",
+      "semantic_name": "LAPTOP",
+      "type": "SVG",
+      "semantic_role": "DEVICE",
+      "filename": "ELM-LAPTOP.svg",
+      "viewBox": "0 0 512 512",
+      "render_engine": "REMOTION",
+      "production_status": "VECTOR_MASTER_READY",
+      "sha256": "653873253e9c58b5640030ae6ca6b55ba2ddde5e4b844517db74a22878c8de71",
+      "path": "packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-LAPTOP.svg",
+      "source_of_truth": "SVG",
+      "asset_pack": "XIAO-Y_Remotion_Element_Pack_v1",
+      "element_layout": {
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "default_scale": 1.0,
+        "safe_area": "TITLE",
+        "z_index": 30
+      }
+    },
+    {
+      "element_id": "ELM-DOCUMENT",
+      "semantic_name": "DOCUMENT",
+      "type": "SVG",
+      "semantic_role": "DOCUMENT",
+      "filename": "ELM-DOCUMENT.svg",
+      "viewBox": "0 0 512 512",
+      "render_engine": "REMOTION",
+      "production_status": "VECTOR_MASTER_READY",
+      "sha256": "380eba001dc70019fdf8a547eb902509ed74a2c802f9504f118f0378c6b3d3d3",
+      "path": "packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-DOCUMENT.svg",
+      "source_of_truth": "SVG",
+      "asset_pack": "XIAO-Y_Remotion_Element_Pack_v1",
+      "element_layout": {
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "default_scale": 1.0,
+        "safe_area": "TITLE",
+        "z_index": 30
+      }
+    },
+    {
+      "element_id": "ELM-BOOK",
+      "semantic_name": "BOOK",
+      "type": "SVG",
+      "semantic_role": "READING",
+      "filename": "ELM-BOOK.svg",
+      "viewBox": "0 0 512 512",
+      "render_engine": "REMOTION",
+      "production_status": "VECTOR_MASTER_READY",
+      "sha256": "788c5e68e5da00cbdadebedc76fdd297098cf7c5ead6f4229c21d2f419d9e9b6",
+      "path": "packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-BOOK.svg",
+      "source_of_truth": "SVG",
+      "asset_pack": "XIAO-Y_Remotion_Element_Pack_v1",
+      "element_layout": {
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "default_scale": 1.0,
+        "safe_area": "TITLE",
+        "z_index": 30
+      }
+    },
+    {
+      "element_id": "ELM-PEN-NOTE",
+      "semantic_name": "PEN_NOTE",
+      "type": "SVG",
+      "semantic_role": "DOCUMENT",
+      "filename": "ELM-PEN-NOTE.svg",
+      "viewBox": "0 0 512 512",
+      "render_engine": "REMOTION",
+      "production_status": "VECTOR_MASTER_READY",
+      "sha256": "ccd2b0ee3c32961931e250b2ba9761d49776710cd53f2a84deba3d7db9457357",
+      "path": "packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-PEN-NOTE.svg",
+      "source_of_truth": "SVG",
+      "asset_pack": "XIAO-Y_Remotion_Element_Pack_v1",
+      "element_layout": {
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "default_scale": 1.0,
+        "safe_area": "TITLE",
+        "z_index": 30
+      }
+    },
+    {
+      "element_id": "ELM-BAR-CHART",
+      "semantic_name": "BAR_CHART",
+      "type": "SVG",
+      "semantic_role": "DATA",
+      "filename": "ELM-BAR-CHART.svg",
+      "viewBox": "0 0 512 512",
+      "render_engine": "REMOTION",
+      "production_status": "VECTOR_MASTER_READY",
+      "sha256": "db7b344d07b1c9ac2b5d26d9c95d72f02c049dfb8903bfa086379c09161b219c",
+      "path": "packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-BAR-CHART.svg",
+      "source_of_truth": "SVG",
+      "asset_pack": "XIAO-Y_Remotion_Element_Pack_v1",
+      "element_layout": {
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "default_scale": 1.0,
+        "safe_area": "TITLE",
+        "z_index": 30
+      }
+    },
+    {
+      "element_id": "ELM-LINE-CHART",
+      "semantic_name": "LINE_CHART",
+      "type": "SVG",
+      "semantic_role": "DATA",
+      "filename": "ELM-LINE-CHART.svg",
+      "viewBox": "0 0 512 512",
+      "render_engine": "REMOTION",
+      "production_status": "VECTOR_MASTER_READY",
+      "sha256": "094caf9990774ffe0706cf49c365f3a3396c8976e68aa1d33604d42ca6ffa3ca",
+      "path": "packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-LINE-CHART.svg",
+      "source_of_truth": "SVG",
+      "asset_pack": "XIAO-Y_Remotion_Element_Pack_v1",
+      "element_layout": {
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "default_scale": 1.0,
+        "safe_area": "TITLE",
+        "z_index": 30
+      }
+    },
+    {
+      "element_id": "ELM-IMAGE-FRAME",
+      "semantic_name": "IMAGE_FRAME",
+      "type": "SVG",
+      "semantic_role": "MEDIA",
+      "filename": "ELM-IMAGE-FRAME.svg",
+      "viewBox": "0 0 512 512",
+      "render_engine": "REMOTION",
+      "production_status": "VECTOR_MASTER_READY",
+      "sha256": "485f684b7684b19aedab92bf4a94145f218f318ef8e426aa15e4cd8df0f62d39",
+      "path": "packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-IMAGE-FRAME.svg",
+      "source_of_truth": "SVG",
+      "asset_pack": "XIAO-Y_Remotion_Element_Pack_v1",
+      "element_layout": {
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "default_scale": 1.0,
+        "safe_area": "TITLE",
+        "z_index": 30
+      }
+    },
+    {
+      "element_id": "ELM-VIDEO-FRAME",
+      "semantic_name": "VIDEO_FRAME",
+      "type": "SVG",
+      "semantic_role": "MEDIA",
+      "filename": "ELM-VIDEO-FRAME.svg",
+      "viewBox": "0 0 512 512",
+      "render_engine": "REMOTION",
+      "production_status": "VECTOR_MASTER_READY",
+      "sha256": "69c0c1ea000fdcea3ed277834df54738ee6e01dd1e04b16d0c09e33eb1cb09e7",
+      "path": "packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-VIDEO-FRAME.svg",
+      "source_of_truth": "SVG",
+      "asset_pack": "XIAO-Y_Remotion_Element_Pack_v1",
+      "element_layout": {
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "default_scale": 1.0,
+        "safe_area": "TITLE",
+        "z_index": 30
+      }
+    },
+    {
+      "element_id": "ELM-PLATFORM-LOGO-SLOT",
+      "semantic_name": "PLATFORM_LOGO_SLOT",
+      "type": "SVG",
+      "semantic_role": "MEDIA",
+      "filename": "ELM-PLATFORM-LOGO-SLOT.svg",
+      "viewBox": "0 0 512 512",
+      "render_engine": "REMOTION",
+      "production_status": "VECTOR_MASTER_READY",
+      "sha256": "2b1d5db53f6ade692152f5c0538d51e07d668e253cc9c11ccc611505e820c810",
+      "path": "packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-PLATFORM-LOGO-SLOT.svg",
+      "source_of_truth": "SVG",
+      "asset_pack": "XIAO-Y_Remotion_Element_Pack_v1",
+      "element_layout": {
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "default_scale": 1.0,
+        "safe_area": "TITLE",
+        "z_index": 30
+      }
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "review": {
+    "review_id": "REVIEW-VLA-001-A",
+    "plan_id": "VLA-001-A",
+    "plan_sha256": "874cefe4a204c92054f4ce73d55b98ebebbf54857c2faf022ec01683a3907ae2",
+    "status": "APPROVED",
+    "reviewer": "VLA_SPIKE_REVIEW_OPERATOR",
+    "rejection_reason": null,
+    "frames": [
+      {
+        "shot_id": "VLA-001-A-S01",
+        "path": "frames-reviewed/VLA-001-A-S01.png",
+        "time": 0.525
+      },
+      {
+        "shot_id": "VLA-001-A-S02",
+        "path": "frames-reviewed/VLA-001-A-S02.png",
+        "time": 1.98
+      },
+      {
+        "shot_id": "VLA-001-A-S03",
+        "path": "frames-reviewed/VLA-001-A-S03.png",
+        "time": 4.575
+      },
+      {
+        "shot_id": "VLA-001-A-S04",
+        "path": "frames-reviewed/VLA-001-A-S04.png",
+        "time": 6.79
+      },
+      {
+        "shot_id": "VLA-001-A-S05",
+        "path": "frames-reviewed/VLA-001-A-S05.png",
+        "time": 8.605
+      },
+      {
+        "shot_id": "VLA-001-A-S06",
+        "path": "frames-reviewed/VLA-001-A-S06.png",
+        "time": 10.875
+      },
+      {
+        "shot_id": "VLA-001-A-S07",
+        "path": "frames-reviewed/VLA-001-A-S07.png",
+        "time": 12.315000000000001
+      },
+      {
+        "shot_id": "VLA-001-A-S08",
+        "path": "frames-reviewed/VLA-001-A-S08.png",
+        "time": 14.085
+      },
+      {
+        "shot_id": "VLA-001-A-S09",
+        "path": "frames-reviewed/VLA-001-A-S09.png",
+        "time": 16.36
+      },
+      {
+        "shot_id": "VLA-001-A-S10",
+        "path": "frames-reviewed/VLA-001-A-S10.png",
+        "time": 18.21
+      }
+    ],
+    "edits": []
+  },
+  "rows": [
+    {
+      "beat_id": "A-B01",
+      "shot_id": "VLA-001-A-S01",
+      "narration": "研究页允许从本地文件导入资料，模型提取的原文候选需要操作者确认。",
+      "visual_job": "TRANSITION",
+      "visual_mode": "BRAND_BALANCED",
+      "shot_type": "CHARACTER_INTRO",
+      "primary": "XIAOY",
+      "evidence_asset": "EV-RESEARCH",
+      "evidence_region": "import_control",
+      "evidence_treatment": "DETAIL_CROP",
+      "character_role": "GUIDE",
+      "motion_semantic": "REVEAL",
+      "representative_frame": "frames-reviewed/VLA-001-A-S01.png"
+    },
+    {
+      "beat_id": "A-B02",
+      "shot_id": "VLA-001-A-S02",
+      "narration": "研究页允许从本地文件导入资料，模型提取的原文候选需要操作者确认。",
+      "visual_job": "DEMONSTRATE",
+      "visual_mode": "EVIDENCE_HEAVY",
+      "shot_type": "EVIDENCE_FOCUS",
+      "primary": "EVIDENCE",
+      "evidence_asset": "EV-RESEARCH",
+      "evidence_region": "import_control",
+      "evidence_treatment": "FOCUS_REGION",
+      "character_role": "NONE",
+      "motion_semantic": "FOLLOW",
+      "representative_frame": "frames-reviewed/VLA-001-A-S02.png"
+    },
+    {
+      "beat_id": "A-B03",
+      "shot_id": "VLA-001-A-S03",
+      "narration": "研究页允许从本地文件导入资料，模型提取的原文候选需要操作者确认。",
+      "visual_job": "PROVE",
+      "visual_mode": "EVIDENCE_HEAVY",
+      "shot_type": "EVIDENCE_HIGHLIGHT",
+      "primary": "EVIDENCE",
+      "evidence_asset": "EV-RESEARCH",
+      "evidence_region": "candidate_rule",
+      "evidence_treatment": "HIGHLIGHT_REGION",
+      "character_role": "NONE",
+      "motion_semantic": "FOCUS",
+      "representative_frame": "frames-reviewed/VLA-001-A-S03.png"
+    },
+    {
+      "beat_id": "A-B04",
+      "shot_id": "VLA-001-A-S04",
+      "narration": "候选引文不会自动成为已核实 Fact，这一步必须由人来把关。",
+      "visual_job": "REACT",
+      "visual_mode": "BRAND_BALANCED",
+      "shot_type": "CHARACTER_REACTION",
+      "primary": "XIAOY",
+      "evidence_asset": "EV-RESEARCH",
+      "evidence_region": "not_fact_rule",
+      "evidence_treatment": "DETAIL_CROP",
+      "character_role": "REACTION",
+      "motion_semantic": "INTERRUPT",
+      "representative_frame": "frames-reviewed/VLA-001-A-S04.png"
+    },
+    {
+      "beat_id": "A-B05",
+      "shot_id": "VLA-001-A-S05",
+      "narration": "候选引文不会自动成为已核实 Fact，这一步必须由人来把关。",
+      "visual_job": "WARN",
+      "visual_mode": "BRAND_BALANCED",
+      "shot_type": "EVIDENCE_HIGHLIGHT",
+      "primary": "EVIDENCE",
+      "evidence_asset": "EV-RESEARCH",
+      "evidence_region": "not_fact_rule",
+      "evidence_treatment": "HIGHLIGHT_REGION",
+      "character_role": "NONE",
+      "motion_semantic": "RETURN",
+      "representative_frame": "frames-reviewed/VLA-001-A-S05.png"
+    },
+    {
+      "beat_id": "A-B06",
+      "shot_id": "VLA-001-A-S06",
+      "narration": "候选引文不会自动成为已核实 Fact，这一步必须由人来把关。",
+      "visual_job": "WARN",
+      "visual_mode": "BRAND_BALANCED",
+      "shot_type": "CHARACTER_RESPONSIBILITY",
+      "primary": "XIAOY",
+      "evidence_asset": "EV-SCRIPT",
+      "evidence_region": "human_review",
+      "evidence_treatment": "DETAIL_CROP",
+      "character_role": "RESPONSIBILITY",
+      "motion_semantic": "INTERRUPT",
+      "representative_frame": "frames-reviewed/VLA-001-A-S06.png"
+    },
+    {
+      "beat_id": "A-B07",
+      "shot_id": "VLA-001-A-S07",
+      "narration": "Fact Pack 把选中的事实与来源绑定，脚本里的事实性主张要引用已有 Fact ID。",
+      "visual_job": "TRANSITION",
+      "visual_mode": "BRAND_BALANCED",
+      "shot_type": "CHARACTER_INTRO",
+      "primary": "XIAOY",
+      "evidence_asset": "EV-RESEARCH",
+      "evidence_region": "source_rule",
+      "evidence_treatment": "DETAIL_CROP",
+      "character_role": "TRANSITION",
+      "motion_semantic": "REVEAL",
+      "representative_frame": "frames-reviewed/VLA-001-A-S07.png"
+    },
+    {
+      "beat_id": "A-B08",
+      "shot_id": "VLA-001-A-S08",
+      "narration": "Fact Pack 把选中的事实与来源绑定，脚本里的事实性主张要引用已有 Fact ID。",
+      "visual_job": "EXPLAIN",
+      "visual_mode": "BRAND_BALANCED",
+      "shot_type": "RELATION_EXPLAIN",
+      "primary": "DIAGRAM",
+      "evidence_asset": "EV-RESEARCH",
+      "evidence_region": "source_rule",
+      "evidence_treatment": "RELATION",
+      "character_role": "NONE",
+      "motion_semantic": "CONNECT",
+      "representative_frame": "frames-reviewed/VLA-001-A-S08.png"
+    },
+    {
+      "beat_id": "A-B09",
+      "shot_id": "VLA-001-A-S09",
+      "narration": "Fact Pack 把选中的事实与来源绑定，脚本里的事实性主张要引用已有 Fact ID。",
+      "visual_job": "PROVE",
+      "visual_mode": "EVIDENCE_HEAVY",
+      "shot_type": "EVIDENCE_HIGHLIGHT",
+      "primary": "EVIDENCE",
+      "evidence_asset": "EV-SCRIPT",
+      "evidence_region": "fact_id_rule",
+      "evidence_treatment": "HIGHLIGHT_REGION",
+      "character_role": "NONE",
+      "motion_semantic": "FOCUS",
+      "representative_frame": "frames-reviewed/VLA-001-A-S09.png"
+    },
+    {
+      "beat_id": "A-B10",
+      "shot_id": "VLA-001-A-S10",
+      "narration": "Fact Pack 把选中的事实与来源绑定，脚本里的事实性主张要引用已有 Fact ID。",
+      "visual_job": "SUMMARIZE",
+      "visual_mode": "BRAND_BALANCED",
+      "shot_type": "EVIDENCE_HIGHLIGHT",
+      "primary": "EVIDENCE",
+      "evidence_asset": "EV-SCRIPT",
+      "evidence_region": "fact_id_rule",
+      "evidence_treatment": "HIGHLIGHT_REGION",
+      "character_role": "SUMMARY",
+      "motion_semantic": "SETTLE",
+      "representative_frame": "frames-reviewed/VLA-001-A-S10.png"
+    }
+  ],
+  "distributions": {
+    "visual_jobs": {
+      "TRANSITION": 2,
+      "DEMONSTRATE": 1,
+      "PROVE": 2,
+      "REACT": 1,
+      "WARN": 2,
+      "EXPLAIN": 1,
+      "SUMMARIZE": 1
+    },
+    "visual_modes": {
+      "BRAND_BALANCED": 7,
+      "EVIDENCE_HEAVY": 3
+    },
+    "shot_types": {
+      "CHARACTER_INTRO": 2,
+      "EVIDENCE_FOCUS": 1,
+      "EVIDENCE_HIGHLIGHT": 4,
+      "CHARACTER_REACTION": 1,
+      "CHARACTER_RESPONSIBILITY": 1,
+      "RELATION_EXPLAIN": 1
+    },
+    "evidence_treatments": {
+      "DETAIL_CROP": 4,
+      "FOCUS_REGION": 1,
+      "HIGHLIGHT_REGION": 4,
+      "RELATION": 1
+    },
+    "character_roles": {
+      "GUIDE": 1,
+      "REACTION": 1,
+      "RESPONSIBILITY": 1,
+      "TRANSITION": 1,
+      "SUMMARY": 1
+    }
+  }
+}

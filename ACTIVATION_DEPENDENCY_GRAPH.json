@@ -1,0 +1,437 @@
+{
+  "schema_version": 1,
+  "is_dag": true,
+  "primitive_nodes": {
+    "PRIM-STORAGE": "Immutable artifacts and SQLite",
+    "PRIM-OWNERSHIP": "Single writer / edit commands",
+    "PRIM-UI": "Workbench shell",
+    "PRIM-RENDER": "Remotion rendering interface",
+    "PRIM-REGISTRY": "Versioned pack registry"
+  },
+  "build_order": [
+    "PRIM-STORAGE",
+    "PRIM-REGISTRY",
+    "PRIM-OWNERSHIP",
+    "PRIM-RENDER",
+    "PRIM-UI",
+    "CAP-001",
+    "CAP-007",
+    "CAP-008",
+    "CAP-016",
+    "CAP-011",
+    "CAP-014",
+    "CAP-024",
+    "CAP-025",
+    "CAP-002",
+    "CAP-003",
+    "CAP-004",
+    "CAP-006",
+    "CAP-005",
+    "CAP-015",
+    "CAP-009",
+    "CAP-022",
+    "CAP-028",
+    "CAP-012",
+    "CAP-026",
+    "CAP-010",
+    "CAP-013",
+    "CAP-017",
+    "CAP-018",
+    "CAP-021",
+    "CAP-023",
+    "CAP-027",
+    "CAP-019",
+    "CAP-020"
+  ],
+  "capabilities": [
+    {
+      "capability_id": "CAP-001",
+      "prerequisites": [
+        "PRIM-STORAGE"
+      ],
+      "consumers": [
+        "CAP-002",
+        "CAP-003",
+        "CAP-004",
+        "CAP-006"
+      ],
+      "integrates_with": [],
+      "optional_integrations": []
+    },
+    {
+      "capability_id": "CAP-002",
+      "prerequisites": [
+        "CAP-001"
+      ],
+      "consumers": [],
+      "integrates_with": [],
+      "optional_integrations": []
+    },
+    {
+      "capability_id": "CAP-003",
+      "prerequisites": [
+        "CAP-001"
+      ],
+      "consumers": [],
+      "integrates_with": [
+        "CAP-009",
+        "CAP-011"
+      ],
+      "optional_integrations": []
+    },
+    {
+      "capability_id": "CAP-004",
+      "prerequisites": [
+        "CAP-001"
+      ],
+      "consumers": [],
+      "integrates_with": [],
+      "optional_integrations": []
+    },
+    {
+      "capability_id": "CAP-005",
+      "prerequisites": [
+        "CAP-007"
+      ],
+      "consumers": [],
+      "integrates_with": [
+        "CAP-006"
+      ],
+      "optional_integrations": []
+    },
+    {
+      "capability_id": "CAP-006",
+      "prerequisites": [
+        "CAP-001"
+      ],
+      "consumers": [],
+      "integrates_with": [
+        "CAP-007",
+        "CAP-012",
+        "CAP-016"
+      ],
+      "optional_integrations": []
+    },
+    {
+      "capability_id": "CAP-007",
+      "prerequisites": [
+        "PRIM-STORAGE"
+      ],
+      "consumers": [
+        "CAP-005",
+        "CAP-012",
+        "CAP-015",
+        "CAP-026"
+      ],
+      "integrates_with": [],
+      "optional_integrations": []
+    },
+    {
+      "capability_id": "CAP-008",
+      "prerequisites": [
+        "PRIM-STORAGE"
+      ],
+      "consumers": [
+        "CAP-009",
+        "CAP-012"
+      ],
+      "integrates_with": [],
+      "optional_integrations": []
+    },
+    {
+      "capability_id": "CAP-009",
+      "prerequisites": [
+        "CAP-008"
+      ],
+      "consumers": [
+        "CAP-012"
+      ],
+      "integrates_with": [
+        "CAP-012"
+      ],
+      "optional_integrations": []
+    },
+    {
+      "capability_id": "CAP-010",
+      "prerequisites": [
+        "CAP-012"
+      ],
+      "consumers": [],
+      "integrates_with": [
+        "CAP-013",
+        "CAP-014"
+      ],
+      "optional_integrations": []
+    },
+    {
+      "capability_id": "CAP-011",
+      "prerequisites": [
+        "PRIM-REGISTRY"
+      ],
+      "consumers": [
+        "CAP-012"
+      ],
+      "integrates_with": [
+        "CAP-022"
+      ],
+      "optional_integrations": []
+    },
+    {
+      "capability_id": "CAP-012",
+      "prerequisites": [
+        "CAP-007",
+        "CAP-008",
+        "CAP-009",
+        "CAP-011"
+      ],
+      "consumers": [
+        "CAP-010",
+        "CAP-013"
+      ],
+      "integrates_with": [],
+      "optional_integrations": []
+    },
+    {
+      "capability_id": "CAP-013",
+      "prerequisites": [
+        "CAP-012"
+      ],
+      "consumers": [
+        "CAP-017",
+        "CAP-018",
+        "CAP-021",
+        "CAP-023",
+        "CAP-027"
+      ],
+      "integrates_with": [
+        "CAP-014",
+        "CAP-022"
+      ],
+      "optional_integrations": []
+    },
+    {
+      "capability_id": "CAP-014",
+      "prerequisites": [
+        "PRIM-STORAGE",
+        "PRIM-OWNERSHIP"
+      ],
+      "consumers": [
+        "CAP-022"
+      ],
+      "integrates_with": [
+        "CAP-012",
+        "CAP-013",
+        "CAP-022"
+      ],
+      "optional_integrations": []
+    },
+    {
+      "capability_id": "CAP-015",
+      "prerequisites": [
+        "CAP-007"
+      ],
+      "consumers": [],
+      "integrates_with": [
+        "CAP-013"
+      ],
+      "optional_integrations": [
+        "CAP-019"
+      ]
+    },
+    {
+      "capability_id": "CAP-016",
+      "prerequisites": [
+        "PRIM-STORAGE"
+      ],
+      "consumers": [],
+      "integrates_with": [
+        "CAP-006",
+        "CAP-013"
+      ],
+      "optional_integrations": []
+    },
+    {
+      "capability_id": "CAP-017",
+      "prerequisites": [
+        "CAP-013",
+        "PRIM-RENDER"
+      ],
+      "consumers": [
+        "CAP-020"
+      ],
+      "integrates_with": [
+        "CAP-022",
+        "CAP-023"
+      ],
+      "optional_integrations": []
+    },
+    {
+      "capability_id": "CAP-018",
+      "prerequisites": [
+        "CAP-013",
+        "CAP-022"
+      ],
+      "consumers": [
+        "CAP-019",
+        "CAP-020"
+      ],
+      "integrates_with": [
+        "CAP-017",
+        "CAP-023"
+      ],
+      "optional_integrations": []
+    },
+    {
+      "capability_id": "CAP-019",
+      "prerequisites": [
+        "CAP-018"
+      ],
+      "consumers": [],
+      "integrates_with": [
+        "CAP-020"
+      ],
+      "optional_integrations": []
+    },
+    {
+      "capability_id": "CAP-020",
+      "prerequisites": [
+        "CAP-017",
+        "CAP-018"
+      ],
+      "consumers": [],
+      "integrates_with": [
+        "CAP-019",
+        "CAP-021",
+        "CAP-022"
+      ],
+      "optional_integrations": [
+        "CAP-019",
+        "CAP-021"
+      ]
+    },
+    {
+      "capability_id": "CAP-021",
+      "prerequisites": [
+        "CAP-013"
+      ],
+      "consumers": [],
+      "integrates_with": [
+        "CAP-022"
+      ],
+      "optional_integrations": []
+    },
+    {
+      "capability_id": "CAP-022",
+      "prerequisites": [
+        "PRIM-STORAGE",
+        "CAP-014"
+      ],
+      "consumers": [
+        "CAP-018"
+      ],
+      "integrates_with": [
+        "CAP-011",
+        "CAP-018",
+        "CAP-020",
+        "CAP-021",
+        "CAP-023"
+      ],
+      "optional_integrations": []
+    },
+    {
+      "capability_id": "CAP-023",
+      "prerequisites": [
+        "CAP-013",
+        "PRIM-RENDER"
+      ],
+      "consumers": [],
+      "integrates_with": [
+        "CAP-022",
+        "CAP-017",
+        "CAP-020"
+      ],
+      "optional_integrations": [
+        "CAP-019"
+      ]
+    },
+    {
+      "capability_id": "CAP-024",
+      "prerequisites": [
+        "PRIM-UI"
+      ],
+      "consumers": [],
+      "integrates_with": [
+        "CAP-001",
+        "CAP-002",
+        "CAP-003",
+        "CAP-004",
+        "CAP-005",
+        "CAP-006",
+        "CAP-007",
+        "CAP-008",
+        "CAP-009",
+        "CAP-010",
+        "CAP-011",
+        "CAP-012",
+        "CAP-013",
+        "CAP-014",
+        "CAP-015",
+        "CAP-016",
+        "CAP-017",
+        "CAP-018",
+        "CAP-019",
+        "CAP-020",
+        "CAP-021",
+        "CAP-022",
+        "CAP-023"
+      ],
+      "optional_integrations": []
+    },
+    {
+      "capability_id": "CAP-025",
+      "prerequisites": [
+        "PRIM-STORAGE",
+        "PRIM-UI"
+      ],
+      "consumers": [
+        "CAP-026",
+        "CAP-027",
+        "CAP-028"
+      ],
+      "integrates_with": [],
+      "optional_integrations": []
+    },
+    {
+      "capability_id": "CAP-026",
+      "prerequisites": [
+        "CAP-025",
+        "CAP-028",
+        "CAP-007"
+      ],
+      "consumers": [],
+      "integrates_with": [],
+      "optional_integrations": []
+    },
+    {
+      "capability_id": "CAP-027",
+      "prerequisites": [
+        "CAP-025",
+        "CAP-013"
+      ],
+      "consumers": [],
+      "integrates_with": [],
+      "optional_integrations": []
+    },
+    {
+      "capability_id": "CAP-028",
+      "prerequisites": [
+        "CAP-025"
+      ],
+      "consumers": [
+        "CAP-026"
+      ],
+      "integrates_with": [],
+      "optional_integrations": []
+    }
+  ]
+}

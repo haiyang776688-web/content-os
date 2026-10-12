@@ -1,0 +1,190 @@
+{
+  "$defs": {
+    "ContentBlock": {
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "enum": [
+            "TEXT",
+            "IMAGE",
+            "AUDIO",
+            "VIDEO",
+            "FILE",
+            "JSON"
+          ],
+          "title": "Type",
+          "type": "string"
+        },
+        "text": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Text"
+        },
+        "uri": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Uri"
+        },
+        "mime_type": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Mime Type"
+        },
+        "json_value": {
+          "anyOf": [
+            {},
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Json Value"
+        }
+      },
+      "required": [
+        "type"
+      ],
+      "title": "ContentBlock",
+      "type": "object"
+    },
+    "ModelMessage": {
+      "additionalProperties": false,
+      "properties": {
+        "role": {
+          "enum": [
+            "system",
+            "user",
+            "assistant",
+            "tool"
+          ],
+          "title": "Role",
+          "type": "string"
+        },
+        "content": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "items": {
+                "$ref": "#/$defs/ContentBlock"
+              },
+              "type": "array"
+            }
+          ],
+          "title": "Content"
+        }
+      },
+      "required": [
+        "role",
+        "content"
+      ],
+      "title": "ModelMessage",
+      "type": "object"
+    },
+    "Role": {
+      "enum": [
+        "RESEARCH",
+        "SCRIPT_PRIMARY",
+        "SCRIPT_EDITOR",
+        "AUDIT",
+        "DIRECTOR",
+        "MEDIA_RESOLVER",
+        "VOICE",
+        "VIDEO_QA",
+        "ANALYTICS",
+        "EVOLUTION"
+      ],
+      "title": "Role",
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "role": {
+      "$ref": "#/$defs/Role"
+    },
+    "worker_profile": {
+      "title": "Worker Profile",
+      "type": "string"
+    },
+    "system_prompt": {
+      "title": "System Prompt",
+      "type": "string"
+    },
+    "messages": {
+      "items": {
+        "$ref": "#/$defs/ModelMessage"
+      },
+      "title": "Messages",
+      "type": "array"
+    },
+    "content_blocks": {
+      "items": {
+        "$ref": "#/$defs/ContentBlock"
+      },
+      "title": "Content Blocks",
+      "type": "array"
+    },
+    "tools": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Tools",
+      "type": "array"
+    },
+    "response_schema": {
+      "anyOf": [
+        {
+          "additionalProperties": true,
+          "type": "object"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Response Schema"
+    },
+    "config": {
+      "additionalProperties": true,
+      "title": "Config",
+      "type": "object"
+    },
+    "prompt_version": {
+      "title": "Prompt Version",
+      "type": "string"
+    }
+  },
+  "required": [
+    "role",
+    "worker_profile",
+    "system_prompt",
+    "messages",
+    "prompt_version"
+  ],
+  "title": "ModelRequest",
+  "type": "object"
+}

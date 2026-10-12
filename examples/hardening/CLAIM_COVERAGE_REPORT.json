@@ -1,0 +1,31 @@
+{
+  "artifact_id": "ART-9ad83d9a0f0f453e",
+  "project_id": "PRJ-df2146b8a6b1",
+  "artifact_type": "CLAIM_COVERAGE_REPORT",
+  "revision": 1,
+  "created_by_role": "CLAIM_VALIDATOR",
+  "worker": null,
+  "provider": null,
+  "model": null,
+  "prompt_version": null,
+  "dependencies": [
+    {
+      "artifact_id": "ART-9b6c9b779c19418f",
+      "output_hash": "da12676ee8250df6605f85735e2299d894aca738db6bf6d3b11b52b9e4fe8a81"
+    }
+  ],
+  "input_hash": "f52fe7ac2175f91d82c7a9146f7c188f6d1598a7f0e6a8d463692d18622cef13",
+  "output_hash": "71b5c862afdb6ede376fd6d6098bc851f57cd065025cdde7ad17ee697031e7df",
+  "status": "READY",
+  "created_at": "2026-09-26T15:59:44.317899+00:00",
+  "payload": {
+    "candidates": [],
+    "issues": [],
+    "verdict": "PASS",
+    "script_artifact_id": "ART-9b6c9b779c19418f",
+    "contract_version": 2,
+    "semantic_review_required": true,
+    "detector": "DETERMINISTIC_HEURISTIC_V1"
+  },
+  "current_status": "READY"
+}

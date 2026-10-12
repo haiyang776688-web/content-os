@@ -1,0 +1,17 @@
+{
+  "targeted": {
+    "passed": 47,
+    "failed": 0,
+    "warnings": 1
+  },
+  "typescript": {
+    "status": "PASS"
+  },
+  "full_suite": {
+    "passed": 270,
+    "failed": 0,
+    "warnings": 1,
+    "seconds": 57.31
+  },
+  "known_nondeterministic_baseline_test": "DID_NOT_FAIL_IN_THIS_RUN"
+}

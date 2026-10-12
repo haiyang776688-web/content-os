@@ -1,0 +1,50 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "summary": {
+      "minLength": 1,
+      "title": "Summary",
+      "type": "string"
+    },
+    "detail": {
+      "default": "",
+      "title": "Detail",
+      "type": "string"
+    },
+    "root_cause": {
+      "default": "UNKNOWN",
+      "enum": [
+        "DATA",
+        "MODEL",
+        "TOOL",
+        "PROCESS",
+        "HUMAN",
+        "UNKNOWN"
+      ],
+      "title": "Root Cause",
+      "type": "string"
+    },
+    "artifact_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Artifact Id"
+    },
+    "submitted_by_role": {
+      "title": "Submitted By Role",
+      "type": "string"
+    }
+  },
+  "required": [
+    "summary",
+    "submitted_by_role"
+  ],
+  "title": "ErrorCandidate",
+  "type": "object"
+}

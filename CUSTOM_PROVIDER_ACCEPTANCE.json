@@ -1,0 +1,64 @@
+{
+  "generated_at": "2026-09-28T02:46:24.369655+00:00",
+  "status": "LIVE_VERIFIED",
+  "provider_id": "custom_b617a5973aae",
+  "display_name": "小Y 研究备用 · DeepSeek",
+  "base_url": "https://api.deepseek.com/v1",
+  "model_id": "deepseek-flash",
+  "checks": [
+    {
+      "check": "GUI creation with custom name, URL and model",
+      "passed": true
+    },
+    {
+      "check": "Credential copied in backend to stable custom Keychain ID via GUI",
+      "passed": true
+    },
+    {
+      "check": "Real connection test",
+      "passed": true
+    },
+    {
+      "check": "Real Research assignment and stage",
+      "passed": true
+    },
+    {
+      "check": "Artifact full provenance",
+      "passed": true
+    },
+    {
+      "check": "Research switched back to built-in through GUI",
+      "passed": true
+    },
+    {
+      "check": "Restart retained custom configuration and credential",
+      "passed": true
+    }
+  ],
+  "stage_artifact_id": "ART-f6fd7521cf424192",
+  "artifact_provenance": {
+    "provider": "custom_b617a5973aae",
+    "provider_id": "custom_b617a5973aae",
+    "provider_type": "CUSTOM",
+    "model_id": "deepseek-flash",
+    "adapter_version": "OPENAI_CHAT_V2",
+    "model": "deepseek-flash",
+    "attempts": 1,
+    "exercised_capabilities": [
+      "TEXT",
+      "STRUCTURED_OUTPUT"
+    ],
+    "run_id": "RUN-a25685f7a8794956",
+    "selected_worker": "custom_b617a5973aae",
+    "fallback_from": null,
+    "prompt_version": "RESEARCH_QUOTES_V1",
+    "skill_snapshot": "ART-01010231402e4cbf",
+    "timestamp": "2026-09-27T05:39:08.870815+00:00"
+  },
+  "latest_research_proposal": "ART-f6fd7521cf424192",
+  "not_claimed": [
+    "Custom vision/video capability",
+    "Arbitrary private protocols",
+    "Unimplemented custom headers"
+  ]
+}

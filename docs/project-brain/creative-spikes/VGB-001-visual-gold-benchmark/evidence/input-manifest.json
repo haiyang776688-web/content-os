@@ -1,0 +1,108 @@
+{
+  "source_script_sha256": "46cd2156fd054e80680af40e9f498fab09f7684e21d52dff9091513772de46a6",
+  "source_segments": [
+    {
+      "claim": true,
+      "fact_ids": [
+        "F-dc561e10da"
+      ],
+      "segment_id": "SEG-02",
+      "text": "研究页允许从本地文件导入资料，模型提取的原文候选需要操作者确认。"
+    },
+    {
+      "claim": true,
+      "fact_ids": [
+        "F-dc561e10da"
+      ],
+      "segment_id": "SEG-03",
+      "text": "候选引文不会自动成为已核实 Fact，这一步必须由人来把关。"
+    },
+    {
+      "claim": true,
+      "fact_ids": [
+        "F-71b1b7f9d0"
+      ],
+      "segment_id": "SEG-04",
+      "text": "Fact Pack 把选中的事实与来源绑定，脚本里的事实性主张要引用已有 Fact ID。"
+    }
+  ],
+  "source_interval": [
+    5.56,
+    24.68
+  ],
+  "duration": 19.12,
+  "fps": 30,
+  "frames": 574,
+  "canvas": [
+    1920,
+    1080
+  ],
+  "source_props_sha256": "81c20d4d6a226b8e68d3546785214405060ec248f41d4d1ff759fe4df1a2e898",
+  "source_voice_sha256": "6b0882100a779135ef8784a02eaeb5e2bb2efcf207dfdee39d987a4bdd742e95",
+  "trimmed_voice_sha256": "2fd92f28a638b732221c3a621c2823426b98044c3afb3f34fa1ff56a60068cd2",
+  "font_sha256": "b4616b25a4b235d02eb44363e36122fe828f6baaa9b94c3a90b37c33e10fab65",
+  "script_id": "ART-278087e926034f3b",
+  "voice_id": "ART-7ef0a1a38f894364",
+  "assets": [
+    {
+      "name": "research",
+      "source": "fixtures/creative-spike-1-evidence/research.png",
+      "sha256": "f58bd1a45eefe056e1cf8d6800f1e31c6e8cf8ea2ded001f243f2d80e22edd89",
+      "operation": "BYTE_COPY"
+    },
+    {
+      "name": "script",
+      "source": "fixtures/creative-spike-1-evidence/script.png",
+      "sha256": "29ce5a9ad5d1a069f11160f202492a03f81c070590796d53eb85b76bd4210b22",
+      "operation": "BYTE_COPY"
+    },
+    {
+      "name": "point",
+      "source": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-007_point_right.png",
+      "source_sha256": "2a04f4166c04bc76a74be76459d89344b7d39fcd7950abeaf8d6e949072eea3d",
+      "sha256": "7147df098178f52d7d6b6796132edb91eccf93dc3a9811f06652eb07485fac04",
+      "alpha_crop": [
+        194,
+        56,
+        975,
+        877
+      ]
+    },
+    {
+      "name": "think",
+      "source": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-025_thinking_chin.png",
+      "source_sha256": "09876932729bd14d1ec788b9b1dd6834a08c4da1716ac0a1b81d9d0d52d887d3",
+      "sha256": "aee4bf3a8aae39cd9db14f5dc2dab13acd8fdc55fd186f6c1e148b00593cad83",
+      "alpha_crop": [
+        193,
+        0,
+        832,
+        878
+      ]
+    },
+    {
+      "name": "serious",
+      "source": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-044_arms_crossed_serious.png",
+      "source_sha256": "98224de435934967460f803da3fc7da29ad531f22f86ee151aa6ba36c0ab3530",
+      "sha256": "9b7b1a72185ae3cd89a67e5d11b6be62ae2698d5a107704089a4f69c6f4a23b0",
+      "alpha_crop": [
+        178,
+        31,
+        984,
+        847
+      ]
+    },
+    {
+      "name": "surprise",
+      "source": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-030_surprised_stand.png",
+      "source_sha256": "f325b90961da60204e250864a2ef57c6a7e7b28cc37ac774dc7d2879a01cfcb6",
+      "sha256": "c7d543860bee1ee14f533e77da36d11cee9e11f1749e1ae312b0abac7d40fbb2",
+      "alpha_crop": [
+        131,
+        0,
+        806,
+        896
+      ]
+    }
+  ]
+}

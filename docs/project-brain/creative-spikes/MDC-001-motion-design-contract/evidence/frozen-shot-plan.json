@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "plan_id": "MDC-001-FOUR-SHOT",
+  "source_script_id": "ART-278087e926034f3b",
+  "visual_mode": "BRAND_BALANCED",
+  "beats": [
+    {
+      "beat_id": "MDC-B01",
+      "script_segment_id": "SEG-02",
+      "visual_job": "DEMONSTRATE",
+      "visual_mode": "EVIDENCE_HEAVY",
+      "shots": [
+        {
+          "shot_id": "MDC-S01",
+          "shot_type": "EVIDENCE_FOCUS",
+          "start": 0.0,
+          "end": 4.5,
+          "protagonist": {
+            "primary": "EVIDENCE",
+            "supporting": [],
+            "background": []
+          },
+          "evidence_asset_id": "EV-RESEARCH",
+          "evidence_treatment": "FOCUS_REGION",
+          "evidence_region_id": "import_control",
+          "character_role": "NONE",
+          "semantic_focus": "本地入口",
+          "motion_semantic": "FOCUS",
+          "callout": "聚焦入口"
+        }
+      ]
+    },
+    {
+      "beat_id": "MDC-B02",
+      "script_segment_id": "SEG-02",
+      "visual_job": "EXPLAIN",
+      "visual_mode": "BRAND_BALANCED",
+      "shots": [
+        {
+          "shot_id": "MDC-S02",
+          "shot_type": "CHARACTER_EXPLAIN",
+          "start": 4.5,
+          "end": 9.0,
+          "protagonist": {
+            "primary": "XIAOY",
+            "supporting": [],
+            "background": []
+          },
+          "evidence_asset_id": null,
+          "evidence_treatment": null,
+          "evidence_region_id": null,
+          "character_role": "EXPLAINER",
+          "semantic_focus": "人工审查边界",
+          "motion_semantic": "REVEAL",
+          "callout": "先看边界"
+        }
+      ]
+    },
+    {
+      "beat_id": "MDC-B03",
+      "script_segment_id": "SEG-03",
+      "visual_job": "REACT",
+      "visual_mode": "BRAND_BALANCED",
+      "shots": [
+        {
+          "shot_id": "MDC-S03",
+          "shot_type": "CHARACTER_REACTION",
+          "start": 9.0,
+          "end": 13.5,
+          "protagonist": {
+            "primary": "XIAOY",
+            "supporting": [
+              "EVIDENCE"
+            ],
+            "background": []
+          },
+          "evidence_asset_id": "EV-RESEARCH",
+          "evidence_treatment": "DETAIL_CROP",
+          "evidence_region_id": "candidate_rule",
+          "character_role": "REACTION",
+          "semantic_focus": "候选不能自动升级",
+          "motion_semantic": "INTERRUPT",
+          "callout": "等等。"
+        }
+      ]
+    },
+    {
+      "beat_id": "MDC-B04",
+      "script_segment_id": "SEG-04",
+      "visual_job": "EXPLAIN",
+      "visual_mode": "BRAND_BALANCED",
+      "shots": [
+        {
+          "shot_id": "MDC-S04",
+          "shot_type": "RELATION_EXPLAIN",
+          "start": 13.5,
+          "end": 19.12,
+          "protagonist": {
+            "primary": "DIAGRAM",
+            "supporting": [],
+            "background": [
+              "EVIDENCE"
+            ]
+          },
+          "evidence_asset_id": "EV-RESEARCH",
+          "evidence_treatment": "RELATION",
+          "evidence_region_id": "source_rule",
+          "character_role": "NONE",
+          "semantic_focus": "来源与事实绑定",
+          "motion_semantic": "CONNECT",
+          "callout": "SOURCE ↔ FACT"
+        }
+      ]
+    }
+  ]
+}

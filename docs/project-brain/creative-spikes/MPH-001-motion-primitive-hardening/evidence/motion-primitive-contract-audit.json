@@ -1,0 +1,194 @@
+{
+  "contract_id": "XIAOY_MOTION_PRIMITIVE_V1",
+  "declared_count": 11,
+  "implemented_count": 11,
+  "declared_but_unrendered": [],
+  "records": [
+    {
+      "primitive": "NONE",
+      "producer": "VisualCompiler implicit static layer",
+      "semantic_source": [
+        "STATIC"
+      ],
+      "allowed_layer_kinds": [
+        "BACKGROUND",
+        "CHROME",
+        "FACT_NODE",
+        "SUBTITLE"
+      ],
+      "renderer_consumer": "Layer/base",
+      "actual_behavior": "No animated property changes.",
+      "implemented": true,
+      "tested": true,
+      "fallback": "REJECT",
+      "notes": "Shared generic behavior."
+    },
+    {
+      "primitive": "PUSH_IN",
+      "producer": "VisualCompiler Motion Semantic resolver",
+      "semantic_source": [
+        "FOCUS"
+      ],
+      "allowed_layer_kinds": [
+        "EVIDENCE",
+        "CHARACTER"
+      ],
+      "renderer_consumer": "Layer/motionStyle",
+      "actual_behavior": "Uniform scale from 0.92 to 1.0.",
+      "implemented": true,
+      "tested": true,
+      "fallback": "REJECT",
+      "notes": "Shared generic behavior."
+    },
+    {
+      "primitive": "FADE_IN",
+      "producer": "VisualCompiler Motion Semantic resolver",
+      "semantic_source": [
+        "REVEAL",
+        "CONNECT_SUPPORTING_CONTEXT"
+      ],
+      "allowed_layer_kinds": [
+        "EVIDENCE",
+        "CHARACTER"
+      ],
+      "renderer_consumer": "Layer/motionStyle",
+      "actual_behavior": "Opacity from 0 to 1.",
+      "implemented": true,
+      "tested": true,
+      "fallback": "REJECT",
+      "notes": "Shared generic behavior."
+    },
+    {
+      "primitive": "FOLLOW_PATH",
+      "producer": "VisualCompiler Motion Semantic resolver",
+      "semantic_source": [
+        "FOLLOW"
+      ],
+      "allowed_layer_kinds": [
+        "EVIDENCE",
+        "CHARACTER"
+      ],
+      "renderer_consumer": "Layer/motionStyle",
+      "actual_behavior": "Horizontal translation from -5% to the compiled anchor.",
+      "implemented": true,
+      "tested": true,
+      "fallback": "REJECT",
+      "notes": "Shared generic behavior."
+    },
+    {
+      "primitive": "MATCHED_WIPE",
+      "producer": "VisualCompiler Motion Semantic resolver",
+      "semantic_source": [
+        "COMPARE"
+      ],
+      "allowed_layer_kinds": [
+        "EVIDENCE"
+      ],
+      "renderer_consumer": "Layer/motionStyle",
+      "actual_behavior": "Left-to-right clip reveal with a small horizontal arrival; no opacity alias.",
+      "implemented": true,
+      "tested": true,
+      "fallback": "REJECT",
+      "notes": "Shared generic behavior."
+    },
+    {
+      "primitive": "POP_CUT",
+      "producer": "VisualCompiler Motion Semantic resolver",
+      "semantic_source": [
+        "INTERRUPT"
+      ],
+      "allowed_layer_kinds": [
+        "EVIDENCE",
+        "CHARACTER"
+      ],
+      "renderer_consumer": "Layer/motionStyle",
+      "actual_behavior": "Uniform scale from 0.82 to 1.0.",
+      "implemented": true,
+      "tested": true,
+      "fallback": "REJECT",
+      "notes": "Shared generic behavior."
+    },
+    {
+      "primitive": "RETURN_TO_ANCHOR",
+      "producer": "VisualCompiler Motion Semantic resolver",
+      "semantic_source": [
+        "RETURN"
+      ],
+      "allowed_layer_kinds": [
+        "EVIDENCE",
+        "CHARACTER"
+      ],
+      "renderer_consumer": "Layer/motionStyle",
+      "actual_behavior": "Opacity 0 to 1 while uniformly scaling from 1.05 to 1.0.",
+      "implemented": true,
+      "tested": true,
+      "fallback": "REJECT",
+      "notes": "Shared generic behavior."
+    },
+    {
+      "primitive": "DRAW_CONNECTION",
+      "producer": "VisualCompiler relation layer emitter",
+      "semantic_source": [
+        "CONNECT"
+      ],
+      "allowed_layer_kinds": [
+        "RELATION"
+      ],
+      "renderer_consumer": "Layer/RELATION",
+      "actual_behavior": "SVG relation paths reveal through stroke dash offset only when this primitive is present.",
+      "implemented": true,
+      "tested": true,
+      "fallback": "REJECT",
+      "notes": "Layer-restricted procedural behavior."
+    },
+    {
+      "primitive": "SETTLE_HOLD",
+      "producer": "VisualCompiler Motion Semantic resolver",
+      "semantic_source": [
+        "SETTLE"
+      ],
+      "allowed_layer_kinds": [
+        "EVIDENCE",
+        "CHARACTER"
+      ],
+      "renderer_consumer": "Layer/motionStyle",
+      "actual_behavior": "Uniform scale from 1.025 to 1.0.",
+      "implemented": true,
+      "tested": true,
+      "fallback": "REJECT",
+      "notes": "Shared generic behavior."
+    },
+    {
+      "primitive": "DRAW_UNDERLINE",
+      "producer": "VisualCompiler highlight treatment emitter",
+      "semantic_source": [
+        "HIGHLIGHT_REGION"
+      ],
+      "allowed_layer_kinds": [
+        "UNDERLINE"
+      ],
+      "renderer_consumer": "Layer/UNDERLINE",
+      "actual_behavior": "Procedural underline width reveals from 0 to its compiled box width.",
+      "implemented": true,
+      "tested": true,
+      "fallback": "REJECT",
+      "notes": "Layer-restricted procedural behavior."
+    },
+    {
+      "primitive": "LABEL_REVEAL",
+      "producer": "VisualCompiler callout emitter",
+      "semantic_source": [
+        "CALLOUT"
+      ],
+      "allowed_layer_kinds": [
+        "CALLOUT"
+      ],
+      "renderer_consumer": "Layer/CALLOUT",
+      "actual_behavior": "Label opacity rises from 0 to 1 while horizontal offset returns from 24px to 0.",
+      "implemented": true,
+      "tested": true,
+      "fallback": "REJECT",
+      "notes": "Layer-restricted procedural behavior."
+    }
+  ]
+}

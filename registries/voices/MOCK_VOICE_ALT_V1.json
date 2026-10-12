@@ -1,0 +1,14 @@
+{
+  "voice_profile_id": "MOCK_VOICE_ALT_V1",
+  "display_name": "Mock alternate test tone (no speech)",
+  "provider": "MOCK",
+  "execution_mode": "MOCK",
+  "provider_voice_id": "test-tone-v2",
+  "voice_type": "BUILT_IN",
+  "language": "zh-CN",
+  "owner": "Content OS",
+  "consent_status": "NOT_REQUIRED",
+  "usage_scope": "contract testing only",
+  "version": 1,
+  "status": "ACTIVE"
+}

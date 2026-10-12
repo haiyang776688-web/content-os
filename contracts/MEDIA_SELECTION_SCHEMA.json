@@ -1,0 +1,60 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "media_need": {
+      "title": "Media Need",
+      "type": "string"
+    },
+    "mode": {
+      "default": "SUGGEST",
+      "enum": [
+        "AUTO",
+        "SUGGEST",
+        "MANUAL",
+        "LOCKED"
+      ],
+      "title": "Mode",
+      "type": "string"
+    },
+    "candidate_asset_ids": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Candidate Asset Ids",
+      "type": "array"
+    },
+    "selected_asset_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Selected Asset Id"
+    },
+    "status": {
+      "enum": [
+        "SUGGESTED",
+        "SELECTED",
+        "ASSET_GAP",
+        "LOCKED"
+      ],
+      "title": "Status",
+      "type": "string"
+    },
+    "rationale": {
+      "title": "Rationale",
+      "type": "string"
+    }
+  },
+  "required": [
+    "media_need",
+    "status",
+    "rationale"
+  ],
+  "title": "MediaSelection",
+  "type": "object"
+}

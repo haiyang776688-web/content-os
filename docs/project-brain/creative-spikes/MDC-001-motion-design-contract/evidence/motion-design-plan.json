@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "contract_id": "XIAOY_MOTION_DESIGN_V1",
+  "source_shot_plan_id": "MDC-001-FOUR-SHOT",
+  "phrases": [
+    {
+      "phrase_id": "MDC-MDC-S01",
+      "shot_id": "MDC-S01",
+      "intent": "FOCUS",
+      "motion_primary": "PROTAGONIST_PRIMARY",
+      "motion_secondary": [
+        "PROTAGONIST_SUPPORTING"
+      ],
+      "motion_background": [
+        "PROTAGONIST_BACKGROUND"
+      ],
+      "phases": [
+        {
+          "role": "PRIMARY",
+          "phase_semantic": "ANTICIPATION",
+          "relative_order": "BEFORE_PRIMARY",
+          "strength": "SUBTLE"
+        },
+        {
+          "role": "PRIMARY",
+          "phase_semantic": "PRIMARY_ACTION",
+          "relative_order": "WITH_PRIMARY",
+          "strength": "NORMAL"
+        },
+        {
+          "role": "SECONDARY",
+          "phase_semantic": "SECONDARY_RESPONSE",
+          "relative_order": "AFTER_PRIMARY",
+          "strength": "SUBTLE"
+        },
+        {
+          "role": "PRIMARY",
+          "phase_semantic": "SETTLE",
+          "relative_order": "AFTER_PRIMARY",
+          "strength": "SUBTLE"
+        }
+      ]
+    },
+    {
+      "phrase_id": "MDC-MDC-S02",
+      "shot_id": "MDC-S02",
+      "intent": "EXPLAIN",
+      "motion_primary": "PROTAGONIST_PRIMARY",
+      "motion_secondary": [
+        "PROTAGONIST_SUPPORTING"
+      ],
+      "motion_background": [
+        "PROTAGONIST_BACKGROUND"
+      ],
+      "phases": [
+        {
+          "role": "PRIMARY",
+          "phase_semantic": "PRIMARY_ACTION",
+          "relative_order": "WITH_PRIMARY",
+          "strength": "NORMAL"
+        },
+        {
+          "role": "SECONDARY",
+          "phase_semantic": "SECONDARY_RESPONSE",
+          "relative_order": "AFTER_PRIMARY",
+          "strength": "SUBTLE"
+        },
+        {
+          "role": "PRIMARY",
+          "phase_semantic": "SETTLE",
+          "relative_order": "AFTER_PRIMARY",
+          "strength": "SUBTLE"
+        }
+      ]
+    },
+    {
+      "phrase_id": "MDC-MDC-S03",
+      "shot_id": "MDC-S03",
+      "intent": "IMPACT_WARN",
+      "motion_primary": "PROTAGONIST_PRIMARY",
+      "motion_secondary": [
+        "PROTAGONIST_SUPPORTING"
+      ],
+      "motion_background": [
+        "PROTAGONIST_BACKGROUND"
+      ],
+      "phases": [
+        {
+          "role": "PRIMARY",
+          "phase_semantic": "ANTICIPATION",
+          "relative_order": "BEFORE_PRIMARY",
+          "strength": "SUBTLE"
+        },
+        {
+          "role": "PRIMARY",
+          "phase_semantic": "IMPACT",
+          "relative_order": "WITH_PRIMARY",
+          "strength": "STRONG"
+        },
+        {
+          "role": "SECONDARY",
+          "phase_semantic": "SECONDARY_RESPONSE",
+          "relative_order": "AFTER_PRIMARY",
+          "strength": "NORMAL"
+        },
+        {
+          "role": "PRIMARY",
+          "phase_semantic": "SETTLE",
+          "relative_order": "AFTER_PRIMARY",
+          "strength": "SUBTLE"
+        }
+      ]
+    },
+    {
+      "phrase_id": "MDC-MDC-S04",
+      "shot_id": "MDC-S04",
+      "intent": "CONNECT",
+      "motion_primary": "PROTAGONIST_PRIMARY",
+      "motion_secondary": [
+        "PROTAGONIST_SUPPORTING"
+      ],
+      "motion_background": [
+        "PROTAGONIST_BACKGROUND"
+      ],
+      "phases": [
+        {
+          "role": "BACKGROUND",
+          "phase_semantic": "ANTICIPATION",
+          "relative_order": "BEFORE_PRIMARY",
+          "strength": "SUBTLE"
+        },
+        {
+          "role": "PRIMARY",
+          "phase_semantic": "PRIMARY_ACTION",
+          "relative_order": "WITH_PRIMARY",
+          "strength": "NORMAL"
+        },
+        {
+          "role": "SECONDARY",
+          "phase_semantic": "SECONDARY_RESPONSE",
+          "relative_order": "AFTER_PRIMARY",
+          "strength": "SUBTLE"
+        },
+        {
+          "role": "PRIMARY",
+          "phase_semantic": "SETTLE",
+          "relative_order": "AFTER_PRIMARY",
+          "strength": "SUBTLE"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "revision": "XVT-0001",
+  "status": "READY",
+  "canvas": {"width": 1920, "height": 1080, "caption_safe_zone_px": {"left": 80, "top": 962, "width": 1760, "height": 92}},
+  "typography": {"background": "#FFFFFF", "ink": "#111111", "yellow": "#FFD51E", "red": "#F21E2C", "muted": "#E9EAEC", "keyword_zh_min": 2, "keyword_zh_max": 10, "supporting_lines_max": 2},
+  "templates": [
+    {"template_id":"CHARACTER_CENTER","semantic_usage":["NARRATION","SUMMARY"],"allowed_character_scale":["MEDIUM","FULL"],"allowed_character_presence":["PRESENT"],"text_slots":["keyword_optional"],"element_slots":["SUPPORTING"],"media_slots":[],"recommended_duration":[2,4],"visual_density":"LOW"},
+    {"template_id":"CHARACTER_LEFT_TEXT_RIGHT","semantic_usage":["NARRATION","QUESTION","KEYWORD"],"allowed_character_scale":["MEDIUM","FULL"],"allowed_character_presence":["PRESENT"],"text_slots":["keyword","supporting_optional"],"element_slots":["SUPPORTING"],"media_slots":[],"recommended_duration":[2,4],"visual_density":"MEDIUM"},
+    {"template_id":"INFO_LEFT_CHARACTER_RIGHT","semantic_usage":["INFORMATION","SUMMARY"],"allowed_character_scale":["MEDIUM","FULL"],"allowed_character_presence":["PRESENT"],"text_slots":["keyword","points"],"element_slots":["SUPPORTING","PRIMARY"],"media_slots":[],"recommended_duration":[3,6],"visual_density":"HIGH"},
+    {"template_id":"CHARACTER_LOGO","semantic_usage":["LOGO"],"allowed_character_scale":["MEDIUM","FULL"],"allowed_character_presence":["PRESENT"],"text_slots":["keyword"],"element_slots":["PRIMARY"],"media_slots":["DEMO_LOGO"],"recommended_duration":[2,4],"visual_density":"MEDIUM"},
+    {"template_id":"CHARACTER_SCREEN","semantic_usage":["DEMO_SCREEN"],"allowed_character_scale":["MINI","MEDIUM"],"allowed_character_presence":["PRESENT"],"text_slots":["keyword"],"element_slots":["SUPPORTING"],"media_slots":["DEMO_SCREEN"],"recommended_duration":[3,5],"visual_density":"HIGH"},
+    {"template_id":"EXTREME_CLOSEUP","semantic_usage":["REACTION","KEYWORD"],"allowed_character_scale":["EXTREME_CLOSEUP"],"allowed_character_presence":["PRESENT"],"text_slots":["keyword"],"element_slots":["SUPPORTING"],"media_slots":[],"recommended_duration":[1.5,3],"visual_density":"LOW"},
+    {"template_id":"KEYWORD_FULL_FRAME","semantic_usage":["KEYWORD"],"allowed_character_scale":["NONE"],"allowed_character_presence":["NONE"],"text_slots":["keyword"],"element_slots":["PRIMARY"],"media_slots":[],"recommended_duration":[1.5,3],"visual_density":"LOW"},
+    {"template_id":"SCREEN_FULL_FRAME","semantic_usage":["DEMO_SCREEN"],"allowed_character_scale":["NONE"],"allowed_character_presence":["NONE"],"text_slots":["keyword_optional"],"element_slots":["SUPPORTING"],"media_slots":["DEMO_SCREEN"],"recommended_duration":[3,5],"visual_density":"HIGH"},
+    {"template_id":"SCREEN_DETAIL_ZOOM","semantic_usage":["DETAIL"],"allowed_character_scale":["NONE"],"allowed_character_presence":["NONE"],"text_slots":["keyword"],"element_slots":["PRIMARY"],"media_slots":["DEMO_SCREEN"],"recommended_duration":[2,4],"visual_density":"HIGH"},
+    {"template_id":"COMPARE_SPLIT","semantic_usage":["COMPARE"],"allowed_character_scale":["NONE","MINI"],"allowed_character_presence":["NONE","PRESENT"],"text_slots":["compare_left","compare_right"],"element_slots":["PRIMARY"],"media_slots":[],"recommended_duration":[3,5],"visual_density":"HIGH"},
+    {"template_id":"THREE_POINT_SUMMARY","semantic_usage":["SUMMARY"],"allowed_character_scale":["MINI","MEDIUM"],"allowed_character_presence":["PRESENT"],"text_slots":["points"],"element_slots":["SUPPORTING"],"media_slots":[],"recommended_duration":[3,5],"visual_density":"MEDIUM"},
+    {"template_id":"CTA_END_CARD","semantic_usage":["CTA"],"allowed_character_scale":["MEDIUM","FULL"],"allowed_character_presence":["PRESENT"],"text_slots":["keyword"],"element_slots":["SUPPORTING"],"media_slots":[],"recommended_duration":[3,5],"visual_density":"LOW"}
+  ]
+}

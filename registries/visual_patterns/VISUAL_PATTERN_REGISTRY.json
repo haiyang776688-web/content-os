@@ -1,0 +1,139 @@
+[
+  {
+    "pattern_id": "CHARACTER_EXPLAIN_KEYWORD",
+    "version": "1",
+    "semantic_purpose": "Explain one idea",
+    "required_slots": [
+      "keyword"
+    ],
+    "optional_slots": [],
+    "layout_intent": "CHARACTER_LEFT_KEYWORD_RIGHT",
+    "reveal_motion": [
+      "PRIMARY",
+      "SECONDARY",
+      "SUPPORTING"
+    ],
+    "density": "MEDIUM",
+    "character_presence": "OPTIONAL"
+  },
+  {
+    "pattern_id": "CHARACTER_REACTION_MEDIA",
+    "version": "1",
+    "semantic_purpose": "React to evidence",
+    "required_slots": [
+      "media_asset_id"
+    ],
+    "optional_slots": [],
+    "layout_intent": "CHARACTER_LEFT_MEDIA_RIGHT",
+    "reveal_motion": [
+      "PRIMARY",
+      "SECONDARY",
+      "SUPPORTING"
+    ],
+    "density": "MEDIUM",
+    "character_presence": "OPTIONAL"
+  },
+  {
+    "pattern_id": "TIMELINE_PROCESS",
+    "version": "1",
+    "semantic_purpose": "Show a process",
+    "required_slots": [
+      "steps"
+    ],
+    "optional_slots": [],
+    "layout_intent": "HORIZONTAL_SEQUENCE",
+    "reveal_motion": [
+      "PRIMARY",
+      "SECONDARY",
+      "SUPPORTING"
+    ],
+    "density": "MEDIUM",
+    "character_presence": "OPTIONAL"
+  },
+  {
+    "pattern_id": "A_B_COMPARE",
+    "version": "1",
+    "semantic_purpose": "Compare conditions",
+    "required_slots": [
+      "a",
+      "b"
+    ],
+    "optional_slots": [],
+    "layout_intent": "TWO_COLUMNS",
+    "reveal_motion": [
+      "PRIMARY",
+      "SECONDARY",
+      "SUPPORTING"
+    ],
+    "density": "MEDIUM",
+    "character_presence": "OPTIONAL"
+  },
+  {
+    "pattern_id": "SCREEN_DETAIL",
+    "version": "1",
+    "semantic_purpose": "Highlight source evidence",
+    "required_slots": [
+      "media_asset_id"
+    ],
+    "optional_slots": [],
+    "layout_intent": "MEDIA_WITH_FOCUS",
+    "reveal_motion": [
+      "PRIMARY",
+      "SECONDARY",
+      "SUPPORTING"
+    ],
+    "density": "MEDIUM",
+    "character_presence": "OPTIONAL"
+  },
+  {
+    "pattern_id": "THREE_POINT_SUMMARY",
+    "version": "1",
+    "semantic_purpose": "Summarize three points",
+    "required_slots": [
+      "points"
+    ],
+    "optional_slots": [],
+    "layout_intent": "THREE_ROWS",
+    "reveal_motion": [
+      "PRIMARY",
+      "SECONDARY",
+      "SUPPORTING"
+    ],
+    "density": "MEDIUM",
+    "character_presence": "OPTIONAL"
+  },
+  {
+    "pattern_id": "NUMBER_EMPHASIS",
+    "version": "1",
+    "semantic_purpose": "Explain a source-bound number",
+    "required_slots": [
+      "number"
+    ],
+    "optional_slots": [],
+    "layout_intent": "NUMBER_WITH_CONTEXT",
+    "reveal_motion": [
+      "PRIMARY",
+      "SECONDARY",
+      "SUPPORTING"
+    ],
+    "density": "MEDIUM",
+    "character_presence": "OPTIONAL"
+  },
+  {
+    "pattern_id": "CHARACTER_ACTION_SEQUENCE",
+    "version": "1",
+    "semantic_purpose": "Explain actions",
+    "required_slots": [
+      "actions"
+    ],
+    "optional_slots": [],
+    "layout_intent": "ACTION_SEQUENCE",
+    "reveal_motion": [
+      "PRIMARY",
+      "SECONDARY",
+      "SUPPORTING"
+    ],
+    "density": "MEDIUM",
+    "character_presence": "OPTIONAL"
+  }
+]

@@ -1,0 +1,5 @@
+npm run build:monitor: PASS
+TypeScript --noEmit ProgramMonitor.tsx Composition.tsx index.tsx: PASS
+Acorn parse workbench.js phase2.js preview.js i18n.js: PASS
+Browser Space parent/iframe, frame steps, safe area and Fit/50%/100%: PASS
+Two locales: 10 pages + 6 panels each.

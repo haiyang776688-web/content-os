@@ -1,0 +1,120 @@
+{
+  "status": "COMPILED_NOT_HUMAN_ACCEPTED",
+  "shot_count": 9,
+  "visual_jobs": {
+    "TRANSITION": 2,
+    "PROVE": 2,
+    "EXPLAIN": 1,
+    "DEMONSTRATE": 2,
+    "WARN": 1,
+    "SUMMARIZE": 1
+  },
+  "visual_modes": {
+    "BRAND_BALANCED": 5,
+    "EVIDENCE_HEAVY": 4
+  },
+  "shot_types": {
+    "CHARACTER_INTRO": 2,
+    "EVIDENCE_HIGHLIGHT": 2,
+    "RELATION_EXPLAIN": 1,
+    "EVIDENCE_FOCUS": 2,
+    "CHARACTER_RESPONSIBILITY": 1,
+    "SUMMARY": 1
+  },
+  "evidence_treatments": {
+    "HIGHLIGHT_REGION": 2,
+    "RELATION": 1,
+    "FOCUS_REGION": 2,
+    "DETAIL_CROP": 1
+  },
+  "character_roles": {
+    "GUIDE": 1,
+    "RESPONSIBILITY": 1,
+    "TRANSITION": 1,
+    "SUMMARY": 1
+  },
+  "motion_semantics": {
+    "REVEAL": 2,
+    "FOCUS": 2,
+    "CONNECT": 1,
+    "FOLLOW": 2,
+    "INTERRUPT": 1,
+    "SETTLE": 1
+  },
+  "primary_protagonists": {
+    "XIAOY": 4,
+    "EVIDENCE": 4,
+    "DIAGRAM": 1
+  },
+  "seconds_since_last_visual_change": [
+    4.4,
+    4.6,
+    5.4,
+    5.5,
+    5.2,
+    4.7,
+    4.8,
+    5.2
+  ],
+  "shot_duration": [
+    4.4,
+    4.6,
+    5.4,
+    5.5,
+    5.2,
+    4.7,
+    4.8,
+    5.2,
+    4.8
+  ],
+  "evidence_hold_duration": [
+    4.6,
+    5.4,
+    5.5,
+    5.2,
+    4.7,
+    5.2
+  ],
+  "reaction_duration": [],
+  "primary_contract_pass": true,
+  "field_consumers": {
+    "ShotPlan.schema_version": "remotion_props.shot_plan_schema_version",
+    "ShotPlan.plan_id": "remotion_props.shot_plan_id",
+    "ShotPlan.source_script_id": "compiler_guard + remotion_props.source_script_id",
+    "ShotPlan.visual_mode": "compiler plan-wide mode override",
+    "ShotBeat.beat_id": "EDTClip.beat_id + Storyboard Review",
+    "ShotBeat.script_segment_id": "clip metadata + narration lookup",
+    "ShotBeat.visual_job": "compatibility validation + clip metadata + Storyboard Review",
+    "ShotBeat.visual_mode": "VisualCompiler layout recipe + clip metadata + Storyboard Review",
+    "Shot.*": "VisualCompiler layer/timing/provenance + Storyboard Review"
+  },
+  "script_sha256": "f1bf64bc72222c2aa93878bdc71c635b5897db471108f07925fe1c82ea57139f",
+  "voice_sha256": null,
+  "asset_aspect_ratio_qa": {
+    "verdict": "PASS",
+    "check": "ASSET_ASPECT_RATIO_INVARIANT",
+    "tolerance_percent": 0.5,
+    "checked_registered_assets": 10,
+    "issues": []
+  },
+  "motion_primitive_qa": {
+    "verdict": "PASS",
+    "check": "MOTION_PRIMITIVE_CAPABILITY_CONTRACT",
+    "contract_id": "XIAOY_MOTION_PRIMITIVE_V1",
+    "declared_primitive_count": 11,
+    "implemented_primitive_count": 11,
+    "checked_visual_clips": 50,
+    "emitted_primitives": {
+      "NONE": 28,
+      "FADE_IN": 3,
+      "LABEL_REVEAL": 9,
+      "PUSH_IN": 2,
+      "DRAW_UNDERLINE": 2,
+      "DRAW_CONNECTION": 1,
+      "FOLLOW_PATH": 2,
+      "POP_CUT": 2,
+      "SETTLE_HOLD": 1
+    },
+    "issues": []
+  }
+}

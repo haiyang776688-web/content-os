@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "spike": "FAI-001",
+  "method": {
+    "language": "zh",
+    "engine": "whisper.cpp",
+    "engine_version": "1.9.1",
+    "model_name": "ggml-medium.bin",
+    "model_sha256": "6c14d5adee5f86394037b4e4e8b59f1673b6cee10e3cf0b11bbdbee79c156208",
+    "dtw_preset": "medium",
+    "flash_attention": false,
+    "vad": false,
+    "minimum_coverage": 0.85,
+    "anchor_confidence": 0.65,
+    "timeout_seconds": 900
+  },
+  "alignment_method": "POST-TTS ASR TIMING + TRANSCRIPT ALIGNMENT",
+  "not_alignment_method": "TRANSCRIPT-CONDITIONED FORCED ALIGNMENT",
+  "model": {
+    "name": "ggml-medium.bin",
+    "sha256": "6c14d5adee5f86394037b4e4e8b59f1673b6cee10e3cf0b11bbdbee79c156208",
+    "disk_size_bytes": 1533763059,
+    "binary_committed": false
+  },
+  "sample_a": {
+    "name": "Sample A / frozen TCU regression",
+    "audio_duration_seconds": 84.76,
+    "audio_sha256": "2d0278e8a2bfcc2c483b2958d60ba9d6f902990bb7b2a2edf7879ddbec2cf813",
+    "script_sha256": "476672d70ca5021587d765552c013af05c265aabc579c8624b9784699f799906",
+    "cache_miss_wall_seconds": 17.78759012500086,
+    "cache_hit_wall_seconds": 0.016212499998800922,
+    "same_artifact_reused": true,
+    "cache_hit_reported": true,
+    "map_checks": {
+      "coverage": 0.9869109947643979,
+      "anchor_count": 386,
+      "char_anchor_count": 377,
+      "timestamps_monotonic_within_segment": true,
+      "timestamps_within_audio": true,
+      "raw_asr_segments_consumed_as_boundaries": false,
+      "approved_script_used_as_decoding_prompt": false,
+      "policy_fields_present": false
+    },
+    "performance": {
+      "alignment_runtime_seconds": 17.03059445800318,
+      "peak_memory_mb_approx": 2092.46875,
+      "peak_memory_measurement": "RUSAGE_CHILDREN_MAXRSS_PROCESS_GROUP_CUMULATIVE",
+      "child_maxrss_before": 41172992,
+      "child_maxrss_after": 2194112512,
+      "audio_duration_seconds": 84.76,
+      "real_time_factor": 0.2009272588249549,
+      "model_disk_size_bytes": 1533763059,
+      "cache_hit": false
+    },
+    "consumer": {
+      "timing_mode": "ALIGNED",
+      "fallback_used": false,
+      "alignment_artifact_id": "ART-69c6777e8adb4aa3",
+      "alignment_artifact_sha": "d87fd127370ee3a1dabbb84eb80943b51e0e7278457a78345700a996016a7dd1",
+      "engine": "whisper.cpp",
+      "engine_version": "1.9.1",
+      "model": "ggml-medium.bin",
+      "model_sha": "6c14d5adee5f86394037b4e4e8b59f1673b6cee10e3cf0b11bbdbee79c156208",
+      "coverage": 0.9869109947643979,
+      "alignment_method": "POST-TTS ASR TIMING + TRANSCRIPT ALIGNMENT",
+      "raw_asr_segments_used_as_boundaries": false,
+      "applied": [
+        {
+          "binding_id": "BIND-TG-004",
+          "boundary_id": "TG-004",
+          "beat_before_id": "B-08-01",
+          "beat_after_id": "B-08-02",
+          "old_timestamp_ms": 71820,
+          "new_timestamp_ms": 72880,
+          "confidence": 0.970127
+        },
+        {
+          "binding_id": "BIND-TG-007",
+          "boundary_id": "TG-007",
+          "beat_before_id": "B-09-01",
+          "beat_after_id": "B-09-02",
+          "old_timestamp_ms": 80954,
+          "new_timestamp_ms": 82860,
+          "confidence": 0.843492
+        }
+      ],
+      "beat_count_before": 18,
+      "beat_count_after": 18
+    },
+    "beat_ids_unchanged": true,
+    "beat_count_before": 18,
+    "beat_count_after": 18,
+    "semantic_fields_changed": false
+  },
+  "multi_sample": [
+    {
+      "sample": "SEG-01",
+      "category": "normal Mandarin / two-clause responsibility statement",
+      "audio_duration_seconds": 11.04,
+      "audio_sha256": "a5aad36dab7e27d7da39fcca244ec86b71b9d793d1c8b8c277fd4b1b17bc7321",
+      "script_sha256": "e89e42f4294e9bab4b72b08152461ad8b6d35069bccb5729d86c6a9f84330bdc",
+      "wall_seconds": 3.1516663340007653,
+      "real_time_factor": 0.2825868885865666,
+      "coverage": 0.98,
+      "checks": {
+        "coverage": 0.98,
+        "anchor_count": 50,
+        "char_anchor_count": 49,
+        "timestamps_monotonic_within_segment": true,
+        "timestamps_within_audio": true,
+        "raw_asr_segments_consumed_as_boundaries": false,
+        "approved_script_used_as_decoding_prompt": false,
+        "policy_fields_present": false
+      }
+    },
+    {
+      "sample": "SEG-04",
+      "category": "long clause / timing explanation",
+      "audio_duration_seconds": 10.28,
+      "audio_sha256": "07ea7e1d462c4d33222e717915bdb813ac6fdc8446aa6513964699ec77e05c50",
+      "script_sha256": "4c52727308bf1dd82c2f628244f3abba4bcf51a5c93f9485bc4b19a7faaf200b",
+      "wall_seconds": 2.840071458995226,
+      "real_time_factor": 0.27296709221824444,
+      "coverage": 1.0,
+      "checks": {
+        "coverage": 1.0,
+        "anchor_count": 44,
+        "char_anchor_count": 43,
+        "timestamps_monotonic_within_segment": true,
+        "timestamps_within_audio": true,
+        "raw_asr_segments_consumed_as_boundaries": false,
+        "approved_script_used_as_decoding_prompt": false,
+        "policy_fields_present": false
+      }
+    },
+    {
+      "sample": "SEG-05",
+      "category": "contrast and reading-time warning",
+      "audio_duration_seconds": 10.08,
+      "audio_sha256": "73cd0d89b01a10b086497a1c97777aec3982f47d7917f9036ee187358e43eca5",
+      "script_sha256": "8b43de11e95af25bb6ab3598ac594289e8f4bcccc3edda3417f9fb3026128953",
+      "wall_seconds": 2.9508696670018253,
+      "real_time_factor": 0.2888963748015764,
+      "coverage": 1.0,
+      "checks": {
+        "coverage": 1.0,
+        "anchor_count": 45,
+        "char_anchor_count": 44,
+        "timestamps_monotonic_within_segment": true,
+        "timestamps_within_audio": true,
+        "raw_asr_segments_consumed_as_boundaries": false,
+        "approved_script_used_as_decoding_prompt": false,
+        "policy_fields_present": false
+      }
+    },
+    {
+      "sample": "SEG-09",
+      "category": "late-video transition and conclusion",
+      "audio_duration_seconds": 8.88,
+      "audio_sha256": "881542dd218948c4a3147f80fe1e8b52e625e1093e37ddf469094e2a2bd2b0ed",
+      "script_sha256": "30e5fd2c692d08aa2a8269483084ec0c3c51a0abf074ffb6515ead7161f4dd4a",
+      "wall_seconds": 2.6116854590000003,
+      "real_time_factor": 0.2918347175681947,
+      "coverage": 0.975,
+      "checks": {
+        "coverage": 0.975,
+        "anchor_count": 40,
+        "char_anchor_count": 39,
+        "timestamps_monotonic_within_segment": true,
+        "timestamps_within_audio": true,
+        "raw_asr_segments_consumed_as_boundaries": false,
+        "approved_script_used_as_decoding_prompt": false,
+        "policy_fields_present": false
+      }
+    }
+  ],
+  "performance": {
+    "sample_a_runtime_seconds": 17.03059445800318,
+    "sample_a_real_time_factor": 0.2009272588249549,
+    "peak_memory_mb_approx": 2092.46875,
+    "peak_memory_measurement": "RUSAGE_CHILDREN_MAXRSS_PROCESS_GROUP_CUMULATIVE",
+    "four_minute_runtime_estimate_seconds": 48.22254211798918,
+    "cache_miss_wall_seconds": 17.78759012500086,
+    "cache_hit_wall_seconds": 0.016212499998800922
+  },
+  "scope": {
+    "production_consumer": "Existing Beat Timing Consumer",
+    "subtitle_consumer": "OUT_OF_SCOPE",
+    "production_default_changed": false
+  }
+}

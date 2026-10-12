@@ -1,0 +1,255 @@
+{
+  "schema_version": 1,
+  "observation_id": "ATS001-SAMPLE-A-CURRENT-BASELINE-001",
+  "baseline_type": "CURRENT_CONTENT_OS_RECORDED_VISUAL_BEAT_TIMELINE",
+  "captured_from_existing_outputs_only": true,
+  "source_artifact_ids": {
+    "audio_timing_map": "ART-de11de6cee654e77",
+    "director_ir": "ART-b4d37b320dd5416e",
+    "visual_edt": "ART-a592915c5e7f4634"
+  },
+  "audio_sha256": "2d0278e8a2bfcc2c483b2958d60ba9d6f902990bb7b2a2edf7879ddbec2cf813",
+  "script_sha256": "ca462d45d2e1329c9ec6766afe01db8e54ab2bc2c6294e8ab1bcd66ce4b2f173",
+  "audio_timing_provenance": {
+    "method": "MEASURED_SEGMENT_BOUNDARIES",
+    "worker": "MEASURED_SEGMENT_CONCAT",
+    "version": "1",
+    "detail": "Measured segment files; one subtitle phrase per segment, not forced word alignment"
+  },
+  "evaluation_definition": {
+    "no_boundary": "FALSE_POSITIVE_BOUNDARY only if an existing intra-segment visual beat boundary lies inside the user forbidden range; otherwise TRUE_NEGATIVE.",
+    "boundary_detection": "TRUE_POSITIVE when the existing visual timeline has an intra-segment beat cut in the mapped source segment; nearest cut timing error is reported separately. This is segment-level presence, not exact phrase/token recognition.",
+    "controls": "Existing cuts in a user-reviewed normal control interval are baseline references, not regressions; a regression means a newly introduced anomaly relative to that frozen baseline."
+  },
+  "targeted_classification": {
+    "true_positive": 2,
+    "true_negative": 5,
+    "false_positive_boundary": 1,
+    "false_negative_boundary": 0,
+    "cases": [
+      {
+        "case_id": "TG-001",
+        "verdict": "NO_BOUNDARY",
+        "segment_id": "SEG-01",
+        "current_segment_boundary_candidates_ms": [
+          5520
+        ],
+        "candidate_inside_forbidden_range_ms": [],
+        "classification": "TRUE_NEGATIVE",
+        "timing_error_ms": null,
+        "timing_error_frames_30fps": null
+      },
+      {
+        "case_id": "TG-002",
+        "verdict": "NO_BOUNDARY",
+        "segment_id": "SEG-04",
+        "current_segment_boundary_candidates_ms": [
+          33340
+        ],
+        "candidate_inside_forbidden_range_ms": [],
+        "classification": "TRUE_NEGATIVE",
+        "timing_error_ms": null,
+        "timing_error_frames_30fps": null
+      },
+      {
+        "case_id": "TG-003",
+        "verdict": "NO_BOUNDARY",
+        "segment_id": "SEG-06",
+        "current_segment_boundary_candidates_ms": [
+          52760
+        ],
+        "candidate_inside_forbidden_range_ms": [],
+        "classification": "TRUE_NEGATIVE",
+        "timing_error_ms": null,
+        "timing_error_frames_30fps": null
+      },
+      {
+        "case_id": "TG-004",
+        "verdict": "BOUNDARY",
+        "segment_id": "SEG-08",
+        "correct_boundary_timestamp_ms": 72780,
+        "nearest_current_segment_boundary_ms": 71820,
+        "classification": "TRUE_POSITIVE",
+        "absolute_error_ms": 960,
+        "absolute_error_frames_30fps": 28.8,
+        "classification_granularity": "INTRA_SEGMENT_CANDIDATE_PRESENCE; nearest segment cut used for independent timing metric"
+      },
+      {
+        "case_id": "TG-005",
+        "verdict": "NO_BOUNDARY",
+        "segment_id": "SEG-08",
+        "current_segment_boundary_candidates_ms": [
+          71820
+        ],
+        "candidate_inside_forbidden_range_ms": [],
+        "classification": "TRUE_NEGATIVE",
+        "timing_error_ms": null,
+        "timing_error_frames_30fps": null
+      },
+      {
+        "case_id": "TG-006",
+        "verdict": "NO_BOUNDARY",
+        "segment_id": "SEG-09",
+        "current_segment_boundary_candidates_ms": [
+          80954
+        ],
+        "candidate_inside_forbidden_range_ms": [
+          80954
+        ],
+        "classification": "FALSE_POSITIVE_BOUNDARY",
+        "timing_error_ms": null,
+        "timing_error_frames_30fps": null
+      },
+      {
+        "case_id": "TG-007",
+        "verdict": "BOUNDARY",
+        "segment_id": "SEG-09",
+        "correct_boundary_timestamp_ms": 82572,
+        "nearest_current_segment_boundary_ms": 80954,
+        "classification": "TRUE_POSITIVE",
+        "absolute_error_ms": 1618,
+        "absolute_error_frames_30fps": 48.54,
+        "classification_granularity": "INTRA_SEGMENT_CANDIDATE_PRESENCE; nearest segment cut used for independent timing metric"
+      },
+      {
+        "case_id": "TG-008",
+        "verdict": "NO_BOUNDARY",
+        "segment_id": "SEG-09",
+        "current_segment_boundary_candidates_ms": [
+          80954
+        ],
+        "candidate_inside_forbidden_range_ms": [],
+        "classification": "TRUE_NEGATIVE",
+        "timing_error_ms": null,
+        "timing_error_frames_30fps": null
+      }
+    ]
+  },
+  "boundary_timing_error": {
+    "applies_only_to": "BOUNDARY",
+    "n": 2,
+    "absolute_error_ms": [
+      960,
+      1618
+    ],
+    "median_ms": 1289.0,
+    "p90_ms": 1552.2,
+    "p95_ms": 1585.1,
+    "max_ms": 1618,
+    "absolute_error_frames_30fps": [
+      28.8,
+      48.54
+    ]
+  },
+  "normal_control_regression": {
+    "controls_n": 10,
+    "new_segmentation_regression": 0,
+    "existing_timeline_cut_controls_n": 1,
+    "controls": [
+      {
+        "control_id": "NC-001",
+        "segment_id": "SEG-01",
+        "window_start_ms": 5100,
+        "window_end_ms": 5900,
+        "current_visual_beat_boundaries_ms": [
+          5520
+        ],
+        "baseline_state": "NORMAL_USER_REVIEWED_REGION",
+        "new_segmentation_regression": false
+      },
+      {
+        "control_id": "NC-002",
+        "segment_id": "SEG-02",
+        "window_start_ms": 12740,
+        "window_end_ms": 13540,
+        "current_visual_beat_boundaries_ms": [],
+        "baseline_state": "NORMAL_USER_REVIEWED_REGION",
+        "new_segmentation_regression": false
+      },
+      {
+        "control_id": "NC-003",
+        "segment_id": "SEG-03",
+        "window_start_ms": 26460,
+        "window_end_ms": 27260,
+        "current_visual_beat_boundaries_ms": [],
+        "baseline_state": "NORMAL_USER_REVIEWED_REGION",
+        "new_segmentation_regression": false
+      },
+      {
+        "control_id": "NC-004",
+        "segment_id": "SEG-04",
+        "window_start_ms": 31100,
+        "window_end_ms": 31900,
+        "current_visual_beat_boundaries_ms": [],
+        "baseline_state": "NORMAL_USER_REVIEWED_REGION",
+        "new_segmentation_regression": false
+      },
+      {
+        "control_id": "NC-005",
+        "segment_id": "SEG-05",
+        "window_start_ms": 39580,
+        "window_end_ms": 40380,
+        "current_visual_beat_boundaries_ms": [],
+        "baseline_state": "NORMAL_USER_REVIEWED_REGION",
+        "new_segmentation_regression": false
+      },
+      {
+        "control_id": "NC-006",
+        "segment_id": "SEG-06",
+        "window_start_ms": 53660,
+        "window_end_ms": 54460,
+        "current_visual_beat_boundaries_ms": [],
+        "baseline_state": "NORMAL_USER_REVIEWED_REGION",
+        "new_segmentation_regression": false
+      },
+      {
+        "control_id": "NC-007",
+        "segment_id": "SEG-07",
+        "window_start_ms": 64860,
+        "window_end_ms": 65660,
+        "current_visual_beat_boundaries_ms": [],
+        "baseline_state": "NORMAL_USER_REVIEWED_REGION",
+        "new_segmentation_regression": false
+      },
+      {
+        "control_id": "NC-008",
+        "segment_id": "SEG-08",
+        "window_start_ms": 68860,
+        "window_end_ms": 69660,
+        "current_visual_beat_boundaries_ms": [],
+        "baseline_state": "NORMAL_USER_REVIEWED_REGION",
+        "new_segmentation_regression": false
+      },
+      {
+        "control_id": "NC-009",
+        "segment_id": "SEG-09",
+        "window_start_ms": 78980,
+        "window_end_ms": 79780,
+        "current_visual_beat_boundaries_ms": [],
+        "baseline_state": "NORMAL_USER_REVIEWED_REGION",
+        "new_segmentation_regression": false
+      },
+      {
+        "control_id": "NC-010",
+        "segment_id": "SEG-02",
+        "window_start_ms": 19140,
+        "window_end_ms": 19940,
+        "current_visual_beat_boundaries_ms": [],
+        "baseline_state": "NORMAL_USER_REVIEWED_REGION",
+        "new_segmentation_regression": false
+      }
+    ]
+  },
+  "all_existing_intra_segment_visual_beat_boundaries_ms": [
+    5520,
+    15800,
+    23834,
+    33340,
+    42800,
+    52760,
+    62389,
+    71820,
+    80954
+  ],
+  "limitation": "This baseline describes the persisted Director IR + Visual EDT timeline mapped against the real measured segment AudioTimingMap. It is not an acoustic speech boundary detector; subtitle word timing remains a separate consumer gap."
+}

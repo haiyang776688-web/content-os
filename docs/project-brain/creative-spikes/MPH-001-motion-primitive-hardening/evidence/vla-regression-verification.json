@@ -1,0 +1,186 @@
+{
+  "status": "PASS",
+  "tests": {
+    "A": {
+      "render": {
+        "path": "VLA-001-A-Final.mp4 (temporary regression render; SHA retained)",
+        "duration": 19.178667,
+        "frames": 574,
+        "resolution": [
+          1920,
+          1080
+        ],
+        "fps": "30/1",
+        "has_audio": true,
+        "audio_hash": "SHA256=a4b438037280fe1abeaf0f78ef11737cbf1ce54e759e32bbd038098373c4995b",
+        "sha256": "26303e119f5740a140bf246b476f01c43c5bacdcf579fef2580acced31516dc0",
+        "bytes": 2821401
+      },
+      "previous_render_sha256": "323b8bbb7c768463080c55007ec6a3d974e756c10cc0eeed968efc51463c574c",
+      "render_sha_changed": true,
+      "render_change_reason": "CONNECT supporting Evidence now uses FADE_IN; DRAW_CONNECTION is restricted to RELATION and consumed by path drawing.",
+      "storyboard_gate": {
+        "status": "APPROVED",
+        "reviewer": "VLA_SPIKE_REVIEW_OPERATOR",
+        "edit_count": 0,
+        "render_was_gated": true
+      },
+      "distributions": {
+        "visual_jobs": {
+          "TRANSITION": 2,
+          "DEMONSTRATE": 1,
+          "PROVE": 2,
+          "REACT": 1,
+          "WARN": 2,
+          "EXPLAIN": 1,
+          "SUMMARIZE": 1
+        },
+        "visual_modes": {
+          "BRAND_BALANCED": 7,
+          "EVIDENCE_HEAVY": 3
+        },
+        "shot_types": {
+          "CHARACTER_INTRO": 2,
+          "EVIDENCE_FOCUS": 1,
+          "EVIDENCE_HIGHLIGHT": 4,
+          "CHARACTER_REACTION": 1,
+          "CHARACTER_RESPONSIBILITY": 1,
+          "RELATION_EXPLAIN": 1
+        },
+        "evidence_treatments": {
+          "DETAIL_CROP": 4,
+          "FOCUS_REGION": 1,
+          "HIGHLIGHT_REGION": 4,
+          "RELATION": 1
+        },
+        "character_roles": {
+          "GUIDE": 1,
+          "REACTION": 1,
+          "RESPONSIBILITY": 1,
+          "TRANSITION": 1,
+          "SUMMARY": 1
+        }
+      },
+      "contracts": {
+        "one_primary": true,
+        "geometry_owner": "VISUAL_COMPILER_V1",
+        "renderer_policy_free": true,
+        "all_generated_fields_consumed": true
+      },
+      "visual_inspection": {
+        "status": "PASS",
+        "ppt_regression": false,
+        "asset_distortion": false,
+        "notes": "Reviewed contact sheet after true render."
+      },
+      "known_f2_regression": {
+        "visual_job_sequence_equal": true,
+        "shot_count_equal": true,
+        "script_hash_equal": true,
+        "frozen_audio_present": true
+      }
+    },
+    "B": {
+      "render": {
+        "path": "VLA-001-B-Final.mp4 (temporary regression render; SHA retained)",
+        "duration": 44.6,
+        "frames": 1338,
+        "resolution": [
+          1920,
+          1080
+        ],
+        "fps": "30/1",
+        "has_audio": false,
+        "audio_hash": null,
+        "sha256": "4ff12d6f8241a450cb6e502fff9e838977ed99ea165d65210dd4ac4e10df5759",
+        "bytes": 2563001
+      },
+      "previous_render_sha256": "85249d36b95bf3a6ba4053b8f9e3bfcfd433b32d25b99dd3dd15be253c0e55d8",
+      "render_sha_changed": true,
+      "render_change_reason": "CONNECT supporting Evidence now uses FADE_IN; DRAW_CONNECTION is restricted to RELATION and consumed by path drawing.",
+      "storyboard_gate": {
+        "status": "APPROVED",
+        "reviewer": "VLA_SPIKE_REVIEW_OPERATOR",
+        "edit_count": 2,
+        "render_was_gated": true
+      },
+      "distributions": {
+        "visual_jobs": {
+          "TRANSITION": 2,
+          "PROVE": 2,
+          "EXPLAIN": 1,
+          "DEMONSTRATE": 2,
+          "WARN": 1,
+          "SUMMARIZE": 1
+        },
+        "visual_modes": {
+          "BRAND_BALANCED": 5,
+          "EVIDENCE_HEAVY": 4
+        },
+        "shot_types": {
+          "CHARACTER_INTRO": 2,
+          "EVIDENCE_HIGHLIGHT": 2,
+          "RELATION_EXPLAIN": 1,
+          "EVIDENCE_FOCUS": 2,
+          "CHARACTER_RESPONSIBILITY": 1,
+          "SUMMARY": 1
+        },
+        "evidence_treatments": {
+          "HIGHLIGHT_REGION": 2,
+          "RELATION": 1,
+          "FOCUS_REGION": 2,
+          "DETAIL_CROP": 1
+        },
+        "character_roles": {
+          "GUIDE": 1,
+          "RESPONSIBILITY": 1,
+          "TRANSITION": 1,
+          "SUMMARY": 1
+        }
+      },
+      "contracts": {
+        "one_primary": true,
+        "geometry_owner": "VISUAL_COMPILER_V1",
+        "renderer_policy_free": true,
+        "all_generated_fields_consumed": true
+      },
+      "visual_inspection": {
+        "status": "PASS",
+        "ppt_regression": false,
+        "asset_distortion": false,
+        "notes": "Reviewed contact sheet after true render."
+      },
+      "unseen_generalization": {
+        "duration_in_requested_range": true,
+        "new_script_id": "VLA-001-UNSEEN-SCRIPT",
+        "visual_job_count": 6,
+        "registered_evidence_used": true,
+        "mode_responsibility_change": true,
+        "shot_plan_hand_authored": false,
+        "human_pre_render_edits": [
+          {
+            "beat_id": "B-B04",
+            "shot_id": null,
+            "changes": {
+              "visual_job": "PROVE"
+            },
+            "reason": "The narration states a review requirement; the screenshot is proof, not a procedure demo."
+          },
+          {
+            "beat_id": "B-B04",
+            "shot_id": "VLA-001-B-S04",
+            "changes": {
+              "shot_type": "EVIDENCE_HIGHLIGHT",
+              "evidence_treatment": "HIGHLIGHT_REGION",
+              "motion_semantic": "FOCUS"
+            },
+            "reason": "Keep the Director inspector visible and highlight the registered semantic-field region."
+          }
+        ]
+      }
+    }
+  },
+  "semantic_change": "NONE",
+  "renderer_change": "Layer-restricted CONNECT behavior only",
+  "production_default": "CURRENT"
+}

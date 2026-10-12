@@ -1,0 +1,2 @@
+# Optional locally installed semantic text model; not required to start Content OS.
+sentence-transformers>=3

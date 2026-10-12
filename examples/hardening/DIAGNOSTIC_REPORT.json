@@ -1,0 +1,24 @@
+{
+  "fixture_only": true,
+  "formal_production_accepted": false,
+  "live_provider_verified": false,
+  "real_voice_verified": false,
+  "test_tone": true,
+  "duration": 2.96,
+  "frames": 89,
+  "director_estimate": 10,
+  "audio_timing_hash": "130426776f85458fd1aaa0a075d0ff81663752f7149a622e58041fb354a54d3e",
+  "resolved_composition_hash": "7bd6ab5c55ede59762cc0d9adfb91a066f7266bc78dd753c36d05063ff80409d",
+  "edt_hash": "7ce9a9daf431489a9058f93f517635632697b41c8d058f359195605596537aa3",
+  "preview_render_identical_props": true,
+  "readonly_projection": true,
+  "formal_gate_issues": [
+    "VOICE_PRODUCTION_NOT_ACCEPTED"
+  ],
+  "geometry": {
+    "verdict": "PASS",
+    "issues": [],
+    "mock": false,
+    "checked_artifact_id": "ART-e932a6d61fc342d0"
+  }
+}

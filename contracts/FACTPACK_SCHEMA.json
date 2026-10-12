@@ -1,0 +1,88 @@
+{
+  "$defs": {
+    "Fact": {
+      "additionalProperties": false,
+      "properties": {
+        "evidence_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Evidence Ids",
+          "type": "array"
+        },
+        "fact_id": {
+          "pattern": "^[A-Za-z0-9_-]+$",
+          "title": "Fact Id",
+          "type": "string"
+        },
+        "statement": {
+          "minLength": 1,
+          "title": "Statement",
+          "type": "string"
+        },
+        "source_ids": {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Source Ids",
+          "type": "array"
+        },
+        "support_status": {
+          "enum": [
+            "SUPPORTED",
+            "PARTIAL",
+            "UNSUPPORTED"
+          ],
+          "title": "Support Status",
+          "type": "string"
+        },
+        "confidence": {
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Confidence",
+          "type": "number"
+        },
+        "time_scope": {
+          "default": "",
+          "title": "Time Scope",
+          "type": "string"
+        },
+        "entity": {
+          "default": "",
+          "title": "Entity",
+          "type": "string"
+        },
+        "notes": {
+          "default": "",
+          "title": "Notes",
+          "type": "string"
+        }
+      },
+      "required": [
+        "fact_id",
+        "statement",
+        "source_ids",
+        "support_status",
+        "confidence"
+      ],
+      "title": "Fact",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "facts": {
+      "items": {
+        "$ref": "#/$defs/Fact"
+      },
+      "title": "Facts",
+      "type": "array"
+    }
+  },
+  "required": [
+    "facts"
+  ],
+  "title": "FactPack",
+  "type": "object"
+}

@@ -1,0 +1,14 @@
+{
+  "voice_profile_id": "REFERENCE_VOICE_EXAMPLE_V1",
+  "display_name": "Sanitized local reference voice example",
+  "provider": "LOCAL",
+  "execution_mode": "LOCAL",
+  "provider_voice_id": "EXAMPLE_REFERENCE_ID",
+  "voice_type": "REFERENCE_BASED",
+  "language": "zh-CN",
+  "owner": "example",
+  "consent_status": "PENDING",
+  "usage_scope": "contract testing only; no voice media included",
+  "version": 1,
+  "status": "UNAVAILABLE"
+}

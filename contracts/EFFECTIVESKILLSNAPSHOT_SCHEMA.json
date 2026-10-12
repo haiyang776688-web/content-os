@@ -1,0 +1,185 @@
+{
+  "$defs": {
+    "WritingRule": {
+      "additionalProperties": false,
+      "properties": {
+        "rule_id": {
+          "title": "Rule Id",
+          "type": "string"
+        },
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "scope": {
+          "title": "Scope",
+          "type": "string"
+        },
+        "priority": {
+          "default": 50,
+          "title": "Priority",
+          "type": "integer"
+        },
+        "severity": {
+          "default": "WARNING",
+          "enum": [
+            "BLOCKER",
+            "WARNING",
+            "INFO"
+          ],
+          "title": "Severity",
+          "type": "string"
+        },
+        "hard_or_soft": {
+          "default": "SOFT",
+          "enum": [
+            "HARD",
+            "SOFT"
+          ],
+          "title": "Hard Or Soft",
+          "type": "string"
+        },
+        "applies_to": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Applies To",
+          "type": "array"
+        },
+        "text": {
+          "title": "Text",
+          "type": "string"
+        },
+        "examples": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Examples",
+          "type": "array"
+        },
+        "exceptions": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Exceptions",
+          "type": "array"
+        },
+        "version": {
+          "default": "1",
+          "title": "Version",
+          "type": "string"
+        },
+        "source": {
+          "default": "SYSTEM",
+          "title": "Source",
+          "type": "string"
+        }
+      },
+      "required": [
+        "rule_id",
+        "name",
+        "scope",
+        "text"
+      ],
+      "title": "WritingRule",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "role": {
+      "title": "Role",
+      "type": "string"
+    },
+    "skill_versions": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Skill Versions",
+      "type": "array"
+    },
+    "resolution_order": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Resolution Order",
+      "type": "array"
+    },
+    "rules": {
+      "items": {
+        "$ref": "#/$defs/WritingRule"
+      },
+      "title": "Rules",
+      "type": "array"
+    },
+    "overrides": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Overrides",
+      "type": "array"
+    },
+    "hook_rule_set": {
+      "anyOf": [
+        {
+          "additionalProperties": true,
+          "type": "object"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Hook Rule Set"
+    },
+    "retention_rule_set": {
+      "anyOf": [
+        {
+          "additionalProperties": true,
+          "type": "object"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Retention Rule Set"
+    },
+    "editorial_voice": {
+      "anyOf": [
+        {
+          "additionalProperties": true,
+          "type": "object"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Editorial Voice"
+    },
+    "rule": {
+      "anyOf": [
+        {
+          "additionalProperties": true,
+          "type": "object"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Rule"
+    }
+  },
+  "required": [
+    "role",
+    "skill_versions",
+    "resolution_order",
+    "rules"
+  ],
+  "title": "EffectiveSkillSnapshot",
+  "type": "object"
+}

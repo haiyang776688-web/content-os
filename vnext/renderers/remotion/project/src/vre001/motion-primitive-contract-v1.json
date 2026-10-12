@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "contract_id": "XIAOY_MOTION_PRIMITIVE_V1",
+  "unknown_policy": "REJECT",
+  "primitives": {
+    "NONE": {
+      "producer": "VisualCompiler implicit static layer",
+      "semantic_source": ["STATIC"],
+      "allowed_layer_kinds": ["BACKGROUND", "CHROME", "FACT_NODE", "SUBTITLE"],
+      "behavior_class": "STATIC",
+      "renderer_consumer": "Layer/base",
+      "actual_behavior": "No animated property changes.",
+      "implemented": true,
+      "fallback": "REJECT"
+    },
+    "PUSH_IN": {
+      "producer": "VisualCompiler Motion Semantic resolver",
+      "semantic_source": ["FOCUS"],
+      "allowed_layer_kinds": ["EVIDENCE", "CHARACTER"],
+      "behavior_class": "UNIFORM_SCALE_IN",
+      "renderer_consumer": "Layer/motionStyle",
+      "actual_behavior": "Uniform scale from 0.92 to 1.0.",
+      "implemented": true,
+      "fallback": "REJECT"
+    },
+    "FADE_IN": {
+      "producer": "VisualCompiler Motion Semantic resolver",
+      "semantic_source": ["REVEAL", "CONNECT_SUPPORTING_CONTEXT"],
+      "allowed_layer_kinds": ["EVIDENCE", "CHARACTER"],
+      "behavior_class": "OPACITY_REVEAL",
+      "renderer_consumer": "Layer/motionStyle",
+      "actual_behavior": "Opacity from 0 to 1.",
+      "implemented": true,
+      "fallback": "REJECT"
+    },
+    "FOLLOW_PATH": {
+      "producer": "VisualCompiler Motion Semantic resolver",
+      "semantic_source": ["FOLLOW"],
+      "allowed_layer_kinds": ["EVIDENCE", "CHARACTER"],
+      "behavior_class": "TRANSLATE_IN",
+      "renderer_consumer": "Layer/motionStyle",
+      "actual_behavior": "Horizontal translation from -5% to the compiled anchor.",
+      "implemented": true,
+      "fallback": "REJECT"
+    },
+    "MATCHED_WIPE": {
+      "producer": "VisualCompiler Motion Semantic resolver",
+      "semantic_source": ["COMPARE"],
+      "allowed_layer_kinds": ["EVIDENCE"],
+      "behavior_class": "CLIP_WIPE",
+      "renderer_consumer": "Layer/motionStyle",
+      "actual_behavior": "Left-to-right clip reveal with a small horizontal arrival; no opacity alias.",
+      "implemented": true,
+      "fallback": "REJECT"
+    },
+    "POP_CUT": {
+      "producer": "VisualCompiler Motion Semantic resolver",
+      "semantic_source": ["INTERRUPT"],
+      "allowed_layer_kinds": ["EVIDENCE", "CHARACTER"],
+      "behavior_class": "UNIFORM_POP_IN",
+      "renderer_consumer": "Layer/motionStyle",
+      "actual_behavior": "Uniform scale from 0.82 to 1.0.",
+      "implemented": true,
+      "fallback": "REJECT"
+    },
+    "RETURN_TO_ANCHOR": {
+      "producer": "VisualCompiler Motion Semantic resolver",
+      "semantic_source": ["RETURN"],
+      "allowed_layer_kinds": ["EVIDENCE", "CHARACTER"],
+      "behavior_class": "RETURN_SETTLE",
+      "renderer_consumer": "Layer/motionStyle",
+      "actual_behavior": "Opacity 0 to 1 while uniformly scaling from 1.05 to 1.0.",
+      "implemented": true,
+      "fallback": "REJECT"
+    },
+    "DRAW_CONNECTION": {
+      "producer": "VisualCompiler relation layer emitter",
+      "semantic_source": ["CONNECT"],
+      "allowed_layer_kinds": ["RELATION"],
+      "behavior_class": "PATH_DRAW",
+      "renderer_consumer": "Layer/RELATION",
+      "actual_behavior": "SVG relation paths reveal through stroke dash offset only when this primitive is present.",
+      "implemented": true,
+      "fallback": "REJECT"
+    },
+    "SETTLE_HOLD": {
+      "producer": "VisualCompiler Motion Semantic resolver",
+      "semantic_source": ["SETTLE"],
+      "allowed_layer_kinds": ["EVIDENCE", "CHARACTER"],
+      "behavior_class": "UNIFORM_SETTLE",
+      "renderer_consumer": "Layer/motionStyle",
+      "actual_behavior": "Uniform scale from 1.025 to 1.0.",
+      "implemented": true,
+      "fallback": "REJECT"
+    },
+    "DRAW_UNDERLINE": {
+      "producer": "VisualCompiler highlight treatment emitter",
+      "semantic_source": ["HIGHLIGHT_REGION"],
+      "allowed_layer_kinds": ["UNDERLINE"],
+      "behavior_class": "WIDTH_REVEAL",
+      "renderer_consumer": "Layer/UNDERLINE",
+      "actual_behavior": "Procedural underline width reveals from 0 to its compiled box width.",
+      "implemented": true,
+      "fallback": "REJECT"
+    },
+    "LABEL_REVEAL": {
+      "producer": "VisualCompiler callout emitter",
+      "semantic_source": ["CALLOUT"],
+      "allowed_layer_kinds": ["CALLOUT"],
+      "behavior_class": "LABEL_REVEAL",
+      "renderer_consumer": "Layer/CALLOUT",
+      "actual_behavior": "Label opacity rises from 0 to 1 while horizontal offset returns from 24px to 0.",
+      "implemented": true,
+      "fallback": "REJECT"
+    }
+  }
+}

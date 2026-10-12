@@ -1,0 +1,13 @@
+{
+  "schema_version": 3,
+  "visual_mapping_revision": "VM-0003",
+  "previous_visual_mapping_revision": "VM-0002",
+  "semantic_input_policy": "VM-0002_STRUCTURED_FIRST",
+  "core_version": "0.1.3.2",
+  "asset_registry_revision": "AR-0004",
+  "asset_registry_hash": "0bd7a14f938d235ebd8e81b1b8d6919eba97855e6d68d445c0a91889fe657d04",
+  "candidate_policy": "XACT48_COVERAGE_PLUS_EXPLICIT_CHARACTER_ELEMENT_COMPOSITES",
+  "placement_policy": "PREFER_LEFT_FOR_TEXT_INTENTS_WHEN_ALLOWED",
+  "gap_policy": "EXPLICIT_ASSET_GAP_FOR_UNSUPPORTED_INTENT",
+  "visual_mapping_hash": "53a505f34504e705577c4e0a3501b2149b8f019c1bd811eb3d43f50ed59f4e51"
+}

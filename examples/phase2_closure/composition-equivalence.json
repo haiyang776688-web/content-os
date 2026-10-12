@@ -1,0 +1,13 @@
+{
+  "edt_id": "ART-3e71212525bc4faa",
+  "edt_hash": "490870b7316afea731b062df00a40504aa929b2d153f483788bbc889d1aa33c7",
+  "fingerprint": "27c4492570e55467e236771210f056bac60b76cc554aacc9916f0a90814ab1a5",
+  "renderer_artifact": "ART-9d2854cfb07548ec",
+  "render_props_equal_preview": true,
+  "duration_frames": 300,
+  "fps": 30,
+  "resolution": [
+    1920,
+    1080
+  ]
+}

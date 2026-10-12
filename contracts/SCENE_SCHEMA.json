@@ -1,0 +1,67 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "scene_id": {
+      "title": "Scene Id",
+      "type": "string"
+    },
+    "purpose": {
+      "title": "Purpose",
+      "type": "string"
+    },
+    "script_range": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Script Range",
+      "type": "array"
+    },
+    "narrative_function": {
+      "title": "Narrative Function",
+      "type": "string"
+    },
+    "retention_goal": {
+      "title": "Retention Goal",
+      "type": "string"
+    },
+    "estimated_duration": {
+      "exclusiveMinimum": 0,
+      "title": "Estimated Duration",
+      "type": "number"
+    },
+    "density": {
+      "default": "MEDIUM",
+      "title": "Density",
+      "type": "string"
+    },
+    "entry": {
+      "default": "CUT",
+      "title": "Entry",
+      "type": "string"
+    },
+    "exit": {
+      "default": "CUT",
+      "title": "Exit",
+      "type": "string"
+    },
+    "beat_ids": {
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "title": "Beat Ids",
+      "type": "array"
+    }
+  },
+  "required": [
+    "scene_id",
+    "purpose",
+    "script_range",
+    "narrative_function",
+    "retention_goal",
+    "estimated_duration",
+    "beat_ids"
+  ],
+  "title": "Scene",
+  "type": "object"
+}

@@ -1,0 +1,45 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "kind": {
+      "title": "Kind",
+      "type": "string"
+    },
+    "asset_id": {
+      "title": "Asset Id",
+      "type": "string"
+    },
+    "expected_hash": {
+      "title": "Expected Hash",
+      "type": "string"
+    },
+    "original_location": {
+      "title": "Original Location",
+      "type": "string"
+    },
+    "resolved_location": {
+      "title": "Resolved Location",
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "RESOLVED",
+        "MISSING",
+        "HASH_MISMATCH",
+        "RELINK_REQUIRED"
+      ],
+      "title": "Status",
+      "type": "string"
+    }
+  },
+  "required": [
+    "kind",
+    "asset_id",
+    "expected_hash",
+    "original_location",
+    "resolved_location",
+    "status"
+  ],
+  "title": "DependencyItem",
+  "type": "object"
+}

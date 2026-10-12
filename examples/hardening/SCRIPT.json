@@ -1,0 +1,89 @@
+{
+  "artifact_id": "ART-9b6c9b779c19418f",
+  "project_id": "PRJ-df2146b8a6b1",
+  "artifact_type": "SCRIPT",
+  "revision": 1,
+  "created_by_role": "SCRIPT_PRIMARY",
+  "worker": null,
+  "provider": null,
+  "model": null,
+  "prompt_version": null,
+  "dependencies": [
+    {
+      "artifact_id": "ART-2e8c67027b884159",
+      "output_hash": "9532bef2b50c759ff9be8ed53b14e3a5053954fbdb2f77db9188c4fda9cd186e"
+    },
+    {
+      "artifact_id": "ART-087998f5627c4ea1",
+      "output_hash": "58f7554b2fb0b360a5f8ba1146a2dafea5402f1a1ce20bf9f0c97b96bc124066"
+    },
+    {
+      "artifact_id": "ART-5203ea138b4e41f0",
+      "output_hash": "67d5e21192990a005c0ed966c0efdf02ede88a8c0681cad393ba0aa7a6ac5d92"
+    },
+    {
+      "artifact_id": "ART-8d82fde304b54ddf",
+      "output_hash": "3d6d1342768cc02f694c13ee4208a0a93d5272dccb0fe3eb71ebf4c936f83487"
+    },
+    {
+      "artifact_id": "ART-dd192ae9639d45e8",
+      "output_hash": "cc6b3833674dcdc6f573ba0c1dca38399c04d57c7f6fd6e8bd1a390c4ea33197"
+    }
+  ],
+  "input_hash": "c32392ba8933aeb93076f49780869d404446889a4e31dbe1e6f9e77e12262ca6",
+  "output_hash": "da12676ee8250df6605f85735e2299d894aca738db6bf6d3b11b52b9e4fe8a81",
+  "status": "READY",
+  "created_at": "2026-09-26T15:59:44.313203+00:00",
+  "payload": {
+    "contract_version": 2,
+    "claim_units": [
+      {
+        "claim_id": "C1",
+        "segment_id": "SEG1",
+        "text_span": {
+          "start": 0,
+          "end": 17
+        },
+        "claim_text": "Alpha has 3 items",
+        "claim_type": "NUMERIC",
+        "fact_ids": [
+          "F1"
+        ],
+        "support_status": "SUPPORTED",
+        "review_status": "PENDING",
+        "review_reason": ""
+      },
+      {
+        "claim_id": "C2",
+        "segment_id": "SEG1",
+        "text_span": {
+          "start": 19,
+          "end": 36
+        },
+        "claim_text": "Alpha has 3 items",
+        "claim_type": "NUMERIC",
+        "fact_ids": [
+          "F1"
+        ],
+        "support_status": "SUPPORTED",
+        "review_status": "PENDING",
+        "review_reason": ""
+      }
+    ],
+    "text": "Alpha has 3 items. Alpha has 3 items.",
+    "segments": [
+      {
+        "segment_id": "SEG1",
+        "text": "Alpha has 3 items. Alpha has 3 items.",
+        "claim": true,
+        "fact_ids": [
+          "F1"
+        ]
+      }
+    ],
+    "semantic_status": "AUDIT_REQUIRED",
+    "semantic_diff": {},
+    "parent_script_artifact_id": null
+  },
+  "current_status": "READY"
+}

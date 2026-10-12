@@ -1,0 +1,140 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "source_id": {
+      "pattern": "^[A-Za-z0-9_-]+$",
+      "title": "Source Id",
+      "type": "string"
+    },
+    "source_type": {
+      "enum": [
+        "WEB",
+        "USER_DOCUMENT",
+        "LOCAL_FILE",
+        "SCREENSHOT",
+        "MANUAL",
+        "API"
+      ],
+      "title": "Source Type",
+      "type": "string"
+    },
+    "title": {
+      "minLength": 1,
+      "title": "Title",
+      "type": "string"
+    },
+    "url": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Url"
+    },
+    "file_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "File Id"
+    },
+    "retrieved_at": {
+      "title": "Retrieved At",
+      "type": "string"
+    },
+    "publisher": {
+      "default": "",
+      "title": "Publisher",
+      "type": "string"
+    },
+    "date": {
+      "default": "",
+      "title": "Date",
+      "type": "string"
+    },
+    "snapshot": {
+      "default": "",
+      "title": "Snapshot",
+      "type": "string"
+    },
+    "excerpt": {
+      "minLength": 1,
+      "title": "Excerpt",
+      "type": "string"
+    },
+    "status": {
+      "default": "AVAILABLE",
+      "enum": [
+        "AVAILABLE",
+        "UNVERIFIED",
+        "RETRACTED"
+      ],
+      "title": "Status",
+      "type": "string"
+    },
+    "content": {
+      "default": "",
+      "title": "Content",
+      "type": "string"
+    },
+    "pages": {
+      "additionalProperties": {
+        "type": "string"
+      },
+      "title": "Pages",
+      "type": "object"
+    },
+    "transcript": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Transcript",
+      "type": "array"
+    },
+    "duration": {
+      "anyOf": [
+        {
+          "exclusiveMinimum": 0,
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Duration"
+    },
+    "trust": {
+      "const": "UNTRUSTED_SOURCE_DATA",
+      "default": "UNTRUSTED_SOURCE_DATA",
+      "title": "Trust",
+      "type": "string"
+    },
+    "entities": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Entities",
+      "type": "array"
+    }
+  },
+  "required": [
+    "source_id",
+    "source_type",
+    "title",
+    "retrieved_at",
+    "excerpt"
+  ],
+  "title": "Source",
+  "type": "object"
+}

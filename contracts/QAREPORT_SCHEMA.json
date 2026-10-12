@@ -1,0 +1,99 @@
+{
+  "$defs": {
+    "QAItem": {
+      "additionalProperties": false,
+      "properties": {
+        "code": {
+          "title": "Code",
+          "type": "string"
+        },
+        "severity": {
+          "enum": [
+            "BLOCKER",
+            "WARNING",
+            "INFO"
+          ],
+          "title": "Severity",
+          "type": "string"
+        },
+        "owner": {
+          "enum": [
+            "RESEARCH",
+            "SCRIPT_PRIMARY",
+            "SCRIPT_EDITOR",
+            "AUDIT",
+            "DIRECTOR",
+            "TIMELINE",
+            "VOICE",
+            "SUBTITLE",
+            "TYPOGRAPHY",
+            "MEDIA_RESOLVER",
+            "EXPORT",
+            "HUMAN"
+          ],
+          "title": "Owner",
+          "type": "string"
+        },
+        "description": {
+          "title": "Description",
+          "type": "string"
+        },
+        "start": {
+          "default": 0,
+          "minimum": 0,
+          "title": "Start",
+          "type": "number"
+        },
+        "end": {
+          "default": 0,
+          "minimum": 0,
+          "title": "End",
+          "type": "number"
+        }
+      },
+      "required": [
+        "code",
+        "severity",
+        "owner",
+        "description"
+      ],
+      "title": "QAItem",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "verdict": {
+      "enum": [
+        "PASS",
+        "FAIL",
+        "PASS_WITH_RISK"
+      ],
+      "title": "Verdict",
+      "type": "string"
+    },
+    "issues": {
+      "items": {
+        "$ref": "#/$defs/QAItem"
+      },
+      "title": "Issues",
+      "type": "array"
+    },
+    "mock": {
+      "default": false,
+      "title": "Mock",
+      "type": "boolean"
+    },
+    "checked_artifact_id": {
+      "title": "Checked Artifact Id",
+      "type": "string"
+    }
+  },
+  "required": [
+    "verdict",
+    "issues",
+    "checked_artifact_id"
+  ],
+  "title": "QAReport",
+  "type": "object"
+}

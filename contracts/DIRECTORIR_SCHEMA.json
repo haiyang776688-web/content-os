@@ -1,0 +1,259 @@
+{
+  "$defs": {
+    "Beat": {
+      "additionalProperties": false,
+      "properties": {
+        "semantic_pattern": {
+          "anyOf": [
+            {
+              "enum": [
+                "EXPLAIN",
+                "REACTION",
+                "EVIDENCE",
+                "COMPARE",
+                "PROCESS",
+                "NUMBER",
+                "SUMMARY",
+                "CTA"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Semantic Pattern"
+        },
+        "template_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Template Id"
+        },
+        "character_action_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Character Action Id"
+        },
+        "element_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Element Ids",
+          "type": "array"
+        },
+        "beat_id": {
+          "title": "Beat Id",
+          "type": "string"
+        },
+        "scene_id": {
+          "title": "Scene Id",
+          "type": "string"
+        },
+        "script_segment_id": {
+          "title": "Script Segment Id",
+          "type": "string"
+        },
+        "phrase_id": {
+          "default": "",
+          "title": "Phrase Id",
+          "type": "string"
+        },
+        "purpose": {
+          "title": "Purpose",
+          "type": "string"
+        },
+        "visual_focus": {
+          "title": "Visual Focus",
+          "type": "string"
+        },
+        "visual_form": {
+          "title": "Visual Form",
+          "type": "string"
+        },
+        "character_intent": {
+          "default": "EXPLAIN",
+          "title": "Character Intent",
+          "type": "string"
+        },
+        "media_need": {
+          "default": "",
+          "title": "Media Need",
+          "type": "string"
+        },
+        "pattern_id": {
+          "title": "Pattern Id",
+          "type": "string"
+        },
+        "retention_function": {
+          "default": "INFORMATION_CHANGE",
+          "title": "Retention Function",
+          "type": "string"
+        },
+        "reveal_order": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Reveal Order",
+          "type": "array"
+        },
+        "motion_intent": {
+          "default": "FADE",
+          "title": "Motion Intent",
+          "type": "string"
+        },
+        "keyword": {
+          "default": "",
+          "title": "Keyword",
+          "type": "string"
+        },
+        "timing_intent": {
+          "exclusiveMinimum": 0,
+          "title": "Timing Intent",
+          "type": "number"
+        },
+        "slots": {
+          "additionalProperties": true,
+          "title": "Slots",
+          "type": "object"
+        }
+      },
+      "required": [
+        "beat_id",
+        "scene_id",
+        "script_segment_id",
+        "purpose",
+        "visual_focus",
+        "visual_form",
+        "pattern_id",
+        "timing_intent"
+      ],
+      "title": "Beat",
+      "type": "object"
+    },
+    "Scene": {
+      "additionalProperties": false,
+      "properties": {
+        "scene_id": {
+          "title": "Scene Id",
+          "type": "string"
+        },
+        "purpose": {
+          "title": "Purpose",
+          "type": "string"
+        },
+        "script_range": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Script Range",
+          "type": "array"
+        },
+        "narrative_function": {
+          "title": "Narrative Function",
+          "type": "string"
+        },
+        "retention_goal": {
+          "title": "Retention Goal",
+          "type": "string"
+        },
+        "estimated_duration": {
+          "exclusiveMinimum": 0,
+          "title": "Estimated Duration",
+          "type": "number"
+        },
+        "density": {
+          "default": "MEDIUM",
+          "title": "Density",
+          "type": "string"
+        },
+        "entry": {
+          "default": "CUT",
+          "title": "Entry",
+          "type": "string"
+        },
+        "exit": {
+          "default": "CUT",
+          "title": "Exit",
+          "type": "string"
+        },
+        "beat_ids": {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Beat Ids",
+          "type": "array"
+        }
+      },
+      "required": [
+        "scene_id",
+        "purpose",
+        "script_range",
+        "narrative_function",
+        "retention_goal",
+        "estimated_duration",
+        "beat_ids"
+      ],
+      "title": "Scene",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "default": 2,
+      "title": "Schema Version",
+      "type": "integer"
+    },
+    "script_artifact_id": {
+      "title": "Script Artifact Id",
+      "type": "string"
+    },
+    "scenes": {
+      "items": {
+        "$ref": "#/$defs/Scene"
+      },
+      "minItems": 1,
+      "title": "Scenes",
+      "type": "array"
+    },
+    "beats": {
+      "items": {
+        "$ref": "#/$defs/Beat"
+      },
+      "minItems": 1,
+      "title": "Beats",
+      "type": "array"
+    },
+    "transitions": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Transitions",
+      "type": "array"
+    }
+  },
+  "required": [
+    "script_artifact_id",
+    "scenes",
+    "beats"
+  ],
+  "title": "DirectorIR",
+  "type": "object"
+}

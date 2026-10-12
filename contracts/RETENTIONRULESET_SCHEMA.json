@@ -1,0 +1,52 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "version": {
+      "default": "1",
+      "title": "Version",
+      "type": "string"
+    },
+    "information_change": {
+      "default": "Change when meaning changes",
+      "title": "Information Change",
+      "type": "string"
+    },
+    "open_loop": {
+      "default": "Only when there is a payoff",
+      "title": "Open Loop",
+      "type": "string"
+    },
+    "payoff": {
+      "default": "Close the promise",
+      "title": "Payoff",
+      "type": "string"
+    },
+    "visual_refresh": {
+      "default": "Follow semantic beats",
+      "title": "Visual Refresh",
+      "type": "string"
+    },
+    "density_change": {
+      "default": "Primary before supporting details",
+      "title": "Density Change",
+      "type": "string"
+    },
+    "question_answer": {
+      "default": "Bind questions to answers",
+      "title": "Question Answer",
+      "type": "string"
+    },
+    "pattern_interrupt": {
+      "default": "Purposeful only",
+      "title": "Pattern Interrupt",
+      "type": "string"
+    },
+    "section_transition": {
+      "default": "Narrative function",
+      "title": "Section Transition",
+      "type": "string"
+    }
+  },
+  "title": "RetentionRuleSet",
+  "type": "object"
+}

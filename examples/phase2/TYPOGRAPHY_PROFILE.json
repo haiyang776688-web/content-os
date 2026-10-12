@@ -1,0 +1,89 @@
+{
+  "artifact_id": "ART-134e0c6b80584f96",
+  "project_id": "PRJ-b417f4c7957a",
+  "artifact_type": "TYPOGRAPHY_PROFILE",
+  "revision": 1,
+  "created_by_role": "TYPOGRAPHY",
+  "worker": null,
+  "provider": null,
+  "model": null,
+  "prompt_version": null,
+  "dependencies": [],
+  "input_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "output_hash": "4356c82b31a346b1ed77b764b81e748ae7329077e0981dbfc631fe2c5611b591",
+  "status": "READY",
+  "created_at": "2026-09-26T10:38:40.440070+00:00",
+  "payload": {
+    "profile_id": "XIAOY_LOCAL_DIAGNOSTIC",
+    "version": "1",
+    "roles": {
+      "TITLE": {
+        "font_id": "FONT-1244788736e2af92f0d3",
+        "weight": 300,
+        "size": 64.0,
+        "letter_spacing": 0,
+        "line_height": 1.15,
+        "shadow": "0 2px 4px #0008"
+      },
+      "BODY": {
+        "font_id": "FONT-1244788736e2af92f0d3",
+        "weight": 300,
+        "size": 64.0,
+        "letter_spacing": 0,
+        "line_height": 1.15,
+        "shadow": "0 2px 4px #0008"
+      },
+      "SUBTITLE": {
+        "font_id": "FONT-1244788736e2af92f0d3",
+        "weight": 300,
+        "size": 44.0,
+        "letter_spacing": 0,
+        "line_height": 1.15,
+        "shadow": "0 2px 4px #0008"
+      },
+      "KEYWORD": {
+        "font_id": "FONT-1244788736e2af92f0d3",
+        "weight": 300,
+        "size": 64.0,
+        "letter_spacing": 0,
+        "line_height": 1.15,
+        "shadow": "0 2px 4px #0008"
+      },
+      "NUMBER": {
+        "font_id": "FONT-3c05e70eac2f6b9de773",
+        "weight": 400,
+        "size": 160.0,
+        "letter_spacing": 0,
+        "line_height": 1.15,
+        "shadow": "0 2px 4px #0008"
+      },
+      "LABEL": {
+        "font_id": "FONT-1244788736e2af92f0d3",
+        "weight": 300,
+        "size": 64.0,
+        "letter_spacing": 0,
+        "line_height": 1.15,
+        "shadow": "0 2px 4px #0008"
+      },
+      "CTA": {
+        "font_id": "FONT-1244788736e2af92f0d3",
+        "weight": 300,
+        "size": 64.0,
+        "letter_spacing": 0,
+        "line_height": 1.15,
+        "shadow": "0 2px 4px #0008"
+      },
+      "UI": {
+        "font_id": "FONT-e12cedc98f27df837aa8",
+        "weight": 500,
+        "size": 40.0,
+        "letter_spacing": 0,
+        "line_height": 1.15,
+        "shadow": "0 2px 4px #0008"
+      }
+    },
+    "production_policy": "STRICT_FONT",
+    "fallback_font_id": null
+  },
+  "current_status": "READY"
+}

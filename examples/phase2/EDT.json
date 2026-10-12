@@ -1,0 +1,1115 @@
+{
+  "artifact_id": "ART-5906602264d044b9",
+  "project_id": "PRJ-b417f4c7957a",
+  "artifact_type": "EDT",
+  "revision": 2,
+  "created_by_role": "TIMELINE",
+  "worker": null,
+  "provider": null,
+  "model": null,
+  "prompt_version": null,
+  "dependencies": [
+    {
+      "artifact_id": "ART-5b9591d9c30b40fe",
+      "output_hash": "be230459da33425e902c137d72eede3a4ffb3295dc6d60d69b9a9c931bf4da48"
+    },
+    {
+      "artifact_id": "ART-5493e921ba9f43c8",
+      "output_hash": "0614d17d535339f04538927ecf5df6b865f73a5b409080d4104430f50efe4826"
+    },
+    {
+      "artifact_id": "ART-107d8729e14041f9",
+      "output_hash": "5599d29620e4dfbb89db3358f40c41fcfe4589858ed2c0b3e2593a1126b33575"
+    },
+    {
+      "artifact_id": "ART-134e0c6b80584f96",
+      "output_hash": "4356c82b31a346b1ed77b764b81e748ae7329077e0981dbfc631fe2c5611b591"
+    },
+    {
+      "artifact_id": "ART-e38c93a4f45b40de",
+      "output_hash": "b081a5b1d420d381fea96379f652ca2a562dee802f0694a39e8ab021f989bf0d"
+    },
+    {
+      "artifact_id": "ART-b5b5b3f7f96c4aba",
+      "output_hash": "2acfae10d7e047f9f9c4438cd2edd10e48210138d3716942896c41e2d03c17b3"
+    },
+    {
+      "artifact_id": "ART-50d929b4f91c4071",
+      "output_hash": "4d7ae9bce3566e3308dbe78015cc86836f948bbaf5ae5d9729477741287428d4"
+    }
+  ],
+  "input_hash": "b45ad82186233ceb6783af2049259d01b842cfe6c26b69e2715659da07b0e264",
+  "output_hash": "316c02b9a9f5b590e558bc1659a2e931d36cb0dc69271f81b113abbbaba8fee3",
+  "status": "READY",
+  "created_at": "2026-09-26T10:39:01.077103+00:00",
+  "payload": {
+    "edt_id": "EDT-0fe9ef7fac89",
+    "schema_version": 2,
+    "canvas_color": "#ffffff",
+    "foreground_color": "#111111",
+    "typography_profile_id": "ART-134e0c6b80584f96",
+    "typography_profile_hash": "4356c82b31a346b1ed77b764b81e748ae7329077e0981dbfc631fe2c5611b591",
+    "project_id": "PRJ-b417f4c7957a",
+    "revision": 2,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tracks": [
+      "MEDIA",
+      "CHARACTER",
+      "TEXT",
+      "SUBTITLE",
+      "VOICE"
+    ],
+    "clips": [
+      {
+        "clip_id": "CLP-420f76e169",
+        "scene_id": "SC1",
+        "beat_id": "B1",
+        "ir_node_id": "B1",
+        "origin": "DIRECTOR_IR",
+        "edit_source": "EDT_GENERATOR",
+        "pattern_id": "CHARACTER_EXPLAIN_KEYWORD",
+        "track": "TEXT",
+        "asset_id": null,
+        "source_in": 0.0,
+        "source_out": 10.0,
+        "timeline_in": 0.0,
+        "timeline_out": 10.0,
+        "position": {
+          "x": 0.67,
+          "y": 0.3
+        },
+        "scale": 1.0,
+        "crop": {},
+        "opacity": 1.0,
+        "motion": {
+          "kind": "FADE"
+        },
+        "reveal": {
+          "delay": 0.0,
+          "order": 0
+        },
+        "locked": false,
+        "hidden": false,
+        "muted": false,
+        "metadata": {
+          "text": "来源先行",
+          "typography_role": "KEYWORD",
+          "semantic_level": "PRIMARY"
+        }
+      },
+      {
+        "clip_id": "CLP-e541c5632c",
+        "scene_id": "SC1",
+        "beat_id": "B1",
+        "ir_node_id": "B1",
+        "origin": "DIRECTOR_IR",
+        "edit_source": "EDT_GENERATOR",
+        "pattern_id": "CHARACTER_EXPLAIN_KEYWORD",
+        "track": "CHARACTER",
+        "asset_id": "MED-38d4fe933475",
+        "source_in": 0.0,
+        "source_out": 10.0,
+        "timeline_in": 0.0,
+        "timeline_out": 10.0,
+        "position": {
+          "x": 0.2,
+          "y": 0.55
+        },
+        "scale": 0.9,
+        "crop": {},
+        "opacity": 1.0,
+        "motion": {},
+        "reveal": {},
+        "locked": false,
+        "hidden": false,
+        "muted": false,
+        "metadata": {
+          "action_id": "XACT-002",
+          "character_pack": "XIAO-Y_V1",
+          "calibration": {
+            "calibration_status": "CALIBRATED",
+            "content_bbox": {
+              "x": 0.06,
+              "y": 0.08085106382978724,
+              "w": 0.798,
+              "h": 0.9191489361702128
+            },
+            "character_bbox": {
+              "x": 0.06,
+              "y": 0.08085106382978724,
+              "w": 0.798,
+              "h": 0.9191489361702128
+            },
+            "anchor": {
+              "x": 0.459,
+              "y": 1.0
+            },
+            "recommended_scale": 0.7986111111111112,
+            "composition_class": "STANDARD",
+            "anchor_kind": "FOOT_BASELINE",
+            "preferred_placement": "LEFT",
+            "allowed_placements": [
+              "LEFT",
+              "CENTER",
+              "RIGHT"
+            ],
+            "calibration_source": "FRESH_AR0004_ALPHA_AND_VISUAL_REVIEW",
+            "safe_area_check": "PASS"
+          }
+        }
+      },
+      {
+        "clip_id": "CLP-206a89d8d2",
+        "scene_id": "SC1",
+        "beat_id": "B1",
+        "ir_node_id": "B1",
+        "origin": "DIRECTOR_IR",
+        "edit_source": "EDT_GENERATOR",
+        "pattern_id": "CHARACTER_EXPLAIN_KEYWORD",
+        "track": "SUBTITLE",
+        "asset_id": null,
+        "source_in": 0.0,
+        "source_out": 5.0,
+        "timeline_in": 0.0,
+        "timeline_out": 5.0,
+        "position": {
+          "x": 0.5,
+          "y": 0.91
+        },
+        "scale": 1.0,
+        "crop": {},
+        "opacity": 1.0,
+        "motion": {},
+        "reveal": {},
+        "locked": false,
+        "hidden": false,
+        "muted": false,
+        "metadata": {
+          "text": "生产先读取规则",
+          "typography_role": "SUBTITLE",
+          "color": "#ffffff",
+          "background": null,
+          "baseline": 0.91
+        }
+      },
+      {
+        "clip_id": "CLP-e402b8909e",
+        "scene_id": "SC1",
+        "beat_id": "B1",
+        "ir_node_id": "B1",
+        "origin": "DIRECTOR_IR",
+        "edit_source": "EDT_GENERATOR",
+        "pattern_id": "CHARACTER_EXPLAIN_KEYWORD",
+        "track": "SUBTITLE",
+        "asset_id": null,
+        "source_in": 0.0,
+        "source_out": 5.0,
+        "timeline_in": 5.0,
+        "timeline_out": 10.0,
+        "position": {
+          "x": 0.5,
+          "y": 0.91
+        },
+        "scale": 1.0,
+        "crop": {},
+        "opacity": 1.0,
+        "motion": {},
+        "reveal": {},
+        "locked": false,
+        "hidden": false,
+        "muted": false,
+        "metadata": {
+          "text": "再使用已绑定来源的事实",
+          "typography_role": "SUBTITLE",
+          "color": "#ffffff",
+          "background": null,
+          "baseline": 0.91
+        }
+      },
+      {
+        "clip_id": "CLP-9edd072d07",
+        "scene_id": "SC2",
+        "beat_id": "B2",
+        "ir_node_id": "B2",
+        "origin": "DIRECTOR_IR",
+        "edit_source": "EDT_GENERATOR",
+        "pattern_id": "TIMELINE_PROCESS",
+        "track": "TEXT",
+        "asset_id": null,
+        "source_in": 0.0,
+        "source_out": 10.0,
+        "timeline_in": 10.0,
+        "timeline_out": 20.0,
+        "position": {
+          "x": 0.5,
+          "y": 0.3
+        },
+        "scale": 1.0,
+        "crop": {},
+        "opacity": 1.0,
+        "motion": {
+          "kind": "SLIDE_UP"
+        },
+        "reveal": {
+          "delay": 0.0,
+          "order": 0
+        },
+        "locked": false,
+        "hidden": false,
+        "muted": false,
+        "metadata": {
+          "text": "脚本",
+          "typography_role": "BODY",
+          "semantic_level": "PRIMARY"
+        }
+      },
+      {
+        "clip_id": "CLP-9dd9298621",
+        "scene_id": "SC2",
+        "beat_id": "B2",
+        "ir_node_id": "B2",
+        "origin": "DIRECTOR_IR",
+        "edit_source": "EDT_GENERATOR",
+        "pattern_id": "TIMELINE_PROCESS",
+        "track": "TEXT",
+        "asset_id": null,
+        "source_in": 0.0,
+        "source_out": 10.0,
+        "timeline_in": 10.0,
+        "timeline_out": 20.0,
+        "position": {
+          "x": 0.5,
+          "y": 0.44999999999999996
+        },
+        "scale": 1.0,
+        "crop": {},
+        "opacity": 1.0,
+        "motion": {
+          "kind": "SLIDE_UP"
+        },
+        "reveal": {
+          "delay": 0.8,
+          "order": 1
+        },
+        "locked": false,
+        "hidden": false,
+        "muted": false,
+        "metadata": {
+          "text": "独立审计",
+          "typography_role": "BODY",
+          "semantic_level": "SECONDARY"
+        }
+      },
+      {
+        "clip_id": "CLP-b1a1de6b65",
+        "scene_id": "SC2",
+        "beat_id": "B2",
+        "ir_node_id": "B2",
+        "origin": "DIRECTOR_IR",
+        "edit_source": "EDT_GENERATOR",
+        "pattern_id": "TIMELINE_PROCESS",
+        "track": "TEXT",
+        "asset_id": null,
+        "source_in": 0.0,
+        "source_out": 10.0,
+        "timeline_in": 10.0,
+        "timeline_out": 20.0,
+        "position": {
+          "x": 0.5,
+          "y": 0.6
+        },
+        "scale": 1.0,
+        "crop": {},
+        "opacity": 1.0,
+        "motion": {
+          "kind": "SLIDE_UP"
+        },
+        "reveal": {
+          "delay": 1.6,
+          "order": 2
+        },
+        "locked": false,
+        "hidden": false,
+        "muted": false,
+        "metadata": {
+          "text": "导演设计",
+          "typography_role": "BODY",
+          "semantic_level": "SECONDARY"
+        }
+      },
+      {
+        "clip_id": "CLP-e30f3651d8",
+        "scene_id": "SC2",
+        "beat_id": "B2",
+        "ir_node_id": "B2",
+        "origin": "DIRECTOR_IR",
+        "edit_source": "EDT_GENERATOR",
+        "pattern_id": "TIMELINE_PROCESS",
+        "track": "SUBTITLE",
+        "asset_id": null,
+        "source_in": 0.0,
+        "source_out": 5.0,
+        "timeline_in": 10.0,
+        "timeline_out": 15.0,
+        "position": {
+          "x": 0.5,
+          "y": 0.91
+        },
+        "scale": 1.0,
+        "crop": {},
+        "opacity": 1.0,
+        "motion": {},
+        "reveal": {},
+        "locked": false,
+        "hidden": false,
+        "muted": false,
+        "metadata": {
+          "text": "脚本修改经过独立审计",
+          "typography_role": "SUBTITLE",
+          "color": "#ffffff",
+          "background": null,
+          "baseline": 0.91
+        }
+      },
+      {
+        "clip_id": "CLP-5c5a426cfa",
+        "scene_id": "SC2",
+        "beat_id": "B2",
+        "ir_node_id": "B2",
+        "origin": "DIRECTOR_IR",
+        "edit_source": "EDT_GENERATOR",
+        "pattern_id": "TIMELINE_PROCESS",
+        "track": "SUBTITLE",
+        "asset_id": null,
+        "source_in": 0.0,
+        "source_out": 5.0,
+        "timeline_in": 15.0,
+        "timeline_out": 20.0,
+        "position": {
+          "x": 0.5,
+          "y": 0.91
+        },
+        "scale": 1.0,
+        "crop": {},
+        "opacity": 1.0,
+        "motion": {},
+        "reveal": {},
+        "locked": false,
+        "hidden": false,
+        "muted": false,
+        "metadata": {
+          "text": "确认方向后才进入导演设计",
+          "typography_role": "SUBTITLE",
+          "color": "#ffffff",
+          "background": null,
+          "baseline": 0.91
+        }
+      },
+      {
+        "clip_id": "CLP-0a613aab4f",
+        "scene_id": "SC3",
+        "beat_id": "B3",
+        "ir_node_id": "B3",
+        "origin": "DIRECTOR_IR",
+        "edit_source": "EDT_GENERATOR",
+        "pattern_id": "NUMBER_EMPHASIS",
+        "track": "TEXT",
+        "asset_id": null,
+        "source_in": 0.0,
+        "source_out": 10.0,
+        "timeline_in": 20.0,
+        "timeline_out": 30.0,
+        "position": {
+          "x": 0.5,
+          "y": 0.3
+        },
+        "scale": 1.0,
+        "crop": {},
+        "opacity": 1.0,
+        "motion": {
+          "kind": "FADE"
+        },
+        "reveal": {
+          "delay": 0.0,
+          "order": 0
+        },
+        "locked": false,
+        "hidden": false,
+        "muted": false,
+        "metadata": {
+          "text": "3",
+          "typography_role": "NUMBER",
+          "semantic_level": "PRIMARY"
+        }
+      },
+      {
+        "clip_id": "CLP-a523a25c01",
+        "scene_id": "SC3",
+        "beat_id": "B3",
+        "ir_node_id": "B3",
+        "origin": "DIRECTOR_IR",
+        "edit_source": "EDT_GENERATOR",
+        "pattern_id": "NUMBER_EMPHASIS",
+        "track": "TEXT",
+        "asset_id": null,
+        "source_in": 0.0,
+        "source_out": 10.0,
+        "timeline_in": 20.0,
+        "timeline_out": 30.0,
+        "position": {
+          "x": 0.5,
+          "y": 0.44999999999999996
+        },
+        "scale": 1.0,
+        "crop": {},
+        "opacity": 1.0,
+        "motion": {
+          "kind": "FADE"
+        },
+        "reveal": {
+          "delay": 0.8,
+          "order": 1
+        },
+        "locked": false,
+        "hidden": false,
+        "muted": false,
+        "metadata": {
+          "text": "信息层次",
+          "typography_role": "KEYWORD",
+          "semantic_level": "SECONDARY"
+        }
+      },
+      {
+        "clip_id": "CLP-7e7f9a74e7",
+        "scene_id": "SC3",
+        "beat_id": "B3",
+        "ir_node_id": "B3",
+        "origin": "DIRECTOR_IR",
+        "edit_source": "EDT_GENERATOR",
+        "pattern_id": "NUMBER_EMPHASIS",
+        "track": "SUBTITLE",
+        "asset_id": null,
+        "source_in": 0.0,
+        "source_out": 5.0,
+        "timeline_in": 20.0,
+        "timeline_out": 25.0,
+        "position": {
+          "x": 0.5,
+          "y": 0.91
+        },
+        "scale": 1.0,
+        "crop": {},
+        "opacity": 1.0,
+        "motion": {},
+        "reveal": {},
+        "locked": false,
+        "hidden": false,
+        "muted": false,
+        "metadata": {
+          "text": "画面按主信息",
+          "typography_role": "SUBTITLE",
+          "color": "#ffffff",
+          "background": null,
+          "baseline": 0.91
+        }
+      },
+      {
+        "clip_id": "CLP-e1d9d25eec",
+        "scene_id": "SC3",
+        "beat_id": "B3",
+        "ir_node_id": "B3",
+        "origin": "DIRECTOR_IR",
+        "edit_source": "EDT_GENERATOR",
+        "pattern_id": "NUMBER_EMPHASIS",
+        "track": "SUBTITLE",
+        "asset_id": null,
+        "source_in": 0.0,
+        "source_out": 5.0,
+        "timeline_in": 25.0,
+        "timeline_out": 30.0,
+        "position": {
+          "x": 0.5,
+          "y": 0.91
+        },
+        "scale": 1.0,
+        "crop": {},
+        "opacity": 1.0,
+        "motion": {},
+        "reveal": {},
+        "locked": false,
+        "hidden": false,
+        "muted": false,
+        "metadata": {
+          "text": "次信息和辅助信息这3个层次依次展开",
+          "typography_role": "SUBTITLE",
+          "color": "#ffffff",
+          "background": null,
+          "baseline": 0.91
+        }
+      },
+      {
+        "clip_id": "CLP-5d87d0db98",
+        "scene_id": "SC4",
+        "beat_id": "B4",
+        "ir_node_id": "B4",
+        "origin": "DIRECTOR_IR",
+        "edit_source": "EDT_GENERATOR",
+        "pattern_id": "A_B_COMPARE",
+        "track": "TEXT",
+        "asset_id": null,
+        "source_in": 0.0,
+        "source_out": 10.0,
+        "timeline_in": 30.0,
+        "timeline_out": 40.0,
+        "position": {
+          "x": 0.3,
+          "y": 0.45
+        },
+        "scale": 1.0,
+        "crop": {},
+        "opacity": 1.0,
+        "motion": {
+          "kind": "HOLD"
+        },
+        "reveal": {
+          "delay": 0.0,
+          "order": 0
+        },
+        "locked": false,
+        "hidden": false,
+        "muted": false,
+        "metadata": {
+          "text": "退回责任部门",
+          "typography_role": "BODY",
+          "semantic_level": "PRIMARY"
+        }
+      },
+      {
+        "clip_id": "CLP-8770073173",
+        "scene_id": "SC4",
+        "beat_id": "B4",
+        "ir_node_id": "B4",
+        "origin": "DIRECTOR_IR",
+        "edit_source": "EDT_GENERATOR",
+        "pattern_id": "A_B_COMPARE",
+        "track": "TEXT",
+        "asset_id": null,
+        "source_in": 0.0,
+        "source_out": 10.0,
+        "timeline_in": 30.0,
+        "timeline_out": 40.0,
+        "position": {
+          "x": 0.7,
+          "y": 0.45
+        },
+        "scale": 1.0,
+        "crop": {},
+        "opacity": 1.0,
+        "motion": {
+          "kind": "HOLD"
+        },
+        "reveal": {
+          "delay": 0.8,
+          "order": 1
+        },
+        "locked": false,
+        "hidden": false,
+        "muted": false,
+        "metadata": {
+          "text": "修复后重新分镜",
+          "typography_role": "BODY",
+          "semantic_level": "SECONDARY"
+        }
+      },
+      {
+        "clip_id": "CLP-e8db4fac15",
+        "scene_id": "SC4",
+        "beat_id": "B4",
+        "ir_node_id": "B4",
+        "origin": "DIRECTOR_IR",
+        "edit_source": "EDT_GENERATOR",
+        "pattern_id": "A_B_COMPARE",
+        "track": "SUBTITLE",
+        "asset_id": null,
+        "source_in": 0.0,
+        "source_out": 5.0,
+        "timeline_in": 30.0,
+        "timeline_out": 35.0,
+        "position": {
+          "x": 0.5,
+          "y": 0.91
+        },
+        "scale": 1.0,
+        "crop": {},
+        "opacity": 1.0,
+        "motion": {},
+        "reveal": {},
+        "locked": false,
+        "hidden": false,
+        "muted": false,
+        "metadata": {
+          "text": "分镜退回责任部门",
+          "typography_role": "SUBTITLE",
+          "color": "#ffffff",
+          "background": null,
+          "baseline": 0.91
+        }
+      },
+      {
+        "clip_id": "CLP-112ce71382",
+        "scene_id": "SC4",
+        "beat_id": "B4",
+        "ir_node_id": "B4",
+        "origin": "DIRECTOR_IR",
+        "edit_source": "EDT_GENERATOR",
+        "pattern_id": "A_B_COMPARE",
+        "track": "SUBTITLE",
+        "asset_id": null,
+        "source_in": 0.0,
+        "source_out": 5.0,
+        "timeline_in": 35.0,
+        "timeline_out": 40.0,
+        "position": {
+          "x": 0.5,
+          "y": 0.91
+        },
+        "scale": 1.0,
+        "crop": {},
+        "opacity": 1.0,
+        "motion": {},
+        "reveal": {},
+        "locked": false,
+        "hidden": false,
+        "muted": false,
+        "metadata": {
+          "text": "修复完成后再生成新的分镜版本",
+          "typography_role": "SUBTITLE",
+          "color": "#ffffff",
+          "background": null,
+          "baseline": 0.91
+        }
+      },
+      {
+        "clip_id": "CLP-f29bb79b44",
+        "scene_id": "SC5",
+        "beat_id": "B5",
+        "ir_node_id": "B5",
+        "origin": "DIRECTOR_IR",
+        "edit_source": "EDT_GENERATOR",
+        "pattern_id": "THREE_POINT_SUMMARY",
+        "track": "TEXT",
+        "asset_id": null,
+        "source_in": 0.0,
+        "source_out": 10.0,
+        "timeline_in": 40.0,
+        "timeline_out": 50.0,
+        "position": {
+          "x": 0.5,
+          "y": 0.3
+        },
+        "scale": 1.0,
+        "crop": {},
+        "opacity": 1.0,
+        "motion": {
+          "kind": "SLIDE_UP"
+        },
+        "reveal": {
+          "delay": 0.0,
+          "order": 0
+        },
+        "locked": false,
+        "hidden": false,
+        "muted": false,
+        "metadata": {
+          "text": "单行白字",
+          "typography_role": "BODY",
+          "semantic_level": "PRIMARY"
+        }
+      },
+      {
+        "clip_id": "CLP-a0435235db",
+        "scene_id": "SC5",
+        "beat_id": "B5",
+        "ir_node_id": "B5",
+        "origin": "DIRECTOR_IR",
+        "edit_source": "EDT_GENERATOR",
+        "pattern_id": "THREE_POINT_SUMMARY",
+        "track": "TEXT",
+        "asset_id": null,
+        "source_in": 0.0,
+        "source_out": 10.0,
+        "timeline_in": 40.0,
+        "timeline_out": 50.0,
+        "position": {
+          "x": 0.5,
+          "y": 0.44999999999999996
+        },
+        "scale": 1.0,
+        "crop": {},
+        "opacity": 1.0,
+        "motion": {
+          "kind": "SLIDE_UP"
+        },
+        "reveal": {
+          "delay": 0.8,
+          "order": 1
+        },
+        "locked": false,
+        "hidden": false,
+        "muted": false,
+        "metadata": {
+          "text": "没有底板",
+          "typography_role": "BODY",
+          "semantic_level": "SECONDARY"
+        }
+      },
+      {
+        "clip_id": "CLP-37f8b3a9bd",
+        "scene_id": "SC5",
+        "beat_id": "B5",
+        "ir_node_id": "B5",
+        "origin": "DIRECTOR_IR",
+        "edit_source": "EDT_GENERATOR",
+        "pattern_id": "THREE_POINT_SUMMARY",
+        "track": "TEXT",
+        "asset_id": null,
+        "source_in": 0.0,
+        "source_out": 10.0,
+        "timeline_in": 40.0,
+        "timeline_out": 50.0,
+        "position": {
+          "x": 0.5,
+          "y": 0.6
+        },
+        "scale": 1.0,
+        "crop": {},
+        "opacity": 1.0,
+        "motion": {
+          "kind": "SLIDE_UP"
+        },
+        "reveal": {
+          "delay": 1.6,
+          "order": 2
+        },
+        "locked": false,
+        "hidden": false,
+        "muted": false,
+        "metadata": {
+          "text": "固定基线",
+          "typography_role": "BODY",
+          "semantic_level": "SECONDARY"
+        }
+      },
+      {
+        "clip_id": "CLP-f65b0c36cd",
+        "scene_id": "SC5",
+        "beat_id": "B5",
+        "ir_node_id": "B5",
+        "origin": "DIRECTOR_IR",
+        "edit_source": "EDT_GENERATOR",
+        "pattern_id": "THREE_POINT_SUMMARY",
+        "track": "SUBTITLE",
+        "asset_id": null,
+        "source_in": 0.0,
+        "source_out": 3.3333333333333335,
+        "timeline_in": 40.0,
+        "timeline_out": 43.333333333333336,
+        "position": {
+          "x": 0.5,
+          "y": 0.91
+        },
+        "scale": 1.0,
+        "crop": {},
+        "opacity": 1.0,
+        "motion": {},
+        "reveal": {},
+        "locked": false,
+        "hidden": false,
+        "muted": false,
+        "metadata": {
+          "text": "字幕保持单行白字",
+          "typography_role": "SUBTITLE",
+          "color": "#ffffff",
+          "background": null,
+          "baseline": 0.91
+        }
+      },
+      {
+        "clip_id": "CLP-682781912b",
+        "scene_id": "SC5",
+        "beat_id": "B5",
+        "ir_node_id": "B5",
+        "origin": "DIRECTOR_IR",
+        "edit_source": "EDT_GENERATOR",
+        "pattern_id": "THREE_POINT_SUMMARY",
+        "track": "SUBTITLE",
+        "asset_id": null,
+        "source_in": 0.0,
+        "source_out": 3.3333333333333335,
+        "timeline_in": 43.333333333333336,
+        "timeline_out": 46.666666666666664,
+        "position": {
+          "x": 0.5,
+          "y": 0.91
+        },
+        "scale": 1.0,
+        "crop": {},
+        "opacity": 1.0,
+        "motion": {},
+        "reveal": {},
+        "locked": false,
+        "hidden": false,
+        "muted": false,
+        "metadata": {
+          "text": "没有底板",
+          "typography_role": "SUBTITLE",
+          "color": "#ffffff",
+          "background": null,
+          "baseline": 0.91
+        }
+      },
+      {
+        "clip_id": "CLP-398a09565e",
+        "scene_id": "SC5",
+        "beat_id": "B5",
+        "ir_node_id": "B5",
+        "origin": "DIRECTOR_IR",
+        "edit_source": "EDT_GENERATOR",
+        "pattern_id": "THREE_POINT_SUMMARY",
+        "track": "SUBTITLE",
+        "asset_id": null,
+        "source_in": 0.0,
+        "source_out": 3.3333333333333335,
+        "timeline_in": 46.666666666666664,
+        "timeline_out": 50.0,
+        "position": {
+          "x": 0.5,
+          "y": 0.91
+        },
+        "scale": 1.0,
+        "crop": {},
+        "opacity": 1.0,
+        "motion": {},
+        "reveal": {},
+        "locked": false,
+        "hidden": false,
+        "muted": false,
+        "metadata": {
+          "text": "沿固定基线显示",
+          "typography_role": "SUBTITLE",
+          "color": "#ffffff",
+          "background": null,
+          "baseline": 0.91
+        }
+      },
+      {
+        "clip_id": "CLP-6fa1deb7f6",
+        "scene_id": "SC6",
+        "beat_id": "B6",
+        "ir_node_id": "B6",
+        "origin": "DIRECTOR_IR",
+        "edit_source": "EDT_GENERATOR",
+        "pattern_id": "CHARACTER_EXPLAIN_KEYWORD",
+        "track": "TEXT",
+        "asset_id": null,
+        "source_in": 0.0,
+        "source_out": 10.0,
+        "timeline_in": 50.0,
+        "timeline_out": 60.0,
+        "position": {
+          "x": 0.67,
+          "y": 0.3
+        },
+        "scale": 1.0,
+        "crop": {},
+        "opacity": 1.0,
+        "motion": {
+          "kind": "FADE"
+        },
+        "reveal": {
+          "delay": 0.0,
+          "order": 0
+        },
+        "locked": false,
+        "hidden": false,
+        "muted": false,
+        "metadata": {
+          "text": "终稿不等于发布",
+          "typography_role": "KEYWORD",
+          "semantic_level": "PRIMARY"
+        }
+      },
+      {
+        "clip_id": "CLP-a1dc82649f",
+        "scene_id": "SC6",
+        "beat_id": "B6",
+        "ir_node_id": "B6",
+        "origin": "DIRECTOR_IR",
+        "edit_source": "EDT_GENERATOR",
+        "pattern_id": "CHARACTER_EXPLAIN_KEYWORD",
+        "track": "CHARACTER",
+        "asset_id": "MED-38d4fe933475",
+        "source_in": 0.0,
+        "source_out": 10.0,
+        "timeline_in": 50.0,
+        "timeline_out": 60.0,
+        "position": {
+          "x": 0.2,
+          "y": 0.55
+        },
+        "scale": 0.9,
+        "crop": {},
+        "opacity": 1.0,
+        "motion": {},
+        "reveal": {},
+        "locked": false,
+        "hidden": false,
+        "muted": false,
+        "metadata": {
+          "action_id": "XACT-002",
+          "character_pack": "XIAO-Y_V1",
+          "calibration": {
+            "calibration_status": "CALIBRATED",
+            "content_bbox": {
+              "x": 0.06,
+              "y": 0.08085106382978724,
+              "w": 0.798,
+              "h": 0.9191489361702128
+            },
+            "character_bbox": {
+              "x": 0.06,
+              "y": 0.08085106382978724,
+              "w": 0.798,
+              "h": 0.9191489361702128
+            },
+            "anchor": {
+              "x": 0.459,
+              "y": 1.0
+            },
+            "recommended_scale": 0.7986111111111112,
+            "composition_class": "STANDARD",
+            "anchor_kind": "FOOT_BASELINE",
+            "preferred_placement": "LEFT",
+            "allowed_placements": [
+              "LEFT",
+              "CENTER",
+              "RIGHT"
+            ],
+            "calibration_source": "FRESH_AR0004_ALPHA_AND_VISUAL_REVIEW",
+            "safe_area_check": "PASS"
+          }
+        }
+      },
+      {
+        "clip_id": "CLP-1849ef2bda",
+        "scene_id": "SC6",
+        "beat_id": "B6",
+        "ir_node_id": "B6",
+        "origin": "DIRECTOR_IR",
+        "edit_source": "EDT_GENERATOR",
+        "pattern_id": "CHARACTER_EXPLAIN_KEYWORD",
+        "track": "SUBTITLE",
+        "asset_id": null,
+        "source_in": 0.0,
+        "source_out": 5.0,
+        "timeline_in": 50.0,
+        "timeline_out": 55.0,
+        "position": {
+          "x": 0.5,
+          "y": 0.91
+        },
+        "scale": 1.0,
+        "crop": {},
+        "opacity": 1.0,
+        "motion": {},
+        "reveal": {},
+        "locked": false,
+        "hidden": false,
+        "muted": false,
+        "metadata": {
+          "text": "终稿确认和发布授权分别记录",
+          "typography_role": "SUBTITLE",
+          "color": "#ffffff",
+          "background": null,
+          "baseline": 0.91
+        }
+      },
+      {
+        "clip_id": "CLP-31ffc9b7ad",
+        "scene_id": "SC6",
+        "beat_id": "B6",
+        "ir_node_id": "B6",
+        "origin": "DIRECTOR_IR",
+        "edit_source": "EDT_GENERATOR",
+        "pattern_id": "CHARACTER_EXPLAIN_KEYWORD",
+        "track": "SUBTITLE",
+        "asset_id": null,
+        "source_in": 0.0,
+        "source_out": 5.0,
+        "timeline_in": 55.0,
+        "timeline_out": 60.0,
+        "position": {
+          "x": 0.5,
+          "y": 0.91
+        },
+        "scale": 1.0,
+        "crop": {},
+        "opacity": 1.0,
+        "motion": {},
+        "reveal": {},
+        "locked": false,
+        "hidden": false,
+        "muted": false,
+        "metadata": {
+          "text": "完成终稿并不自动发布",
+          "typography_role": "SUBTITLE",
+          "color": "#ffffff",
+          "background": null,
+          "baseline": 0.91
+        }
+      },
+      {
+        "clip_id": "CLP-69d36744ab",
+        "scene_id": null,
+        "beat_id": null,
+        "ir_node_id": null,
+        "origin": "MANUAL",
+        "edit_source": "HUMAN",
+        "pattern_id": null,
+        "track": "VOICE",
+        "asset_id": "MED-dd0f964a0f36",
+        "source_in": 0.0,
+        "source_out": 60.0,
+        "timeline_in": 0.0,
+        "timeline_out": 60.0,
+        "position": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "scale": 1.0,
+        "crop": {},
+        "opacity": 1.0,
+        "motion": {},
+        "reveal": {},
+        "locked": false,
+        "hidden": false,
+        "muted": false,
+        "metadata": {}
+      }
+    ],
+    "markers": [],
+    "source_artifacts": [
+      "ART-5b9591d9c30b40fe",
+      "ART-5493e921ba9f43c8",
+      "ART-107d8729e14041f9",
+      "ART-134e0c6b80584f96",
+      "ART-e38c93a4f45b40de",
+      "ART-b5b5b3f7f96c4aba",
+      "ART-50d929b4f91c4071"
+    ],
+    "last_operation": "ADD"
+  },
+  "current_status": "READY"
+}

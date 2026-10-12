@@ -1,0 +1,145 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "semantic_pattern": {
+      "anyOf": [
+        {
+          "enum": [
+            "EXPLAIN",
+            "REACTION",
+            "EVIDENCE",
+            "COMPARE",
+            "PROCESS",
+            "NUMBER",
+            "SUMMARY",
+            "CTA"
+          ],
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Semantic Pattern"
+    },
+    "template_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Template Id"
+    },
+    "character_action_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Character Action Id"
+    },
+    "element_ids": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Element Ids",
+      "type": "array"
+    },
+    "beat_id": {
+      "title": "Beat Id",
+      "type": "string"
+    },
+    "scene_id": {
+      "title": "Scene Id",
+      "type": "string"
+    },
+    "script_segment_id": {
+      "title": "Script Segment Id",
+      "type": "string"
+    },
+    "phrase_id": {
+      "default": "",
+      "title": "Phrase Id",
+      "type": "string"
+    },
+    "purpose": {
+      "title": "Purpose",
+      "type": "string"
+    },
+    "visual_focus": {
+      "title": "Visual Focus",
+      "type": "string"
+    },
+    "visual_form": {
+      "title": "Visual Form",
+      "type": "string"
+    },
+    "character_intent": {
+      "default": "EXPLAIN",
+      "title": "Character Intent",
+      "type": "string"
+    },
+    "media_need": {
+      "default": "",
+      "title": "Media Need",
+      "type": "string"
+    },
+    "pattern_id": {
+      "title": "Pattern Id",
+      "type": "string"
+    },
+    "retention_function": {
+      "default": "INFORMATION_CHANGE",
+      "title": "Retention Function",
+      "type": "string"
+    },
+    "reveal_order": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Reveal Order",
+      "type": "array"
+    },
+    "motion_intent": {
+      "default": "FADE",
+      "title": "Motion Intent",
+      "type": "string"
+    },
+    "keyword": {
+      "default": "",
+      "title": "Keyword",
+      "type": "string"
+    },
+    "timing_intent": {
+      "exclusiveMinimum": 0,
+      "title": "Timing Intent",
+      "type": "number"
+    },
+    "slots": {
+      "additionalProperties": true,
+      "title": "Slots",
+      "type": "object"
+    }
+  },
+  "required": [
+    "beat_id",
+    "scene_id",
+    "script_segment_id",
+    "purpose",
+    "visual_focus",
+    "visual_form",
+    "pattern_id",
+    "timing_intent"
+  ],
+  "title": "Beat",
+  "type": "object"
+}

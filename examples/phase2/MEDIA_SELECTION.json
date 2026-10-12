@@ -1,0 +1,32 @@
+{
+  "artifact_id": "ART-107d8729e14041f9",
+  "project_id": "PRJ-b417f4c7957a",
+  "artifact_type": "MEDIA_SELECTION",
+  "revision": 1,
+  "created_by_role": "HUMAN",
+  "worker": null,
+  "provider": null,
+  "model": null,
+  "prompt_version": null,
+  "dependencies": [
+    {
+      "artifact_id": "ART-5493e921ba9f43c8",
+      "output_hash": "0614d17d535339f04538927ecf5df6b865f73a5b409080d4104430f50efe4826"
+    }
+  ],
+  "input_hash": "a08df32dc84ee522f4b795c8f8e714ecf7347f37d9dade57adc9358c844fadec",
+  "output_hash": "5599d29620e4dfbb89db3358f40c41fcfe4589858ed2c0b3e2593a1126b33575",
+  "status": "READY",
+  "created_at": "2026-09-26T10:38:40.606613+00:00",
+  "payload": {
+    "media_need": "Diagnostic bundled character",
+    "mode": "MANUAL",
+    "candidate_asset_ids": [
+      "MED-35152449cdfc"
+    ],
+    "selected_asset_id": "MED-35152449cdfc",
+    "status": "SELECTED",
+    "rationale": "Local asset path match only; review the candidates before production."
+  },
+  "current_status": "READY"
+}

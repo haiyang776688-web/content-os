@@ -1,0 +1,45 @@
+{
+  "clips": [
+    {
+      "clip_id": "FAI-FALLBACK-TEXT",
+      "track": "TEXT",
+      "timeline_in": 0,
+      "timeline_out": 1.5,
+      "source_in": 0,
+      "source_out": 1.5,
+      "position": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "motion": {
+        "kind": "HOLD"
+      },
+      "metadata": {
+        "text": "CURRENT timing fallback verified",
+        "typography_role": "BODY"
+      }
+    }
+  ],
+  "fallback_title": "CURRENT timing fallback verified",
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "duration_frames": 45,
+  "phase2": true,
+  "canvas_color": "#FFFFFF",
+  "foreground_color": "#111111",
+  "fonts": [],
+  "timing_provenance": {
+    "timing_mode": "CURRENT",
+    "alignment_artifact_id": null,
+    "alignment_artifact_sha": null,
+    "engine": "whisper.cpp",
+    "engine_version": "1.9.1",
+    "model": "ggml-medium.bin",
+    "model_sha": "6c14d5adee5f86394037b4e4e8b59f1673b6cee10e3cf0b11bbdbee79c156208",
+    "coverage": null,
+    "fallback_used": true,
+    "reason": "ALIGNMENT_RUNTIME_NOT_AVAILABLE",
+    "applied": []
+  }
+}

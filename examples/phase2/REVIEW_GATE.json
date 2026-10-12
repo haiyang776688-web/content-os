@@ -1,0 +1,36 @@
+{
+  "artifact_id": "ART-fa44c1047dff41fd",
+  "project_id": "PRJ-b417f4c7957a",
+  "artifact_type": "REVIEW_GATE",
+  "revision": 1,
+  "created_by_role": "HUMAN",
+  "worker": null,
+  "provider": null,
+  "model": null,
+  "prompt_version": null,
+  "dependencies": [
+    {
+      "artifact_id": "ART-efce8365cbeb4a15",
+      "output_hash": "4378c176a1cce392c68e23eab96ced1a6b4598cfb329f8e39f1f7791f4ee6699"
+    }
+  ],
+  "input_hash": "8016af486f376126172db5d08838692e4c3ce02ac591f900f1bcaf5f2b147093",
+  "output_hash": "ce71957d965ce2e259918eb9e678ae11491773ea91f5fd64a7aed8d676859ac9",
+  "status": "READY",
+  "created_at": "2026-09-26T10:40:48.850484+00:00",
+  "payload": {
+    "decision": "APPROVE_WITH_RISK",
+    "reviewer": "SIMULATED TESTER",
+    "accepted_risks": [
+      "MOCK_VISUAL_QA",
+      "JIANYING_FONT_MAPPING_UNVERIFIED",
+      "FONT_NOT_SUPPORTED",
+      "SUBTITLE_SHADOW_NOT_MAPPED",
+      "FONT_SIZE_WEIGHT_SPACING_APPROXIMATED"
+    ],
+    "comments": "Diagnostic only; not user production approval",
+    "at": "2026-09-26T10:40:48.849312+00:00",
+    "publish_authorized": false
+  },
+  "current_status": "READY"
+}

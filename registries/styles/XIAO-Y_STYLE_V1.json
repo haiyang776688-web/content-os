@@ -1,0 +1,45 @@
+{
+  "style_id": "XIAO-Y_STYLE_V1",
+  "version": "XVT-0001",
+  "colors": {
+    "background": "#FFFFFF",
+    "ink": "#111111",
+    "yellow": "#FFD51E",
+    "red": "#F21E2C",
+    "muted": "#E9EAEC"
+  },
+  "typography": {
+    "background": "#FFFFFF",
+    "ink": "#111111",
+    "yellow": "#FFD51E",
+    "red": "#F21E2C",
+    "muted": "#E9EAEC",
+    "keyword_zh_min": 2,
+    "keyword_zh_max": 10,
+    "supporting_lines_max": 2
+  },
+  "subtitle_style": {
+    "safe_zone": {
+      "left": 80,
+      "top": 962,
+      "width": 1760,
+      "height": 92
+    }
+  },
+  "motion_language": {
+    "source": "XVT-0001"
+  },
+  "composition_rules": {
+    "canvas": {
+      "width": 1920,
+      "height": 1080,
+      "caption_safe_zone_px": {
+        "left": 80,
+        "top": 962,
+        "width": 1760,
+        "height": 92
+      }
+    }
+  },
+  "template_pack": "XIAO-Y_TEMPLATES_V1"
+}

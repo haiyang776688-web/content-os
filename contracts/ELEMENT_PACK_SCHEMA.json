@@ -1,0 +1,28 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "element_pack_id": {
+      "title": "Element Pack Id",
+      "type": "string"
+    },
+    "version": {
+      "title": "Version",
+      "type": "string"
+    },
+    "elements": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Elements",
+      "type": "array"
+    }
+  },
+  "required": [
+    "element_pack_id",
+    "version",
+    "elements"
+  ],
+  "title": "ElementPack",
+  "type": "object"
+}

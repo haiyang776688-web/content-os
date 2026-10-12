@@ -1,0 +1,58 @@
+{
+  "render_id": "ART-af53e1287e9e44c8",
+  "path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/phase2_preview_data/projects/PRJ-bba515713057/renders/RUN-2f3f2604f1.mp4",
+  "size_bytes": 7864604,
+  "streams": [
+    {
+      "type": "video",
+      "width": 1920,
+      "height": 1080,
+      "fps": "30/1",
+      "duration": "84.766667"
+    },
+    {
+      "type": "audio",
+      "width": null,
+      "height": null,
+      "fps": "0/0",
+      "duration": "84.821333"
+    }
+  ],
+  "duration": 84.821333,
+  "silent_path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/phase2_preview_data/projects/PRJ-bba515713057/videoqa_inputs/40d671d04e0da2c97bc837e46ee57eb3ada2ac09afcda554c8b1d2c6f0c8cf46.silent.mp4",
+  "silent_size_bytes": 4436140,
+  "review_media_sha256": "2803530e53a4da4c27579aefa84fceefaf49975b5c65aa3482ced491b3b8e2f9",
+  "original_render_sha256": "40d671d04e0da2c97bc837e46ee57eb3ada2ac09afcda554c8b1d2c6f0c8cf46",
+  "audio_transmitted": false,
+  "review_scope": "VISUAL_ONLY",
+  "decode_passed": true,
+  "decode_errors": "",
+  "compared_frames": 2543,
+  "approved_preview_frames_match": false,
+  "storyboard_gate_id": "ART-1161bdc7bf2b4403",
+  "mechanical_qa_id": "ART-bce6b4a73c3e4b51",
+  "mechanical_verdict": "PASS",
+  "regression": "189 passed, 1 pre-existing warning",
+  "composition_props_identical_to_approved_preview": true,
+  "decoded_video_similarity_ssim": 0.999786,
+  "frame_hash_note": "H.264 decoded frames are not byte-identical across renders; composition props are identical and aggregate SSIM is 0.999786.",
+  "cloud_upload_authorized": true,
+  "video_qa_completed": true,
+  "h3_approved": true,
+  "browser_playback_verified": true,
+  "browser_playback_ended": true,
+  "browser_playback_last_time": 84.821333,
+  "proof_path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/examples/activation/style_review/WORKBENCH_FORMAL.png",
+  "video_qa_id": "ART-c16619f572da4846",
+  "video_qa_verdict": "PASS_WITH_RISK",
+  "video_qa_provider": "MINIMAX",
+  "video_qa_model": "MiniMax-M3",
+  "review_pack_id": "ART-3c05fee5a13d41b6",
+  "review_pack_risk_codes": [
+    "TYPO_OVERLAP_RISK"
+  ],
+  "h4_publish_authorized": false,
+  "h3_gate_id": "ART-98b97704be3f4aa2",
+  "h3_decision": "APPROVE_WITH_RISK",
+  "publication_completed": false
+}

@@ -1,0 +1,195 @@
+{
+  "$defs": {
+    "ClaimUnit": {
+      "additionalProperties": false,
+      "properties": {
+        "claim_id": {
+          "pattern": "^[A-Za-z0-9_-]+$",
+          "title": "Claim Id",
+          "type": "string"
+        },
+        "segment_id": {
+          "title": "Segment Id",
+          "type": "string"
+        },
+        "text_span": {
+          "$ref": "#/$defs/TextSpan"
+        },
+        "claim_text": {
+          "minLength": 1,
+          "title": "Claim Text",
+          "type": "string"
+        },
+        "claim_type": {
+          "enum": [
+            "FACTUAL",
+            "NUMERIC",
+            "ATTRIBUTION",
+            "PREDICTION",
+            "OPINION",
+            "NON_CLAIM"
+          ],
+          "title": "Claim Type",
+          "type": "string"
+        },
+        "fact_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Fact Ids",
+          "type": "array"
+        },
+        "support_status": {
+          "default": "UNSUPPORTED",
+          "enum": [
+            "SUPPORTED",
+            "PARTIAL",
+            "UNSUPPORTED",
+            "NOT_REQUIRED"
+          ],
+          "title": "Support Status",
+          "type": "string"
+        },
+        "review_status": {
+          "default": "PENDING",
+          "enum": [
+            "PENDING",
+            "APPROVED",
+            "REJECTED"
+          ],
+          "title": "Review Status",
+          "type": "string"
+        },
+        "review_reason": {
+          "default": "",
+          "title": "Review Reason",
+          "type": "string"
+        }
+      },
+      "required": [
+        "claim_id",
+        "segment_id",
+        "text_span",
+        "claim_text",
+        "claim_type"
+      ],
+      "title": "ClaimUnit",
+      "type": "object"
+    },
+    "ScriptSegment": {
+      "additionalProperties": false,
+      "properties": {
+        "segment_id": {
+          "title": "Segment Id",
+          "type": "string"
+        },
+        "text": {
+          "minLength": 1,
+          "title": "Text",
+          "type": "string"
+        },
+        "claim": {
+          "default": false,
+          "title": "Claim",
+          "type": "boolean"
+        },
+        "fact_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Fact Ids",
+          "type": "array"
+        }
+      },
+      "required": [
+        "segment_id",
+        "text"
+      ],
+      "title": "ScriptSegment",
+      "type": "object"
+    },
+    "TextSpan": {
+      "additionalProperties": false,
+      "properties": {
+        "start": {
+          "minimum": 0,
+          "title": "Start",
+          "type": "integer"
+        },
+        "end": {
+          "exclusiveMinimum": 0,
+          "title": "End",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "start",
+        "end"
+      ],
+      "title": "TextSpan",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "contract_version": {
+      "default": 1,
+      "maximum": 2,
+      "minimum": 1,
+      "title": "Contract Version",
+      "type": "integer"
+    },
+    "claim_units": {
+      "items": {
+        "$ref": "#/$defs/ClaimUnit"
+      },
+      "title": "Claim Units",
+      "type": "array"
+    },
+    "text": {
+      "title": "Text",
+      "type": "string"
+    },
+    "segments": {
+      "items": {
+        "$ref": "#/$defs/ScriptSegment"
+      },
+      "minItems": 1,
+      "title": "Segments",
+      "type": "array"
+    },
+    "semantic_status": {
+      "default": "AUDIT_REQUIRED",
+      "enum": [
+        "UNCHANGED",
+        "SEMANTIC_CHANGE_DETECTED",
+        "AUDIT_REQUIRED"
+      ],
+      "title": "Semantic Status",
+      "type": "string"
+    },
+    "semantic_diff": {
+      "additionalProperties": true,
+      "title": "Semantic Diff",
+      "type": "object"
+    },
+    "parent_script_artifact_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Parent Script Artifact Id"
+    }
+  },
+  "required": [
+    "text",
+    "segments"
+  ],
+  "title": "BoundScript",
+  "type": "object"
+}

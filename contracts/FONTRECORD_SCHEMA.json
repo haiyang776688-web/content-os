@@ -1,0 +1,131 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "font_id": {
+      "title": "Font Id",
+      "type": "string"
+    },
+    "family": {
+      "title": "Family",
+      "type": "string"
+    },
+    "subfamily": {
+      "title": "Subfamily",
+      "type": "string"
+    },
+    "full_name": {
+      "title": "Full Name",
+      "type": "string"
+    },
+    "postscript_name": {
+      "title": "Postscript Name",
+      "type": "string"
+    },
+    "source": {
+      "enum": [
+        "SYSTEM",
+        "USER",
+        "PROJECT"
+      ],
+      "title": "Source",
+      "type": "string"
+    },
+    "file_path": {
+      "title": "File Path",
+      "type": "string"
+    },
+    "file_name": {
+      "title": "File Name",
+      "type": "string"
+    },
+    "file_type": {
+      "title": "File Type",
+      "type": "string"
+    },
+    "file_hash": {
+      "title": "File Hash",
+      "type": "string"
+    },
+    "face_index": {
+      "default": 0,
+      "title": "Face Index",
+      "type": "integer"
+    },
+    "version": {
+      "default": "",
+      "title": "Version",
+      "type": "string"
+    },
+    "weight": {
+      "default": 400,
+      "title": "Weight",
+      "type": "integer"
+    },
+    "style": {
+      "default": "normal",
+      "title": "Style",
+      "type": "string"
+    },
+    "stretch": {
+      "default": 5,
+      "title": "Stretch",
+      "type": "integer"
+    },
+    "variable": {
+      "default": false,
+      "title": "Variable",
+      "type": "boolean"
+    },
+    "axes": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Axes",
+      "type": "array"
+    },
+    "languages": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Languages",
+      "type": "array"
+    },
+    "classification": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Classification",
+      "type": "array"
+    },
+    "status": {
+      "default": "AVAILABLE",
+      "title": "Status",
+      "type": "string"
+    },
+    "preview_path": {
+      "title": "Preview Path",
+      "type": "string"
+    },
+    "preview_hash": {
+      "title": "Preview Hash",
+      "type": "string"
+    }
+  },
+  "required": [
+    "font_id",
+    "family",
+    "subfamily",
+    "full_name",
+    "postscript_name",
+    "source",
+    "file_path",
+    "file_name",
+    "file_type",
+    "file_hash",
+    "preview_path",
+    "preview_hash"
+  ],
+  "title": "FontRecord",
+  "type": "object"
+}

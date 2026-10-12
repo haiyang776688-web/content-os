@@ -1,0 +1,155 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "asset_id": {
+      "title": "Asset Id",
+      "type": "string"
+    },
+    "project_id": {
+      "title": "Project Id",
+      "type": "string"
+    },
+    "type": {
+      "enum": [
+        "IMAGE",
+        "VIDEO",
+        "AUDIO",
+        "SCREENSHOT",
+        "DOCUMENT",
+        "GENERATED"
+      ],
+      "title": "Type",
+      "type": "string"
+    },
+    "original_path": {
+      "title": "Original Path",
+      "type": "string"
+    },
+    "hash": {
+      "title": "Hash",
+      "type": "string"
+    },
+    "duration": {
+      "anyOf": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Duration"
+    },
+    "resolution": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Resolution"
+    },
+    "fps": {
+      "anyOf": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Fps"
+    },
+    "codec": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Codec"
+    },
+    "created_at": {
+      "title": "Created At",
+      "type": "string"
+    },
+    "source": {
+      "title": "Source",
+      "type": "string"
+    },
+    "owner": {
+      "title": "Owner",
+      "type": "string"
+    },
+    "license": {
+      "default": "UNKNOWN",
+      "title": "License",
+      "type": "string"
+    },
+    "cloud_policy": {
+      "default": "LOCAL_ONLY",
+      "enum": [
+        "LOCAL_ONLY",
+        "CLOUD_ALLOWED",
+        "ASK_BEFORE_UPLOAD"
+      ],
+      "title": "Cloud Policy",
+      "type": "string"
+    },
+    "status": {
+      "default": "ONLINE",
+      "enum": [
+        "ONLINE",
+        "OFFLINE",
+        "MISSING",
+        "RELINKED"
+      ],
+      "title": "Status",
+      "type": "string"
+    },
+    "proxy_path": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Proxy Path"
+    },
+    "thumbnail_path": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Thumbnail Path"
+    }
+  },
+  "required": [
+    "asset_id",
+    "project_id",
+    "type",
+    "original_path",
+    "hash",
+    "created_at",
+    "source",
+    "owner"
+  ],
+  "title": "MediaAsset",
+  "type": "object"
+}

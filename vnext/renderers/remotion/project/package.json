@@ -1,0 +1,24 @@
+{
+  "name": "content-os-vnext-remotion-adapter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio src/index.tsx --no-open",
+    "still": "remotion still src/index.tsx ContentOSPreview",
+    "build:monitor": "esbuild src/ProgramMonitor.tsx --bundle --minify --outfile=../../../apps/workbench/monitor.bundle.js --define:process.env.NODE_ENV=\\\"production\\\""
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.527",
+    "@remotion/fonts": "4.0.527",
+    "@remotion/player": "4.0.527",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.527"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
+    "esbuild": "^0.28.2",
+    "typescript": "5.9.3"
+  }
+}

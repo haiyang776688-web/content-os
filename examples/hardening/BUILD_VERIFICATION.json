@@ -1,0 +1,11 @@
+{
+  "javascript_syntax": [
+    "workbench.js",
+    "phase2.js",
+    "hardening.js"
+  ],
+  "typescript_no_emit_passed": true,
+  "monitor_bundle_built": true,
+  "react_dom_types_version": "19.2.3",
+  "date": "2026-09-27"
+}

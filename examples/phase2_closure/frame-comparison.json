@@ -1,0 +1,16 @@
+{
+  "frame": 90,
+  "seconds": 3,
+  "fps": 30,
+  "preview": "preview-frame-090.png",
+  "render": "render-frame-090.png",
+  "normalized_render": "render-frame-090-fit.png",
+  "size": [
+    459,
+    258
+  ],
+  "ssim": 0.950836,
+  "props_equal": true,
+  "visual_check": "Font, character binding, geometry, timing and layer order agree; browser scaling/JPEG and H264 differ at pixel level.",
+  "pixel_exact": false
+}

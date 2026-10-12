@@ -1,0 +1,13 @@
+{
+  "before": "a9bdfffdf053c1fa7539c8a07b1252ed4c92be995babe6cfcf8d3558ea51a15f",
+  "after": "a9bdfffdf053c1fa7539c8a07b1252ed4c92be995babe6cfcf8d3558ea51a15f",
+  "unchanged": true,
+  "artifact_count": 67,
+  "ui_actions": [
+    "scrub",
+    "play_pause",
+    "clip_select",
+    "two_locales_10_pages",
+    "two_locales_6_panels"
+  ]
+}

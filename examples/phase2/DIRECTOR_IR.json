@@ -1,0 +1,284 @@
+{
+  "artifact_id": "ART-5493e921ba9f43c8",
+  "project_id": "PRJ-b417f4c7957a",
+  "artifact_type": "DIRECTOR_IR",
+  "revision": 2,
+  "created_by_role": "DIRECTOR",
+  "worker": null,
+  "provider": null,
+  "model": null,
+  "prompt_version": null,
+  "dependencies": [
+    {
+      "artifact_id": "ART-5b9591d9c30b40fe",
+      "output_hash": "be230459da33425e902c137d72eede3a4ffb3295dc6d60d69b9a9c931bf4da48"
+    },
+    {
+      "artifact_id": "ART-43c0a5de4fbc4edf",
+      "output_hash": "7251cc7eab85dc820799da6123f380cedc02da92b79c41a9ad1e512d54a7e705"
+    }
+  ],
+  "input_hash": "abff20242f8a9dd0dac6105dbdde14cbabc19512d4301f94e6f04877cb7bcb2c",
+  "output_hash": "0614d17d535339f04538927ecf5df6b865f73a5b409080d4104430f50efe4826",
+  "status": "READY",
+  "created_at": "2026-09-26T10:38:40.512533+00:00",
+  "payload": {
+    "schema_version": 2,
+    "script_artifact_id": "ART-5b9591d9c30b40fe",
+    "scenes": [
+      {
+        "scene_id": "SC1",
+        "purpose": "Explain evidence",
+        "script_range": [
+          "SEG1"
+        ],
+        "narrative_function": "EXPLAIN",
+        "retention_goal": "INFORMATION_CHANGE",
+        "estimated_duration": 10.0,
+        "density": "MEDIUM",
+        "entry": "CUT",
+        "exit": "CUT",
+        "beat_ids": [
+          "B1"
+        ]
+      },
+      {
+        "scene_id": "SC2",
+        "purpose": "Explain evidence",
+        "script_range": [
+          "SEG2"
+        ],
+        "narrative_function": "EXPLAIN",
+        "retention_goal": "INFORMATION_CHANGE",
+        "estimated_duration": 10.0,
+        "density": "MEDIUM",
+        "entry": "CUT",
+        "exit": "CUT",
+        "beat_ids": [
+          "B2"
+        ]
+      },
+      {
+        "scene_id": "SC3",
+        "purpose": "Explain evidence",
+        "script_range": [
+          "SEG3"
+        ],
+        "narrative_function": "EXPLAIN",
+        "retention_goal": "INFORMATION_CHANGE",
+        "estimated_duration": 10.0,
+        "density": "MEDIUM",
+        "entry": "CUT",
+        "exit": "CUT",
+        "beat_ids": [
+          "B3"
+        ]
+      },
+      {
+        "scene_id": "SC4",
+        "purpose": "Explain evidence",
+        "script_range": [
+          "SEG4"
+        ],
+        "narrative_function": "EXPLAIN",
+        "retention_goal": "INFORMATION_CHANGE",
+        "estimated_duration": 10.0,
+        "density": "MEDIUM",
+        "entry": "CUT",
+        "exit": "CUT",
+        "beat_ids": [
+          "B4"
+        ]
+      },
+      {
+        "scene_id": "SC5",
+        "purpose": "Explain evidence",
+        "script_range": [
+          "SEG5"
+        ],
+        "narrative_function": "EXPLAIN",
+        "retention_goal": "INFORMATION_CHANGE",
+        "estimated_duration": 10.0,
+        "density": "MEDIUM",
+        "entry": "CUT",
+        "exit": "CUT",
+        "beat_ids": [
+          "B5"
+        ]
+      },
+      {
+        "scene_id": "SC6",
+        "purpose": "Explain evidence",
+        "script_range": [
+          "SEG6"
+        ],
+        "narrative_function": "EXPLAIN",
+        "retention_goal": "INFORMATION_CHANGE",
+        "estimated_duration": 10.0,
+        "density": "MEDIUM",
+        "entry": "CUT",
+        "exit": "CUT",
+        "beat_ids": [
+          "B6"
+        ]
+      }
+    ],
+    "beats": [
+      {
+        "beat_id": "B1",
+        "scene_id": "SC1",
+        "script_segment_id": "SEG1",
+        "phrase_id": "",
+        "purpose": "Explain evidence",
+        "visual_focus": "生产先读取规则，再使用已绑定来源的事实。",
+        "visual_form": "KEYWORD",
+        "character_intent": "EXPLAIN",
+        "media_need": "",
+        "pattern_id": "CHARACTER_EXPLAIN_KEYWORD",
+        "retention_function": "INFORMATION_CHANGE",
+        "reveal_order": [
+          "PRIMARY",
+          "SECONDARY",
+          "SUPPORTING"
+        ],
+        "motion_intent": "FADE",
+        "keyword": "来源先行",
+        "timing_intent": 10.0,
+        "slots": {
+          "keyword": "来源先行"
+        }
+      },
+      {
+        "beat_id": "B2",
+        "scene_id": "SC2",
+        "script_segment_id": "SEG2",
+        "phrase_id": "",
+        "purpose": "Explain evidence",
+        "visual_focus": "脚本修改经过独立审计，确认方向后才进入导演设计。",
+        "visual_form": "KEYWORD",
+        "character_intent": "EXPLAIN",
+        "media_need": "",
+        "pattern_id": "TIMELINE_PROCESS",
+        "retention_function": "INFORMATION_CHANGE",
+        "reveal_order": [
+          "PRIMARY",
+          "SECONDARY",
+          "SUPPORTING"
+        ],
+        "motion_intent": "SLIDE_UP",
+        "keyword": "独立审计",
+        "timing_intent": 10.0,
+        "slots": {
+          "steps": [
+            "脚本",
+            "独立审计",
+            "导演设计"
+          ]
+        }
+      },
+      {
+        "beat_id": "B3",
+        "scene_id": "SC3",
+        "script_segment_id": "SEG3",
+        "phrase_id": "",
+        "purpose": "Explain evidence",
+        "visual_focus": "画面按主信息、次信息和辅助信息这3个层次依次展开。",
+        "visual_form": "KEYWORD",
+        "character_intent": "EXPLAIN",
+        "media_need": "",
+        "pattern_id": "NUMBER_EMPHASIS",
+        "retention_function": "INFORMATION_CHANGE",
+        "reveal_order": [
+          "PRIMARY",
+          "SECONDARY",
+          "SUPPORTING"
+        ],
+        "motion_intent": "FADE",
+        "keyword": "信息层次",
+        "timing_intent": 10.0,
+        "slots": {
+          "number": "3"
+        }
+      },
+      {
+        "beat_id": "B4",
+        "scene_id": "SC4",
+        "script_segment_id": "SEG4",
+        "phrase_id": "",
+        "purpose": "Explain evidence",
+        "visual_focus": "分镜退回责任部门，修复完成后再生成新的分镜版本。",
+        "visual_form": "KEYWORD",
+        "character_intent": "EXPLAIN",
+        "media_need": "",
+        "pattern_id": "A_B_COMPARE",
+        "retention_function": "INFORMATION_CHANGE",
+        "reveal_order": [
+          "PRIMARY",
+          "SECONDARY",
+          "SUPPORTING"
+        ],
+        "motion_intent": "HOLD",
+        "keyword": "返工有归属",
+        "timing_intent": 10.0,
+        "slots": {
+          "a": "退回责任部门",
+          "b": "修复后重新分镜"
+        }
+      },
+      {
+        "beat_id": "B5",
+        "scene_id": "SC5",
+        "script_segment_id": "SEG5",
+        "phrase_id": "",
+        "purpose": "Explain evidence",
+        "visual_focus": "字幕保持单行白字，没有底板，沿固定基线显示。",
+        "visual_form": "KEYWORD",
+        "character_intent": "EXPLAIN",
+        "media_need": "",
+        "pattern_id": "THREE_POINT_SUMMARY",
+        "retention_function": "INFORMATION_CHANGE",
+        "reveal_order": [
+          "PRIMARY",
+          "SECONDARY",
+          "SUPPORTING"
+        ],
+        "motion_intent": "SLIDE_UP",
+        "keyword": "字幕规范",
+        "timing_intent": 10.0,
+        "slots": {
+          "points": [
+            "单行白字",
+            "没有底板",
+            "固定基线"
+          ]
+        }
+      },
+      {
+        "beat_id": "B6",
+        "scene_id": "SC6",
+        "script_segment_id": "SEG6",
+        "phrase_id": "",
+        "purpose": "Explain evidence",
+        "visual_focus": "终稿确认和发布授权分别记录，完成终稿并不自动发布。",
+        "visual_form": "KEYWORD",
+        "character_intent": "EXPLAIN",
+        "media_need": "",
+        "pattern_id": "CHARACTER_EXPLAIN_KEYWORD",
+        "retention_function": "INFORMATION_CHANGE",
+        "reveal_order": [
+          "PRIMARY",
+          "SECONDARY",
+          "SUPPORTING"
+        ],
+        "motion_intent": "FADE",
+        "keyword": "终稿不等于发布",
+        "timing_intent": 10.0,
+        "slots": {
+          "keyword": "终稿不等于发布"
+        }
+      }
+    ],
+    "transitions": []
+  },
+  "current_status": "READY"
+}

@@ -1,0 +1,277 @@
+{
+  "schema_version": 1,
+  "dataset_id": "ATS001-SAMPLE-A-TARGETED-ERROR-GROUND-TRUTH",
+  "dataset_type": "TARGETED_ERROR_GROUND_TRUTH",
+  "sample_id": "ATS001-SAMPLE-A-ART-ce387c3fce5546ee",
+  "voice_artifact_id": "ART-ce387c3fce5546ee",
+  "script_artifact_id": "ART-bef1d4cecaf94b5d",
+  "audio_sha256": "2d0278e8a2bfcc2c483b2958d60ba9d6f902990bb7b2a2edf7879ddbec2cf813",
+  "script_sha256": "ca462d45d2e1329c9ec6766afe01db8e54ab2bc2c6294e8ab1bcd66ce4b2f173",
+  "source": "HUMAN_LISTENING",
+  "human_full_listening_review": "COMPLETE",
+  "overall_listening_quality": "GENERALLY_ACCEPTABLE",
+  "targeted_problems": 8,
+  "verdict_counts": {
+    "NO_BOUNDARY": 6,
+    "BOUNDARY": 2
+  },
+  "evaluation_semantics": {
+    "boundary_classification": [
+      "true_positive",
+      "true_negative",
+      "false_positive_boundary",
+      "false_negative_boundary"
+    ],
+    "boundary_timing_error_applies_only_to": "BOUNDARY",
+    "no_boundary_rule": "Do not assign a correct boundary timestamp. A predicted semantic boundary inside forbidden_boundary_range is FALSE_POSITIVE_BOUNDARY.",
+    "future_controls": "Add 8-12 randomly sampled normal-control candidates from other intervals; validate normality without requiring precise human millisecond timestamps."
+  },
+  "cases": [
+    {
+      "boundary_id": "TG-001",
+      "phrase_id": "SEG-01-P01",
+      "verdict": "NO_BOUNDARY",
+      "text_before": "视觉节拍负责",
+      "text_after": "此刻看什么",
+      "expected": "视觉节拍负责此刻看什么",
+      "confidence": "HIGH",
+      "source": "HUMAN_LISTENING",
+      "reviewer": "USER",
+      "notes": "人工完整听辨确认此范围不应出现语义边界。",
+      "text_validation": {
+        "status": "MATCH",
+        "frozen_script_phrase": "想让视觉时间线跟着声音走，第一步是分清职责。脚本负责说什么，视觉节拍负责此刻看什么，声音决定它们什么时候出现。"
+      },
+      "forbidden_boundary_range": {
+        "start_ms": 7600,
+        "end_ms": 7959,
+        "notation": "USER_PROVIDED"
+      },
+      "human_text_before": "视觉节拍负责",
+      "human_text_after": "此刻看什么",
+      "script_text_before": "视觉节拍负责",
+      "script_text_after": "此刻看什么",
+      "script_artifact_id": "ART-bef1d4cecaf94b5d",
+      "segment_id": "SEG-01",
+      "character_offset_before": 30,
+      "character_offset_after": 36,
+      "anchor_status": "EXACT",
+      "anchor_mapping_semantics": "phrase-local Python Unicode character indices; offsets are start indices for script_text_before/after"
+    },
+    {
+      "boundary_id": "TG-002",
+      "phrase_id": "SEG-04-P01",
+      "verdict": "NO_BOUNDARY",
+      "text_before": "以实际",
+      "text_after": "语音长度为主",
+      "expected": "以实际语音长度为主",
+      "confidence": "HIGH",
+      "source": "HUMAN_LISTENING",
+      "reviewer": "USER",
+      "notes": "人工完整听辨确认此范围不应出现语义边界。",
+      "text_validation": {
+        "status": "MATCH",
+        "frozen_script_phrase": "时间线只决定画面何时出现。接入声音之后，以实际语音长度为主，再安排关键词、人物和信息元素的入场。"
+      },
+      "forbidden_boundary_range": {
+        "start_ms": 33080,
+        "end_ms": 33254,
+        "notation": "USER_PROVIDED"
+      },
+      "human_text_before": "以实际",
+      "human_text_after": "语音长度为主",
+      "script_text_before": "以实际",
+      "script_text_after": "语音长度为主",
+      "script_artifact_id": "ART-bef1d4cecaf94b5d",
+      "segment_id": "SEG-04",
+      "character_offset_before": 20,
+      "character_offset_after": 23,
+      "anchor_status": "EXACT",
+      "anchor_mapping_semantics": "phrase-local Python Unicode character indices; offsets are start indices for script_text_before/after"
+    },
+    {
+      "boundary_id": "TG-003",
+      "phrase_id": "SEG-06-P01",
+      "verdict": "NO_BOUNDARY",
+      "text_before": "稳定结构",
+      "text_after": "比堆叠特效",
+      "expected": "稳定结构比堆叠特效",
+      "confidence": "HIGH",
+      "source": "HUMAN_LISTENING",
+      "reviewer": "USER",
+      "notes": "人工完整听辨确认此范围不应出现语义边界。",
+      "text_validation": {
+        "status": "MATCH",
+        "frozen_script_phrase": "遇到对比内容，就把差异并排放好。先让观众看清变化，再让角色补一句解释，稳定结构比堆叠特效更容易复查。"
+      },
+      "forbidden_boundary_range": {
+        "start_ms": 56084,
+        "end_ms": 56419,
+        "notation": "USER_PROVIDED"
+      },
+      "human_text_before": "稳定结构",
+      "human_text_after": "比堆叠特效",
+      "script_text_before": "稳定结构",
+      "script_text_after": "比堆叠特效",
+      "script_artifact_id": "ART-bef1d4cecaf94b5d",
+      "segment_id": "SEG-06",
+      "character_offset_before": 35,
+      "character_offset_after": 39,
+      "anchor_status": "EXACT",
+      "anchor_mapping_semantics": "phrase-local Python Unicode character indices; offsets are start indices for script_text_before/after"
+    },
+    {
+      "boundary_id": "TG-004",
+      "phrase_id": "SEG-08-P01",
+      "correct_boundary_timestamp_ms": 72780,
+      "verdict": "BOUNDARY",
+      "text_before": "人物负责身体语言信息",
+      "text_after": "符号负责两层不要互相抢位置",
+      "confidence": "HIGH",
+      "source": "HUMAN_LISTENING",
+      "reviewer": "USER",
+      "notes": "用户提供文本按原样保留；与冻结 Script 不一致，差异见 text_validation。",
+      "text_validation": {
+        "status": "TEXT_TRANSCRIPTION_MISMATCH",
+        "frozen_script_phrase": "已有道具的动作，就不重复叠加图标。人物负责身体语言，信息符号负责提示，两层不要互相抢位置。",
+        "provided_text": "人物负责身体语言信息 | 符号负责两层不要互相抢位置",
+        "difference": "The supplied text/context differs from the frozen Script; preserve the supplied ground-truth text verbatim and use the frozen Script as the canonical transcript for any later alignment."
+      },
+      "human_text_before": "人物负责身体语言信息",
+      "human_text_after": "符号负责两层不要互相抢位置",
+      "script_text_before": "人物负责身体语言，信息",
+      "script_text_after": "符号负责提示，两层不要互相抢位置。",
+      "script_artifact_id": "ART-bef1d4cecaf94b5d",
+      "segment_id": "SEG-08",
+      "character_offset_before": 17,
+      "character_offset_after": 28,
+      "anchor_status": "MANUALLY_RESOLVED",
+      "anchor_mapping_semantics": "phrase-local Python Unicode character indices; offsets are start indices for script_text_before/after"
+    },
+    {
+      "boundary_id": "TG-005",
+      "phrase_id": "SEG-08-P01",
+      "verdict": "NO_BOUNDARY",
+      "text_before": "符号",
+      "text_after": "负责两层不要互相抢位置",
+      "expected": "符号负责两层不要互相抢位置",
+      "confidence": "HIGH",
+      "source": "HUMAN_LISTENING",
+      "reviewer": "USER",
+      "notes": "用户提供文本按原样保留；与冻结 Script 不一致，差异见 text_validation。",
+      "text_validation": {
+        "status": "TEXT_TRANSCRIPTION_MISMATCH",
+        "frozen_script_phrase": "已有道具的动作，就不重复叠加图标。人物负责身体语言，信息符号负责提示，两层不要互相抢位置。",
+        "provided_text": "符号 | 负责两层不要互相抢位置",
+        "difference": "The supplied text/context differs from the frozen Script; preserve the supplied ground-truth text verbatim and use the frozen Script as the canonical transcript for any later alignment."
+      },
+      "forbidden_boundary_range": {
+        "start_ms": 73079,
+        "end_ms": 73373,
+        "notation": "USER_PROVIDED"
+      },
+      "human_text_before": "符号",
+      "human_text_after": "负责两层不要互相抢位置",
+      "script_text_before": "信息符号",
+      "script_text_after": "负责提示，两层不要互相抢位置。",
+      "script_artifact_id": "ART-bef1d4cecaf94b5d",
+      "segment_id": "SEG-08",
+      "character_offset_before": 26,
+      "character_offset_after": 30,
+      "anchor_status": "MANUALLY_RESOLVED",
+      "anchor_mapping_semantics": "phrase-local Python Unicode character indices; offsets are start indices for script_text_before/after"
+    },
+    {
+      "boundary_id": "TG-006",
+      "phrase_id": "SEG-09-P01",
+      "verdict": "NO_BOUNDARY",
+      "text_before": "声音讲到新信息时",
+      "text_after": "对应画面就该进入",
+      "expected": "声音讲到新信息时对应画面就该进入",
+      "confidence": "HIGH",
+      "source": "HUMAN_LISTENING",
+      "reviewer": "USER",
+      "notes": "用户提供文本按原样保留；边界前后的冻结 Script 含逗号，差异见 text_validation。",
+      "text_validation": {
+        "status": "TEXT_TRANSCRIPTION_MISMATCH",
+        "frozen_script_phrase": "最后按脚本顺序生成，再按时间复查。声音讲到新信息时，对应画面就该进入，不要还停留在上一句。",
+        "provided_text": "声音讲到新信息时 | 对应画面就该进入",
+        "difference": "The supplied text/context differs from the frozen Script; preserve the supplied ground-truth text verbatim and use the frozen Script as the canonical transcript for any later alignment."
+      },
+      "forbidden_boundary_range": {
+        "start_ms": 80874,
+        "end_ms": 81256,
+        "notation": "USER_PROVIDED"
+      },
+      "human_text_before": "声音讲到新信息时",
+      "human_text_after": "对应画面就该进入",
+      "script_text_before": "声音讲到新信息时，",
+      "script_text_after": "对应画面就该进入",
+      "script_artifact_id": "ART-bef1d4cecaf94b5d",
+      "segment_id": "SEG-09",
+      "character_offset_before": 17,
+      "character_offset_after": 26,
+      "anchor_status": "NORMALIZED_MATCH",
+      "anchor_mapping_semantics": "phrase-local Python Unicode character indices; offsets are start indices for script_text_before/after"
+    },
+    {
+      "boundary_id": "TG-007",
+      "phrase_id": "SEG-09-P01",
+      "correct_boundary_timestamp_ms": 82572,
+      "verdict": "BOUNDARY",
+      "text_before": "对应画面就该进入",
+      "text_after": "不要还停留在上一句",
+      "confidence": "HIGH",
+      "source": "HUMAN_LISTENING",
+      "reviewer": "USER",
+      "notes": "用户提供文本按原样保留；冻结 Script 在边界处含逗号，差异见 text_validation。",
+      "text_validation": {
+        "status": "TEXT_TRANSCRIPTION_MISMATCH",
+        "frozen_script_phrase": "最后按脚本顺序生成，再按时间复查。声音讲到新信息时，对应画面就该进入，不要还停留在上一句。",
+        "provided_text": "对应画面就该进入 | 不要还停留在上一句",
+        "difference": "The supplied text/context differs from the frozen Script; preserve the supplied ground-truth text verbatim and use the frozen Script as the canonical transcript for any later alignment."
+      },
+      "human_text_before": "对应画面就该进入",
+      "human_text_after": "不要还停留在上一句",
+      "script_text_before": "对应画面就该进入，",
+      "script_text_after": "不要还停留在上一句。",
+      "script_artifact_id": "ART-bef1d4cecaf94b5d",
+      "segment_id": "SEG-09",
+      "character_offset_before": 26,
+      "character_offset_after": 35,
+      "anchor_status": "NORMALIZED_MATCH",
+      "anchor_mapping_semantics": "phrase-local Python Unicode character indices; offsets are start indices for script_text_before/after"
+    },
+    {
+      "boundary_id": "TG-008",
+      "phrase_id": "SEG-09-P01",
+      "verdict": "NO_BOUNDARY",
+      "text_before": "不要",
+      "text_after": "还停留在上一句",
+      "expected": "不要还停留在上一句",
+      "confidence": "HIGH",
+      "source": "HUMAN_LISTENING",
+      "reviewer": "USER",
+      "notes": "用户提供文本按原样保留；冻结 Script 句末含句号，差异见 text_validation。",
+      "text_validation": {
+        "status": "MATCH",
+        "frozen_script_phrase": "最后按脚本顺序生成，再按时间复查。声音讲到新信息时，对应画面就该进入，不要还停留在上一句。"
+      },
+      "forbidden_boundary_range": {
+        "start_ms": 82928,
+        "end_ms": 83255,
+        "notation": "USER_PROVIDED"
+      },
+      "human_text_before": "不要",
+      "human_text_after": "还停留在上一句",
+      "script_text_before": "不要",
+      "script_text_after": "还停留在上一句。",
+      "script_artifact_id": "ART-bef1d4cecaf94b5d",
+      "segment_id": "SEG-09",
+      "character_offset_before": 35,
+      "character_offset_after": 37,
+      "anchor_status": "NORMALIZED_MATCH",
+      "anchor_mapping_semantics": "phrase-local Python Unicode character indices; offsets are start indices for script_text_before/after"
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+[
+  {
+    "worker_id": "MOCK",
+    "display_name": "Mock",
+    "provider": "mock",
+    "model": "deterministic-v1",
+    "protocol": "MOCK",
+    "capabilities": [
+      "TEXT",
+      "IMAGE_INPUT",
+      "AUDIO_INPUT",
+      "VIDEO_INPUT",
+      "STRUCTURED_OUTPUT"
+    ],
+    "endpoint_env": null,
+    "api_key_env": null,
+    "model_env": null
+  },
+  {
+    "worker_id": "MOCK_ALT",
+    "display_name": "Mock alternate",
+    "provider": "mock",
+    "model": "deterministic-v2",
+    "protocol": "MOCK",
+    "capabilities": [
+      "TEXT",
+      "IMAGE_INPUT",
+      "AUDIO_INPUT",
+      "VIDEO_INPUT",
+      "STRUCTURED_OUTPUT"
+    ],
+    "endpoint_env": null,
+    "api_key_env": null,
+    "model_env": null
+  },
+  {
+    "worker_id": "OPENAI",
+    "display_name": "openai",
+    "provider": "openai",
+    "model": "",
+    "protocol": "CUSTOM_OPENAI_COMPATIBLE",
+    "capabilities": [
+      "TEXT",
+      "IMAGE_INPUT",
+      "AUDIO_INPUT",
+      "STRUCTURED_OUTPUT",
+      "TOOL_CALLING",
+      "STREAMING"
+    ],
+    "endpoint_env": "OPENAI_BASE_URL",
+    "api_key_env": "OPENAI_API_KEY",
+    "model_env": "OPENAI_MODEL"
+  },
+  {
+    "worker_id": "DEEPSEEK",
+    "display_name": "deepseek",
+    "provider": "deepseek",
+    "model": "",
+    "protocol": "CUSTOM_OPENAI_COMPATIBLE",
+    "capabilities": [
+      "TEXT",
+      "STRUCTURED_OUTPUT",
+      "TOOL_CALLING",
+      "REASONING"
+    ],
+    "endpoint_env": "DEEPSEEK_BASE_URL",
+    "api_key_env": "DEEPSEEK_API_KEY",
+    "model_env": "DEEPSEEK_MODEL"
+  },
+  {
+    "worker_id": "DOUBAO",
+    "display_name": "doubao",
+    "provider": "doubao",
+    "model": "",
+    "protocol": "CUSTOM_OPENAI_COMPATIBLE",
+    "capabilities": [
+      "TEXT",
+      "STRUCTURED_OUTPUT",
+      "IMAGE_INPUT"
+    ],
+    "endpoint_env": "DOUBAO_BASE_URL",
+    "api_key_env": "DOUBAO_API_KEY",
+    "model_env": "DOUBAO_MODEL"
+  },
+  {
+    "worker_id": "GLM",
+    "display_name": "glm",
+    "provider": "glm",
+    "model": "",
+    "protocol": "CUSTOM_OPENAI_COMPATIBLE",
+    "capabilities": [
+      "TEXT",
+      "STRUCTURED_OUTPUT",
+      "TOOL_CALLING"
+    ],
+    "endpoint_env": "GLM_BASE_URL",
+    "api_key_env": "GLM_API_KEY",
+    "model_env": "GLM_MODEL"
+  },
+  {
+    "worker_id": "MINIMAX",
+    "display_name": "minimax",
+    "provider": "minimax",
+    "model": "",
+    "protocol": "CUSTOM_OPENAI_COMPATIBLE",
+    "capabilities": [
+      "TEXT",
+      "IMAGE_INPUT",
+      "VIDEO_INPUT",
+      "STRUCTURED_OUTPUT"
+    ],
+    "endpoint_env": "MINIMAX_BASE_URL",
+    "api_key_env": "MINIMAX_API_KEY",
+    "model_env": "MINIMAX_MODEL"
+  },
+  {
+    "worker_id": "ANTHROPIC",
+    "display_name": "anthropic",
+    "provider": "anthropic",
+    "model": "",
+    "protocol": "ANTHROPIC_MESSAGES",
+    "capabilities": [
+      "TEXT",
+      "IMAGE_INPUT",
+      "STRUCTURED_OUTPUT",
+      "REASONING"
+    ],
+    "endpoint_env": "ANTHROPIC_BASE_URL",
+    "api_key_env": "ANTHROPIC_API_KEY",
+    "model_env": "ANTHROPIC_MODEL"
+  },
+  {
+    "worker_id": "GEMINI",
+    "display_name": "gemini",
+    "provider": "gemini",
+    "model": "",
+    "protocol": "GEMINI_NATIVE",
+    "capabilities": [
+      "TEXT",
+      "IMAGE_INPUT",
+      "AUDIO_INPUT",
+      "VIDEO_INPUT",
+      "STRUCTURED_OUTPUT"
+    ],
+    "endpoint_env": "GEMINI_BASE_URL",
+    "api_key_env": "GEMINI_API_KEY",
+    "model_env": "GEMINI_MODEL"
+  },
+  {
+    "worker_id": "QWEN",
+    "display_name": "qwen",
+    "provider": "qwen",
+    "model": "",
+    "protocol": "CUSTOM_OPENAI_COMPATIBLE",
+    "capabilities": [
+      "TEXT",
+      "IMAGE_INPUT",
+      "STRUCTURED_OUTPUT"
+    ],
+    "endpoint_env": "QWEN_BASE_URL",
+    "api_key_env": "QWEN_API_KEY",
+    "model_env": "QWEN_MODEL"
+  },
+  {
+    "worker_id": "KIMI",
+    "display_name": "kimi",
+    "provider": "kimi",
+    "model": "",
+    "protocol": "CUSTOM_OPENAI_COMPATIBLE",
+    "capabilities": [
+      "TEXT",
+      "STRUCTURED_OUTPUT"
+    ],
+    "endpoint_env": "KIMI_BASE_URL",
+    "api_key_env": "KIMI_API_KEY",
+    "model_env": "KIMI_MODEL"
+  },
+  {
+    "worker_id": "GROK",
+    "display_name": "grok",
+    "provider": "grok",
+    "model": "",
+    "protocol": "CUSTOM_OPENAI_COMPATIBLE",
+    "capabilities": [
+      "TEXT",
+      "STRUCTURED_OUTPUT"
+    ],
+    "endpoint_env": "GROK_BASE_URL",
+    "api_key_env": "GROK_API_KEY",
+    "model_env": "GROK_MODEL"
+  },
+  {
+    "worker_id": "CUSTOM_OPENAI",
+    "display_name": "custom_openai",
+    "provider": "custom_openai",
+    "model": "",
+    "protocol": "CUSTOM_OPENAI_COMPATIBLE",
+    "capabilities": [
+      "TEXT",
+      "STRUCTURED_OUTPUT",
+      "TOOL_CALLING"
+    ],
+    "endpoint_env": "CUSTOM_OPENAI_BASE_URL",
+    "api_key_env": "CUSTOM_OPENAI_API_KEY",
+    "model_env": "CUSTOM_OPENAI_MODEL"
+  },
+  {
+    "worker_id": "LOCAL_OPENAI",
+    "display_name": "local_openai",
+    "provider": "local_openai",
+    "model": "",
+    "protocol": "CUSTOM_OPENAI_COMPATIBLE",
+    "capabilities": [
+      "TEXT",
+      "STRUCTURED_OUTPUT"
+    ],
+    "endpoint_env": "LOCAL_OPENAI_BASE_URL",
+    "api_key_env": "LOCAL_OPENAI_API_KEY",
+    "model_env": "LOCAL_OPENAI_MODEL"
+  }
+]

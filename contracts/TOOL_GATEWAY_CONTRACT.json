@@ -1,0 +1,37 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "tool": {
+      "enum": [
+        "SEARCH",
+        "FETCH_PAGE",
+        "SNAPSHOT",
+        "DOCUMENT_READ",
+        "WEB_SEARCH",
+        "PAGE_FETCH",
+        "SCREENSHOT",
+        "IMAGE_SEARCH",
+        "FILE_READ",
+        "PDF_READ"
+      ],
+      "title": "Tool",
+      "type": "string"
+    },
+    "arguments": {
+      "additionalProperties": true,
+      "title": "Arguments",
+      "type": "object"
+    },
+    "request_id": {
+      "title": "Request Id",
+      "type": "string"
+    }
+  },
+  "required": [
+    "tool",
+    "arguments",
+    "request_id"
+  ],
+  "title": "ToolRequest",
+  "type": "object"
+}

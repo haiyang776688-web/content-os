@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TCU-001 Sample A — Timing A/B</title><style>
+:root{--bg:#0e1415;--panel:#172022;--ink:#f5f7f6;--muted:#aeb9b6;--accent:#ffc400;--good:#62df91}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 system-ui,sans-serif}
+header{padding:28px 34px;border-bottom:1px solid #334143}h1{margin:0 0 8px;font-size:28px}header p{margin:0;color:var(--muted)}
+.metrics{display:flex;gap:12px;padding:18px 34px}.metric{background:var(--panel);padding:14px 18px;border-radius:10px}
+.metric strong{color:var(--accent);font-size:22px}.videos{display:grid;grid-template-columns:1fr 1fr;gap:14px;padding:0 34px}
+.video{background:var(--panel);padding:12px;border-radius:12px}video{width:100%;background:#000}h2{font-size:16px;margin:0 0 8px}
+.controls{padding:20px 34px 36px;display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:8px}
+button{border:1px solid #3a4a4d;background:#1a2527;color:var(--ink);border-radius:8px;padding:10px;text-align:left;cursor:pointer}
+button:hover{border-color:var(--accent)}button span{display:block;color:var(--muted);font-size:12px;margin-top:2px}
+.note{margin:0 34px 20px;padding:14px 18px;border-left:4px solid var(--good);background:#14251c}
+</style></head><body><header><h1>TCU-001 · Sample A Timing Consumer A/B</h1>
+<p>同一 Script / Audio / ShotPlan semantics / Visual EDT。左侧 CURRENT，右侧仅改变 WHEN。</p></header>
+<section class="metrics"><div class="metric">Beat 正边界中位误差<br><strong>1289.0 → 194.0 ms</strong></div>
+<div class="metric">Aligned coverage<br><strong>98.69%</strong></div>
+<div class="metric">新 NO_BOUNDARY Beat 切点<br><strong>0</strong></div></section>
+<p class="note">点击下方检查点会让两版视频同步跳转到该位置前 0.7 秒。TG-004 与 TG-007 是已批准正边界；其余目标点用于确认没有新增错误切分。</p>
+<section class="videos"><div class="video"><h2>A · CURRENT_TIMING</h2><video id="a" controls preload="metadata" src="TCU-001-Sample-A-CURRENT.mp4"></video></div>
+<div class="video"><h2>B · ALIGNED_TIMING_CONSUMER</h2><video id="b" controls preload="metadata" src="TCU-001-Sample-A-ALIGNED.mp4"></video></div></section>
+<section class="controls"><button data-time="7.779"><b>TG-001</b><span>NO_BOUNDARY · 7.779s</span></button>
+<button data-time="33.167"><b>TG-002</b><span>NO_BOUNDARY · 33.167s</span></button>
+<button data-time="56.252"><b>TG-003</b><span>NO_BOUNDARY · 56.252s</span></button>
+<button data-time="72.780"><b>TG-004</b><span>BOUNDARY · 72.780s</span></button>
+<button data-time="73.226"><b>TG-005</b><span>NO_BOUNDARY · 73.226s</span></button>
+<button data-time="81.065"><b>TG-006</b><span>NO_BOUNDARY · 81.065s</span></button>
+<button data-time="82.572"><b>TG-007</b><span>BOUNDARY · 82.572s</span></button>
+<button data-time="83.091"><b>TG-008</b><span>NO_BOUNDARY · 83.091s</span></button>
+<button data-time="5.500"><b>NC-001</b><span>CONTROL_NORMAL · 5.500s</span></button>
+<button data-time="13.140"><b>NC-002</b><span>CONTROL_NORMAL · 13.140s</span></button>
+<button data-time="26.860"><b>NC-003</b><span>CONTROL_NORMAL · 26.860s</span></button>
+<button data-time="31.500"><b>NC-004</b><span>CONTROL_NORMAL · 31.500s</span></button>
+<button data-time="39.980"><b>NC-005</b><span>CONTROL_NORMAL · 39.980s</span></button>
+<button data-time="54.060"><b>NC-006</b><span>CONTROL_NORMAL · 54.060s</span></button>
+<button data-time="65.260"><b>NC-007</b><span>CONTROL_NORMAL · 65.260s</span></button>
+<button data-time="69.260"><b>NC-008</b><span>CONTROL_NORMAL · 69.260s</span></button>
+<button data-time="79.380"><b>NC-009</b><span>CONTROL_NORMAL · 79.380s</span></button>
+<button data-time="19.540"><b>NC-010</b><span>CONTROL_NORMAL · 19.540s</span></button></section><script>
+const a=document.querySelector('#a'),b=document.querySelector('#b');let syncing=false;
+function seek(t){a.currentTime=t;b.currentTime=t};
+document.querySelectorAll('button[data-time]').forEach(x=>x.onclick=()=>seek(Math.max(0,Number(x.dataset.time)-.7)));
+[a,b].forEach((v,i)=>{v.addEventListener('play',()=>{(i? a:b).currentTime=v.currentTime;(i? a:b).play()});v.addEventListener('pause',()=>{if(!(i?a:b).paused)(i?a:b).pause()});v.addEventListener('seeking',()=>{if(!syncing){syncing=true;(i?a:b).currentTime=v.currentTime;setTimeout(()=>syncing=false,80)}})});
+</script></body></html>

@@ -1,0 +1,380 @@
+{
+  "protected_file_count": 93,
+  "all_unchanged": true,
+  "checks": [
+    {
+      "path": "assets/character_master/XIAO-Y_V1.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-PHONE.svg",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-ARROW-RIGHT.svg",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-CROSS.svg",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-QUOTE.svg",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-B-BADGE.svg",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-WARNING.svg",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-ARROW-LEFT.svg",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-LINE-CHART.svg",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-HEART.svg",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-VIDEO-FRAME.svg",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-BAR-CHART.svg",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-DOCUMENT.svg",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-QUESTION.svg",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-CIRCLE-HIGHLIGHT.svg",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-BOOK.svg",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-SPARKLE.svg",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-LIGHTBULB.svg",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-BROWSER-FRAME.svg",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-THOUGHT-CLOUD.svg",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-EMPHASIS-LINES.svg",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-NOTE-CARD.svg",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-PEN-NOTE.svg",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-SPEECH-BUBBLE.svg",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-CHECK.svg",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-EXCLAMATION.svg",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-BURST.svg",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-IMAGE-FRAME.svg",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-A-BADGE.svg",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-ARROW-UP.svg",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-LAPTOP.svg",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-ARROW-DOWN.svg",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-ELLIPSIS.svg",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/elements/XIAO-Y_Remotion_Element_Pack_v1/svg/ELM-PLATFORM-LOGO-SLOT.svg",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-014_present_right.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-045_cta_point_right.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-030_surprised_stand.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-025_thinking_chin.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-042_celebrate_jump.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-041_excited_jump.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-032_thumbs_up_alt.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-027_thinking_hand_mouth.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-018_raised_fist_happy.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-036_review_document.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-007_point_right.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-008_hands_on_hips_happy.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-031_arms_crossed_worried.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-024_hands_to_cheeks_surprised.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-012_point_left.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-037_read_book.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-001_neutral_stand.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-017_open_arms_smile.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-003_peace_sign.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-033_look_phone.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-011_point_right_alt.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-015_open_arms_worried.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-009_thumbs_up.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-028_arms_crossed_neutral.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-021_angry_fists.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-026_thinking_chin_alt.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-020_fists_ready.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-048_dynamic_forward_emphasis.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-019_hands_clasped_concerned.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-022_hands_near_mouth_anxious.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-029_clasped_hands_thinking.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-043_thumbs_up_forward.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-013_fist_chest_happy.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-005_running_excited.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-034_phone_surprise.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-039_seated_thinking.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-004_laugh_wink_present.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-046_bow_apologize.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-040_focused_work.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-035_use_computer.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-023_seated_crying.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-002_present_right_happy.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-006_open_arms_happy.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-016_open_arms_surprised.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-010_point_down.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-044_arms_crossed_serious.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-038_write_note.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/packs/character/XIAO-Y_Action_Pack_v2_Production_48/actions/XACT-047_thanks_hands.png",
+      "unchanged": true
+    },
+    {
+      "path": "registries/characters/XIAO-Y_V1.json",
+      "unchanged": true
+    },
+    {
+      "path": "registries/styles/XIAO-Y_TEMPLATES_V1.json",
+      "unchanged": true
+    },
+    {
+      "path": "registries/styles/XIAO-Y_STYLE_V1.json",
+      "unchanged": true
+    },
+    {
+      "path": "registries/voices/MOCK_VOICE_ALT_V1.json",
+      "unchanged": true
+    },
+    {
+      "path": "registries/voices/YU_LOCAL_V1.json",
+      "unchanged": true
+    },
+    {
+      "path": "registries/voices/MOCK_VOICE_V1.json",
+      "unchanged": true
+    },
+    {
+      "path": "migration/reference/XVT-0001.json",
+      "unchanged": true
+    },
+    {
+      "path": "migration/reference/VBP-0001.json",
+      "unchanged": true
+    },
+    {
+      "path": "migration/reference/XVT-0002_REVEAL_METADATA.json",
+      "unchanged": true
+    },
+    {
+      "path": "migration/reference/VM-0003.json",
+      "unchanged": true
+    },
+    {
+      "path": "migration/LEGACY_MIGRATION_RESULT.json",
+      "unchanged": true
+    }
+  ],
+  "phase1_zip_sha256": "2690875a81cd156095b8ed4a30b7d6bcf56c42dd60ecaef09b4c82d780597c34",
+  "phase2_preview_zip_sha256": "a74ce1d08a201ed789762e400df18398e6f61a242ea9fa402c25f50a0d28a296"
+}

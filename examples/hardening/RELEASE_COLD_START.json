@@ -1,0 +1,12 @@
+{
+  "fresh_release_import": true,
+  "web_ui": true,
+  "program_monitor_bundle": true,
+  "i18n_both_languages": true,
+  "create_project": true,
+  "hardening_read": true,
+  "owner_veto": true,
+  "strict_enable": true,
+  "real_model_called": false,
+  "temporary_data_only": true
+}

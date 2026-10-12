@@ -1,0 +1,12 @@
+{
+  "project_id": "PRJ-b417f4c7957a",
+  "font_project_id": "PRJ-3e7963af47cc",
+  "model_mode": "MOCK",
+  "voice": "TEST_TONE_NOT_TTS",
+  "gates": "SIMULATED_TEST_FIXTURE",
+  "original_artifact_paths_are_machine_specific": true,
+  "font_bytes_redistributed": false,
+  "native_draft_path": "${EXTERNAL_VOLUME}/剪映草稿/JianyingPro Drafts/ContentOS-EXP-3e9232ba31",
+  "native_full_acceptance": false,
+  "phase2_complete": false
+}

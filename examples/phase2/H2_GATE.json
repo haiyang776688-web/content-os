@@ -1,0 +1,32 @@
+{
+  "artifact_id": "ART-799a9be16c274366",
+  "project_id": "PRJ-b417f4c7957a",
+  "artifact_type": "H2_GATE",
+  "revision": 1,
+  "created_by_role": "HUMAN",
+  "worker": null,
+  "provider": null,
+  "model": null,
+  "prompt_version": null,
+  "dependencies": [
+    {
+      "artifact_id": "ART-5b9591d9c30b40fe",
+      "output_hash": "be230459da33425e902c137d72eede3a4ffb3295dc6d60d69b9a9c931bf4da48"
+    },
+    {
+      "artifact_id": "ART-154b6f985e924773",
+      "output_hash": "573b867e80905b95eb89766cdf37fb894ab88f0247e4de883175c32467d91f98"
+    }
+  ],
+  "input_hash": "1cd3b4e0fc3796ebdf0e8ee3cc85dc9058957ec7fa33d39ba466cf3bb7b42016",
+  "output_hash": "cb20c4cfd0062d804889c2318184344e6e0440d3ac1551e0588629b75981b604",
+  "status": "READY",
+  "created_at": "2026-09-26T10:38:40.370452+00:00",
+  "payload": {
+    "script_artifact_id": "ART-5b9591d9c30b40fe",
+    "risk_acknowledged": true,
+    "decision": "APPROVE",
+    "at": "2026-09-26T10:38:40.368946+00:00"
+  },
+  "current_status": "READY"
+}

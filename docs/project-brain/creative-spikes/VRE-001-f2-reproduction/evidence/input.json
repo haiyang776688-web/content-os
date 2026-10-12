@@ -1,0 +1,87 @@
+{
+  "script_id": "ART-278087e926034f3b",
+  "script_sha256": "46cd2156fd054e80680af40e9f498fab09f7684e21d52dff9091513772de46a6",
+  "segments": [
+    {
+      "segment_id": "SEG-02",
+      "text": "研究页允许从本地文件导入资料，模型提取的原文候选需要操作者确认。",
+      "fact_ids": ["F-dc561e10da"]
+    },
+    {
+      "segment_id": "SEG-03",
+      "text": "候选引文不会自动成为已核实 Fact，这一步必须由人来把关。",
+      "fact_ids": ["F-dc561e10da"]
+    },
+    {
+      "segment_id": "SEG-04",
+      "text": "Fact Pack 把选中的事实与来源绑定，脚本里的事实性主张要引用已有 Fact ID。",
+      "fact_ids": ["F-71b1b7f9d0"]
+    }
+  ],
+  "captions": [
+    {"text": "研究页允许从本地文件导入资料", "start": 0.0, "end": 2.91},
+    {"text": "模型提取的原文候选需要操作者确认", "start": 2.91, "end": 6.24},
+    {"text": "候选引文不会自动成为已核实 Fact", "start": 6.24, "end": 9.87},
+    {"text": "这一步必须由人来把关", "start": 9.87, "end": 11.88},
+    {"text": "Fact Pack 把选中的事实与来源绑定", "start": 11.88, "end": 15.42},
+    {"text": "脚本里的事实性主张要引用已有 Fact ID", "start": 15.42, "end": 19.12}
+  ],
+  "assets": [
+    {
+      "asset_id": "EV-RESEARCH",
+      "kind": "EVIDENCE",
+      "source_path": "fixtures/creative-spike-1-evidence/research.png",
+      "sha256": "f58bd1a45eefe056e1cf8d6800f1e31c6e8cf8ea2ded001f243f2d80e22edd89",
+      "regions": {
+        "import_control": {"x": 0.153125, "y": 0.493, "width": 0.26875, "height": 0.205},
+        "candidate_rule": {"x": 0.1525, "y": 0.68, "width": 0.38, "height": 0.18},
+        "not_fact_rule": {"x": 0.1525, "y": 0.775, "width": 0.42, "height": 0.105},
+        "source_rule": {"x": 0.1525, "y": 0.804, "width": 0.24375, "height": 0.034}
+      }
+    },
+    {
+      "asset_id": "EV-SCRIPT",
+      "kind": "EVIDENCE",
+      "source_path": "fixtures/creative-spike-1-evidence/script.png",
+      "sha256": "29ce5a9ad5d1a069f11160f202492a03f81c070590796d53eb85b76bd4210b22",
+      "regions": {
+        "human_review": {"x": 0.1425, "y": 0.575, "width": 0.64375, "height": 0.211},
+        "fact_id_rule": {"x": 0.29, "y": 0.31, "width": 0.43, "height": 0.32}
+      }
+    },
+    {
+      "asset_id": "CH-POINT",
+      "kind": "CHARACTER",
+      "source_path": "vnext/renderers/remotion/project/public/PREVIEW-VGB001/point.png",
+      "sha256": "7147df098178f52d7d6b6796132edb91eccf93dc3a9811f06652eb07485fac04"
+    },
+    {
+      "asset_id": "CH-SERIOUS",
+      "kind": "CHARACTER",
+      "source_path": "vnext/renderers/remotion/project/public/PREVIEW-VGB001/serious.png",
+      "sha256": "9b7b1a72185ae3cd89a67e5d11b6be62ae2698d5a107704089a4f69c6f4a23b0"
+    },
+    {
+      "asset_id": "CH-SURPRISE",
+      "kind": "CHARACTER",
+      "source_path": "vnext/renderers/remotion/project/public/PREVIEW-VGB001/surprise.png",
+      "sha256": "c7d543860bee1ee14f533e77da36d11cee9e11f1749e1ae312b0abac7d40fbb2"
+    },
+    {
+      "asset_id": "VOICE-VGB001-TRIM",
+      "kind": "VOICE",
+      "source_path": "vnext/renderers/remotion/project/public/PREVIEW-VGB001/voice.wav",
+      "sha256": "2fd92f28a638b732221c3a621c2823426b98044c3afb3f34fa1ff56a60068cd2"
+    },
+    {
+      "asset_id": "FONT-VGB001",
+      "kind": "FONT",
+      "source_path": "vnext/renderers/remotion/project/public/PREVIEW-VGB001/font.otf",
+      "sha256": "b4616b25a4b235d02eb44363e36122fe828f6baaa9b94c3a90b37c33e10fab65"
+    }
+  ],
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 19.12
+}

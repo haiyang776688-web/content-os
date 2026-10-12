@@ -1,0 +1,12 @@
+{
+  "revision": "VBP-0001",
+  "status": "READY",
+  "pipeline": ["SCRIPT_SEGMENT", "VISUAL_BEAT", "TEMPLATE_INTENT", "XVT-0001", "SC-0002"],
+  "beat_types": ["NARRATION", "QUESTION", "KEYWORD", "REACTION", "INFORMATION", "LOGO", "DEMO_SCREEN", "DETAIL", "COMPARE", "SUMMARY", "CTA"],
+  "selection_policy": "EXPLICIT_SEMANTIC_HINT_OR_DETERMINISTIC_INTENT_FALLBACK",
+  "source_text_policy": "ALL_VISUAL_CHINESE_COPY_MUST_BE_SOURCE_SUBSTRING",
+  "rhythm_soft_target_beats_per_10_sec": [3, 5],
+  "density_values": ["LOW", "MEDIUM", "HIGH"],
+  "scale_values": ["EXTREME_CLOSEUP", "CLOSEUP", "MEDIUM", "FULL", "MINI", "NONE"],
+  "warnings_report_only": ["TEMPLATE_REPETITION_WARNING", "SCALE_MONOTONY_WARNING", "STATIC_VISUAL_WARNING"]
+}

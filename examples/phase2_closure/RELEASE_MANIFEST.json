@@ -1,0 +1,175 @@
+{
+  "release": "Content OS vNext Phase 2 Preview + CAP-023/CAP-024 Closure",
+  "phase2_complete": false,
+  "user_projects_created": 0,
+  "diagnostic_project": "PRJ-3e7963af47cc",
+  "automated_tests_passed": 78,
+  "new_tests": 23,
+  "protected_files_unchanged": 93,
+  "changed_source_files": [
+    {
+      "path": "CONTENT_OS_VNEXT_PHASE2_REPORT.md",
+      "kind": "modified",
+      "sha256": "80957fcdf3e84f8980fc894a0cc5f801d24e747d524a2a9f0a98ca6a312e5490"
+    },
+    {
+      "path": "ARCHITECTURE.md",
+      "kind": "modified",
+      "sha256": "5715b541484f5b8aab2445a858192e2b201e69e79e495ad5e136079cca250a44"
+    },
+    {
+      "path": "CONTENT_OS_当前状态交接包.md",
+      "kind": "modified",
+      "sha256": "7c8136e86c547c215eed06373aa09b45423f47041fba7a7b233018cbc8688993"
+    },
+    {
+      "path": "README.md",
+      "kind": "modified",
+      "sha256": "dafe9bcce51affacf02ac8096d1cd83ace05a12d133444726235201b6771c3c7"
+    },
+    {
+      "path": "CONTENT_OS_VNEXT_PHASE2_CLOSURE_REPORT.md",
+      "kind": "added",
+      "sha256": "5befb8d3d8f129cff58a8abb05cb4155ef5713b7d6406d886b09e1a4cc8e2e2f"
+    },
+    {
+      "path": ".gitignore",
+      "kind": "modified",
+      "sha256": "1aa5b2d48a3bdb324051f251587535cbc1e932314b260ad7335070aef019f0ca"
+    },
+    {
+      "path": "CAPABILITY_ROADMAP.json",
+      "kind": "modified",
+      "sha256": "b146899ed02ff8690f6b237c784dab5e935cc0d995c230bebd65999a43b167f1"
+    },
+    {
+      "path": "scripts/write_phase2_docs.py",
+      "kind": "modified",
+      "sha256": "536f7c28c1bc8fbceb9c04a7bfe07200e6e05959b4e9e7b5168fe6135f97187f"
+    },
+    {
+      "path": "vnext/core/editing.py",
+      "kind": "modified",
+      "sha256": "7ea81514cd6113af5c952187d8b7b0fca0e0503d56220afcdb5508a7ffdbca2d"
+    },
+    {
+      "path": "vnext/phase2/api.py",
+      "kind": "modified",
+      "sha256": "ca7abb5250911b8f576e519bd52a0e42d120b55315e72169437008f97dd72128"
+    },
+    {
+      "path": "vnext/phase2/production.py",
+      "kind": "modified",
+      "sha256": "fbf2c77eedda73a6ac1a6020dc6c9b1bde43f8bda22d5cc659d12e8055b3ebd1"
+    },
+    {
+      "path": "vnext/tests/test_phase2_closure.py",
+      "kind": "added",
+      "sha256": "aee13a38bbb8d5b39730d853d0e00ecdca755be4c317ac6c399447d9ffecfd5a"
+    },
+    {
+      "path": "vnext/i18n/registry.json",
+      "kind": "added",
+      "sha256": "13a15c9da2306bc1b7b34d0a26cd990dc4768fad17c891f3848f04d802a9f776"
+    },
+    {
+      "path": "vnext/i18n/zh-CN.json",
+      "kind": "modified",
+      "sha256": "e21a7d04805e9df3e6935cea14438230b524fe6b7368653597056e9aadc7eaed"
+    },
+    {
+      "path": "vnext/i18n/en-US.json",
+      "kind": "modified",
+      "sha256": "94d7849a9ef79f1efd4fe60e17997ec5929f426dcf68e08f422b53c6dbaad058"
+    },
+    {
+      "path": "vnext/apps/workbench/server.py",
+      "kind": "modified",
+      "sha256": "66b3190089a5624a74e2768ac198e2751ba5ddf7df451f1ed56c3026c96aac4d"
+    },
+    {
+      "path": "vnext/apps/workbench/index.html",
+      "kind": "modified",
+      "sha256": "b341de2d44ebabfe19b482ff205bab0aef5c902aec80d1644399e2fdfa31e4bb"
+    },
+    {
+      "path": "vnext/apps/workbench/monitor.bundle.js",
+      "kind": "added",
+      "sha256": "79ae5adbd146f0a908696a0808970029ac4734e02d99d6b9262b135cf3d8049f"
+    },
+    {
+      "path": "vnext/apps/workbench/preview.js",
+      "kind": "added",
+      "sha256": "9ee0d089c4b6dd79d51633551f923ca5f4902a0e2694c10a9605b72853db8247"
+    },
+    {
+      "path": "vnext/apps/workbench/phase2.js",
+      "kind": "modified",
+      "sha256": "d4a20248b1fad27e4042812c8cad150b36c7681cf56c81cc3d85a1506446b288"
+    },
+    {
+      "path": "vnext/apps/workbench/workbench.js",
+      "kind": "modified",
+      "sha256": "e11373b6df9e60b97d22b32d58777907bac283bacd5ad6d587144d9d64cd88d9"
+    },
+    {
+      "path": "vnext/apps/workbench/monitor.html",
+      "kind": "added",
+      "sha256": "07e54150dc24b3931ea67d688a943ba28adb56138c1f4585be7f1cb1f5af5e67"
+    },
+    {
+      "path": "vnext/apps/workbench/i18n.js",
+      "kind": "added",
+      "sha256": "0de59fdb605426d9fe2faa7dff70ed1056c79212e7c148e938d8cab40a44e654"
+    },
+    {
+      "path": "vnext/apps/workbench/workbench.css",
+      "kind": "modified",
+      "sha256": "f2be3573542e73a34489c37eeaacfac850f908b2ddda7e04629d3e11c198ffb0"
+    },
+    {
+      "path": "vnext/renderers/remotion/adapter.py",
+      "kind": "modified",
+      "sha256": "27107e3c6a3f6edaf3fb3efaabff93cf4103af329fec0fc6505305ce88941c0c"
+    },
+    {
+      "path": "vnext/renderers/remotion/resolver.py",
+      "kind": "added",
+      "sha256": "2620e48aa833aec0e2fa3ed42b05bde530dfdccb7025ab0b6231fb46e951c0b9"
+    },
+    {
+      "path": "vnext/renderers/remotion/project/package-lock.json",
+      "kind": "modified",
+      "sha256": "866ecfa9fa3472d2d7eed88339acf99273d8b977fc9e2b9ccc7ccbc8a52222f8"
+    },
+    {
+      "path": "vnext/renderers/remotion/project/package.json",
+      "kind": "modified",
+      "sha256": "23a87dbb04570e0cc796b8f92fb5e92de01d11d400deac33427bdb1729fb63a2"
+    },
+    {
+      "path": "vnext/renderers/remotion/project/src/index.tsx",
+      "kind": "modified",
+      "sha256": "557c9578b538792301fbbd1bb46c78207c8cd04f0c06a5eb95f428f6fac27df4"
+    },
+    {
+      "path": "vnext/renderers/remotion/project/src/Composition.tsx",
+      "kind": "added",
+      "sha256": "ddcf79503643f979438c6c3f9c0ae12c22d6c5385d5d9740b027ea2421b9be4f"
+    },
+    {
+      "path": "vnext/renderers/remotion/project/src/ProgramMonitor.tsx",
+      "kind": "added",
+      "sha256": "fcbb62ffedd4528967983eca8ec1376f291b24ab0bd9b58603ff855387dd60ba"
+    }
+  ],
+  "excluded": [
+    ".venv",
+    "node_modules",
+    "project databases",
+    "API keys",
+    "font bytes",
+    "derived preview caches"
+  ],
+  "evidence": "examples/phase2_closure"
+}

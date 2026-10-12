@@ -1,0 +1,79 @@
+{
+  "artifact_id": "ART-ff4b3070be6e4015",
+  "project_id": "PRJ-df2146b8a6b1",
+  "artifact_type": "DIRECTOR_IR",
+  "revision": 1,
+  "created_by_role": "DIRECTOR",
+  "worker": null,
+  "provider": null,
+  "model": null,
+  "prompt_version": null,
+  "dependencies": [
+    {
+      "artifact_id": "ART-9b6c9b779c19418f",
+      "output_hash": "da12676ee8250df6605f85735e2299d894aca738db6bf6d3b11b52b9e4fe8a81"
+    },
+    {
+      "artifact_id": "ART-e76658e3850248eb",
+      "output_hash": "82c23b2a574ab1816b151525e0a73a1a9d702d02be5bbe2aa71511ea9666bab0"
+    }
+  ],
+  "input_hash": "9da3ce83eeebb24ebe88ccb2f0970efc08871364ebd7e3c0ca1190d94471643f",
+  "output_hash": "d15d4169536aa785735fe2a8752a932e8adf5804b11f56e87827df7346937aa6",
+  "status": "READY",
+  "created_at": "2026-09-26T15:59:44.533448+00:00",
+  "payload": {
+    "schema_version": 2,
+    "script_artifact_id": "ART-9b6c9b779c19418f",
+    "scenes": [
+      {
+        "scene_id": "SC1",
+        "purpose": "Synthetic fixture",
+        "script_range": [
+          "SEG1"
+        ],
+        "narrative_function": "EXPLAIN",
+        "retention_goal": "INFORMATION_CHANGE",
+        "estimated_duration": 10.0,
+        "density": "MEDIUM",
+        "entry": "CUT",
+        "exit": "CUT",
+        "beat_ids": [
+          "B1"
+        ]
+      }
+    ],
+    "beats": [
+      {
+        "semantic_pattern": "EXPLAIN",
+        "template_id": "CHARACTER_LEFT_TEXT_RIGHT",
+        "character_action_id": null,
+        "element_ids": [
+          "ELM-CHECK"
+        ],
+        "beat_id": "B1",
+        "scene_id": "SC1",
+        "script_segment_id": "SEG1",
+        "phrase_id": "",
+        "purpose": "Explain synthetic count",
+        "visual_focus": "Alpha",
+        "visual_form": "KEYWORD",
+        "character_intent": "EXPLAIN",
+        "media_need": "",
+        "pattern_id": "CHARACTER_EXPLAIN_KEYWORD",
+        "retention_function": "INFORMATION_CHANGE",
+        "reveal_order": [
+          "PRIMARY"
+        ],
+        "motion_intent": "FADE",
+        "keyword": "Alpha / 3 items",
+        "timing_intent": 10.0,
+        "slots": {
+          "keyword": "Alpha / 3 items"
+        }
+      }
+    ],
+    "transitions": []
+  },
+  "current_status": "READY"
+}

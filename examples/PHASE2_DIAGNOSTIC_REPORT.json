@@ -1,0 +1,588 @@
+{
+  "project_id": "PRJ-b417f4c7957a",
+  "data_root": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/phase2_preview_data",
+  "duration_seconds": 60,
+  "real_stills": 12,
+  "model_mode": "MOCK",
+  "voice": "TEST_TONE_NOT_TTS",
+  "human_gates": "SIMULATED_TEST_FIXTURE",
+  "video": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/phase2_preview_data/projects/PRJ-b417f4c7957a/renders/RUN-11c64b114c.mp4",
+  "storyboard": "ART-87bf9630e8184173",
+  "edt": "ART-5906602264d044b9",
+  "mechanical_qa": {
+    "verdict": "PASS",
+    "issues": [],
+    "mock": false,
+    "checked_artifact_id": "ART-5906602264d044b9"
+  },
+  "video_qa": {
+    "verdict": "PASS_WITH_RISK",
+    "issues": [
+      {
+        "code": "MOCK_VISUAL_QA",
+        "severity": "WARNING",
+        "owner": "HUMAN",
+        "description": "Mock contract validation; visual quality was not reviewed by MiniMax",
+        "start": 0,
+        "end": 60.0
+      }
+    ],
+    "mock": true,
+    "checked_artifact_id": "ART-839b72f339724535"
+  },
+  "review_pack": "ART-efce8365cbeb4a15",
+  "font_scan": {
+    "discovered": 0,
+    "cached": 3,
+    "errors": [],
+    "roots": [
+      {
+        "path": "/System/Library/Fonts/STHeiti Light.ttc",
+        "status": "AVAILABLE",
+        "count": 1
+      },
+      {
+        "path": "/System/Library/Fonts/Supplemental/Arial.ttf",
+        "status": "AVAILABLE",
+        "count": 1
+      },
+      {
+        "path": "/System/Library/Fonts/SFNS.ttf",
+        "status": "AVAILABLE",
+        "count": 1
+      }
+    ]
+  },
+  "native": {
+    "path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/phase2_preview_data/projects/PRJ-b417f4c7957a/jianying_exports/EXP-3e9232ba31",
+    "native_draft_path": "${EXTERNAL_VOLUME}/剪映草稿/JianyingPro Drafts/ContentOS-EXP-3e9232ba31",
+    "native_jianying_draft": true,
+    "native_project_open_verified": false,
+    "mapping": [
+      {
+        "clip_id": "DERIVED-EDT-CANVAS",
+        "classification": "EXACT",
+        "reason": "Original media/source range, target timing and normalized basic transform mapped"
+      },
+      {
+        "clip_id": "CLP-420f76e169",
+        "classification": "APPROXIMATED",
+        "reason": "FONT_DEPENDENCY_REQUIRED: pinned local font path/name written; exact target typography mapping is unverified; Text timing/content preserved; typography uses editable default styling; Motion/reveal not mapped; static clip retained"
+      },
+      {
+        "clip_id": "CLP-e541c5632c",
+        "classification": "EXACT",
+        "reason": "Original media/source range, target timing and normalized basic transform mapped"
+      },
+      {
+        "clip_id": "CLP-206a89d8d2",
+        "classification": "APPROXIMATED",
+        "reason": "FONT_DEPENDENCY_REQUIRED: pinned local font path/name written; exact target typography mapping is unverified; Text timing/content preserved; typography uses editable default styling"
+      },
+      {
+        "clip_id": "CLP-e402b8909e",
+        "classification": "APPROXIMATED",
+        "reason": "FONT_DEPENDENCY_REQUIRED: pinned local font path/name written; exact target typography mapping is unverified; Text timing/content preserved; typography uses editable default styling"
+      },
+      {
+        "clip_id": "CLP-9edd072d07",
+        "classification": "APPROXIMATED",
+        "reason": "FONT_DEPENDENCY_REQUIRED: pinned local font path/name written; exact target typography mapping is unverified; Text timing/content preserved; typography uses editable default styling; Motion/reveal not mapped; static clip retained"
+      },
+      {
+        "clip_id": "CLP-9dd9298621",
+        "classification": "APPROXIMATED",
+        "reason": "FONT_DEPENDENCY_REQUIRED: pinned local font path/name written; exact target typography mapping is unverified; Text timing/content preserved; typography uses editable default styling; Motion/reveal not mapped; static clip retained"
+      },
+      {
+        "clip_id": "CLP-b1a1de6b65",
+        "classification": "APPROXIMATED",
+        "reason": "FONT_DEPENDENCY_REQUIRED: pinned local font path/name written; exact target typography mapping is unverified; Text timing/content preserved; typography uses editable default styling; Motion/reveal not mapped; static clip retained"
+      },
+      {
+        "clip_id": "CLP-e30f3651d8",
+        "classification": "APPROXIMATED",
+        "reason": "FONT_DEPENDENCY_REQUIRED: pinned local font path/name written; exact target typography mapping is unverified; Text timing/content preserved; typography uses editable default styling"
+      },
+      {
+        "clip_id": "CLP-5c5a426cfa",
+        "classification": "APPROXIMATED",
+        "reason": "FONT_DEPENDENCY_REQUIRED: pinned local font path/name written; exact target typography mapping is unverified; Text timing/content preserved; typography uses editable default styling"
+      },
+      {
+        "clip_id": "CLP-0a613aab4f",
+        "classification": "APPROXIMATED",
+        "reason": "FONT_DEPENDENCY_REQUIRED: pinned local font path/name written; exact target typography mapping is unverified; Text timing/content preserved; typography uses editable default styling; Motion/reveal not mapped; static clip retained"
+      },
+      {
+        "clip_id": "CLP-a523a25c01",
+        "classification": "APPROXIMATED",
+        "reason": "FONT_DEPENDENCY_REQUIRED: pinned local font path/name written; exact target typography mapping is unverified; Text timing/content preserved; typography uses editable default styling; Motion/reveal not mapped; static clip retained"
+      },
+      {
+        "clip_id": "CLP-7e7f9a74e7",
+        "classification": "APPROXIMATED",
+        "reason": "FONT_DEPENDENCY_REQUIRED: pinned local font path/name written; exact target typography mapping is unverified; Text timing/content preserved; typography uses editable default styling"
+      },
+      {
+        "clip_id": "CLP-e1d9d25eec",
+        "classification": "APPROXIMATED",
+        "reason": "FONT_DEPENDENCY_REQUIRED: pinned local font path/name written; exact target typography mapping is unverified; Text timing/content preserved; typography uses editable default styling"
+      },
+      {
+        "clip_id": "CLP-5d87d0db98",
+        "classification": "APPROXIMATED",
+        "reason": "FONT_DEPENDENCY_REQUIRED: pinned local font path/name written; exact target typography mapping is unverified; Text timing/content preserved; typography uses editable default styling; Motion/reveal not mapped; static clip retained"
+      },
+      {
+        "clip_id": "CLP-8770073173",
+        "classification": "APPROXIMATED",
+        "reason": "FONT_DEPENDENCY_REQUIRED: pinned local font path/name written; exact target typography mapping is unverified; Text timing/content preserved; typography uses editable default styling; Motion/reveal not mapped; static clip retained"
+      },
+      {
+        "clip_id": "CLP-e8db4fac15",
+        "classification": "APPROXIMATED",
+        "reason": "FONT_DEPENDENCY_REQUIRED: pinned local font path/name written; exact target typography mapping is unverified; Text timing/content preserved; typography uses editable default styling"
+      },
+      {
+        "clip_id": "CLP-112ce71382",
+        "classification": "APPROXIMATED",
+        "reason": "FONT_DEPENDENCY_REQUIRED: pinned local font path/name written; exact target typography mapping is unverified; Text timing/content preserved; typography uses editable default styling"
+      },
+      {
+        "clip_id": "CLP-f29bb79b44",
+        "classification": "APPROXIMATED",
+        "reason": "FONT_DEPENDENCY_REQUIRED: pinned local font path/name written; exact target typography mapping is unverified; Text timing/content preserved; typography uses editable default styling; Motion/reveal not mapped; static clip retained"
+      },
+      {
+        "clip_id": "CLP-a0435235db",
+        "classification": "APPROXIMATED",
+        "reason": "FONT_DEPENDENCY_REQUIRED: pinned local font path/name written; exact target typography mapping is unverified; Text timing/content preserved; typography uses editable default styling; Motion/reveal not mapped; static clip retained"
+      },
+      {
+        "clip_id": "CLP-37f8b3a9bd",
+        "classification": "APPROXIMATED",
+        "reason": "FONT_DEPENDENCY_REQUIRED: pinned local font path/name written; exact target typography mapping is unverified; Text timing/content preserved; typography uses editable default styling; Motion/reveal not mapped; static clip retained"
+      },
+      {
+        "clip_id": "CLP-f65b0c36cd",
+        "classification": "APPROXIMATED",
+        "reason": "FONT_DEPENDENCY_REQUIRED: pinned local font path/name written; exact target typography mapping is unverified; Text timing/content preserved; typography uses editable default styling"
+      },
+      {
+        "clip_id": "CLP-682781912b",
+        "classification": "APPROXIMATED",
+        "reason": "FONT_DEPENDENCY_REQUIRED: pinned local font path/name written; exact target typography mapping is unverified; Text timing/content preserved; typography uses editable default styling"
+      },
+      {
+        "clip_id": "CLP-398a09565e",
+        "classification": "APPROXIMATED",
+        "reason": "FONT_DEPENDENCY_REQUIRED: pinned local font path/name written; exact target typography mapping is unverified; Text timing/content preserved; typography uses editable default styling"
+      },
+      {
+        "clip_id": "CLP-6fa1deb7f6",
+        "classification": "APPROXIMATED",
+        "reason": "FONT_DEPENDENCY_REQUIRED: pinned local font path/name written; exact target typography mapping is unverified; Text timing/content preserved; typography uses editable default styling; Motion/reveal not mapped; static clip retained"
+      },
+      {
+        "clip_id": "CLP-a1dc82649f",
+        "classification": "EXACT",
+        "reason": "Original media/source range, target timing and normalized basic transform mapped"
+      },
+      {
+        "clip_id": "CLP-1849ef2bda",
+        "classification": "APPROXIMATED",
+        "reason": "FONT_DEPENDENCY_REQUIRED: pinned local font path/name written; exact target typography mapping is unverified; Text timing/content preserved; typography uses editable default styling"
+      },
+      {
+        "clip_id": "CLP-31ffc9b7ad",
+        "classification": "APPROXIMATED",
+        "reason": "FONT_DEPENDENCY_REQUIRED: pinned local font path/name written; exact target typography mapping is unverified; Text timing/content preserved; typography uses editable default styling"
+      },
+      {
+        "clip_id": "CLP-69d36744ab",
+        "classification": "EXACT",
+        "reason": "Original media/source range, target timing and normalized basic transform mapped"
+      }
+    ],
+    "transfer_mapping": [
+      {
+        "clip_id": "CLP-420f76e169",
+        "classification": "APPROXIMATED",
+        "reason": "Editable text timing is represented in sidecar data"
+      },
+      {
+        "clip_id": "CLP-e541c5632c",
+        "classification": "UNSUPPORTED",
+        "reason": "No verified native mapping"
+      },
+      {
+        "clip_id": "CLP-206a89d8d2",
+        "classification": "APPROXIMATED",
+        "reason": "Editable text timing is represented in sidecar data"
+      },
+      {
+        "clip_id": "CLP-e402b8909e",
+        "classification": "APPROXIMATED",
+        "reason": "Editable text timing is represented in sidecar data"
+      },
+      {
+        "clip_id": "CLP-9edd072d07",
+        "classification": "APPROXIMATED",
+        "reason": "Editable text timing is represented in sidecar data"
+      },
+      {
+        "clip_id": "CLP-9dd9298621",
+        "classification": "APPROXIMATED",
+        "reason": "Editable text timing is represented in sidecar data"
+      },
+      {
+        "clip_id": "CLP-b1a1de6b65",
+        "classification": "APPROXIMATED",
+        "reason": "Editable text timing is represented in sidecar data"
+      },
+      {
+        "clip_id": "CLP-e30f3651d8",
+        "classification": "APPROXIMATED",
+        "reason": "Editable text timing is represented in sidecar data"
+      },
+      {
+        "clip_id": "CLP-5c5a426cfa",
+        "classification": "APPROXIMATED",
+        "reason": "Editable text timing is represented in sidecar data"
+      },
+      {
+        "clip_id": "CLP-0a613aab4f",
+        "classification": "APPROXIMATED",
+        "reason": "Editable text timing is represented in sidecar data"
+      },
+      {
+        "clip_id": "CLP-a523a25c01",
+        "classification": "APPROXIMATED",
+        "reason": "Editable text timing is represented in sidecar data"
+      },
+      {
+        "clip_id": "CLP-7e7f9a74e7",
+        "classification": "APPROXIMATED",
+        "reason": "Editable text timing is represented in sidecar data"
+      },
+      {
+        "clip_id": "CLP-e1d9d25eec",
+        "classification": "APPROXIMATED",
+        "reason": "Editable text timing is represented in sidecar data"
+      },
+      {
+        "clip_id": "CLP-5d87d0db98",
+        "classification": "APPROXIMATED",
+        "reason": "Editable text timing is represented in sidecar data"
+      },
+      {
+        "clip_id": "CLP-8770073173",
+        "classification": "APPROXIMATED",
+        "reason": "Editable text timing is represented in sidecar data"
+      },
+      {
+        "clip_id": "CLP-e8db4fac15",
+        "classification": "APPROXIMATED",
+        "reason": "Editable text timing is represented in sidecar data"
+      },
+      {
+        "clip_id": "CLP-112ce71382",
+        "classification": "APPROXIMATED",
+        "reason": "Editable text timing is represented in sidecar data"
+      },
+      {
+        "clip_id": "CLP-f29bb79b44",
+        "classification": "APPROXIMATED",
+        "reason": "Editable text timing is represented in sidecar data"
+      },
+      {
+        "clip_id": "CLP-a0435235db",
+        "classification": "APPROXIMATED",
+        "reason": "Editable text timing is represented in sidecar data"
+      },
+      {
+        "clip_id": "CLP-37f8b3a9bd",
+        "classification": "APPROXIMATED",
+        "reason": "Editable text timing is represented in sidecar data"
+      },
+      {
+        "clip_id": "CLP-f65b0c36cd",
+        "classification": "APPROXIMATED",
+        "reason": "Editable text timing is represented in sidecar data"
+      },
+      {
+        "clip_id": "CLP-682781912b",
+        "classification": "APPROXIMATED",
+        "reason": "Editable text timing is represented in sidecar data"
+      },
+      {
+        "clip_id": "CLP-398a09565e",
+        "classification": "APPROXIMATED",
+        "reason": "Editable text timing is represented in sidecar data"
+      },
+      {
+        "clip_id": "CLP-6fa1deb7f6",
+        "classification": "APPROXIMATED",
+        "reason": "Editable text timing is represented in sidecar data"
+      },
+      {
+        "clip_id": "CLP-a1dc82649f",
+        "classification": "UNSUPPORTED",
+        "reason": "No verified native mapping"
+      },
+      {
+        "clip_id": "CLP-1849ef2bda",
+        "classification": "APPROXIMATED",
+        "reason": "Editable text timing is represented in sidecar data"
+      },
+      {
+        "clip_id": "CLP-31ffc9b7ad",
+        "classification": "APPROXIMATED",
+        "reason": "Editable text timing is represented in sidecar data"
+      },
+      {
+        "clip_id": "CLP-69d36744ab",
+        "classification": "EXACT",
+        "reason": "Original file and source range preserved in transfer manifest"
+      }
+    ],
+    "writer_validation": "Local writer POC verified on Jianying 11.5.0-beta5; each export still needs its own visual check",
+    "limitation": "Pinned font paths written; target font/weight/size mapping requires local verification. Crop/motion/reveal/lock remain approximate. No reverse import.",
+    "canvas_derivation": {
+      "source": "EDT.canvas_color",
+      "color": "#ffffff",
+      "path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/phase2_preview_data/projects/PRJ-b417f4c7957a/jianying_exports/EXP-3e9232ba31/edt-canvas.png",
+      "purpose": "Full-duration main background; original foreground source ranges remain on auxiliary tracks"
+    },
+    "font_dependencies": [
+      {
+        "font_id": "FONT-1244788736e2af92f0d3",
+        "family": "Heiti SC",
+        "hash": "4c666afe2e4965ef63c590e856a75a37d19fc3364f8a40ce13ba780e5306826e",
+        "required_path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/phase2_preview_data/font_cache/a57b0316cc0544f682b8fb9855e14ade79ae77340ef6a01ba9210e25b4c5a5b7/face-1.otf",
+        "classification": "FONT_DEPENDENCY_REQUIRED",
+        "installation_status": "LOCAL_FILE_AVAILABLE",
+        "exact_target_mapping_verified": false
+      },
+      {
+        "font_id": "FONT-3c05e70eac2f6b9de773",
+        "family": "Arial",
+        "hash": "ce1d2f1ab89db45f9796100eee960f5702a40e84c225c2b48c3ec3e81d153f98",
+        "required_path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/phase2_preview_data/font_cache/ce1d2f1ab89db45f9796100eee960f5702a40e84c225c2b48c3ec3e81d153f98/face-0.otf",
+        "classification": "FONT_DEPENDENCY_REQUIRED",
+        "installation_status": "LOCAL_FILE_AVAILABLE",
+        "exact_target_mapping_verified": false
+      },
+      {
+        "font_id": "FONT-e12cedc98f27df837aa8",
+        "family": ".SF NS",
+        "hash": "1c81ead87ca36eee7d51dbe816c3202ba8052fc88228a46de930339c4ec1df22",
+        "required_path": "${LOCAL_ROOT}/Documents/Codex/2026-09-22/referenced-chatgpt-conversation-this-is-an/work/content-os-vnext-phase1/phase2_preview_data/font_cache/1c81ead87ca36eee7d51dbe816c3202ba8052fc88228a46de930339c4ec1df22/face-0.otf",
+        "classification": "FONT_DEPENDENCY_REQUIRED",
+        "installation_status": "LOCAL_FILE_AVAILABLE",
+        "exact_target_mapping_verified": false
+      }
+    ],
+    "typography_losses": [
+      {
+        "code": "FONT_NOT_SUPPORTED",
+        "classification": "UNSUPPORTED",
+        "target_version": "11.5.0-beta5",
+        "description": "Local diagnostic opened with system font instead of the pinned face; explicit repair in the target editor is required"
+      },
+      {
+        "code": "SUBTITLE_SHADOW_NOT_MAPPED",
+        "classification": "UNSUPPORTED",
+        "description": "Native text shadow fields were ignored in the local diagnostic. White subtitles require manual shadow repair"
+      },
+      {
+        "code": "FONT_SIZE_WEIGHT_SPACING_APPROXIMATED",
+        "classification": "APPROXIMATED",
+        "description": "Text timing/content are editable; exact weight, size, spacing and baseline are not verified"
+      }
+    ],
+    "artifact_id": "ART-23143a3307f04a8d"
+  },
+  "phase2_complete": false,
+  "failure_path": {
+    "failed_audit": "ART-8806f4794d14438a",
+    "passed_audit": "ART-154b6f985e924773",
+    "error_confirmed": {
+      "event_id": "EE-59d9a95f0a50",
+      "at": "2026-09-26T10:38:40.280963+00:00",
+      "kind": "ERROR_CONFIRMED",
+      "error_id": "ERR-30e5818b36",
+      "candidate_artifact_id": "ART-292b610d0adb4ac6",
+      "fingerprint": "047b312c8e182970c0cc01bd32bde9f4b5b60ff38ea8dfaff66bab5b6e83d8d8",
+      "summary": "Diagnostic: independently audit every repaired script version",
+      "root_cause": "UNKNOWN"
+    },
+    "error_recurred": {
+      "event_id": "EE-82e184bfd898",
+      "at": "2026-09-26T10:38:40.283707+00:00",
+      "kind": "ERROR_RECURRED",
+      "error_id": "ERR-30e5818b36",
+      "candidate_artifact_id": "ART-afc14da3291d4449",
+      "fingerprint": "047b312c8e182970c0cc01bd32bde9f4b5b60ff38ea8dfaff66bab5b6e83d8d8",
+      "summary": "Diagnostic: independently audit every repaired script version",
+      "root_cause": "UNKNOWN"
+    }
+  },
+  "stage_states": [
+    {
+      "stage": "RESEARCH",
+      "input_hash": "3e016485286a35067bee71207c72f1dcfd369c1b1b3ceffd31ca2f8c31579626",
+      "config_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "worker": "USER_SUPPLIED_SOURCE",
+      "prompt": "",
+      "skills": "",
+      "output_artifact": "ART-5cca4f2824cb4de8",
+      "status": "COMPLETED",
+      "error": null
+    },
+    {
+      "stage": "SCRIPT_PRIMARY",
+      "input_hash": "ea7af744a1239dc8e7b98f28ead6a7959a3d5de776bde8c189551073a918e536",
+      "config_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "worker": "MOCK",
+      "prompt": "DIAGNOSTIC_SCRIPT_PRIMARY",
+      "skills": "58f7554b2fb0b360a5f8ba1146a2dafea5402f1a1ce20bf9f0c97b96bc124066",
+      "output_artifact": "ART-83de0961c5a34cfc",
+      "status": "DIRTY",
+      "error": null
+    },
+    {
+      "stage": "SCRIPT_EDITOR",
+      "input_hash": "fb3e0bfcd547fef82457bc3043408813c1b736f57a316b8f3a2453bf400e75ad",
+      "config_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "worker": "MOCK",
+      "prompt": "DIAGNOSTIC_SCRIPT_EDITOR",
+      "skills": "4fc7429f536ac89aec92fdd8a28b0852dc6ab9dae74c1fb5550f9934a47e4965",
+      "output_artifact": "ART-657a924955aa4d52",
+      "status": "DIRTY",
+      "error": null
+    },
+    {
+      "stage": "AUDIT",
+      "input_hash": "13817a7bbf999d4279955c980b71eb3d435ee3123ca8b32b54476060780b3b64",
+      "config_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "worker": "MOCK",
+      "prompt": "DIAGNOSTIC_AUDIT",
+      "skills": "7b77affcbe00da93da440a9df9bcbefbc997ff646824ae30866fdac76182a8d5",
+      "output_artifact": "ART-154b6f985e924773",
+      "status": "COMPLETED",
+      "error": null
+    },
+    {
+      "stage": "H2",
+      "input_hash": "96a6cc282bcd0296e4da8a2256d113a24c27b4143f2d2df89ea1346d1e62ec27",
+      "config_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "worker": "",
+      "prompt": "",
+      "skills": "",
+      "output_artifact": "ART-799a9be16c274366",
+      "status": "COMPLETED",
+      "error": null
+    },
+    {
+      "stage": "DIRECTOR",
+      "input_hash": "194153c565d32a0a2daedcaf6b0530e4296e418194e35368e68b28018c88c6f0",
+      "config_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "worker": "",
+      "prompt": "",
+      "skills": "",
+      "output_artifact": "ART-5493e921ba9f43c8",
+      "status": "COMPLETED",
+      "error": null
+    },
+    {
+      "stage": "MEDIA",
+      "input_hash": "ed5cf1d987b2068a6b9825478ec17b9e36f31070ea228dd43143b71421d8ba45",
+      "config_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "worker": "",
+      "prompt": "",
+      "skills": "",
+      "output_artifact": "ART-107d8729e14041f9",
+      "status": "COMPLETED",
+      "error": null
+    },
+    {
+      "stage": "STORYBOARD",
+      "input_hash": "db31ea15e0e329447ba5b7568590cf521ff565dfe9c3d33c145025b56570a32e",
+      "config_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "worker": "",
+      "prompt": "",
+      "skills": "",
+      "output_artifact": "ART-87bf9630e8184173",
+      "status": "COMPLETED",
+      "error": null
+    },
+    {
+      "stage": "VOICE",
+      "input_hash": "d44f03a53e96df237f4a02a6a4b9695e957d9d4a49c6866048884540d7616753",
+      "config_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "worker": "MOCK_TEST_TONE",
+      "prompt": "",
+      "skills": "",
+      "output_artifact": "ART-50d929b4f91c4071",
+      "status": "COMPLETED",
+      "error": null
+    },
+    {
+      "stage": "EDT",
+      "input_hash": "ed5cf1d987b2068a6b9825478ec17b9e36f31070ea228dd43143b71421d8ba45",
+      "config_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "worker": "",
+      "prompt": "",
+      "skills": "",
+      "output_artifact": "ART-5906602264d044b9",
+      "status": "COMPLETED",
+      "error": null
+    },
+    {
+      "stage": "RENDER",
+      "input_hash": "2b97b3064db6d01ec38a5cd0db7150648ec1dd4ded2b26b3231c4810eeea669e",
+      "config_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "worker": "",
+      "prompt": "",
+      "skills": "",
+      "output_artifact": "ART-839b72f339724535",
+      "status": "COMPLETED",
+      "error": null
+    },
+    {
+      "stage": "MECHANICAL_QA",
+      "input_hash": "4a8c1f43412ea042465fb29b05aa8ee34fdd838d618d78b8cbe1f7976da0b1c3",
+      "config_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "worker": "",
+      "prompt": "",
+      "skills": "",
+      "output_artifact": "ART-0cfc2a5d7fb54fca",
+      "status": "COMPLETED",
+      "error": null
+    },
+    {
+      "stage": "VIDEO_QA",
+      "input_hash": "63ba03e9f79d2d3a1d5946bf95986639d873c32b27d7eaeb2386a64eac748afb",
+      "config_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "worker": "MOCK",
+      "prompt": "",
+      "skills": "",
+      "output_artifact": "ART-e66cee64938b457b",
+      "status": "COMPLETED",
+      "error": null
+    },
+    {
+      "stage": "REVIEW",
+      "input_hash": "1a28f4a520db820627172e3b15b5f06df091fc499ba81d782d23bf3bc4cb8451",
+      "config_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "worker": "",
+      "prompt": "",
+      "skills": "",
+      "output_artifact": "ART-efce8365cbeb4a15",
+      "status": "COMPLETED",
+      "error": null
+    }
+  ]
+}

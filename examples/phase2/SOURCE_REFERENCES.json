@@ -1,0 +1,32 @@
+[
+  {
+    "artifact_id": "ART-aecfe04792ff44d9",
+    "project_id": "PRJ-b417f4c7957a",
+    "artifact_type": "SOURCE_USER_PHASE2",
+    "revision": 1,
+    "created_by_role": "RESEARCH",
+    "worker": null,
+    "provider": null,
+    "model": null,
+    "prompt_version": null,
+    "dependencies": [],
+    "input_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "output_hash": "11a5543b4d5f7342e0b2d4d2e87fb3089611de1d5277647d24c95b62ad0d0633",
+    "status": "READY",
+    "created_at": "2026-09-26T10:38:40.097427+00:00",
+    "payload": {
+      "source_id": "USER_PHASE2",
+      "source_type": "USER_DOCUMENT",
+      "title": "用户 Phase 2 要求的诊断摘要",
+      "url": null,
+      "file_id": null,
+      "retrieved_at": "2026-09-26T10:38:40.096615+00:00",
+      "publisher": "User supplied brief",
+      "date": "",
+      "snapshot": "",
+      "excerpt": "生产先读取规则，再使用已绑定来源的事实。\n脚本修改经过独立审计，确认方向后才进入导演设计。\n画面按主信息、次信息和辅助信息这3个层次依次展开。\n分镜退回责任部门，修复完成后再生成新的分镜版本。\n字幕保持单行白字，没有底板，沿固定基线显示。\n终稿确认和发布授权分别记录，完成终稿并不自动发布。",
+      "status": "AVAILABLE"
+    },
+    "current_status": "READY"
+  }
+]

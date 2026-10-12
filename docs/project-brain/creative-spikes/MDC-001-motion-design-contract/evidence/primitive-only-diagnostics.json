@@ -1,0 +1,103 @@
+{
+  "status": "COMPILED_NOT_HUMAN_ACCEPTED",
+  "shot_count": 4,
+  "visual_jobs": {
+    "DEMONSTRATE": 1,
+    "EXPLAIN": 2,
+    "REACT": 1
+  },
+  "visual_modes": {
+    "EVIDENCE_HEAVY": 1,
+    "BRAND_BALANCED": 3
+  },
+  "shot_types": {
+    "EVIDENCE_FOCUS": 1,
+    "CHARACTER_EXPLAIN": 1,
+    "CHARACTER_REACTION": 1,
+    "RELATION_EXPLAIN": 1
+  },
+  "evidence_treatments": {
+    "FOCUS_REGION": 1,
+    "DETAIL_CROP": 1,
+    "RELATION": 1
+  },
+  "character_roles": {
+    "EXPLAINER": 1,
+    "REACTION": 1
+  },
+  "motion_semantics": {
+    "FOCUS": 1,
+    "REVEAL": 1,
+    "INTERRUPT": 1,
+    "CONNECT": 1
+  },
+  "primary_protagonists": {
+    "EVIDENCE": 1,
+    "XIAOY": 2,
+    "DIAGRAM": 1
+  },
+  "seconds_since_last_visual_change": [
+    4.5,
+    4.5,
+    4.5
+  ],
+  "shot_duration": [
+    4.5,
+    4.5,
+    4.5,
+    5.62
+  ],
+  "evidence_hold_duration": [
+    4.5,
+    4.5,
+    5.62
+  ],
+  "reaction_duration": [
+    4.5
+  ],
+  "primary_contract_pass": true,
+  "field_consumers": {
+    "ShotPlan.schema_version": "remotion_props.shot_plan_schema_version",
+    "ShotPlan.plan_id": "remotion_props.shot_plan_id",
+    "ShotPlan.source_script_id": "compiler_guard + remotion_props.source_script_id",
+    "ShotPlan.visual_mode": "compiler plan-wide mode override",
+    "ShotBeat.beat_id": "EDTClip.beat_id + Storyboard Review",
+    "ShotBeat.script_segment_id": "clip metadata + narration lookup",
+    "ShotBeat.visual_job": "compatibility validation + clip metadata + Storyboard Review",
+    "ShotBeat.visual_mode": "VisualCompiler layout recipe + clip metadata + Storyboard Review",
+    "Shot.*": "VisualCompiler layer/timing/provenance + Storyboard Review"
+  },
+  "script_sha256": "46cd2156fd054e80680af40e9f498fab09f7684e21d52dff9091513772de46a6",
+  "voice_sha256": "2fd92f28a638b732221c3a621c2823426b98044c3afb3f34fa1ff56a60068cd2",
+  "asset_aspect_ratio_qa": {
+    "verdict": "PASS",
+    "check": "ASSET_ASPECT_RATIO_INVARIANT",
+    "tolerance_percent": 0.5,
+    "checked_registered_assets": 5,
+    "issues": []
+  },
+  "motion_primitive_qa": {
+    "verdict": "PASS",
+    "check": "MOTION_PRIMITIVE_CAPABILITY_CONTRACT",
+    "contract_id": "XIAOY_MOTION_PRIMITIVE_V1",
+    "declared_primitive_count": 11,
+    "implemented_primitive_count": 11,
+    "checked_visual_clips": 25,
+    "emitted_primitives": {
+      "NONE": 15,
+      "PUSH_IN": 1,
+      "LABEL_REVEAL": 4,
+      "FADE_IN": 2,
+      "POP_CUT": 2,
+      "DRAW_CONNECTION": 1
+    },
+    "issues": []
+  },
+  "motion_design_enabled": false,
+  "motion_design_qa": {
+    "verdict": "NOT_RUN",
+    "check": "MOTION_DESIGN_CONTRACT",
+    "issues": []
+  },
+  "compiled_motion_artifact": null
+}

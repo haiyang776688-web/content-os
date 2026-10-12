@@ -1,0 +1,31 @@
+{
+  "automatic_fact": false,
+  "search": {
+    "status": "LIVE_VERIFIED",
+    "result_count": 5,
+    "provenance": {
+      "adapter": "BING_PUBLIC_RSS_V1",
+      "query": "FFmpeg audio timestamps documentation",
+      "retrieved_at": "2026-09-27T05:58:24.970343+00:00",
+      "url": "https://www.bing.com/search?format=rss&q=FFmpeg%20audio%20timestamps%20documentation"
+    }
+  },
+  "snapshot": {
+    "status": "LIVE_VERIFIED",
+    "source_type": "WEB",
+    "trust": "UNTRUSTED_SOURCE_DATA",
+    "snapshot_hash": "a88dfa6dc63b4d4e2839bfbc50eeb5b12bc9d720c5a3180521189bc074b0a393",
+    "content_characters": 137663,
+    "fact_created": false
+  },
+  "pinned_https_reverification": {
+    "status": "LIVE_VERIFIED",
+    "retrieved_at": "2026-09-27T06:21:04.022899+00:00",
+    "url": "https://ffmpeg.org/ffmpeg.html",
+    "snapshot_hash": "a88dfa6dc63b4d4e2839bfbc50eeb5b12bc9d720c5a3180521189bc074b0a393",
+    "content_characters": 137663,
+    "fact_created": false,
+    "dns_address_pinned": true,
+    "tls_hostname_verified": true
+  }
+}

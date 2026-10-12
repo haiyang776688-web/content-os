@@ -1,0 +1,181 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "clip_id": {
+      "title": "Clip Id",
+      "type": "string"
+    },
+    "scene_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Scene Id"
+    },
+    "beat_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Beat Id"
+    },
+    "ir_node_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Ir Node Id"
+    },
+    "origin": {
+      "default": "MANUAL",
+      "title": "Origin",
+      "type": "string"
+    },
+    "edit_source": {
+      "default": "HUMAN",
+      "title": "Edit Source",
+      "type": "string"
+    },
+    "pattern_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Pattern Id"
+    },
+    "track": {
+      "enum": [
+        "VIDEO",
+        "MEDIA",
+        "CHARACTER",
+        "ELEMENT",
+        "TEXT",
+        "SUBTITLE",
+        "VOICE",
+        "BGM",
+        "SFX"
+      ],
+      "title": "Track",
+      "type": "string"
+    },
+    "asset_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Asset Id"
+    },
+    "source_in": {
+      "default": 0,
+      "minimum": 0,
+      "title": "Source In",
+      "type": "number"
+    },
+    "source_out": {
+      "default": 1,
+      "exclusiveMinimum": 0,
+      "title": "Source Out",
+      "type": "number"
+    },
+    "timeline_in": {
+      "default": 0,
+      "minimum": 0,
+      "title": "Timeline In",
+      "type": "number"
+    },
+    "timeline_out": {
+      "default": 1,
+      "exclusiveMinimum": 0,
+      "title": "Timeline Out",
+      "type": "number"
+    },
+    "position": {
+      "additionalProperties": {
+        "type": "number"
+      },
+      "title": "Position",
+      "type": "object"
+    },
+    "scale": {
+      "default": 1,
+      "exclusiveMinimum": 0,
+      "title": "Scale",
+      "type": "number"
+    },
+    "crop": {
+      "additionalProperties": {
+        "type": "number"
+      },
+      "title": "Crop",
+      "type": "object"
+    },
+    "opacity": {
+      "default": 1,
+      "maximum": 1,
+      "minimum": 0,
+      "title": "Opacity",
+      "type": "number"
+    },
+    "motion": {
+      "additionalProperties": true,
+      "title": "Motion",
+      "type": "object"
+    },
+    "reveal": {
+      "additionalProperties": true,
+      "title": "Reveal",
+      "type": "object"
+    },
+    "locked": {
+      "default": false,
+      "title": "Locked",
+      "type": "boolean"
+    },
+    "hidden": {
+      "default": false,
+      "title": "Hidden",
+      "type": "boolean"
+    },
+    "muted": {
+      "default": false,
+      "title": "Muted",
+      "type": "boolean"
+    },
+    "metadata": {
+      "additionalProperties": true,
+      "title": "Metadata",
+      "type": "object"
+    }
+  },
+  "required": [
+    "clip_id",
+    "track"
+  ],
+  "title": "EDTClip",
+  "type": "object"
+}

@@ -1,0 +1,910 @@
+{
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "duration_frames": 450,
+  "font_src": "PREVIEW-VGB001/font.otf",
+  "visual_mode": "MPH_001_GALLERY",
+  "clips": [
+    {
+      "clip_id": "PUSH_IN-BACKGROUND",
+      "track": "ELEMENT",
+      "timeline_in": 0.0,
+      "timeline_out": 1.5,
+      "source_in": 0,
+      "source_out": 1.5,
+      "position": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "opacity": 1,
+      "motion": {},
+      "metadata": {
+        "layer_kind": "BACKGROUND",
+        "box": {
+          "width": 1,
+          "height": 1
+        },
+        "z_index": 0,
+        "geometry_kind": "PROCEDURAL",
+        "color": "#F5F6F4",
+        "motion_primitive": "NONE"
+      }
+    },
+    {
+      "clip_id": "PUSH_IN-TITLE",
+      "track": "ELEMENT",
+      "timeline_in": 0.0,
+      "timeline_out": 1.5,
+      "source_in": 0,
+      "source_out": 1.5,
+      "position": {
+        "x": 0.5,
+        "y": 0.1
+      },
+      "opacity": 1,
+      "motion": {},
+      "metadata": {
+        "layer_kind": "CHROME",
+        "box": {
+          "width": 0.75,
+          "height": 0.08
+        },
+        "z_index": 20,
+        "geometry_kind": "PROCEDURAL",
+        "text": "MPH-001  /  PUSH_IN",
+        "color": "#101319",
+        "motion_primitive": "NONE"
+      }
+    },
+    {
+      "clip_id": "PUSH_IN-PROBE",
+      "track": "MEDIA",
+      "timeline_in": 0.0,
+      "timeline_out": 1.5,
+      "source_in": 0,
+      "source_out": 1.5,
+      "position": {
+        "x": 0.5,
+        "y": 0.54
+      },
+      "opacity": 1,
+      "motion": {
+        "semantic": "MPH_PROBE",
+        "primitive": "PUSH_IN"
+      },
+      "metadata": {
+        "layer_kind": "EVIDENCE",
+        "box": {
+          "width": 0.56,
+          "height": 0.55
+        },
+        "z_index": 10,
+        "geometry_kind": "REGISTERED_ASSET",
+        "asset_src": "PREVIEW-MPH001/gallery-evidence.png",
+        "asset_kind": "EVIDENCE",
+        "aspect_ratio_policy": "PRESERVE",
+        "fit_mode": "CONTAIN",
+        "intrinsic_width": 1600,
+        "intrinsic_height": 1000,
+        "intrinsic_aspect_ratio": 1.6,
+        "media_transform": {
+          "fit_mode": "CONTAIN",
+          "scale_x": 0.594,
+          "scale_y": 0.594,
+          "render_width": 950.4,
+          "render_height": 594.0,
+          "left": 62.30000000000001,
+          "top": 0.0,
+          "destination_width": 1075,
+          "destination_height": 594
+        }
+      }
+    },
+    {
+      "clip_id": "FADE_IN-BACKGROUND",
+      "track": "ELEMENT",
+      "timeline_in": 1.5,
+      "timeline_out": 3.0,
+      "source_in": 0,
+      "source_out": 1.5,
+      "position": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "opacity": 1,
+      "motion": {},
+      "metadata": {
+        "layer_kind": "BACKGROUND",
+        "box": {
+          "width": 1,
+          "height": 1
+        },
+        "z_index": 0,
+        "geometry_kind": "PROCEDURAL",
+        "color": "#F5F6F4",
+        "motion_primitive": "NONE"
+      }
+    },
+    {
+      "clip_id": "FADE_IN-TITLE",
+      "track": "ELEMENT",
+      "timeline_in": 1.5,
+      "timeline_out": 3.0,
+      "source_in": 0,
+      "source_out": 1.5,
+      "position": {
+        "x": 0.5,
+        "y": 0.1
+      },
+      "opacity": 1,
+      "motion": {},
+      "metadata": {
+        "layer_kind": "CHROME",
+        "box": {
+          "width": 0.75,
+          "height": 0.08
+        },
+        "z_index": 20,
+        "geometry_kind": "PROCEDURAL",
+        "text": "MPH-001  /  FADE_IN",
+        "color": "#101319",
+        "motion_primitive": "NONE"
+      }
+    },
+    {
+      "clip_id": "FADE_IN-PROBE",
+      "track": "MEDIA",
+      "timeline_in": 1.5,
+      "timeline_out": 3.0,
+      "source_in": 0,
+      "source_out": 1.5,
+      "position": {
+        "x": 0.5,
+        "y": 0.54
+      },
+      "opacity": 1,
+      "motion": {
+        "semantic": "MPH_PROBE",
+        "primitive": "FADE_IN"
+      },
+      "metadata": {
+        "layer_kind": "EVIDENCE",
+        "box": {
+          "width": 0.56,
+          "height": 0.55
+        },
+        "z_index": 10,
+        "geometry_kind": "REGISTERED_ASSET",
+        "asset_src": "PREVIEW-MPH001/gallery-evidence.png",
+        "asset_kind": "EVIDENCE",
+        "aspect_ratio_policy": "PRESERVE",
+        "fit_mode": "CONTAIN",
+        "intrinsic_width": 1600,
+        "intrinsic_height": 1000,
+        "intrinsic_aspect_ratio": 1.6,
+        "media_transform": {
+          "fit_mode": "CONTAIN",
+          "scale_x": 0.594,
+          "scale_y": 0.594,
+          "render_width": 950.4,
+          "render_height": 594.0,
+          "left": 62.30000000000001,
+          "top": 0.0,
+          "destination_width": 1075,
+          "destination_height": 594
+        }
+      }
+    },
+    {
+      "clip_id": "FOLLOW_PATH-BACKGROUND",
+      "track": "ELEMENT",
+      "timeline_in": 3.0,
+      "timeline_out": 4.5,
+      "source_in": 0,
+      "source_out": 1.5,
+      "position": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "opacity": 1,
+      "motion": {},
+      "metadata": {
+        "layer_kind": "BACKGROUND",
+        "box": {
+          "width": 1,
+          "height": 1
+        },
+        "z_index": 0,
+        "geometry_kind": "PROCEDURAL",
+        "color": "#F5F6F4",
+        "motion_primitive": "NONE"
+      }
+    },
+    {
+      "clip_id": "FOLLOW_PATH-TITLE",
+      "track": "ELEMENT",
+      "timeline_in": 3.0,
+      "timeline_out": 4.5,
+      "source_in": 0,
+      "source_out": 1.5,
+      "position": {
+        "x": 0.5,
+        "y": 0.1
+      },
+      "opacity": 1,
+      "motion": {},
+      "metadata": {
+        "layer_kind": "CHROME",
+        "box": {
+          "width": 0.75,
+          "height": 0.08
+        },
+        "z_index": 20,
+        "geometry_kind": "PROCEDURAL",
+        "text": "MPH-001  /  FOLLOW_PATH",
+        "color": "#101319",
+        "motion_primitive": "NONE"
+      }
+    },
+    {
+      "clip_id": "FOLLOW_PATH-PROBE",
+      "track": "MEDIA",
+      "timeline_in": 3.0,
+      "timeline_out": 4.5,
+      "source_in": 0,
+      "source_out": 1.5,
+      "position": {
+        "x": 0.5,
+        "y": 0.54
+      },
+      "opacity": 1,
+      "motion": {
+        "semantic": "MPH_PROBE",
+        "primitive": "FOLLOW_PATH"
+      },
+      "metadata": {
+        "layer_kind": "EVIDENCE",
+        "box": {
+          "width": 0.56,
+          "height": 0.55
+        },
+        "z_index": 10,
+        "geometry_kind": "REGISTERED_ASSET",
+        "asset_src": "PREVIEW-MPH001/gallery-evidence.png",
+        "asset_kind": "EVIDENCE",
+        "aspect_ratio_policy": "PRESERVE",
+        "fit_mode": "CONTAIN",
+        "intrinsic_width": 1600,
+        "intrinsic_height": 1000,
+        "intrinsic_aspect_ratio": 1.6,
+        "media_transform": {
+          "fit_mode": "CONTAIN",
+          "scale_x": 0.594,
+          "scale_y": 0.594,
+          "render_width": 950.4,
+          "render_height": 594.0,
+          "left": 62.30000000000001,
+          "top": 0.0,
+          "destination_width": 1075,
+          "destination_height": 594
+        }
+      }
+    },
+    {
+      "clip_id": "MATCHED_WIPE-BACKGROUND",
+      "track": "ELEMENT",
+      "timeline_in": 4.5,
+      "timeline_out": 6.0,
+      "source_in": 0,
+      "source_out": 1.5,
+      "position": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "opacity": 1,
+      "motion": {},
+      "metadata": {
+        "layer_kind": "BACKGROUND",
+        "box": {
+          "width": 1,
+          "height": 1
+        },
+        "z_index": 0,
+        "geometry_kind": "PROCEDURAL",
+        "color": "#F5F6F4",
+        "motion_primitive": "NONE"
+      }
+    },
+    {
+      "clip_id": "MATCHED_WIPE-TITLE",
+      "track": "ELEMENT",
+      "timeline_in": 4.5,
+      "timeline_out": 6.0,
+      "source_in": 0,
+      "source_out": 1.5,
+      "position": {
+        "x": 0.5,
+        "y": 0.1
+      },
+      "opacity": 1,
+      "motion": {},
+      "metadata": {
+        "layer_kind": "CHROME",
+        "box": {
+          "width": 0.75,
+          "height": 0.08
+        },
+        "z_index": 20,
+        "geometry_kind": "PROCEDURAL",
+        "text": "MPH-001  /  MATCHED_WIPE",
+        "color": "#101319",
+        "motion_primitive": "NONE"
+      }
+    },
+    {
+      "clip_id": "MATCHED_WIPE-PROBE",
+      "track": "MEDIA",
+      "timeline_in": 4.5,
+      "timeline_out": 6.0,
+      "source_in": 0,
+      "source_out": 1.5,
+      "position": {
+        "x": 0.5,
+        "y": 0.54
+      },
+      "opacity": 1,
+      "motion": {
+        "semantic": "MPH_PROBE",
+        "primitive": "MATCHED_WIPE"
+      },
+      "metadata": {
+        "layer_kind": "EVIDENCE",
+        "box": {
+          "width": 0.56,
+          "height": 0.55
+        },
+        "z_index": 10,
+        "geometry_kind": "REGISTERED_ASSET",
+        "asset_src": "PREVIEW-MPH001/gallery-evidence.png",
+        "asset_kind": "EVIDENCE",
+        "aspect_ratio_policy": "PRESERVE",
+        "fit_mode": "CONTAIN",
+        "intrinsic_width": 1600,
+        "intrinsic_height": 1000,
+        "intrinsic_aspect_ratio": 1.6,
+        "media_transform": {
+          "fit_mode": "CONTAIN",
+          "scale_x": 0.594,
+          "scale_y": 0.594,
+          "render_width": 950.4,
+          "render_height": 594.0,
+          "left": 62.30000000000001,
+          "top": 0.0,
+          "destination_width": 1075,
+          "destination_height": 594
+        }
+      }
+    },
+    {
+      "clip_id": "POP_CUT-BACKGROUND",
+      "track": "ELEMENT",
+      "timeline_in": 6.0,
+      "timeline_out": 7.5,
+      "source_in": 0,
+      "source_out": 1.5,
+      "position": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "opacity": 1,
+      "motion": {},
+      "metadata": {
+        "layer_kind": "BACKGROUND",
+        "box": {
+          "width": 1,
+          "height": 1
+        },
+        "z_index": 0,
+        "geometry_kind": "PROCEDURAL",
+        "color": "#F5F6F4",
+        "motion_primitive": "NONE"
+      }
+    },
+    {
+      "clip_id": "POP_CUT-TITLE",
+      "track": "ELEMENT",
+      "timeline_in": 6.0,
+      "timeline_out": 7.5,
+      "source_in": 0,
+      "source_out": 1.5,
+      "position": {
+        "x": 0.5,
+        "y": 0.1
+      },
+      "opacity": 1,
+      "motion": {},
+      "metadata": {
+        "layer_kind": "CHROME",
+        "box": {
+          "width": 0.75,
+          "height": 0.08
+        },
+        "z_index": 20,
+        "geometry_kind": "PROCEDURAL",
+        "text": "MPH-001  /  POP_CUT",
+        "color": "#101319",
+        "motion_primitive": "NONE"
+      }
+    },
+    {
+      "clip_id": "POP_CUT-PROBE",
+      "track": "MEDIA",
+      "timeline_in": 6.0,
+      "timeline_out": 7.5,
+      "source_in": 0,
+      "source_out": 1.5,
+      "position": {
+        "x": 0.5,
+        "y": 0.54
+      },
+      "opacity": 1,
+      "motion": {
+        "semantic": "MPH_PROBE",
+        "primitive": "POP_CUT"
+      },
+      "metadata": {
+        "layer_kind": "EVIDENCE",
+        "box": {
+          "width": 0.56,
+          "height": 0.55
+        },
+        "z_index": 10,
+        "geometry_kind": "REGISTERED_ASSET",
+        "asset_src": "PREVIEW-MPH001/gallery-evidence.png",
+        "asset_kind": "EVIDENCE",
+        "aspect_ratio_policy": "PRESERVE",
+        "fit_mode": "CONTAIN",
+        "intrinsic_width": 1600,
+        "intrinsic_height": 1000,
+        "intrinsic_aspect_ratio": 1.6,
+        "media_transform": {
+          "fit_mode": "CONTAIN",
+          "scale_x": 0.594,
+          "scale_y": 0.594,
+          "render_width": 950.4,
+          "render_height": 594.0,
+          "left": 62.30000000000001,
+          "top": 0.0,
+          "destination_width": 1075,
+          "destination_height": 594
+        }
+      }
+    },
+    {
+      "clip_id": "RETURN_TO_ANCHOR-BACKGROUND",
+      "track": "ELEMENT",
+      "timeline_in": 7.5,
+      "timeline_out": 9.0,
+      "source_in": 0,
+      "source_out": 1.5,
+      "position": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "opacity": 1,
+      "motion": {},
+      "metadata": {
+        "layer_kind": "BACKGROUND",
+        "box": {
+          "width": 1,
+          "height": 1
+        },
+        "z_index": 0,
+        "geometry_kind": "PROCEDURAL",
+        "color": "#F5F6F4",
+        "motion_primitive": "NONE"
+      }
+    },
+    {
+      "clip_id": "RETURN_TO_ANCHOR-TITLE",
+      "track": "ELEMENT",
+      "timeline_in": 7.5,
+      "timeline_out": 9.0,
+      "source_in": 0,
+      "source_out": 1.5,
+      "position": {
+        "x": 0.5,
+        "y": 0.1
+      },
+      "opacity": 1,
+      "motion": {},
+      "metadata": {
+        "layer_kind": "CHROME",
+        "box": {
+          "width": 0.75,
+          "height": 0.08
+        },
+        "z_index": 20,
+        "geometry_kind": "PROCEDURAL",
+        "text": "MPH-001  /  RETURN_TO_ANCHOR",
+        "color": "#101319",
+        "motion_primitive": "NONE"
+      }
+    },
+    {
+      "clip_id": "RETURN_TO_ANCHOR-PROBE",
+      "track": "MEDIA",
+      "timeline_in": 7.5,
+      "timeline_out": 9.0,
+      "source_in": 0,
+      "source_out": 1.5,
+      "position": {
+        "x": 0.5,
+        "y": 0.54
+      },
+      "opacity": 1,
+      "motion": {
+        "semantic": "MPH_PROBE",
+        "primitive": "RETURN_TO_ANCHOR"
+      },
+      "metadata": {
+        "layer_kind": "EVIDENCE",
+        "box": {
+          "width": 0.56,
+          "height": 0.55
+        },
+        "z_index": 10,
+        "geometry_kind": "REGISTERED_ASSET",
+        "asset_src": "PREVIEW-MPH001/gallery-evidence.png",
+        "asset_kind": "EVIDENCE",
+        "aspect_ratio_policy": "PRESERVE",
+        "fit_mode": "CONTAIN",
+        "intrinsic_width": 1600,
+        "intrinsic_height": 1000,
+        "intrinsic_aspect_ratio": 1.6,
+        "media_transform": {
+          "fit_mode": "CONTAIN",
+          "scale_x": 0.594,
+          "scale_y": 0.594,
+          "render_width": 950.4,
+          "render_height": 594.0,
+          "left": 62.30000000000001,
+          "top": 0.0,
+          "destination_width": 1075,
+          "destination_height": 594
+        }
+      }
+    },
+    {
+      "clip_id": "DRAW_CONNECTION-BACKGROUND",
+      "track": "ELEMENT",
+      "timeline_in": 9.0,
+      "timeline_out": 10.5,
+      "source_in": 0,
+      "source_out": 1.5,
+      "position": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "opacity": 1,
+      "motion": {},
+      "metadata": {
+        "layer_kind": "BACKGROUND",
+        "box": {
+          "width": 1,
+          "height": 1
+        },
+        "z_index": 0,
+        "geometry_kind": "PROCEDURAL",
+        "color": "#F5F6F4",
+        "motion_primitive": "NONE"
+      }
+    },
+    {
+      "clip_id": "DRAW_CONNECTION-TITLE",
+      "track": "ELEMENT",
+      "timeline_in": 9.0,
+      "timeline_out": 10.5,
+      "source_in": 0,
+      "source_out": 1.5,
+      "position": {
+        "x": 0.5,
+        "y": 0.1
+      },
+      "opacity": 1,
+      "motion": {},
+      "metadata": {
+        "layer_kind": "CHROME",
+        "box": {
+          "width": 0.75,
+          "height": 0.08
+        },
+        "z_index": 20,
+        "geometry_kind": "PROCEDURAL",
+        "text": "MPH-001  /  DRAW_CONNECTION",
+        "color": "#101319",
+        "motion_primitive": "NONE"
+      }
+    },
+    {
+      "clip_id": "DRAW_CONNECTION-PROBE",
+      "track": "ELEMENT",
+      "timeline_in": 9.0,
+      "timeline_out": 10.5,
+      "source_in": 0,
+      "source_out": 1.5,
+      "position": {
+        "x": 0.5,
+        "y": 0.53
+      },
+      "opacity": 1,
+      "motion": {
+        "semantic": "MPH_PROBE",
+        "primitive": "DRAW_CONNECTION"
+      },
+      "metadata": {
+        "layer_kind": "RELATION",
+        "box": {
+          "width": 0.58,
+          "height": 0.26
+        },
+        "z_index": 10,
+        "geometry_kind": "PROCEDURAL",
+        "color": "#FFC800"
+      }
+    },
+    {
+      "clip_id": "SETTLE_HOLD-BACKGROUND",
+      "track": "ELEMENT",
+      "timeline_in": 10.5,
+      "timeline_out": 12.0,
+      "source_in": 0,
+      "source_out": 1.5,
+      "position": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "opacity": 1,
+      "motion": {},
+      "metadata": {
+        "layer_kind": "BACKGROUND",
+        "box": {
+          "width": 1,
+          "height": 1
+        },
+        "z_index": 0,
+        "geometry_kind": "PROCEDURAL",
+        "color": "#F5F6F4",
+        "motion_primitive": "NONE"
+      }
+    },
+    {
+      "clip_id": "SETTLE_HOLD-TITLE",
+      "track": "ELEMENT",
+      "timeline_in": 10.5,
+      "timeline_out": 12.0,
+      "source_in": 0,
+      "source_out": 1.5,
+      "position": {
+        "x": 0.5,
+        "y": 0.1
+      },
+      "opacity": 1,
+      "motion": {},
+      "metadata": {
+        "layer_kind": "CHROME",
+        "box": {
+          "width": 0.75,
+          "height": 0.08
+        },
+        "z_index": 20,
+        "geometry_kind": "PROCEDURAL",
+        "text": "MPH-001  /  SETTLE_HOLD",
+        "color": "#101319",
+        "motion_primitive": "NONE"
+      }
+    },
+    {
+      "clip_id": "SETTLE_HOLD-PROBE",
+      "track": "MEDIA",
+      "timeline_in": 10.5,
+      "timeline_out": 12.0,
+      "source_in": 0,
+      "source_out": 1.5,
+      "position": {
+        "x": 0.5,
+        "y": 0.54
+      },
+      "opacity": 1,
+      "motion": {
+        "semantic": "MPH_PROBE",
+        "primitive": "SETTLE_HOLD"
+      },
+      "metadata": {
+        "layer_kind": "EVIDENCE",
+        "box": {
+          "width": 0.56,
+          "height": 0.55
+        },
+        "z_index": 10,
+        "geometry_kind": "REGISTERED_ASSET",
+        "asset_src": "PREVIEW-MPH001/gallery-evidence.png",
+        "asset_kind": "EVIDENCE",
+        "aspect_ratio_policy": "PRESERVE",
+        "fit_mode": "CONTAIN",
+        "intrinsic_width": 1600,
+        "intrinsic_height": 1000,
+        "intrinsic_aspect_ratio": 1.6,
+        "media_transform": {
+          "fit_mode": "CONTAIN",
+          "scale_x": 0.594,
+          "scale_y": 0.594,
+          "render_width": 950.4,
+          "render_height": 594.0,
+          "left": 62.30000000000001,
+          "top": 0.0,
+          "destination_width": 1075,
+          "destination_height": 594
+        }
+      }
+    },
+    {
+      "clip_id": "DRAW_UNDERLINE-BACKGROUND",
+      "track": "ELEMENT",
+      "timeline_in": 12.0,
+      "timeline_out": 13.5,
+      "source_in": 0,
+      "source_out": 1.5,
+      "position": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "opacity": 1,
+      "motion": {},
+      "metadata": {
+        "layer_kind": "BACKGROUND",
+        "box": {
+          "width": 1,
+          "height": 1
+        },
+        "z_index": 0,
+        "geometry_kind": "PROCEDURAL",
+        "color": "#F5F6F4",
+        "motion_primitive": "NONE"
+      }
+    },
+    {
+      "clip_id": "DRAW_UNDERLINE-TITLE",
+      "track": "ELEMENT",
+      "timeline_in": 12.0,
+      "timeline_out": 13.5,
+      "source_in": 0,
+      "source_out": 1.5,
+      "position": {
+        "x": 0.5,
+        "y": 0.1
+      },
+      "opacity": 1,
+      "motion": {},
+      "metadata": {
+        "layer_kind": "CHROME",
+        "box": {
+          "width": 0.75,
+          "height": 0.08
+        },
+        "z_index": 20,
+        "geometry_kind": "PROCEDURAL",
+        "text": "MPH-001  /  DRAW_UNDERLINE",
+        "color": "#101319",
+        "motion_primitive": "NONE"
+      }
+    },
+    {
+      "clip_id": "DRAW_UNDERLINE-PROBE",
+      "track": "ELEMENT",
+      "timeline_in": 12.0,
+      "timeline_out": 13.5,
+      "source_in": 0,
+      "source_out": 1.5,
+      "position": {
+        "x": 0.5,
+        "y": 0.56
+      },
+      "opacity": 1,
+      "motion": {
+        "semantic": "MPH_PROBE",
+        "primitive": "DRAW_UNDERLINE"
+      },
+      "metadata": {
+        "layer_kind": "UNDERLINE",
+        "box": {
+          "width": 0.52,
+          "height": 0.025
+        },
+        "z_index": 10,
+        "geometry_kind": "PROCEDURAL",
+        "color": "#FFC800"
+      }
+    },
+    {
+      "clip_id": "LABEL_REVEAL-BACKGROUND",
+      "track": "ELEMENT",
+      "timeline_in": 13.5,
+      "timeline_out": 15.0,
+      "source_in": 0,
+      "source_out": 1.5,
+      "position": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "opacity": 1,
+      "motion": {},
+      "metadata": {
+        "layer_kind": "BACKGROUND",
+        "box": {
+          "width": 1,
+          "height": 1
+        },
+        "z_index": 0,
+        "geometry_kind": "PROCEDURAL",
+        "color": "#F5F6F4",
+        "motion_primitive": "NONE"
+      }
+    },
+    {
+      "clip_id": "LABEL_REVEAL-TITLE",
+      "track": "ELEMENT",
+      "timeline_in": 13.5,
+      "timeline_out": 15.0,
+      "source_in": 0,
+      "source_out": 1.5,
+      "position": {
+        "x": 0.5,
+        "y": 0.1
+      },
+      "opacity": 1,
+      "motion": {},
+      "metadata": {
+        "layer_kind": "CHROME",
+        "box": {
+          "width": 0.75,
+          "height": 0.08
+        },
+        "z_index": 20,
+        "geometry_kind": "PROCEDURAL",
+        "text": "MPH-001  /  LABEL_REVEAL",
+        "color": "#101319",
+        "motion_primitive": "NONE"
+      }
+    },
+    {
+      "clip_id": "LABEL_REVEAL-PROBE",
+      "track": "ELEMENT",
+      "timeline_in": 13.5,
+      "timeline_out": 15.0,
+      "source_in": 0,
+      "source_out": 1.5,
+      "position": {
+        "x": 0.5,
+        "y": 0.53
+      },
+      "opacity": 1,
+      "motion": {
+        "semantic": "MPH_PROBE",
+        "primitive": "LABEL_REVEAL"
+      },
+      "metadata": {
+        "layer_kind": "CALLOUT",
+        "box": {
+          "width": 0.42,
+          "height": 0.12
+        },
+        "z_index": 10,
+        "geometry_kind": "PROCEDURAL",
+        "text": "真实消费点",
+        "style_token": "YELLOW_CALLOUT"
+      }
+    }
+  ]
+}

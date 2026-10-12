@@ -1,0 +1,100 @@
+{
+  "$defs": {
+    "AudioTimingEntry": {
+      "additionalProperties": false,
+      "properties": {
+        "audio_id": {
+          "title": "Audio Id",
+          "type": "string"
+        },
+        "segment_id": {
+          "title": "Segment Id",
+          "type": "string"
+        },
+        "start": {
+          "minimum": 0,
+          "title": "Start",
+          "type": "number"
+        },
+        "end": {
+          "exclusiveMinimum": 0,
+          "title": "End",
+          "type": "number"
+        },
+        "duration": {
+          "exclusiveMinimum": 0,
+          "title": "Duration",
+          "type": "number"
+        },
+        "phrase_ranges": {
+          "items": {
+            "additionalProperties": true,
+            "type": "object"
+          },
+          "title": "Phrase Ranges",
+          "type": "array"
+        },
+        "word_ranges": {
+          "items": {
+            "additionalProperties": true,
+            "type": "object"
+          },
+          "title": "Word Ranges",
+          "type": "array"
+        }
+      },
+      "required": [
+        "audio_id",
+        "segment_id",
+        "start",
+        "end",
+        "duration"
+      ],
+      "title": "AudioTimingEntry",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "audio_artifact_id": {
+      "title": "Audio Artifact Id",
+      "type": "string"
+    },
+    "script_artifact_id": {
+      "title": "Script Artifact Id",
+      "type": "string"
+    },
+    "audio_hash": {
+      "title": "Audio Hash",
+      "type": "string"
+    },
+    "duration": {
+      "exclusiveMinimum": 0,
+      "title": "Duration",
+      "type": "number"
+    },
+    "provenance": {
+      "additionalProperties": true,
+      "title": "Provenance",
+      "type": "object"
+    },
+    "entries": {
+      "items": {
+        "$ref": "#/$defs/AudioTimingEntry"
+      },
+      "minItems": 1,
+      "title": "Entries",
+      "type": "array"
+    }
+  },
+  "required": [
+    "audio_artifact_id",
+    "script_artifact_id",
+    "audio_hash",
+    "duration",
+    "provenance",
+    "entries"
+  ],
+  "title": "AudioTimingMap",
+  "type": "object"
+}
